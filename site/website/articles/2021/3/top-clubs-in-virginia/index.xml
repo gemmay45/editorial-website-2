@@ -32,7 +32,7 @@
   </sections_o>
   <internal-name>Top Clubs In Virginia</internal-name>
   <title_t>Top Clubs In Virginia</title_t>
-  <subject_t>Top Clubs In Virginia</subject_t>
+  <subject_t><![CDATA[Top Clubs In Virginia 1]]></subject_t>
   <author_s>John Doe</author_s>
   <file-name>index.xml</file-name>
   <folder-name>top-clubs-in-virginia</folder-name>
@@ -59,5 +59,5 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2017-03-15T0:3:41.000Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-11T11:37:48.901Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-11T11:43:05.688Z</lastModifiedDate_dt>
 </page>
