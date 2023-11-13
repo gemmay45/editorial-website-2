@@ -33,8 +33,8 @@
 	<date_dt>2021-03-04T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-13T14:00:35.576Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-13T14:00:35.576Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-13T14:07:29.503Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-13T14:07:29.503Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -59,25 +59,5 @@
         <createdDate>2023-11-13T13:10:35.330Z</createdDate>
         <lastModifiedDate>2023-11-13T13:19:57.829Z</lastModifiedDate>
       </component>
-	</item>	<item inline="true">	<key>52116192-6e1a-4564-abc0-90f676bc31e2</key>
-	<value>New Mag Portrait Image with Text</value>
-	<disableFlattening>false</disableFlattening>
-<component id="52116192-6e1a-4564-abc0-90f676bc31e2">
-	<content-type>/component/magportraitimagewithtext</content-type>
-	<display-template>/templates/web/Mag-Portrait-image-with-text.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Mag Portrait Image with Text</internal-name>
-	<file-name>52116192-6e1a-4564-abc0-90f676bc31e2.xml</file-name>
-	<createdDate_dt>2023-11-13T13:47:09.895Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-13T14:00:36.981Z</lastModifiedDate_dt>
-	<objectId>52116192-6e1a-4564-abc0-90f676bc31e2</objectId>
-	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1475-edit.jpg</image_s>
-	<sideContent_html>&lt;p&gt;&lt;strong&gt;Over the past few years, it seems there&amp;rsquo;s been an explosion of new independent bakeries in Hong Kong! Why do you think that is?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Hong Kongers love their food and are always searching for new ideas. Covid impacted us in many ways and during this period in particular, I saw many youngsters spending time in cafes. I think enjoying pastries in caf&amp;eacute;s and bakeries became a lifestyle for many people &amp;ndash; and I love seeing so many options now for them to choose from!&lt;/p&gt;</sideContent_html>
-	<folder-name/>
-	<createdDate>2023-11-13T13:47:09.895Z</createdDate>
-	<lastModifiedDate>2023-11-13T14:00:36.981Z</lastModifiedDate>
-</component>
 	</item></pageSections_o>
 </page>
