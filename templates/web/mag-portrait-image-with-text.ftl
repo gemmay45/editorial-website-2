@@ -10,8 +10,8 @@
                 </figure>
             </a>
         </div>
-        <@crafter.div $field="sideContent_html">
+        <@crafter.span $field="sideContent_html">
         ${contentModel.sideContent_html}
-        </@crafter.div>
+        </@crafter.sapn>
     </div>
 </div>
