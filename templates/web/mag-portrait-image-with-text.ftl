@@ -12,6 +12,6 @@
         </div>
         <@crafter.span $field="sideContent_html">
         ${contentModel.sideContent_html}
-        </@crafter.sapn>
+        </@crafter.span>
     </div>
 </div>
