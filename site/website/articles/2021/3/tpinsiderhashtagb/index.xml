@@ -33,14 +33,15 @@
 	<date_dt>2021-03-04T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-13T13:10:31.247Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-13T13:10:31.247Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-13T13:18:39.792Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-13T13:18:39.792Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<pageSections_o item-list="true">	<item inline="true">	<key>2984304b-dbf2-4342-9830-a4d47a60da0e</key>
 	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
 <component id="2984304b-dbf2-4342-9830-a4d47a60da0e">
 	<content-type>/component/magtext</content-type>
 	<display-template>/templates/web/mag-text.ftl</display-template>
@@ -49,14 +50,14 @@
 	<internal-name>New Mag Text</internal-name>
 	<file-name>2984304b-dbf2-4342-9830-a4d47a60da0e.xml</file-name>
 	<createdDate_dt>2023-11-13T13:10:35.330Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-13T13:10:53.081Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-13T13:19:57.829Z</lastModifiedDate_dt>
 	<objectId>2984304b-dbf2-4342-9830-a4d47a60da0e</objectId>
 	<title_s/>
-	<content_html>&amp;lt;p&amp;gt;Bake it &amp;amp;lsquo;til you make it! You might have seen the innovative and delicious creations of local Hong Kong bakery Hashtag B trending on social media &amp;amp;ndash; and now you can come try them for yourself at their newest branch, right here in Taikoo Place.&amp;lt;/p&amp;gt;&amp;lt;p&amp;gt;To celebrate their recent launch in Berkshire House, we grabbed a chat with Hashtag B&amp;amp;rsquo;s founder James Chu to find out what inspired him to start a bakery and his tips for fellow entrepreneurs. &amp;lt;/p&amp;gt;</content_html>
+	<content_html>&lt;p&gt;Bake it &amp;lsquo;til you make it! You might have seen the innovative and delicious creations of local Hong Kong bakery Hashtag B trending on social media &amp;ndash; and now you can come try them for yourself at their newest branch, right here in Taikoo Place.&lt;/p&gt;
+&lt;p&gt;To celebrate their recent launch in Berkshire House, we grabbed a chat with Hashtag B&amp;rsquo;s founder James Chu to find out what inspired him to start a bakery and his tips for fellow entrepreneurs.&lt;/p&gt;</content_html>
 	<folder-name/>
 	<createdDate>2023-11-13T13:10:35.330Z</createdDate>
-	<lastModifiedDate>2023-11-13T13:10:53.081Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-13T13:19:57.829Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 </page>
