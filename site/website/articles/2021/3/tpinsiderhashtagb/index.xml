@@ -33,11 +33,33 @@
 	<date_dt>2021-03-04T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-13T14:13:15.223Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-13T14:13:15.223Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-13T14:15:51.300Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-13T14:15:51.300Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
-	<pageSections_o item-list="true"/>
+	<pageSections_o item-list="true">	<item inline="true">	<key>5d8d67bc-bf2a-466e-05e4-29bcf7d2f92c</key>
+	<value>Top Text</value>
+<component id="5d8d67bc-bf2a-466e-05e4-29bcf7d2f92c">
+	<content-type>/component/magtext</content-type>
+	<display-template>/templates/web/mag-text.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>5d8d</objectGroupId>
+	<objectId>5d8d67bc-bf2a-466e-05e4-29bcf7d2f92c</objectId>
+	<file-name>5d8d67bc-bf2a-466e-05e4-29bcf7d2f92c.xml</file-name>
+	<folder-name/>
+	<internal-name>Top Text</internal-name>
+	<title_s no-default="true"/>
+	<content_html>&lt;div class="content-col"&gt;
+&lt;p&gt;Bake it &amp;lsquo;til you make it! You might have seen the innovative and delicious creations of local Hong Kong bakery Hashtag B trending on social media &amp;ndash; and now you can come try them for yourself at their newest branch, right here in Taikoo Place.&lt;/p&gt;
+&lt;p&gt;To celebrate their recent launch in Berkshire House, we grabbed a chat with Hashtag B&amp;rsquo;s founder James Chu to find out what inspired him to start a bakery and his tips for fellow entrepreneurs.&lt;/p&gt;
+&lt;/div&gt;</content_html>
+	<createdDate>2023-11-13T14:16:04.653Z</createdDate>
+	<createdDate_dt>2023-11-13T14:16:04.653Z</createdDate_dt>
+	<lastModifiedDate>2023-11-13T14:16:04.653Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-13T14:16:04.653Z</lastModifiedDate_dt>
+</component>
+	</item></pageSections_o>
 </page>
