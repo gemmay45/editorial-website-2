@@ -14,4 +14,4 @@
         ${contentModel.sideContent_html}
         </@crafter.div>
     </div>
-</div>Í
+</div>
