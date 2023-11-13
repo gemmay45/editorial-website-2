@@ -212,5 +212,18 @@
 			</fields>
 		</section>
 	</sections>
-	<datasources>	</datasources>
+	<datasources>				<datasource>
+					<type>img-desktop-upload</type>
+					<id>uploadImage</id>
+					<title>Upload Image</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/</value>
+								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+	</datasources>
 </form>
