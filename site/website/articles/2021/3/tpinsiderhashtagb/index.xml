@@ -33,30 +33,11 @@
 	<date_dt>2021-03-04T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-13T14:36:39.683Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-13T14:36:39.683Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-13T14:54:28.715Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-13T14:54:28.715Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
-	<pageSections_o item-list="true">	<item inline="true">	<key>c85e22df-2509-efc8-b628-643dd75d5e83</key>
-	<value>Top Text</value>
-<component id="c85e22df-2509-efc8-b628-643dd75d5e83">
-	<content-type>/component/magtext</content-type>
-	<display-template>/templates/web/mag-text.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<objectGroupId>c85e</objectGroupId>
-	<objectId>c85e22df-2509-efc8-b628-643dd75d5e83</objectId>
-	<file-name>c85e22df-2509-efc8-b628-643dd75d5e83.xml</file-name>
-	<folder-name/>
-	<internal-name>Top Text</internal-name>
-	<title_s>Title goes here</title_s>
-	<content_html>Content goes here</content_html>
-	<createdDate>2023-11-13T14:36:52.744Z</createdDate>
-	<createdDate_dt>2023-11-13T14:36:52.744Z</createdDate_dt>
-	<lastModifiedDate>2023-11-13T14:36:52.744Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-13T14:36:52.744Z</lastModifiedDate_dt>
-</component>
-	</item></pageSections_o>
+	<pageSections_o item-list="true"/>
 </page>
