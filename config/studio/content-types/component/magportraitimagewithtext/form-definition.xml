@@ -215,7 +215,7 @@
 	<datasources>				<datasource>
 					<type>img-desktop-upload</type>
 					<id>uploadImage</id>
-					<title>Upload Image</title>
+					<title>Upload Images</title>
 					<interface>image</interface>
 					<properties>
 						<property>
