@@ -741,7 +741,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>pageSectionsSource</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -952,7 +952,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value></value>
+							<value>/component/magtext</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
