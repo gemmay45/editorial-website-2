@@ -723,7 +723,7 @@
 				<field>
 					<type>node-selector</type>
 					<id>pageSections_o</id>
-					<iceId></iceId>
+					<iceId>content</iceId>
 					<title>Page Sections</title>
 					<description></description>
 					<defaultValue></defaultValue>
