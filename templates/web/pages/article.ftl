@@ -42,6 +42,17 @@
           <@crafter.img $field='image_s' src="${image}" alt=""/>
         </span>
 
+        <@crafter.div $field="pageSections_o">
+        	<#if contentModel.pageSections_o.item??>
+            <#list contentModel.pageSections_o.item as section>
+              <#assign index = section?index />
+              <@crafter.div $field="pageSections_o" $index=index>
+                <@renderComponent component=section />
+              </@crafter.div>
+            </#list>
+          </#if>
+        </@crafter.div>
+        
         <@crafter.renderRepeatGroup
           $field="sections_o"
           $containerAttributes={'style': 'list-style: none; padding-left: 0;'};
