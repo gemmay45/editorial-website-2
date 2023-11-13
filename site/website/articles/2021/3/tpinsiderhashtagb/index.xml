@@ -47,7 +47,7 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-13T13:18:39.792Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-13T13:39:23.888Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-13T13:39:52.884Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -73,22 +73,6 @@
         <folder-name/>
         <createdDate>2023-11-13T13:10:35.330Z</createdDate>
         <lastModifiedDate>2023-11-13T13:19:57.829Z</lastModifiedDate>
-      </component>
-    </item>
-    <item inline="true">
-      <key>6f7949f6-349d-4b49-82a7-afeaf03454c3</key>
-      <value><![CDATA[New Mag Portrait Image with Text]]></value>
-      <component id="6f7949f6-349d-4b49-82a7-afeaf03454c3">
-        <content-type>/component/magportraitimagewithtext</content-type>
-        <display-template>/templates/web/Mag-Portrait-image-with-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Portrait Image with Text]]></internal-name>
-        <file-name>6f7949f6-349d-4b49-82a7-afeaf03454c3.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-13T13:39:23.888Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-13T13:39:23.888Z</lastModifiedDate_dt>
-        <objectId>6f7949f6-349d-4b49-82a7-afeaf03454c3</objectId>
-        <image_s/>
-        <sideContent_html/>
       </component>
     </item>
   </pageSections_o>
