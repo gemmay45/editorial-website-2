@@ -1,6 +1,6 @@
           <@crafter.div
-            $field="sections_o.section_html"
+            $field="content_html"
             $index=index
           >
-            ${item.section_html}
+            ${content_html}
           </@crafter.div>
