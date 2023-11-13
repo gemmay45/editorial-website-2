@@ -47,9 +47,27 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-12T00:47:37.662Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-12T00:49:20.651Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-13T13:06:32.958Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>2984304b-dbf2-4342-9830-a4d47a60da0e</key>
+      <value><![CDATA[New Mag Text]]></value>
+      <component id="2984304b-dbf2-4342-9830-a4d47a60da0e">
+        <content-type>/component/magtext</content-type>
+        <display-template>/templates/web/mag-text.ftl</display-template>
+        <internal-name><![CDATA[New Mag Text]]></internal-name>
+        <file-name>2984304b-dbf2-4342-9830-a4d47a60da0e.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-13T13:06:32.957Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-13T13:06:32.957Z</lastModifiedDate_dt>
+        <objectId>2984304b-dbf2-4342-9830-a4d47a60da0e</objectId>
+        <title_s/>
+        <content_html/>
+      </component>
+    </item>
+  </pageSections_o>
 </page>
