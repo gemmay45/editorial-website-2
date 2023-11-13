@@ -1,6 +1,6 @@
           <@crafter.div
-            $field="content_html"
+            $field="contentModel.content_html"
             $index=index
           >
-            ${content_html}
+            ${contentModel.content_html}
           </@crafter.div>
