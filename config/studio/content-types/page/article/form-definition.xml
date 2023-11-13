@@ -952,7 +952,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/magtext</value>
+							<value>/component/magtext,/component/magportraitimagewithtext</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
