@@ -1,5 +1,7 @@
-          <@crafter.div
-            $field="contentModel.content_html"
+ <#import "/templates/system/common/crafter.ftl" as crafter />
+ 
+ <@crafter.div
+            $field="content_html"
             $index=index
           >
             ${contentModel.content_html}
