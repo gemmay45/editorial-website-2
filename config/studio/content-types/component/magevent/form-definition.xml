@@ -486,7 +486,7 @@
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;Calendar&quot;,&quot;value&quot;:&quot;fas fa-calendar-alt&quot;},{&quot;key&quot;:&quot;Location&quot;,&quot;value&quot;:&quot;fas fa-map-marker-alt&quot;},{&quot;key&quot;:&quot;Phone&quot;,&quot;value&quot;:&quot;fas fa-phone&quot;},{&quot;key&quot;:&quot;Time&quot;,&quot;value&quot;:&quot;fas fa-clock&quot;},{&quot;key&quot;:&quot;Website&quot;,&quot;value&quot;:&quot;fas fa-globe&quot;}]</value>
+							<value>[{&quot;key&quot;:&quot;fas fa-calendar-alt&quot;,&quot;value&quot;:&quot;Calendar&quot;},{&quot;key&quot;:&quot;fas fa-map-marker-alt&quot;,&quot;value&quot;:&quot;Location&quot;},{&quot;key&quot;:&quot;fas fa-phone&quot;,&quot;value&quot;:&quot;Phone&quot;},{&quot;key&quot;:&quot;fas fa-clock&quot;,&quot;value&quot;:&quot;Time&quot;},{&quot;key&quot;:&quot;fas fa-globe&quot;,&quot;value&quot;:&quot;Website&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
