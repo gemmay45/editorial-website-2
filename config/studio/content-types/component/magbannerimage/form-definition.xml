@@ -385,7 +385,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/</value>
+							<value>/static-assets/images/page/{objectId}/</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
@@ -403,7 +403,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/</value>
+							<value>/static-assets/images</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
