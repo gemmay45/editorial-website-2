@@ -11,7 +11,7 @@
         <div class="box">
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
-					    <dt><i class=""></i></dt>
+					    <dt><i class="${item.icon_s}"></i></dt>
 						<dd>${item.content_html}</dd>
 					</#list>
 				</#if>
