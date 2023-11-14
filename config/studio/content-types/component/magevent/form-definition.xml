@@ -345,6 +345,39 @@
 					</properties>
 					<fields>
 				<field>
+					<type>dropdown</type>
+					<id>icon_s</id>
+					<iceId>iceMagEvent</iceId>
+					<title>Icon</title>
+					<description></description>
+					<defaultValue></defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value></value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
+				<field>
 					<type>rte</type>
 					<id>content_html</id>
 					<iceId>iceMagEvent</iceId>
@@ -431,6 +464,29 @@
 						<property>
 							<name>options</name>
 							<value>[{&quot;key&quot;:&quot;event&quot;,&quot;value&quot;:&quot;Event&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>iconSource</id>
+					<title>Icon Source</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;Calendar&quot;,&quot;value&quot;:&quot;fas fa-calendar-alt&quot;},{&quot;key&quot;:&quot;Location&quot;,&quot;value&quot;:&quot;fas fa-map-marker-alt&quot;},{&quot;key&quot;:&quot;Phone&quot;,&quot;value&quot;:&quot;fas fa-phone&quot;},{&quot;key&quot;:&quot;Time&quot;,&quot;value&quot;:&quot;fas fa-clock&quot;},{&quot;key&quot;:&quot;Website&quot;,&quot;value&quot;:&quot;fas fa-globe&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
