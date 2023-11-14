@@ -129,7 +129,7 @@
 				<field>
 					<type>input</type>
 					<id>title_s</id>
-					<iceId></iceId>
+					<iceId>iceMagText</iceId>
 					<title>Title</title>
 					<description></description>
 					<defaultValue>Title goes here</defaultValue>
@@ -177,7 +177,7 @@
 				<field>
 					<type>rte</type>
 					<id>content_html</id>
-					<iceId></iceId>
+					<iceId>iceMagText</iceId>
 					<title>Content</title>
 					<description></description>
 					<defaultValue>Content goes here</defaultValue>
