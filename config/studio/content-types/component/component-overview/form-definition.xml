@@ -546,6 +546,11 @@
 							<value>/static-assets/images/</value>
 								<type>undefined</type>
 						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
 					</properties>
 				</datasource>
 				<datasource>
