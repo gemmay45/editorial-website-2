@@ -20,7 +20,7 @@
             ${contentModel.titleText_t}
           </@crafter.h2>
 
-          <@crafter.div $field="description_t">
+          <@crafter.div $field="description_html">
             ${contentModel.description_html}
           </@crafter.div>
 
