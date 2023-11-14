@@ -89,7 +89,7 @@
 				<field>
 					<type>dropdown</type>
 					<id>sectionId_s</id>
-					<iceId></iceId>
+					<iceId>Event</iceId>
 					<title>Section ID</title>
 					<description></description>
 					<defaultValue></defaultValue>
