@@ -49,7 +49,7 @@
 	<objectId>e432d58b-981b-4a43-90fc-45fb47092d76</objectId>
 	<sectionId_s>overview</sectionId_s>
 	<titleText_t>Zoci nin nibej. Defa lirapubu paq kubaluca madopi .</titleText_t>
-	<description_t>&lt;p&gt;Zubigi cu yutu xut ruba fuf. Daralu solanuni pocakut pumocud.&lt;/p&gt;</description_t>
+	<description_html>&lt;p&gt;Zubigi cu yutu xut ruba fuf. Daralu solanuni pocakut pumocud.&lt;/p&gt;</description_html>
 	<imageSection_s>https://via.placeholder.com/150x150</imageSection_s>
 	<displayButton_b>false</displayButton_b>
 	<buttonText_t/>
