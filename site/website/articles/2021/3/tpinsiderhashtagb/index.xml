@@ -45,27 +45,6 @@
         <lastModifiedDate>2023-11-14T03:45:48.967Z</lastModifiedDate>
         <lastModifiedDate_dt>2023-11-14T03:45:48.967Z</lastModifiedDate_dt>
       </component>
-	</item>	<item inline="true">	<key>a019f563-1fba-46df-8b8f-ef2374608c18</key>
-	<value>New Mag Text</value>
-<component id="a019f563-1fba-46df-8b8f-ef2374608c18">
-	<content-type>/component/magtext</content-type>
-	<display-template>/templates/web/mag-text.ftl</display-template>
-	<no-template-required/>
-	<merge-strategy>inherit-levels</merge-strategy>
-	<internal-name>New Mag Text</internal-name>
-	<file-name>a019f563-1fba-46df-8b8f-ef2374608c18.xml</file-name>
-	<createdDate_dt>2023-11-14T04:45:22.364Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-14T04:45:22.364Z</lastModifiedDate_dt>
-	<objectId>a019f563-1fba-46df-8b8f-ef2374608c18</objectId>
-	<sectionId_s/>
-	<title_s>Title goes here</title_s>
-	<content_html>&lt;p&gt;Bake it &amp;lsquo;til you make it! You might have seen the innovative and delicious creations of local Hong Kong bakery Hashtag B trending on social media &amp;ndash; and now you can come try them for yourself at their newest branch, right here in Taikoo Place.&lt;/p&gt;
-&lt;p&gt;To celebrate their recent launch in Berkshire House, we grabbed a chat with Hashtag B&amp;rsquo;s founder James Chu to find out what inspired him to start a bakery and his tips for fellow entrepreneurs.&lt;/p&gt;</content_html>
-	<folder-name/>
-	<createdDate>2023-11-14T04:45:22.364Z</createdDate>
-	<lastModifiedDate>2023-11-14T04:45:22.364Z</lastModifiedDate>
-</component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<categories_o>	<item>	<key>entertainment</key>
 	<value_smv>Entertainment</value_smv>
@@ -79,8 +58,8 @@
 	<image_s/>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-14T04:45:21.461Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-14T04:45:21.461Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-14T04:46:51.753Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-14T04:46:51.753Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 </page>
