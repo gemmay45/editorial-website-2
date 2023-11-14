@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/article</content-type>
-  <display-template>/templates/web/pages/article.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>b814</objectGroupId>
-  <objectId>b814118a-f058-fdd2-da6d-a89e8154382f</objectId>
-  <sections_o item-list="true">
-    <item>
-      <section_html>&lt;div&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update&lt;br /&gt;&lt;/div&gt;</section_html>
-    </item>
-  </sections_o>
-  <file-name>index.xml</file-name>
-  <folder-name>tpinsiderhashtagb</folder-name>
-  <internal-name>tpinsiderhashtagb</internal-name>
-  <title_t>Taikoo Place Insiders: James Chu, founder of Hashtag B</title_t>
-  <subject_t>Taikoo Place Insiders: James Chu, founder of Hasht</subject_t>
-  <author_s>John Doe</author_s>
-  <disabled>false</disabled>
-  <featured_b>false</featured_b>
-  <header_o item-list="true"/>
-  <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>c4146c73-6d7e-64f7-105a-55505024e8d9</key>
-      <value>overview</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="c4146c73-6d7e-64f7-105a-55505024e8d9">
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b814</objectGroupId>
+	<objectId>b814118a-f058-fdd2-da6d-a89e8154382f</objectId>
+	<sections_o item-list="true">	<item>	<section_html>&lt;div&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update&lt;br /&gt;&lt;/div&gt;</section_html>
+	</item></sections_o>
+	<file-name>index.xml</file-name>
+	<folder-name>tpinsiderhashtagb</folder-name>
+	<internal-name>tpinsiderhashtagb</internal-name>
+	<title_t>Taikoo Place Insiders: James Chu, founder of Hashtag B</title_t>
+	<subject_t>Taikoo Place Insiders: James Chu, founder of Hasht</subject_t>
+	<author_s>John Doe</author_s>
+	<disabled>false</disabled>
+	<featured_b>false</featured_b>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<pageSections_o item-list="true">	<item inline="true">	<key>c4146c73-6d7e-64f7-105a-55505024e8d9</key>
+	<value>overview</value>
+	<disableFlattening>false</disableFlattening>
+<component id="c4146c73-6d7e-64f7-105a-55505024e8d9">
         <content-type>/component/component-overview</content-type>
         <display-template>/templates/web/components/overview.ftl</display-template>
         <merge-strategy>inherit-levels</merge-strategy>
@@ -50,11 +45,10 @@
         <lastModifiedDate>2023-11-14T03:45:48.967Z</lastModifiedDate>
         <lastModifiedDate_dt>2023-11-14T03:45:48.967Z</lastModifiedDate_dt>
       </component>
-    </item>
-    <item inline="true">
-      <key>9dcd192e-471c-43fa-8ac1-4e772611eadc</key>
-      <value>New Mag Text</value>
-      <component id="9dcd192e-471c-43fa-8ac1-4e772611eadc">
+	</item>	<item inline="true">	<key>9dcd192e-471c-43fa-8ac1-4e772611eadc</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="9dcd192e-471c-43fa-8ac1-4e772611eadc">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -73,30 +67,31 @@
         <createdDate>2023-11-14T05:20:24.660Z</createdDate>
         <lastModifiedDate>2023-11-14T05:20:24.660Z</lastModifiedDate>
       </component>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item inline="true">
-      <key>be41185e-e62b-4835-811d-f835fd329c20</key>
-      <value><![CDATA[New Mag Text]]></value>
-      <component id="be41185e-e62b-4835-811d-f835fd329c20">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>be41185e-e62b-4835-811d-f835fd329c20.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-14T05:22:17.707Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-14T05:22:17.707Z</lastModifiedDate_dt>
-        <objectId>be41185e-e62b-4835-811d-f835fd329c20</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
-      </component>
-    </item>
-    <item inline="true">
-      <key>ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d</key>
-      <value>New Mag Portrait Image with Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d">
+	</item>	<item inline="true">	<key>be41185e-e62b-4835-811d-f835fd329c20</key>
+	<value>New Mag Text</value>
+<component id="be41185e-e62b-4835-811d-f835fd329c20">
+	<content-type>/component/magtext</content-type>
+	<display-template>/templates/web/mag-text.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Text</internal-name>
+	<file-name>be41185e-e62b-4835-811d-f835fd329c20.xml</file-name>
+	<createdDate_dt>2023-11-14T05:22:23.818Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-14T05:22:23.818Z</lastModifiedDate_dt>
+	<objectId>be41185e-e62b-4835-811d-f835fd329c20</objectId>
+	<sectionId_s/>
+	<title_s>Title goes here</title_s>
+	<content_html>&lt;p&gt;&lt;strong&gt;How do you get ideas for new items and flavours?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We take what has been popular and try to fuse it with baking. For instance, Korean cuisine has been a recent favourite, so we created a Korean kimchi luncheon meat pastry. How often do you get to taste a spicy-based pastry?&lt;/p&gt;</content_html>
+	<folder-name/>
+	<createdDate>2023-11-14T05:22:23.818Z</createdDate>
+	<lastModifiedDate>2023-11-14T05:22:23.818Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d</key>
+	<value>New Mag Portrait Image with Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d">
         <content-type>/component/magportraitimagewithtext</content-type>
         <display-template>/templates/web/Mag-Portrait-image-with-text.ftl</display-template>
         <no-template-required/>
@@ -113,30 +108,21 @@
         <lastModifiedDate>2023-11-14T05:14:41.432Z</lastModifiedDate>
         <imagePosition_s>Right</imagePosition_s>
       </component>
-    </item>
-  </pageSections_o>
-  <categories_o>
-    <item>
-      <key>entertainment</key>
-      <value_smv>Entertainment</value_smv>
-    </item>
-  </categories_o>
-  <segments_o>
-    <item>
-      <key>guy</key>
-      <value_smv>Guy</value_smv>
-    </item>
-    <item>
-      <key>gal</key>
-      <value_smv>Gal</value_smv>
-    </item>
-  </segments_o>
-  <summary_t>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update</summary_t>
-  <image_s/>
-  <createdDate>2023-11-14T01:31:05.921Z</createdDate>
-  <createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-  <lastModifiedDate>2023-11-14T05:20:23.717Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-14T05:22:17.708Z</lastModifiedDate_dt>
-  <date_dt>2023-11-13T16:00:00.000Z</date_dt>
-  <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	</item></pageSections_o>
+	<categories_o>	<item>	<key>entertainment</key>
+	<value_smv>Entertainment</value_smv>
+	</item></categories_o>
+	<segments_o>	<item>	<key>guy</key>
+	<value_smv>Guy</value_smv>
+	</item>	<item>	<key>gal</key>
+	<value_smv>Gal</value_smv>
+	</item></segments_o>
+	<summary_t>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update</summary_t>
+	<image_s/>
+	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
+	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
+	<lastModifiedDate>2023-11-14T05:22:22.912Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-14T05:22:22.912Z</lastModifiedDate_dt>
+	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 </page>
