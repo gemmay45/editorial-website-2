@@ -7,7 +7,7 @@
                 <div class="content-col hero">
                     <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
                         <figure class="figure">
-                        <@crafter.img $field="image_s" class="img-responsive" src=(contentModel.image_s) alt="" />
+                        <@crafter.img $field="imageOnDesktop_s" class="img-responsive" src=(contentModel.imageOnDesktop_s) alt="" />
         
                                 <div class="icon-enlargephoto"></div>
                         </figure>
