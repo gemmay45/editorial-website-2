@@ -4,3 +4,4 @@
 <link rel="stylesheet" href="/static-assets/css/font-awesome.min.css?site=${siteContext.siteName}"/>
 <link rel="stylesheet" href="/static-assets/css/main.css?site=${siteContext.siteName}"/>
 <link rel="stylesheet" href="/static-assets/css/social-media-widget.css?site=${siteContext.siteName}"/>
+<link rel="stylesheet" href="/static-assets/css/animate.css">
