@@ -47,7 +47,7 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-12T00:47:37.662Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-14T01:02:37.653Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-14T01:13:15.616Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -88,6 +88,22 @@
         <createdDate_dt>2023-11-14T01:02:37.653Z</createdDate_dt>
         <lastModifiedDate_dt>2023-11-14T01:02:37.653Z</lastModifiedDate_dt>
         <objectId>0b0a7bc5-e136-494d-acf4-09f849a3ca98</objectId>
+        <title_s><![CDATA[Title goes here]]></title_s>
+        <content_html><![CDATA[Content goes here]]></content_html>
+      </component>
+    </item>
+    <item inline="true">
+      <key>306a8f61-7d89-40dc-bcb3-fdc3c3630cec</key>
+      <value><![CDATA[New Mag Text]]></value>
+      <component id="306a8f61-7d89-40dc-bcb3-fdc3c3630cec">
+        <content-type>/component/magtext</content-type>
+        <display-template>/templates/web/mag-text.ftl</display-template>
+        <internal-name><![CDATA[New Mag Text]]></internal-name>
+        <file-name>306a8f61-7d89-40dc-bcb3-fdc3c3630cec.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-14T01:13:15.616Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-14T01:13:15.616Z</lastModifiedDate_dt>
+        <objectId>306a8f61-7d89-40dc-bcb3-fdc3c3630cec</objectId>
         <title_s><![CDATA[Title goes here]]></title_s>
         <content_html><![CDATA[Content goes here]]></content_html>
       </component>
