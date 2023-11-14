@@ -16,8 +16,6 @@
 					</#list>
 				</#if>
             <dl>
-                        <dt><i class=""></i></dt>
-        <dd><strong>Hashtag B</strong></dd>
 
                         <!--<dt><i class="fas fa-map-marker-alt"></i></dt>
         <dd>Area A, G/F, Berkshire House, Taikoo Place</dd>
