@@ -96,7 +96,7 @@
 				<field>
 					<type>image-picker</type>
 					<id>image_s</id>
-					<iceId></iceId>
+					<iceId>iceMagPortaitImageWithText</iceId>
 					<title>Image</title>
 					<description></description>
 					<defaultValue></defaultValue>
@@ -144,7 +144,7 @@
 				<field>
 					<type>rte</type>
 					<id>sideContent_html</id>
-					<iceId></iceId>
+					<iceId>iceMagPortaitImageWithText</iceId>
 					<title>Side Content</title>
 					<description></description>
 					<defaultValue></defaultValue>
