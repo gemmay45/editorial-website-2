@@ -9,8 +9,6 @@
                         <figure class="figure">
                             <@crafter.img $field="imageOnDesktop_s" class="figure-img img-responsive lazy lz-loading" alt="" src=(contentModel.imageOnDesktop_s) 
                                 $attributes={'data-ll-status': 'loading', 'data-large':(contentModel.imageOnDesktop_s), 'data-lazy':(contentModel.imageOnDesktop_s)} />
-
-        <!-- data-large=(contentModel.imageOnDesktop_s) data-lazy=(contentModel.imageOnDesktop_s) data-ll-status="loading" -->
                                 <div class="icon-enlargephoto"></div>
                         </figure>
                     </a>
