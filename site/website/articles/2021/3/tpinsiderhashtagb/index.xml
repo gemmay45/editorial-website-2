@@ -115,7 +115,7 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>5714d936-bf71-4ce5-ae29-23de92cae74b.xml</file-name>
 	<createdDate_dt>2023-11-14T06:18:44.644Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-14T06:22:10.146Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-14T06:22:39.666Z</lastModifiedDate_dt>
 	<objectId>5714d936-bf71-4ce5-ae29-23de92cae74b</objectId>
 	<sectionId_s/>
 	<title_s>Event Title</title_s>
@@ -123,11 +123,11 @@
 	<imagePosition_s/>
 	<image_s/>
 	<event_o item-list="true">	<item>	<content_html>&lt;strong&gt;Hashtag B&lt;/strong&gt;</content_html>
-	</item>	<item>	<content_html>&lt;p&gt;Area A, G/F, Berkshire House, Taikoo Place&lt;/p&gt;</content_html>
+	</item>	<item>	<content_html>Area A, G/F, Berkshire House, Taikoo Place</content_html>
 	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-14T06:18:44.644Z</createdDate>
-	<lastModifiedDate>2023-11-14T06:22:10.146Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-14T06:22:39.666Z</lastModifiedDate>
 </component>
 	</item></pageSections_o>
 	<categories_o>	<item>	<key>entertainment</key>
@@ -142,8 +142,8 @@
 	<image_s/>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-14T06:22:09.160Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-14T06:22:09.160Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-14T06:22:38.882Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-14T06:22:38.882Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 </page>
