@@ -54,19 +54,6 @@
           </#if>
         </@crafter.div>
         
-        <@crafter.renderRepeatGroup
-          $field="sections_o"
-          $containerAttributes={'style': 'list-style: none; padding-left: 0;'};
-          item, index
-        >
-          <@crafter.div
-            $field="sections_o.section_html"
-            $index=index
-          >
-            ${item.section_html}
-          </@crafter.div>
-          <hr class="major" />
-        </@crafter.renderRepeatGroup>
 			</section>
 		</div>
 	</div>
