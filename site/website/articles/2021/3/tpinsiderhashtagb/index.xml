@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b814</objectGroupId>
+	<objectId>b814118a-f058-fdd2-da6d-a89e8154382f</objectId>
+	<sections_o item-list="true">	<item>	<section_html>&lt;div&gt;Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update&lt;br /&gt;&lt;/div&gt;</section_html>
+	</item></sections_o>
+	<file-name>index.xml</file-name>
+	<folder-name>tpinsiderhashtagb</folder-name>
+	<internal-name>tpinsiderhashtagb</internal-name>
+	<title_t>Taikoo Place Insiders: James Chu, founder of Hashtag B</title_t>
+	<subject_t>Taikoo Place Insiders: James Chu, founder of Hasht</subject_t>
+	<author_s>John Doe</author_s>
+	<disabled>false</disabled>
+	<featured_b>false</featured_b>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<pageSections_o item-list="true"/>
+	<categories_o>	<item>	<key>entertainment</key>
+	<value_smv>Entertainment</value_smv>
+	</item></categories_o>
+	<segments_o>	<item>	<key>guy</key>
+	<value_smv>Guy</value_smv>
+	</item>	<item>	<key>gal</key>
+	<value_smv>Gal</value_smv>
+	</item></segments_o>
+	<summary_t>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update
+</summary_t>
+	<image_s/>
+	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
+	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
+	<lastModifiedDate>2023-11-14T01:31:05.921Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-14T01:31:05.921Z</lastModifiedDate_dt>
+	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+</page>
