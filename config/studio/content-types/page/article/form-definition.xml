@@ -927,7 +927,7 @@
 						</property>
 						<property>
 							<name>allowEmbedded</name>
-							<value>false</value>
+							<value>true</value>
 								<type>boolean</type>
 						</property>
 						<property>
