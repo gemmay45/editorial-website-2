@@ -38,6 +38,26 @@
       </component>
     </item>
     <item inline="true">
+      <key>2a2c81ec-a192-408e-a49a-868e8634fce9</key>
+      <value><![CDATA[New Mag Banner Image]]></value>
+      <component id="2a2c81ec-a192-408e-a49a-868e8634fce9">
+        <content-type>/component/magbannerimage</content-type>
+        <display-template>/templates/web/mag-banner-image.ftl</display-template>
+        <internal-name><![CDATA[New Mag Banner Image]]></internal-name>
+        <file-name>2a2c81ec-a192-408e-a49a-868e8634fce9.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-14T12:39:09.814Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-14T12:39:09.814Z</lastModifiedDate_dt>
+        <objectId>2a2c81ec-a192-408e-a49a-868e8634fce9</objectId>
+        <sectionId_s/>
+        <caption_s/>
+        <imageOnDesktop_s/>
+        <imageOnMobile_s/>
+        <imageBackgroundColor_s/>
+        <renderer_s/>
+      </component>
+    </item>
+    <item inline="true">
       <key>9dcd192e-471c-43fa-8ac1-4e772611eadc</key>
       <value>New Mag Text</value>
       <disableFlattening>false</disableFlattening>
@@ -191,7 +211,7 @@
   <createdDate>2023-11-14T01:31:05.921Z</createdDate>
   <createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
   <lastModifiedDate>2023-11-14T06:58:35.371Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-14T07:20:17.999Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-14T12:39:09.816Z</lastModifiedDate_dt>
   <date_dt>2023-11-13T16:00:00.000Z</date_dt>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 </page>
