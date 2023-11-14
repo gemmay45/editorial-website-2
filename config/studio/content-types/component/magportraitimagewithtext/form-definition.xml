@@ -89,9 +89,9 @@
 			</fields>
 		</section>
 		<section>
-			<title>Content</title>
+			<title>Content Section</title>
 			<description></description>
-			<defaultOpen>false</defaultOpen>
+			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>image-picker</type>
