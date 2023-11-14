@@ -3,9 +3,9 @@
 <section id="${contentModel.sectionId_s}" class="parallax-section">
 <div class="content-event">
     <div class="content-row">
-    <div class="content-col">
-        &nbsp; &nbsp;
-    </div>
+        <div class="content-col">
+            &nbsp; &nbsp;
+        </div>
     </div>
     <div class="box-wrapper">
         <div class="box">
@@ -18,4 +18,8 @@
 
                         <dt><i class="fas fa-globe"></i></dt>
         <dd><span style="text-decoration: underline;"><a rel="noopener noreferrer" href="http://www.hashtag-b.com/" target="_blank">hashtag-b.com </a></span></dd>
+            </dl>
+        </div>
+    </div>
+</div>
 </section>
