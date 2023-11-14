@@ -87,7 +87,7 @@
 					</constraints>
 				</field>
 				<field>
-					<type>input</type>
+					<type>dropdown</type>
 					<id>sectionID_s</id>
 					<iceId></iceId>
 					<title>Section ID</title>
@@ -96,28 +96,18 @@
 					<help></help>
 					<properties>
 						<property>
-							<name>size</name>
-							<value>50</value>
-							<type>int</type>
+							<name>datasource</name>
+							<value></value>
+							<type>datasource:item</type>
 						</property>
 						<property>
-							<name>maxlength</name>
-							<value>50</value>
-							<type>int</type>
-						</property>
-						<property>
-							<name>readonly</name>
+							<name>emptyvalue</name>
 							<value></value>
 							<type>boolean</type>
 						</property>
 						<property>
-							<name>tokenize</name>
-							<value>false</value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>escapeContent</name>
-							<value>false</value>
+							<name>readonly</name>
+							<value></value>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -126,11 +116,6 @@
 							<name>required</name>
 							<value><![CDATA[]]></value>
 							<type>boolean</type>
-						</constraint>
-						<constraint>
-							<name>pattern</name>
-							<value><![CDATA[]]></value>
-							<type>string</type>
 						</constraint>
 					</constraints>
 				</field>
