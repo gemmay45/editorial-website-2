@@ -37,7 +37,7 @@
 
 
         <@crafter.div $field="pageSections_o">
-        	<#if contentModel.pageSections_o.item??>
+        	<#if contentModel.pageSections_o.item>
             <#list contentModel.pageSections_o.item as section>
               <#assign index = section?index />
               <@crafter.div $field="pageSections_o" $index=index>
