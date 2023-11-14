@@ -33,7 +33,7 @@
 	<internal-name>overview</internal-name>
 	<titleText_t>XXX</titleText_t>
 	<buttonText_t/>
-	<sectionId>overview</sectionId>
+	<sectionId_s>overview</sectionId_s>
 	<buttonSectionLink_s/>
 	<imageSection_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1475-edit-s.jpg</imageSection_s>
 	<displayButton_b>false</displayButton_b>
