@@ -34,7 +34,14 @@
           </div>
 				</header>
 
-
+				<#if contentModel.image_s??>
+					<#assign image = contentModel.image_s/>
+				<#else>
+					<#assign image = "/static-assets/images/placeholder.png"/>
+				</#if>
+				<span class="image main">
+          <@crafter.img $field='image_s' src="${image}" alt=""/>
+        </span>
 
         <@crafter.div $field="pageSections_o">
         	<#if contentModel.pageSections_o.item??>
