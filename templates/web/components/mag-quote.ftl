@@ -3,7 +3,7 @@
 <section id="${contentModel.sectionId_s}" class="parallax-section">
   <div class="container">
     <div class="row">
-        <@crafter.div class="the-mag-quote " $attributes={'class':(contentModel.quoteStyle_s)}>
+        <@crafter.div $attributes={'class':('the-mag-quote ' contentModel.quoteStyle_s)}>
             <@crafter.div $field="quote_t" class="quote">
                 ${contentModel.quote_t}
             </@crafter.div>
