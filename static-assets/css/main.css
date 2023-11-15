@@ -966,6 +966,12 @@ hr.major {
   width:750px
 }
 
+.the-mag-detail__content {
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+}
+
 @media screen and (max-width: 1680px) {
   .row {
     display: flex;
@@ -1149,14 +1155,6 @@ hr.major {
   }
   .row.gtr-200.gtr-uniform > * {
     padding-top: 3em;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .the-mag-detail__content {
-    position: relative;
-    padding: 0;
-    margin: 0 auto;
   }
 }
 
