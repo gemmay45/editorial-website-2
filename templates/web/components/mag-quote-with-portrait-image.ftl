@@ -4,14 +4,17 @@
   <div class="container">
         <div class="content-row eq-height">
             <div class="content-col">
-                
-                <div class="the-mag-quote -motivational">
-        
-                    <div class="quote ">“These positive vibes make personal growth possible.”</div>
-        
-                        <div class="hr"></div>
-                        <div class="author">Chik Wing Keung, Chief Regional Director, FWD</div>
-                </div>
+                <@crafter.div class="the-mag-quote ${contentModel.quoteStyle_s}">
+                    <@crafter.div $field="quote_t" class="quote">
+                        ${contentModel.quote_t}
+                    </@crafter.div>
+                    
+                    <div class="hr"></div>
+                                
+                    <@crafter.div $field="quoteBy_s" class="author">
+                        ${contentModel.quoteBy_s}
+                    </@crafter.div>
+                </@crafter.div>
             </div>
             <div class="content-col ">
                 <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
