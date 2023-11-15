@@ -297,6 +297,7 @@
       </component>
 	</item>	<item inline="true">	<key>df2f2262-236d-4a50-ae1d-fc70cd524b4b</key>
 	<value>New Mag Quote With Portrait Image</value>
+	<disableFlattening>false</disableFlattening>
 <component id="df2f2262-236d-4a50-ae1d-fc70cd524b4b">
 	<content-type>/component/magquotewithportraitimage</content-type>
 	<display-template>/templates/web/components/mag-quote-with-portrait-image.ftl</display-template>
@@ -305,17 +306,16 @@
 	<internal-name>New Mag Quote With Portrait Image</internal-name>
 	<file-name>df2f2262-236d-4a50-ae1d-fc70cd524b4b.xml</file-name>
 	<createdDate_dt>2023-11-15T14:19:27.989Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-15T14:19:27.989Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-15T14:26:30.369Z</lastModifiedDate_dt>
 	<objectId>df2f2262-236d-4a50-ae1d-fc70cd524b4b</objectId>
 	<sectionId_s/>
 	<quote_t>“These positive vibes make personal growth possible.”</quote_t>
 	<quoteBy_s>Chik Wing Keung, Chief Regional Director, FWD</quoteBy_s>
-	<quoteStyle_s/>
+	<quoteStyle_s>-motivational</quoteStyle_s>
 	<folder-name/>
 	<createdDate>2023-11-15T14:19:27.989Z</createdDate>
-	<lastModifiedDate>2023-11-15T14:19:27.989Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-15T14:26:30.369Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>5714d936-bf71-4ce5-ae29-23de92cae74b</key>
 	<value>New Mag Event</value>
 	<disableFlattening>false</disableFlattening>
@@ -362,8 +362,8 @@
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1407-t.jpeg</image_s>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-15T14:19:27.132Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-15T14:19:27.132Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-15T14:26:29.384Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T14:26:29.384Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<categories_s>people</categories_s>
