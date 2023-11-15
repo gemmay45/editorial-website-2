@@ -289,7 +289,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value></value>
+							<value>/site/taxonomy/quote-styles.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
