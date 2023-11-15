@@ -962,6 +962,10 @@ hr.major {
   font-family: Roboto Condensed Bold\ 700,STHeiti,Microsoft JhengHei,sans-serif
 }
 
+.the-mag-detail__content {
+  width:750px
+}
+
 @media screen and (max-width: 1680px) {
   .row {
     display: flex;
@@ -2848,7 +2852,7 @@ button:disabled,
     width: 6em;
   }
   .the-mag-detail__content {
-    width:750px
+    width:78.125%
   }
 }
 
