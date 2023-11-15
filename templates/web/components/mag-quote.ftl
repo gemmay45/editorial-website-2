@@ -9,3 +9,6 @@
                 <div class="hr"></div>
                 <div class="author">Chef Luke Burgess</div>
         </div>
+    </div>
+    </div>
+</section>
