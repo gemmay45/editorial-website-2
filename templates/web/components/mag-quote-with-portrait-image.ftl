@@ -2,3 +2,7 @@
  
 <section id="${contentModel.sectionId_s}" class="parallax-section">
   <div class="container">
+  
+      </div>
+    </div>
+</section>
