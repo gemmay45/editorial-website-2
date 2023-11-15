@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+	<content-type>/taxonomy</content-type>
+	<display-template/>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>44b2</objectGroupId>
+	<objectId>44b20f54-3945-dae3-441b-3edcc084f067</objectId>
+	<items item-list="true">	<item>	<key>-motivational</key>
+	<value>Motivational</value>
+	</item></items>
+	<file-name>quote-styles.xml</file-name>
+	<folder-name/>
+	<internal-name>Quote Styles</internal-name>
+	<createdDate>2023-11-15T05:14:59.141Z</createdDate>
+	<createdDate_dt>2023-11-15T05:14:59.141Z</createdDate_dt>
+	<lastModifiedDate>2023-11-15T05:14:59.141Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T05:14:59.141Z</lastModifiedDate_dt>
+</component>
