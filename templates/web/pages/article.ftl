@@ -25,11 +25,9 @@
 			<!-- Content -->
 			<section>
         <div class="the-mag-detail__header">
-        <header class="main">
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
           </@crafter.h1>
-				</header>
 		</div>
 
 		<div class="inner the-mag-detail__content">
