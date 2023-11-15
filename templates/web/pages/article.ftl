@@ -25,6 +25,7 @@
 			<!-- Content -->
 			<section>
         <div class="the-mag-detail__header">
+          <div class="the-mag-cat">PEOPLE</div>
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
           </@crafter.h1>
