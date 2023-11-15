@@ -43,6 +43,7 @@
             </#list>
           </#if>
         </@crafter.div>
+        </div>
         
 			</section>
 		</div>
