@@ -402,12 +402,12 @@
 					<properties>
 						<property>
 							<name>size</name>
-							<value>50</value>
+							<value>250</value>
 							<type>int</type>
 						</property>
 						<property>
 							<name>maxlength</name>
-							<value>50</value>
+							<value>250</value>
 							<type>int</type>
 						</property>
 						<property>
@@ -417,6 +417,11 @@
 						</property>
 						<property>
 							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
 							<value>false</value>
 							<type>boolean</type>
 						</property>
@@ -460,6 +465,11 @@
 						</property>
 						<property>
 							<name>tokenize</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>escapeContent</name>
 							<value>false</value>
 							<type>boolean</type>
 						</property>
