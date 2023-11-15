@@ -18,23 +18,22 @@
 <div id="wrapper">
 	<!-- Main -->
 	<div id="main">
-		<div class="inner">
 
 			<!-- Header -->
 			<@renderComponent component = contentModel.header_o.item />
 
 			<!-- Content -->
 			<section>
-				<header class="main">
+        <div class="the-mag-detail__header">
+        <header class="main">
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
           </@crafter.h1>
-          <div>
-            by <@crafter.span $field"author_s">${contentModel.author_s!""}</@crafter.span>
-          </div>
 				</header>
+		</div>
 
-        <@crafter.div $field="pageSections_o">
+		<div class="inner the-mag-detail__content">
+            <@crafter.div $field="pageSections_o">
         	<#if contentModel.pageSections_o.item??>
             <#list contentModel.pageSections_o.item as section>
               <#assign index = section?index />
