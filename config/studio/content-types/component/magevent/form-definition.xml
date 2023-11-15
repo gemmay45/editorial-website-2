@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/mag-event.ftl</value>
+			<value>/templates/web/components/mag-event.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
