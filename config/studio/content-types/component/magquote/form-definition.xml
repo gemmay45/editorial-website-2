@@ -288,8 +288,8 @@
 	</sections>
 	<datasources>				<datasource>
 					<type>key-value-list</type>
-					<id>sectionIDSOurce</id>
-					<title>Section ID SOurce</title>
+					<id>sectionIdsSource</id>
+					<title>Section Ids Source</title>
 					<interface>item</interface>
 					<properties>
 						<property>
