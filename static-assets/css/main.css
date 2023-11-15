@@ -914,6 +914,10 @@ hr.major {
   padding-top: 3em;
 }
 
+body.the-mag {
+  background: #f2f2f2
+}
+
 .the-mag-detail__header {
   position: relative;
   z-index: 1;
