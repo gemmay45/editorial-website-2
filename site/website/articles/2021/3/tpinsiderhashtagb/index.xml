@@ -1,27 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/article</content-type>
-  <display-template>/templates/web/pages/article.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>b814</objectGroupId>
-  <objectId>b814118a-f058-fdd2-da6d-a89e8154382f</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>tpinsiderhashtagb</folder-name>
-  <internal-name>tpinsiderhashtagb</internal-name>
-  <title_t>Taikoo Place Insiders: James Chu, founder of Hashtag B</title_t>
-  <subject_t>Taikoo Place Insiders: James Chu, founder of Hasht</subject_t>
-  <author_s>John Doe</author_s>
-  <disabled>false</disabled>
-  <featured_b>false</featured_b>
-  <header_o item-list="true"/>
-  <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>c44c7ad2-238f-41d7-a84c-0fb8d592c98b</key>
-      <value>New Mag Banner Image</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="c44c7ad2-238f-41d7-a84c-0fb8d592c98b">
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>b814</objectGroupId>
+	<objectId>b814118a-f058-fdd2-da6d-a89e8154382f</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>tpinsiderhashtagb</folder-name>
+	<internal-name>tpinsiderhashtagb</internal-name>
+	<title_t>Taikoo Place Insiders: James Chu, founder of Hashtag B</title_t>
+	<subject_t>Taikoo Place Insiders: James Chu, founder of Hasht</subject_t>
+	<author_s>John Doe</author_s>
+	<disabled>false</disabled>
+	<featured_b>false</featured_b>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<pageSections_o item-list="true">	<item inline="true">	<key>c44c7ad2-238f-41d7-a84c-0fb8d592c98b</key>
+	<value>New Mag Banner Image</value>
+	<disableFlattening>false</disableFlattening>
+<component id="c44c7ad2-238f-41d7-a84c-0fb8d592c98b">
         <content-type>/component/magbannerimage</content-type>
         <display-template>/templates/web/mag-banner-image.ftl</display-template>
         <no-template-required/>
@@ -41,12 +39,10 @@
         <createdDate>2023-11-14T12:48:21.162Z</createdDate>
         <lastModifiedDate>2023-11-14T12:48:21.162Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>294a6514-4eb3-4da6-988c-71838bbb3c9c</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="294a6514-4eb3-4da6-988c-71838bbb3c9c">
+	</item>	<item inline="true">	<key>294a6514-4eb3-4da6-988c-71838bbb3c9c</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="294a6514-4eb3-4da6-988c-71838bbb3c9c">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -64,12 +60,10 @@
         <createdDate>2023-11-15T00:24:08.189Z</createdDate>
         <lastModifiedDate>2023-11-15T00:24:08.189Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>3cae9530-82a5-405e-8d61-e1a42107a05a</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="3cae9530-82a5-405e-8d61-e1a42107a05a">
+	</item>	<item inline="true">	<key>3cae9530-82a5-405e-8d61-e1a42107a05a</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="3cae9530-82a5-405e-8d61-e1a42107a05a">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -88,12 +82,10 @@
         <createdDate>2023-11-15T00:25:53.006Z</createdDate>
         <lastModifiedDate>2023-11-15T00:25:53.006Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>9928cdde-68c3-4b11-94fb-bf8b0e4b99dd</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="9928cdde-68c3-4b11-94fb-bf8b0e4b99dd">
+	</item>	<item inline="true">	<key>9928cdde-68c3-4b11-94fb-bf8b0e4b99dd</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="9928cdde-68c3-4b11-94fb-bf8b0e4b99dd">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -111,12 +103,10 @@
         <createdDate>2023-11-15T00:26:59.923Z</createdDate>
         <lastModifiedDate>2023-11-15T00:26:59.923Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>9dcd192e-471c-43fa-8ac1-4e772611eadc</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="9dcd192e-471c-43fa-8ac1-4e772611eadc">
+	</item>	<item inline="true">	<key>9dcd192e-471c-43fa-8ac1-4e772611eadc</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="9dcd192e-471c-43fa-8ac1-4e772611eadc">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -135,12 +125,10 @@
         <createdDate>2023-11-14T05:20:24.660Z</createdDate>
         <lastModifiedDate>2023-11-14T05:20:24.660Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>be41185e-e62b-4835-811d-f835fd329c20</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="be41185e-e62b-4835-811d-f835fd329c20">
+	</item>	<item inline="true">	<key>be41185e-e62b-4835-811d-f835fd329c20</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="be41185e-e62b-4835-811d-f835fd329c20">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -158,12 +146,10 @@
         <createdDate>2023-11-14T05:22:23.818Z</createdDate>
         <lastModifiedDate>2023-11-14T05:22:23.818Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>b9f54705-2b2f-4158-aab3-51bbc4e3d9e3</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="b9f54705-2b2f-4158-aab3-51bbc4e3d9e3">
+	</item>	<item inline="true">	<key>b9f54705-2b2f-4158-aab3-51bbc4e3d9e3</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="b9f54705-2b2f-4158-aab3-51bbc4e3d9e3">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -183,12 +169,10 @@
         <createdDate>2023-11-14T05:24:18.966Z</createdDate>
         <lastModifiedDate>2023-11-14T05:24:18.966Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d</key>
-      <value>New Mag Portrait Image with Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d">
+	</item>	<item inline="true">	<key>ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d</key>
+	<value>New Mag Portrait Image with Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d">
         <content-type>/component/magportraitimagewithtext</content-type>
         <display-template>/templates/web/Mag-Portrait-image-with-text.ftl</display-template>
         <no-template-required/>
@@ -205,12 +189,10 @@
         <lastModifiedDate>2023-11-14T05:14:41.432Z</lastModifiedDate>
         <imagePosition_s>Right</imagePosition_s>
       </component>
-    </item>
-    <item inline="true">
-      <key>0903b3f1-70f7-49b6-8faa-80ffac48df03</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="0903b3f1-70f7-49b6-8faa-80ffac48df03">
+	</item>	<item inline="true">	<key>0903b3f1-70f7-49b6-8faa-80ffac48df03</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="0903b3f1-70f7-49b6-8faa-80ffac48df03">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -228,12 +210,10 @@
         <createdDate>2023-11-15T00:29:21.860Z</createdDate>
         <lastModifiedDate>2023-11-15T00:29:21.860Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>a9d5dd40-3c47-41eb-8174-abbdb8199747</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="a9d5dd40-3c47-41eb-8174-abbdb8199747">
+	</item>	<item inline="true">	<key>a9d5dd40-3c47-41eb-8174-abbdb8199747</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="a9d5dd40-3c47-41eb-8174-abbdb8199747">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -251,11 +231,10 @@
         <createdDate>2023-11-15T00:30:39.835Z</createdDate>
         <lastModifiedDate>2023-11-15T00:30:39.835Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>7b417c41-ffe0-4e99-8b5c-f106156f0d36</key>
-      <value>New Mag Text</value>
-      <component id="7b417c41-ffe0-4e99-8b5c-f106156f0d36">
+	</item>	<item inline="true">	<key>7b417c41-ffe0-4e99-8b5c-f106156f0d36</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="7b417c41-ffe0-4e99-8b5c-f106156f0d36">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/mag-text.ftl</display-template>
         <no-template-required/>
@@ -273,30 +252,31 @@
         <createdDate>2023-11-15T00:31:32.027Z</createdDate>
         <lastModifiedDate>2023-11-15T00:31:32.027Z</lastModifiedDate>
       </component>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item inline="true">
-      <key>3fbd851f-e701-4270-9299-e0436ddcfe1a</key>
-      <value><![CDATA[New Mag Text]]></value>
-      <component id="3fbd851f-e701-4270-9299-e0436ddcfe1a">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>3fbd851f-e701-4270-9299-e0436ddcfe1a.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-15T00:32:05.312Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-15T00:32:05.312Z</lastModifiedDate_dt>
-        <objectId>3fbd851f-e701-4270-9299-e0436ddcfe1a</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
-      </component>
-    </item>
-    <item inline="true">
-      <key>5714d936-bf71-4ce5-ae29-23de92cae74b</key>
-      <value>New Mag Event</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="5714d936-bf71-4ce5-ae29-23de92cae74b">
+	</item>	<item inline="true">	<key>3fbd851f-e701-4270-9299-e0436ddcfe1a</key>
+	<value>New Mag Text</value>
+<component id="3fbd851f-e701-4270-9299-e0436ddcfe1a">
+	<content-type>/component/magtext</content-type>
+	<display-template>/templates/web/mag-text.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Text</internal-name>
+	<file-name>3fbd851f-e701-4270-9299-e0436ddcfe1a.xml</file-name>
+	<createdDate_dt>2023-11-15T00:32:10.491Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-15T00:32:10.491Z</lastModifiedDate_dt>
+	<objectId>3fbd851f-e701-4270-9299-e0436ddcfe1a</objectId>
+	<sectionId_s/>
+	<title_s>Title goes here</title_s>
+	<content_html>&lt;p&gt;&lt;strong&gt;What&amp;rsquo;s your life motto?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Denzel Washington once said, &amp;ldquo;Dreams without goals are just dreams&amp;rdquo;.&lt;/p&gt;</content_html>
+	<folder-name/>
+	<createdDate>2023-11-15T00:32:10.491Z</createdDate>
+	<lastModifiedDate>2023-11-15T00:32:10.491Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>5714d936-bf71-4ce5-ae29-23de92cae74b</key>
+	<value>New Mag Event</value>
+	<disableFlattening>false</disableFlattening>
+<component id="5714d936-bf71-4ce5-ae29-23de92cae74b">
         <content-type>/component/magevent</content-type>
         <display-template>/templates/web/mag-event.ftl</display-template>
         <no-template-required/>
@@ -329,30 +309,21 @@
         <createdDate>2023-11-14T06:18:44.644Z</createdDate>
         <lastModifiedDate>2023-11-14T06:34:01.464Z</lastModifiedDate>
       </component>
-    </item>
-  </pageSections_o>
-  <categories_o>
-    <item>
-      <key>entertainment</key>
-      <value_smv>Entertainment</value_smv>
-    </item>
-  </categories_o>
-  <segments_o>
-    <item>
-      <key>guy</key>
-      <value_smv>Guy</value_smv>
-    </item>
-    <item>
-      <key>gal</key>
-      <value_smv>Gal</value_smv>
-    </item>
-  </segments_o>
-  <summary_t>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update</summary_t>
-  <image_s/>
-  <createdDate>2023-11-14T01:31:05.921Z</createdDate>
-  <createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-  <lastModifiedDate>2023-11-15T00:31:31.171Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-15T00:32:05.313Z</lastModifiedDate_dt>
-  <date_dt>2023-11-13T16:00:00.000Z</date_dt>
-  <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	</item></pageSections_o>
+	<categories_o>	<item>	<key>entertainment</key>
+	<value_smv>Entertainment</value_smv>
+	</item></categories_o>
+	<segments_o>	<item>	<key>guy</key>
+	<value_smv>Guy</value_smv>
+	</item>	<item>	<key>gal</key>
+	<value_smv>Gal</value_smv>
+	</item></segments_o>
+	<summary_t>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update</summary_t>
+	<image_s/>
+	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
+	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
+	<lastModifiedDate>2023-11-15T00:32:09.628Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T00:32:09.628Z</lastModifiedDate_dt>
+	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 </page>
