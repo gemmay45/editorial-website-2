@@ -11,7 +11,7 @@
 	<#include "/templates/web/fragments/head.ftl">
 	<@crafter.head/>
 </head>
-<body>
+<body class="the-mag">
 <@crafter.body_top/>
 
 <!-- Wrapper -->
