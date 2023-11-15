@@ -43,23 +43,23 @@
 	<value>New Mag Text</value>
 	<disableFlattening>false</disableFlattening>
 <component id="294a6514-4eb3-4da6-988c-71838bbb3c9c">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/mag-text.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Mag Text</internal-name>
-        <file-name>294a6514-4eb3-4da6-988c-71838bbb3c9c.xml</file-name>
-        <createdDate_dt>2023-11-15T00:24:08.189Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-15T00:24:08.189Z</lastModifiedDate_dt>
-        <objectId>294a6514-4eb3-4da6-988c-71838bbb3c9c</objectId>
-        <sectionId_s/>
-        <title_s>Title goes here</title_s>
-        <content_html>&lt;p&gt;Bake it &amp;lsquo;til you make it! You might have seen the innovative and delicious creations of local Hong Kong bakery Hashtag B trending on social media &amp;ndash; and now you can come try them for yourself at their newest branch, right here in Taikoo Place.&lt;/p&gt;
+	<content-type>/component/magtext</content-type>
+	<display-template>/templates/web/components/mag-text.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Text</internal-name>
+	<file-name>294a6514-4eb3-4da6-988c-71838bbb3c9c.xml</file-name>
+	<createdDate_dt>2023-11-15T00:24:08.189Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-15T04:55:21.351Z</lastModifiedDate_dt>
+	<objectId>294a6514-4eb3-4da6-988c-71838bbb3c9c</objectId>
+	<sectionId_s/>
+	<title_s>Title goes here</title_s>
+	<content_html>&lt;p&gt;Bake it &amp;lsquo;til you make it! You might have seen the innovative and delicious creations of local Hong Kong bakery Hashtag B trending on social media &amp;ndash; and now you can come try them for yourself at their newest branch, right here in Taikoo Place.&lt;/p&gt;
 &lt;p&gt;To celebrate their recent launch in Berkshire House, we grabbed a chat with Hashtag B&amp;rsquo;s founder James Chu to find out what inspired him to start a bakery and his tips for fellow entrepreneurs.&lt;/p&gt;</content_html>
-        <folder-name/>
-        <createdDate>2023-11-15T00:24:08.189Z</createdDate>
-        <lastModifiedDate>2023-11-15T00:24:08.189Z</lastModifiedDate>
-      </component>
+	<folder-name/>
+	<createdDate>2023-11-15T00:24:08.189Z</createdDate>
+	<lastModifiedDate>2023-11-15T04:55:21.351Z</lastModifiedDate>
+</component>
 	</item>	<item inline="true">	<key>3cae9530-82a5-405e-8d61-e1a42107a05a</key>
 	<value>New Mag Text</value>
 	<disableFlattening>false</disableFlattening>
@@ -320,8 +320,8 @@
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1407-t.jpeg</image_s>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-15T04:54:34.067Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-15T04:54:34.067Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-15T04:55:15.469Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T04:55:15.469Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<categories_s>people</categories_s>
