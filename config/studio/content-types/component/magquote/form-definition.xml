@@ -309,7 +309,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value></value>
+							<value>/taxonomy</value>
 								<type>string</type>
 						</property>
 					</properties>
