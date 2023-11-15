@@ -11,7 +11,10 @@
             </@crafter.div>
             
                 <div class="hr"></div>
-                <div class="author">Chef Luke Burgess</div>
+                            
+                <@crafter.div $field="quoteBy_s" class="author">
+                    ${contentModel.quoteBy_s}
+                </@crafter.div>
         </div>
     </div>
     </div>
