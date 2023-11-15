@@ -254,6 +254,7 @@
       </component>
 	</item>	<item inline="true">	<key>3fbd851f-e701-4270-9299-e0436ddcfe1a</key>
 	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
 <component id="3fbd851f-e701-4270-9299-e0436ddcfe1a">
 	<content-type>/component/magtext</content-type>
 	<display-template>/templates/web/mag-text.ftl</display-template>
@@ -272,7 +273,6 @@
 	<createdDate>2023-11-15T00:32:10.491Z</createdDate>
 	<lastModifiedDate>2023-11-15T00:32:10.491Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>5714d936-bf71-4ce5-ae29-23de92cae74b</key>
 	<value>New Mag Event</value>
 	<disableFlattening>false</disableFlattening>
@@ -310,8 +310,8 @@
         <lastModifiedDate>2023-11-14T06:34:01.464Z</lastModifiedDate>
       </component>
 	</item></pageSections_o>
-	<categories_o>	<item>	<key>entertainment</key>
-	<value_smv>Entertainment</value_smv>
+	<categories_o>	<item>	<key>people</key>
+	<value_smv>PEOPLE</value_smv>
 	</item></categories_o>
 	<segments_o>	<item>	<key>guy</key>
 	<value_smv>Guy</value_smv>
@@ -322,8 +322,8 @@
 	<image_s/>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-15T00:32:09.628Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-15T00:32:09.628Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-15T00:43:35.917Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T00:43:35.917Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 </page>
