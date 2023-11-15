@@ -180,15 +180,15 @@
 	<internal-name>New Mag Portrait Image with Text</internal-name>
 	<file-name>ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d.xml</file-name>
 	<createdDate_dt>2023-11-14T04:52:37.234Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-15T14:01:40.962Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-15T14:06:49.133Z</lastModifiedDate_dt>
 	<objectId>ab3a1d4a-6a9d-4ebf-a10e-1d00a2cc9a5d</objectId>
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1475-edit-s.jpg</image_s>
 	<sideContent_html>&lt;p&gt;&lt;strong&gt;Over the past few years, it seems there&amp;rsquo;s been an explosion of new independent bakeries in Hong Kong! Why do you think that is?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Hong Kongers love their food and are always searching for new ideas. Covid impacted us in many ways and during this period in particular, I saw many youngsters spending time in cafes. I think enjoying pastries in caf&amp;eacute;s and bakeries became a lifestyle for many people &amp;ndash; and I love seeing so many options now for them to choose from!&lt;/p&gt;</sideContent_html>
 	<folder-name/>
 	<createdDate>2023-11-14T04:52:37.234Z</createdDate>
-	<lastModifiedDate>2023-11-15T14:01:40.962Z</lastModifiedDate>
-	<imagePosition_s>-left</imagePosition_s>
+	<lastModifiedDate>2023-11-15T14:06:49.133Z</lastModifiedDate>
+	<imagePosition_s>-right</imagePosition_s>
 </component>
 	</item>	<item inline="true">	<key>0903b3f1-70f7-49b6-8faa-80ffac48df03</key>
 	<value>New Mag Text</value>
@@ -341,8 +341,8 @@
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1407-t.jpeg</image_s>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-15T14:01:40.106Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-15T14:01:40.106Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-15T14:06:48.142Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T14:06:48.142Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<categories_s>people</categories_s>
