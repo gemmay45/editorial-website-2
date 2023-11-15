@@ -13,7 +13,7 @@
 	<subject_t>Taikoo Place Insiders: James Chu, founder of Hasht</subject_t>
 	<author_s>John Doe</author_s>
 	<disabled>false</disabled>
-	<featured_b>false</featured_b>
+	<featured_b>true</featured_b>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
 	<pageSections_o item-list="true">	<item inline="true">	<key>c44c7ad2-238f-41d7-a84c-0fb8d592c98b</key>
@@ -322,8 +322,8 @@
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1407-t.jpeg</image_s>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-15T00:48:22.257Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-15T00:48:22.257Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-15T00:48:59.342Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T00:48:59.342Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 </page>
