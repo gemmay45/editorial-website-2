@@ -8,12 +8,16 @@
 	<objectId>44b20f54-3945-dae3-441b-3edcc084f067</objectId>
 	<items item-list="true">	<item>	<key>-motivational</key>
 	<value>Motivational</value>
+	</item>	<item>	<key>-powerful</key>
+	<value>Powerful</value>
+	</item>	<item>	<key>-handwriting</key>
+	<value>Handwriting</value>
 	</item></items>
 	<file-name>quote-styles.xml</file-name>
 	<folder-name/>
 	<internal-name>Quote Styles</internal-name>
 	<createdDate>2023-11-15T05:14:59.141Z</createdDate>
 	<createdDate_dt>2023-11-15T05:14:59.141Z</createdDate_dt>
-	<lastModifiedDate>2023-11-15T05:14:59.141Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-15T05:14:59.141Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-15T05:21:49.900Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T05:21:49.900Z</lastModifiedDate_dt>
 </component>
