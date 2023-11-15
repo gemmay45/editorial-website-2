@@ -914,6 +914,54 @@ hr.major {
   padding-top: 3em;
 }
 
+.the-mag-detail__header h1,.the-mag-detail__related p.subtitle {
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-family: Roboto Condensed Bold\ 700,STHeiti,Microsoft JhengHei,sans-serif
+}
+
+.the-mag-detail__content h3,.the-mag-landing .infinite-load .load-more,.the-mag-landing .no-results {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-family: Roboto Medium\ 500,STHeiti,Microsoft JhengHei,sans-serif
+}
+
+.fixedApp,.nav-page .hints .title,.the-mag-detail__content h4,.the-mag-grid-item .title,.the-mag-landing .the-mag-filter__select .slim-filter-dropdown .selectboxit-container .selectboxit-options a,.the-mag-landing .the-mag-filter__select .slim-filter-dropdown .selectboxit-container span,.the-mag-landing .the-mag-filter__select .slim-filter-dropdown .selectboxit-list>.selectboxit-focus>.selectboxit-option-anchor,.the-mag-landing .the-mag-filter__select .slim-filter-dropdown .selectboxit-option-anchor,.the-mag-landing .the-mag-filter__select .slim-filter-dropdown .selectboxit-text,.the-mag-landing .the-mag-filter__select .slim-filter-dropdown label,.the-mag-landing .the-mag-filter__select .slim-filter-dropdown select {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-family: Roboto Medium\ 500,STHeiti,Microsoft JhengHei,sans-serif
+}
+
+.the-mag-detail-page-nav .nav,.the-mag-detail__header .the-mag-cat,.the-mag-landing .the-mag-filter__menu ul li a {
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  font-family: Roboto Condensed Bold\ 700,STHeiti,Microsoft JhengHei,sans-serif
+}
+
+.figure .figure-caption,.the-mag-detail-carousel-shadow-caption .caption,.the-mag-detail__content .content-event .box .remarks,.the-mag-detail__content .content-row .content-col .figure .figure-caption,.the-mag-detail__content__info,.the-mag-detail__content__tags,.the-mag-grid-item .desc-more,.the-mag-grid-item .desc-more p {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-family: Roboto Light\ 300,STHeiti,Microsoft JhengHei,sans-serif
+}
+
+.the-mag-grid .tags {
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  font-family: Roboto Condensed Bold\ 700,STHeiti,Microsoft JhengHei,sans-serif
+}
+
 @media screen and (max-width: 1680px) {
   .row {
     display: flex;
