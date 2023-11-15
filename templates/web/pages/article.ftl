@@ -25,8 +25,7 @@
 			<!-- Content -->
 			<section>
         <div class="the-mag-detail__header">
-          <div class="the-mag-cat">
-            <@renderComponent component=contentModel.categories_o.item />
+          <div class="the-mag-cat">xxx
           </div>        
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
