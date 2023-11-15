@@ -3,13 +3,13 @@
 <div class="content-row">
     <div class="content-col">
 
-        <div class="-right">
+        <@crafter.div class="${contentModel.quotePosition_s}">
             <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
                 <figure class="figure">
                         <@crafter.img $field="image_s" class="img-responsive" src=(contentModel.image_s) alt="" />
                 </figure>
             </a>
-        </div>
+        </@crafter.div>
         <@crafter.span $field="sideContent_html">
         ${contentModel.sideContent_html}
         </@crafter.span>
