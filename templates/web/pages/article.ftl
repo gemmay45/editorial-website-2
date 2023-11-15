@@ -25,9 +25,15 @@
 			<!-- Content -->
 			<section>
         <div class="the-mag-detail__header">
-          <div class="the-mag-cat" $field="categories_o" $index=1>
-            ${contentModel.categories_o.item[0]}
-          </div>        
+            <#if contentModel.categories_o.item??>
+            <#list contentModel.categories_o.item as cat>
+              <#assign index = cat?index />
+              <@crafter.div $field="categories_o" $index=index class="the-mag-cat">
+                <@renderComponent component=cat />
+              </@crafter.div>
+            </#list>
+          </#if>
+
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
           </@crafter.h1>
