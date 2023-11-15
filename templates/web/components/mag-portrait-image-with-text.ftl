@@ -3,7 +3,7 @@
 <div class="content-row">
     <div class="content-col">
 
-        <@crafter.div class="${contentModel.quotePosition_s}">
+        <@crafter.div class="${contentModel.imagePosition_s}">
             <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
                 <figure class="figure">
                         <@crafter.img $field="image_s" class="img-responsive" src=(contentModel.image_s) alt="" />
