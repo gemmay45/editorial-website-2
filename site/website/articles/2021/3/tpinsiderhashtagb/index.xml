@@ -311,9 +311,6 @@
         <lastModifiedDate>2023-11-14T06:34:01.464Z</lastModifiedDate>
       </component>
 	</item></pageSections_o>
-	<categories_o>	<item>	<key>people</key>
-	<value_smv>PEOPLE</value_smv>
-	</item></categories_o>
 	<segments_o>	<item>	<key>guy</key>
 	<value_smv>Guy</value_smv>
 	</item>	<item>	<key>gal</key>
@@ -323,8 +320,9 @@
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1407-t.jpeg</image_s>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-15T03:22:30.971Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-15T03:22:30.971Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-15T04:36:26.810Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-15T04:36:26.810Z</lastModifiedDate_dt>
 	<date_dt>2023-11-13T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	<categories_s>people</categories_s>
 </page>
