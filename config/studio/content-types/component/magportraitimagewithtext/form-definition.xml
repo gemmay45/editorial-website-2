@@ -9,7 +9,7 @@
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
-			<value>/templates/web/Mag-Portrait-image-with-text.ftl</value>
+			<value>/templates/web/components/mag-portrait-image-with-text.ftl</value>
 			<type>template</type>
 		</property>
 		<property>
