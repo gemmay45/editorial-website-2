@@ -306,7 +306,7 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value>uploadImages,existingImages</value>
 							<type>datasource:image</type>
 						</property>
 						<property>
@@ -504,7 +504,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/</value>
+							<value>/static-assets/images/the-mag</value>
 								<type>content-path-input</type>
 						</property>
 					</properties>
@@ -517,7 +517,7 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/</value>
+							<value>/static-assets/images/the-mag</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
