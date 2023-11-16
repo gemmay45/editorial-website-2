@@ -1281,6 +1281,10 @@ body.the-mag {
   clear: both
 }
 
+.the-mag-detail__content .content-row {
+  margin: 0 0 0.5em 0;
+}
+
 @media (min-width: 992px) {
   .the-mag-detail__content .content-row {
       margin-right:0;
