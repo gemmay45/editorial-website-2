@@ -27,7 +27,7 @@
   <createdDate>2021-03-14T23:41:13.000Z</createdDate>
   <createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T09:07:26.187Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T09:08:09.590Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T09:08:17.843Z</lastModifiedDate_dt>
   <date_dt>2017-03-13T16:00:00.000Z</date_dt>
   <pageSections_o item-list="true">
     <item inline="true">
@@ -55,23 +55,7 @@
       </component>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item inline="true">
-      <key>36151523-f925-4306-8418-bff24be8b758</key>
-      <value><![CDATA[New Mag Text]]></value>
-      <component id="36151523-f925-4306-8418-bff24be8b758">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>36151523-f925-4306-8418-bff24be8b758.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T09:08:09.590Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T09:08:09.590Z</lastModifiedDate_dt>
-        <objectId>36151523-f925-4306-8418-bff24be8b758</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
-      </component>
-    </item>
+
     <item inline="true">
       <key>6b1a7eb9-6fb9-ce5c-65fa-6c625ee097ff</key>
       <value>New Text</value>
@@ -93,6 +77,23 @@
         <createdDate_dt>2023-11-16T09:00:29.496Z</createdDate_dt>
         <lastModifiedDate>2023-11-16T09:00:29.496Z</lastModifiedDate>
         <lastModifiedDate_dt>2023-11-16T09:08:06.061Z</lastModifiedDate_dt>
+      </component>
+    </item>
+    <item inline="true">
+      <key>36151523-f925-4306-8418-bff24be8b758</key>
+      <value><![CDATA[New Mag Text]]></value>
+      <component id="36151523-f925-4306-8418-bff24be8b758">
+        <content-type>/component/magtext</content-type>
+        <display-template>/templates/web/components/mag-text.ftl</display-template>
+        <internal-name><![CDATA[New Mag Text]]></internal-name>
+        <file-name>36151523-f925-4306-8418-bff24be8b758.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-16T09:08:09.590Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-16T09:08:09.590Z</lastModifiedDate_dt>
+        <objectId>36151523-f925-4306-8418-bff24be8b758</objectId>
+        <sectionId_s/>
+        <title_s><![CDATA[Title goes here]]></title_s>
+        <content_html><![CDATA[Content goes here]]></content_html>
       </component>
     </item>
   </pageSections_o>
