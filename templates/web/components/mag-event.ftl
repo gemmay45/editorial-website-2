@@ -8,9 +8,9 @@
             ${contentModel.title_s!""}
             </@crafter.h3>
 
-            <@crafter $field="summary_html">
+            <@crafter.span $field="summary_html">
             ${contentModel.summary_html}
-            </@crafter>
+            </@crafter.span>
         </div>
     <div class="content-col image-col">
 
