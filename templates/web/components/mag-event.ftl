@@ -9,7 +9,7 @@
             </@crafter.h3>
 
             <@crafter $field="summary_html">
-            ${contentModel.summary_html!""}
+            ${contentModel.summary_html}
             </@crafter>
         </div>
     <div class="content-col image-col">
