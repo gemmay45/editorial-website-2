@@ -1038,7 +1038,7 @@ body.the-mag {
   }
 }
 
-.the-mag .theMagGalleryImageLink {
+.the-mag .theMagGalleryImageLink a {
   background-color: transparent
 }
 
