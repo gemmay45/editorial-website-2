@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T04:33:19.564Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T04:33:19.564Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T04:35:09.374Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T04:35:09.374Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -122,6 +122,7 @@
       </component>
 	</item>	<item inline="true">	<key>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</key>
 	<value>New Mag Event</value>
+	<disableFlattening>false</disableFlattening>
 <component id="f41f3e92-256e-4231-8f3d-b6bbdfbc5117">
 	<content-type>/component/magevent</content-type>
 	<display-template>/templates/web/components/mag-event.ftl</display-template>
@@ -130,7 +131,7 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>f41f3e92-256e-4231-8f3d-b6bbdfbc5117.xml</file-name>
 	<createdDate_dt>2023-11-16T04:33:20.564Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-16T04:33:20.564Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-16T04:35:10.354Z</lastModifiedDate_dt>
 	<objectId>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</objectId>
 	<sectionId_s/>
 	<title_s>Hashtag B</title_s>
@@ -139,12 +140,15 @@
 	<image_s/>
 	<event_o item-list="true">	<item>	<icon_s>fas fa-calendar-alt</icon_s>
 	<content_html>Monday-Friday, 9am-6pm</content_html>
+	</item>	<item>	<icon_s>fas fa-map-marker-alt</icon_s>
+	<content_html>Area A, G/F, Berkshire House, Taikoo Place</content_html>
+	</item>	<item>	<icon_s>fas fa-map-marker-alt</icon_s>
+	<content_html>&lt;span style="text-decoration: underline;"&gt;&lt;a href="http://www.hashtag-b.com/" target="_blank" rel="noopener noreferrer"&gt;hashtag-b.com &lt;/a&gt;&lt;/span&gt;</content_html>
 	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-16T04:33:20.564Z</createdDate>
-	<lastModifiedDate>2023-11-16T04:33:20.564Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-16T04:35:10.354Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<categories_s>Taikoo This Month</categories_s>
 </page>
