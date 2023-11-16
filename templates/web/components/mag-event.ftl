@@ -3,7 +3,7 @@
 <section id="${contentModel.sectionId_s}" class="parallax-section">
 <div class="content-event">
     <div class="content-row">
-        <#if contentModel.summary_html??>
+        <#if summary_html??>
             <div class="content-col">
                 <@crafter.h3 $field="title_s">
                 ${contentModel.title_s!""}
