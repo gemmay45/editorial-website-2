@@ -1282,7 +1282,7 @@ body.the-mag {
 }
 
 .the-mag-detail__content .content-row {
-  margin: 0;
+  margin: 0 0 0.2em 0;
 }
 
 @media (min-width: 992px) {
@@ -1300,6 +1300,10 @@ body.the-mag {
 
 .the-mag-detail__content .content-row {
   padding-top: 40px
+}
+
+.the-mag-detail__content .content-row p {
+  margin: 0
 }
 
 @media (min-width: 992px) {
