@@ -11,7 +11,7 @@
     <div class="content-col image-col">
 
             <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
-                <@crafter.img $field="image_s" class="img-responsive lazy lz-loading" alt="" src=(contentModel.imageOnDesktop_s) $attributes={'data-ll-status': 'loading'} />
+                <@crafter.img $field="image_s" class="img-responsive lazy lz-loading" alt="" src=(contentModel.image_s) $attributes={'data-ll-status': 'loading'} />
                 <div class="icon-enlargephoto"></div>
             </a>
         </div>
