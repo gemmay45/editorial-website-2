@@ -39,7 +39,7 @@
             	<#if contentModel.pageSections_o.item??>
                     <#list contentModel.pageSections_o.item as section>
                       <#assign index = section?index />
-                      <#if index == 1>
+                      <#if index == 0>
                           <@crafter.div $field="pageSections_o" $index=index>
                             <@renderComponent component=section />
                           </@crafter.div>
