@@ -51,6 +51,15 @@
 		</div>
 	</div>
 
+    <ul class="the-mag-detail__content__info">
+        <li><i aria-hidden="true" class="fas fa-clock"> </i>09 Nov 2023</li>
+    </ul>
+    
+    <p class="the-mag-detail__content__tags">
+        <i aria-hidden="true" class="fas fa-tag"></i>
+        <a href="javascript:searchByTag('tag:PEOPLE')">PEOPLE</a>
+    </p>
+                
 	<#assign articleCategories = contentModel.queryValues("//categories_o/item/key")/>
 	<#assign articlePath = contentModel.storeUrl />
 	<#assign additionalModel = {"articleCategories": articleCategories, "articlePath": articlePath }/>
