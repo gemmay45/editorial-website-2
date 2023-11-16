@@ -1326,6 +1326,16 @@ body.the-mag {
   padding: 0
 }
 
+.the-mag-detail__content .content-row~.content-event {
+  padding-top: 0
+}
+
+@media (min-width: 992px) {
+  .the-mag-detail__content .content-row~.content-event {
+      padding-top:0
+  }
+}
+
 .the-mag-detail__content .content-row .content-col {
   padding: 0
 }
