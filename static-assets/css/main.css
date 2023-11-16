@@ -661,7 +661,7 @@ hr.major {
 }
 
 .the-mag hr.major {
-  margin: 0;
+  margin: 0.5em 0;
   border: 0;
 }
 
