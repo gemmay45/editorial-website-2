@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T04:37:10.672Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T04:37:10.672Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T05:11:22.027Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T05:11:22.027Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -56,18 +56,22 @@
 	<value>New Mag Text</value>
 	<disableFlattening>false</disableFlattening>
 <component id="ca5dae3e-8f53-4a60-8c6e-e1e28b49c627">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>ca5dae3e-8f53-4a60-8c6e-e1e28b49c627.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T04:21:31.420Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T04:21:45.903Z</lastModifiedDate_dt>
-        <objectId>ca5dae3e-8f53-4a60-8c6e-e1e28b49c627</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[<p><strong><span style="color: black;">Find the latest events, openings and top deals in Quarry Bay for November 2023.&nbsp;</span></strong></p>]]></content_html>
-      </component>
+	<content-type>/component/magtext</content-type>
+	<display-template>/templates/web/components/mag-text.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Text</internal-name>
+	<file-name>ca5dae3e-8f53-4a60-8c6e-e1e28b49c627.xml</file-name>
+	<createdDate_dt>2023-11-16T05:11:23.335Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-16T05:11:23.335Z</lastModifiedDate_dt>
+	<objectId>ca5dae3e-8f53-4a60-8c6e-e1e28b49c627</objectId>
+	<sectionId_s/>
+	<title_s no-default="true"/>
+	<content_html>&lt;p&gt;&lt;strong&gt;&lt;span style="color: black;"&gt;Find the latest events, openings and top deals in Quarry Bay for November 2023.&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</content_html>
+	<folder-name/>
+	<createdDate>2023-11-16T05:11:23.335Z</createdDate>
+	<lastModifiedDate>2023-11-16T05:11:23.335Z</lastModifiedDate>
+</component>
 	</item>	<item inline="true">	<key>e7e1a921-ce5d-421d-991c-07ef6e770790</key>
 	<value>New Mag Text</value>
 	<disableFlattening>false</disableFlattening>
