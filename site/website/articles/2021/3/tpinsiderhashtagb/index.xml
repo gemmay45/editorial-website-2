@@ -255,26 +255,6 @@
     </item>
 
     <item inline="true">
-      <key>a3fe7f81-8cce-4b7c-bdba-9ae183f3876e</key>
-      <value><![CDATA[New Mag Quote With Portrait Image]]></value>
-      <component id="a3fe7f81-8cce-4b7c-bdba-9ae183f3876e">
-        <content-type>/component/magquotewithportraitimage</content-type>
-        <display-template>/templates/web/components/mag-quote-with-portrait-image.ftl</display-template>
-        <internal-name><![CDATA[New Mag Quote With Portrait Image]]></internal-name>
-        <file-name>a3fe7f81-8cce-4b7c-bdba-9ae183f3876e.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T08:04:30.980Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T08:04:30.980Z</lastModifiedDate_dt>
-        <objectId>a3fe7f81-8cce-4b7c-bdba-9ae183f3876e</objectId>
-        <sectionId_s/>
-        <quote_t/>
-        <quoteBy_s/>
-        <quoteStyle_s/>
-        <quotePosition_s/>
-        <sideImage_s><![CDATA[https://via.placeholder.com/150x150]]></sideImage_s>
-      </component>
-    </item>
-    <item inline="true">
       <key>7b417c41-ffe0-4e99-8b5c-f106156f0d36</key>
       <value>New Mag Text</value>
       <disableFlattening>false</disableFlattening>
@@ -384,7 +364,7 @@
   <createdDate>2023-11-14T01:31:05.921Z</createdDate>
   <createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T07:19:21.813Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T08:04:30.981Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T08:04:59.532Z</lastModifiedDate_dt>
   <date_dt>2023-11-08T16:00:00.000Z</date_dt>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>People</categories_s>
