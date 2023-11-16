@@ -27,7 +27,6 @@
         <div class="the-mag-detail__header">
         
           <@crafter.div class="the-mag-cat" $field="categories_s">
-${contentModel.categories_s.item!""}
             ${contentModel.categories_s!""}
           </@crafter.div>
           <@crafter.h1 $field="subject_t">
