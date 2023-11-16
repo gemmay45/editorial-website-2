@@ -3,7 +3,6 @@
 <section id="${contentModel.sectionId_s}" class="parallax-section">
 <div class="content-event">
     <div class="content-row">
-        <#if contentModel.image_s??>
         <div class="content-col">
             <@crafter.h3 $field="title_s">
             ${contentModel.title_s!""}
@@ -20,9 +19,6 @@
                 <div class="icon-enlargephoto"></div>
             </a>
         </div>
-        <#else>
-            <div class="content-col">&nbsp</div>
-        </#if>
     </div>
     <div class="box-wrapper">
         <div class="box">
