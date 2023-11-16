@@ -139,32 +139,6 @@
     </item>
 
     <item inline="true">
-      <key>b9f54705-2b2f-4158-aab3-51bbc4e3d9e3</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="b9f54705-2b2f-4158-aab3-51bbc4e3d9e3">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Mag Text</internal-name>
-        <file-name>b9f54705-2b2f-4158-aab3-51bbc4e3d9e3.xml</file-name>
-        <createdDate_dt>2023-11-14T05:24:18.966Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-15T04:54:54.755Z</lastModifiedDate_dt>
-        <objectId>b9f54705-2b2f-4158-aab3-51bbc4e3d9e3</objectId>
-        <sectionId_s/>
-        <title_s>Title goes here</title_s>
-        <content_html>&lt;p&gt;&lt;strong&gt;Which items are your best-sellers? Any personal favourites?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Our best-seller is our Napoleon egg tart. Coming straight out the oven, its warm filling, caramel layer and napoleon crust are sensational &amp;ndash; the perfect combo!&lt;/p&gt;
-&lt;p&gt;My favourite items are our pastry items because we spent a lot of time mastering our use of butter and layering pastry. Our products are slightly more buttery yet maintain an amazing crunch; I love having them fresh and crispy.&lt;/p&gt;
-&lt;p&gt;&lt;img style="height: 76%; width: 100%;" src="https://www.taikooplace.com/-/media/images/taikooplace/siteimages/themag2023/november-2023/tpinsider/eggtart-wide.ashx?h=76%25&amp;amp;w=100%25" alt="" /&gt;&lt;/p&gt;</content_html>
-        <folder-name/>
-        <createdDate>2023-11-14T05:24:18.966Z</createdDate>
-        <lastModifiedDate>2023-11-15T04:54:54.755Z</lastModifiedDate>
-      </component>
-    </item>
-
-    <item inline="true">
       <key>0828ba25-cb97-42a1-abc0-6875b75d420c</key>
       <value><![CDATA[New Mag Text]]></value>
       <component id="0828ba25-cb97-42a1-abc0-6875b75d420c">
@@ -339,7 +313,7 @@
   <createdDate>2023-11-14T01:31:05.921Z</createdDate>
   <createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T07:19:21.813Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T08:09:14.648Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T08:09:43.760Z</lastModifiedDate_dt>
   <date_dt>2023-11-08T16:00:00.000Z</date_dt>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>People</categories_s>
