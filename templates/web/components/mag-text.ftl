@@ -2,7 +2,7 @@
  
 <section id="${contentModel.sectionId_s}" class="parallax-section">
   <div class="container">
-    <div class="row">
+    <div class="content-row">
         <@crafter.div
             $field="content_html"
             $index=index
