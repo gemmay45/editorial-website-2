@@ -6,28 +6,25 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>52e8</objectGroupId>
 	<objectId>52e8e75d-94f8-ae0b-3317-8d592b3d7dce</objectId>
-	<internal-name>tpinsideroutwardbound</internal-name>
-	<title_t>Top Clubs In Virginia</title_t>
-	<subject_t>Taikoo Place Insiders: Nick Cotton, executive director of Outward Bound Hong Kong, organiser of HK Vertical 1000</subject_t>
+	<internal-name>taikoothismonthnov2023</internal-name>
+	<title_t>Taikoo This Month November 2023</title_t>
+	<subject_t>Taikoo This Month November 2023</subject_t>
 	<author_s>John Doe</author_s>
 	<file-name>index.xml</file-name>
-	<folder-name>pinsideroutwardbound</folder-name>
-	<categories_o>	<item>	<key>entertainment</key>
-	<value_smv>Entertainment</value_smv>
-	</item></categories_o>
+	<folder-name>aikoothismonthnov2023</folder-name>
 	<segments_o>	<item>	<key>guy</key>
 	<value_smv>Guy</value_smv>
 	</item>	<item>	<key>gal</key>
 	<value_smv>Gal</value_smv>
 	</item></segments_o>
 	<featured_b>true</featured_b>
-	<summary_t>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam a elit justo. Morbi sagittis pulvinar tristique. Aenean pharetra risus a libero faucibus, iaculis porta mi ornare. Update</summary_t>
+	<summary_t>Find the latest events, openings and top deals in Quarry Bay for November 2023.</summary_t>
 	<image_s>/static-assets/images/the-mag/themag2023/october-2023/tpinsider/image1.jpg</image_s>
-	<date_dt>2021-03-04T16:00:00.000Z</date_dt>
+	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-14T06:58:58.362Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-14T06:58:58.362Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T03:59:12.070Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T03:59:12.070Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -59,4 +56,5 @@
         <lastModifiedDate>2023-11-14T03:35:44.211Z</lastModifiedDate>
       </component>
 	</item></pageSections_o>
+	<categories_s>Taikoo This Month</categories_s>
 </page>
