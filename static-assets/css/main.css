@@ -1046,6 +1046,7 @@ body.the-mag {
   text-decoration: none;
   outline: 0;
   color: #000
+  border: none;
 }
 
 .the-mag-quote .hr {
