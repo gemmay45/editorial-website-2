@@ -1,43 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/article</content-type>
-  <display-template>/templates/web/pages/article.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>6121</objectGroupId>
-  <objectId>6121741f-8b6f-75ce-151b-75e57f04da13</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>5-popular-diets-for-women</folder-name>
-  <featured_b>true</featured_b>
-  <internal-name>5 Popular Diets for Women</internal-name>
-  <title_t>5 Popular Diets for Women</title_t>
-  <subject_t>5 Popular Diets for Women</subject_t>
-  <author_s>Jane Doe</author_s>
-  <categories_o>
-    <item>
-      <key>health</key>
-      <value_smv>Health</value_smv>
-    </item>
-  </categories_o>
-  <segments_o>
-    <item>
-      <key>gal</key>
-      <value_smv>Gal</value_smv>
-    </item>
-  </segments_o>
-  <summary_t>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6121</objectGroupId>
+	<objectId>6121741f-8b6f-75ce-151b-75e57f04da13</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>5-popular-diets-for-women</folder-name>
+	<featured_b>true</featured_b>
+	<internal-name>5 Popular Diets for Women</internal-name>
+	<title_t>5 Popular Diets for Women</title_t>
+	<subject_t>5 Popular Diets for Women</subject_t>
+	<author_s>Jane Doe</author_s>
+	<segments_o>	<item>	<key>gal</key>
+	<value_smv>Gal</value_smv>
+	</item></segments_o>
+	<summary_t>
     Donec euismod et ligula quis porta. Vivamus lacinia tortor lectus, a dictum nisi
     efficitur consequat. Duis posuere aliquet massa, quis sollicitudin dolor fringilla nec.
   </summary_t>
-  <image_s>/static-assets/images/diets-women-pic.jpg</image_s>
-  <createdDate>2021-03-14T23:41:13.000Z</createdDate>
-  <createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
-  <lastModifiedDate>2023-11-14T06:58:51.425Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T08:48:36.554Z</lastModifiedDate_dt>
-  <date_dt>2017-03-13T16:00:00.000Z</date_dt>
-  <pageSections_o item-list="true"/>
-  <disabled>false</disabled>
-  <header_o item-list="true"/>
-  <left_rail_o item-list="true"/>
-  <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	<image_s>/static-assets/images/diets-women-pic.jpg</image_s>
+	<createdDate>2021-03-14T23:41:13.000Z</createdDate>
+	<createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
+	<lastModifiedDate>2023-11-16T08:48:44.624Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T08:48:44.624Z</lastModifiedDate_dt>
+	<date_dt>2017-03-13T16:00:00.000Z</date_dt>
+	<pageSections_o item-list="true"/>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	<categories_s/>
 </page>
