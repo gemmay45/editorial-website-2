@@ -1042,6 +1042,12 @@ body.the-mag {
   background-color: transparent
 }
 
+.the-mag .theMagGalleryImageLink a,a:active,a:focus,a:hover,a:link,a:visited {
+  text-decoration: none;
+  outline: 0;
+  color: #000
+}
+
 .the-mag-quote .hr {
   padding: 0;
   border: none;
