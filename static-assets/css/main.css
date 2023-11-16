@@ -1445,6 +1445,10 @@ body.the-mag {
   }
 }
 
+.the-mag-detail__content .content-row .content-col.hero {
+  padding-top: 0
+}
+
 @media (min-width: 992px) {
   .the-mag-detail__content .content-row.eq-height {
       display:-ms-flexbox;
