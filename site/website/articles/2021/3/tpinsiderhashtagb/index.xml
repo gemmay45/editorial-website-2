@@ -253,26 +253,7 @@
         <lastModifiedDate>2023-11-15T04:56:28.214Z</lastModifiedDate>
       </component>
     </item>
-    <item inline="true">
-      <key>9f675671-fcf0-49a1-8c24-5bfc8bcb015a</key>
-      <value><![CDATA[New Mag Event]]></value>
-      <component id="9f675671-fcf0-49a1-8c24-5bfc8bcb015a">
-        <content-type>/component/magevent</content-type>
-        <display-template>/templates/web/components/mag-event.ftl</display-template>
-        <internal-name><![CDATA[New Mag Event]]></internal-name>
-        <file-name>9f675671-fcf0-49a1-8c24-5bfc8bcb015a.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T08:02:34.162Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T08:02:34.162Z</lastModifiedDate_dt>
-        <objectId>9f675671-fcf0-49a1-8c24-5bfc8bcb015a</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Event Title]]></title_s>
-        <summary_html><![CDATA[Event Summary]]></summary_html>
-        <imagePosition_s/>
-        <image_s/>
-        <event_o/>
-      </component>
-    </item>
+
     <item inline="true">
       <key>7b417c41-ffe0-4e99-8b5c-f106156f0d36</key>
       <value>New Mag Text</value>
@@ -383,7 +364,7 @@
   <createdDate>2023-11-14T01:31:05.921Z</createdDate>
   <createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T07:19:21.813Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T08:02:34.162Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T08:02:59.918Z</lastModifiedDate_dt>
   <date_dt>2023-11-08T16:00:00.000Z</date_dt>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>People</categories_s>
