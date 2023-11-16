@@ -27,7 +27,7 @@
   <createdDate>2021-03-14T23:41:13.000Z</createdDate>
   <createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T09:07:26.187Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T09:09:38.834Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T09:09:57.218Z</lastModifiedDate_dt>
   <date_dt>2017-03-13T16:00:00.000Z</date_dt>
   <pageSections_o item-list="true">
     <item inline="true">
@@ -54,23 +54,6 @@
         <lastModifiedDate>2023-11-16T09:07:27.051Z</lastModifiedDate>
       </component>
       <disableFlattening>false</disableFlattening>
-    </item>
-    <item inline="true">
-      <key>97dcbd99-85b7-4936-aedf-6f3d5a839410</key>
-      <value><![CDATA[New Mag Text]]></value>
-      <component id="97dcbd99-85b7-4936-aedf-6f3d5a839410">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>97dcbd99-85b7-4936-aedf-6f3d5a839410.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T09:09:38.833Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T09:09:38.833Z</lastModifiedDate_dt>
-        <objectId>97dcbd99-85b7-4936-aedf-6f3d5a839410</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
-      </component>
     </item>
   </pageSections_o>
   <disabled>false</disabled>
