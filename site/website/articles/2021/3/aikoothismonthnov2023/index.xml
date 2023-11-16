@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T05:37:41.418Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T05:37:41.418Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T07:42:42.277Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T07:42:42.277Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -128,38 +128,31 @@
 	<value>New Mag Event</value>
 	<disableFlattening>false</disableFlattening>
 <component id="f41f3e92-256e-4231-8f3d-b6bbdfbc5117">
-        <content-type>/component/magevent</content-type>
-        <display-template>/templates/web/components/mag-event.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Mag Event</internal-name>
-        <file-name>f41f3e92-256e-4231-8f3d-b6bbdfbc5117.xml</file-name>
-        <createdDate_dt>2023-11-16T04:33:20.564Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T04:37:11.678Z</lastModifiedDate_dt>
-        <objectId>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</objectId>
-        <sectionId_s/>
-        <title_s>Hashtag B</title_s>
-        <summary_html>&lt;p&gt;There&amp;rsquo;s a new bakery on the block at Taikoo Place &amp;ndash;Hashtag B! This homegrown brand aims to redefine the classic Hong Kong bakery experience with creative flavours. They meticulously handpick premium ingredients from different countries, providing the finest and freshest products to their customers. With a variety of freshly baked delights available daily, such as their signature Napol&amp;eacute;on Tart, Earl Grey Cream Cheese Bagel and the exclusive Salmon Croissant, there&amp;rsquo;s never been a better excuse for an afternoon treat.&lt;/p&gt;</summary_html>
-        <imagePosition_s/>
-        <image_s>/static-assets/images/the-mag/themag2023/november-2023/taikoothismonthnov2023/hashtag-b.jpg</image_s>
-        <event_o item-list="true">
-          <item>
-            <icon_s>fas fa-calendar-alt</icon_s>
-            <content_html>Monday-Friday, 9am-6pm</content_html>
-          </item>
-          <item>
-            <icon_s>fas fa-map-marker-alt</icon_s>
-            <content_html>Area A, G/F, Berkshire House, Taikoo Place</content_html>
-          </item>
-          <item>
-            <icon_s>fas fa-map-marker-alt</icon_s>
-            <content_html>&lt;span style="text-decoration: underline;"&gt;&lt;a href="http://www.hashtag-b.com/" target="_blank" rel="noopener noreferrer"&gt;hashtag-b.com &lt;/a&gt;&lt;/span&gt;</content_html>
-          </item>
-        </event_o>
-        <folder-name/>
-        <createdDate>2023-11-16T04:33:20.564Z</createdDate>
-        <lastModifiedDate>2023-11-16T04:37:11.678Z</lastModifiedDate>
-      </component>
+	<content-type>/component/magevent</content-type>
+	<display-template>/templates/web/components/mag-event.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Event</internal-name>
+	<file-name>f41f3e92-256e-4231-8f3d-b6bbdfbc5117.xml</file-name>
+	<createdDate_dt>2023-11-16T04:33:20.564Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-16T07:42:43.336Z</lastModifiedDate_dt>
+	<objectId>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</objectId>
+	<sectionId_s/>
+	<title_s>Hashtag B</title_s>
+	<summary_html>&lt;p&gt;There&amp;rsquo;s a new bakery on the block at Taikoo Place &amp;ndash;Hashtag B! This homegrown brand aims to redefine the classic Hong Kong bakery experience with creative flavours. They meticulously handpick premium ingredients from different countries, providing the finest and freshest products to their customers. With a variety of freshly baked delights available daily, such as their signature Napol&amp;eacute;on Tart, Earl Grey Cream Cheese Bagel and the exclusive Salmon Croissant, there&amp;rsquo;s never been a better excuse for an afternoon treat.&lt;/p&gt;</summary_html>
+	<imagePosition_s/>
+	<image_s>/static-assets/images/the-mag/themag2023/november-2023/taikoothismonthnov2023/hashtag-b.jpg</image_s>
+	<event_o item-list="true">	<item>	<icon_s>fas fa-calendar-alt</icon_s>
+	<content_html>Monday-Friday, 9am-6pm</content_html>
+	</item>	<item>	<icon_s>fas fa-map-marker-alt</icon_s>
+	<content_html>Area A, G/F, Berkshire House, Taikoo Place</content_html>
+	</item>	<item>	<icon_s>fas fa-globe</icon_s>
+	<content_html>&lt;span style="text-decoration: underline;"&gt;&lt;a href="http://www.hashtag-b.com/" target="_blank" rel="noopener noreferrer"&gt;hashtag-b.com &lt;/a&gt;&lt;/span&gt;</content_html>
+	</item></event_o>
+	<folder-name/>
+	<createdDate>2023-11-16T04:33:20.564Z</createdDate>
+	<lastModifiedDate>2023-11-16T07:42:43.336Z</lastModifiedDate>
+</component>
 	</item></pageSections_o>
 	<categories_s>Taikoo This Month</categories_s>
 </page>
