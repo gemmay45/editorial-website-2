@@ -1042,10 +1042,9 @@ body.the-mag {
   background-color: transparent
 }
 
-.the-mag .theMagGalleryImageLink a,a:active,a:focus,a:hover,a:link,a:visited {
+.the-mag a,a:active,a:focus,a:hover,a:link,a:visited {
   text-decoration: none;
   outline: 0;
-  color: #000
   border: none;
 }
 
@@ -1259,8 +1258,8 @@ body.the-mag {
 
 @media (min-width: 992px) {
   .the-mag-detail__content .content-row {
-      margin-right:-15px;
-      margin-left: -15px
+      margin-right:0;
+      margin-left: 0
   }
 }
 
