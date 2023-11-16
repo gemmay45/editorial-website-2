@@ -29,7 +29,7 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T04:26:36.042Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T04:32:15.240Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T04:32:36.643Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -132,6 +132,26 @@
         <folder-name/>
         <createdDate>2023-11-16T04:09:47.330Z</createdDate>
         <lastModifiedDate>2023-11-16T04:26:37.034Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</key>
+      <value><![CDATA[New Mag Event]]></value>
+      <component id="f41f3e92-256e-4231-8f3d-b6bbdfbc5117">
+        <content-type>/component/magevent</content-type>
+        <display-template>/templates/web/components/mag-event.ftl</display-template>
+        <internal-name><![CDATA[New Mag Event]]></internal-name>
+        <file-name>f41f3e92-256e-4231-8f3d-b6bbdfbc5117.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-16T04:32:36.642Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-16T04:32:36.642Z</lastModifiedDate_dt>
+        <objectId>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</objectId>
+        <sectionId_s/>
+        <title_s><![CDATA[Event Title]]></title_s>
+        <summary_html><![CDATA[Event Summary]]></summary_html>
+        <imagePosition_s/>
+        <image_s/>
+        <event_o/>
       </component>
     </item>
   </pageSections_o>
