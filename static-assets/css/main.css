@@ -1497,6 +1497,7 @@ body.the-mag {
 }
 
 .the-mag-detail__content .content-event {
+  padding-top: 60px;
   position: relative
 }
 
