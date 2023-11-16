@@ -1329,7 +1329,7 @@ body.the-mag {
 }
 
 .the-mag-detail__content .content-row .content-col {
-  padding: 0 15px
+  padding: 0
 }
 
 @media (min-width: 992px) {
