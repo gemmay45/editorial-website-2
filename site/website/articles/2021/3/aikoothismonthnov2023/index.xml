@@ -1,62 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/article</content-type>
-  <display-template>/templates/web/pages/article.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>52e8</objectGroupId>
-  <objectId>52e8e75d-94f8-ae0b-3317-8d592b3d7dce</objectId>
-  <internal-name>taikoothismonthnov2023</internal-name>
-  <title_t>Taikoo This Month November 2023</title_t>
-  <subject_t>Taikoo This Month November 2023</subject_t>
-  <author_s>John Doe</author_s>
-  <file-name>index.xml</file-name>
-  <folder-name>aikoothismonthnov2023</folder-name>
-  <segments_o>
-    <item>
-      <key>guy</key>
-      <value_smv>Guy</value_smv>
-    </item>
-    <item>
-      <key>gal</key>
-      <value_smv>Gal</value_smv>
-    </item>
-  </segments_o>
-  <featured_b>true</featured_b>
-  <summary_t/>
-  <image_s>/static-assets/images/the-mag/themag2023/november-2023/taikoothismonthnov2023/hero-banner-nov-ttm.jpg</image_s>
-  <date_dt>2023-11-08T16:00:00.000Z</date_dt>
-  <createdDate>2017-03-15T0:3:41.000Z</createdDate>
-  <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-  <lastModifiedDate>2023-11-16T05:34:07.841Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T05:36:40.191Z</lastModifiedDate_dt>
-  <disabled>false</disabled>
-  <header_o item-list="true"/>
-  <left_rail_o item-list="true"/>
-  <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>e15a5bfc-0052-40d8-a67a-383957008735</key>
-      <value><![CDATA[New Mag Text]]></value>
-      <component id="e15a5bfc-0052-40d8-a67a-383957008735">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>e15a5bfc-0052-40d8-a67a-383957008735.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T05:36:40.190Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T05:36:40.190Z</lastModifiedDate_dt>
-        <objectId>e15a5bfc-0052-40d8-a67a-383957008735</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
-      </component>
-    </item>
-    <item inline="true">
-      <key>48a9ce96-89c5-4a43-b317-c8847fa84c39</key>
-      <value>New Mag Banner Image</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="48a9ce96-89c5-4a43-b317-c8847fa84c39">
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>52e8</objectGroupId>
+	<objectId>52e8e75d-94f8-ae0b-3317-8d592b3d7dce</objectId>
+	<internal-name>taikoothismonthnov2023</internal-name>
+	<title_t>Taikoo This Month November 2023</title_t>
+	<subject_t>Taikoo This Month November 2023</subject_t>
+	<author_s>John Doe</author_s>
+	<file-name>index.xml</file-name>
+	<folder-name>aikoothismonthnov2023</folder-name>
+	<segments_o>	<item>	<key>guy</key>
+	<value_smv>Guy</value_smv>
+	</item>	<item>	<key>gal</key>
+	<value_smv>Gal</value_smv>
+	</item></segments_o>
+	<featured_b>true</featured_b>
+	<summary_t/>
+	<image_s>/static-assets/images/the-mag/themag2023/november-2023/taikoothismonthnov2023/hero-banner-nov-ttm.jpg</image_s>
+	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
+	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
+	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
+	<lastModifiedDate>2023-11-16T05:36:55.202Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T05:36:55.202Z</lastModifiedDate_dt>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	<pageSections_o item-list="true">	<item inline="true">	<key>e15a5bfc-0052-40d8-a67a-383957008735</key>
+	<value>New Mag Text</value>
+<component id="e15a5bfc-0052-40d8-a67a-383957008735">
+	<content-type>/component/magtext</content-type>
+	<display-template>/templates/web/components/mag-text.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Text</internal-name>
+	<file-name>e15a5bfc-0052-40d8-a67a-383957008735.xml</file-name>
+	<createdDate_dt>2023-11-16T05:37:01.834Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-16T05:37:01.834Z</lastModifiedDate_dt>
+	<objectId>e15a5bfc-0052-40d8-a67a-383957008735</objectId>
+	<sectionId_s/>
+	<title_s no-default="true"/>
+	<content_html>&lt;p&gt;&lt;strong&gt;&lt;span style="color: black;"&gt;Find the latest events, openings and top deals in Quarry Bay for November 2023.&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</content_html>
+	<folder-name/>
+	<createdDate>2023-11-16T05:37:01.834Z</createdDate>
+	<lastModifiedDate>2023-11-16T05:37:01.834Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>48a9ce96-89c5-4a43-b317-c8847fa84c39</key>
+	<value>New Mag Banner Image</value>
+	<disableFlattening>false</disableFlattening>
+<component id="48a9ce96-89c5-4a43-b317-c8847fa84c39">
         <content-type>/component/magbannerimage</content-type>
         <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
         <no-template-required/>
@@ -76,12 +72,10 @@
         <createdDate>2023-11-16T04:07:31.691Z</createdDate>
         <lastModifiedDate>2023-11-16T04:07:31.691Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>e7e1a921-ce5d-421d-991c-07ef6e770790</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="e7e1a921-ce5d-421d-991c-07ef6e770790">
+	</item>	<item inline="true">	<key>e7e1a921-ce5d-421d-991c-07ef6e770790</key>
+	<value>New Mag Text</value>
+	<disableFlattening>false</disableFlattening>
+<component id="e7e1a921-ce5d-421d-991c-07ef6e770790">
         <content-type>/component/magtext</content-type>
         <display-template>/templates/web/components/mag-text.ftl</display-template>
         <internal-name><![CDATA[New Mag Text]]></internal-name>
@@ -94,12 +88,10 @@
         <title_s><![CDATA[Title goes here]]></title_s>
         <content_html><![CDATA[<p style="text-align: center;"><strong><span style="text-decoration: underline; font-size: 32px;">Openings &amp; Launches</span></strong></p>]]></content_html>
       </component>
-    </item>
-    <item inline="true">
-      <key>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</key>
-      <value>New Mag Event</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="a6f2583a-fa9d-4a55-bf9e-04a452fadcde">
+	</item>	<item inline="true">	<key>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</key>
+	<value>New Mag Event</value>
+	<disableFlattening>false</disableFlattening>
+<component id="a6f2583a-fa9d-4a55-bf9e-04a452fadcde">
         <content-type>/component/magevent</content-type>
         <display-template>/templates/web/components/mag-event.ftl</display-template>
         <no-template-required/>
@@ -132,12 +124,10 @@
         <createdDate>2023-11-16T04:09:47.330Z</createdDate>
         <lastModifiedDate>2023-11-16T04:26:37.034Z</lastModifiedDate>
       </component>
-    </item>
-    <item inline="true">
-      <key>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</key>
-      <value>New Mag Event</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="f41f3e92-256e-4231-8f3d-b6bbdfbc5117">
+	</item>	<item inline="true">	<key>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</key>
+	<value>New Mag Event</value>
+	<disableFlattening>false</disableFlattening>
+<component id="f41f3e92-256e-4231-8f3d-b6bbdfbc5117">
         <content-type>/component/magevent</content-type>
         <display-template>/templates/web/components/mag-event.ftl</display-template>
         <no-template-required/>
@@ -170,7 +160,6 @@
         <createdDate>2023-11-16T04:33:20.564Z</createdDate>
         <lastModifiedDate>2023-11-16T04:37:11.678Z</lastModifiedDate>
       </component>
-    </item>
-  </pageSections_o>
-  <categories_s>Taikoo This Month</categories_s>
+	</item></pageSections_o>
+	<categories_s>Taikoo This Month</categories_s>
 </page>
