@@ -29,7 +29,7 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T04:19:13.911Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T04:21:31.420Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T04:21:45.903Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -70,11 +70,11 @@
         <file-name>ca5dae3e-8f53-4a60-8c6e-e1e28b49c627.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2023-11-16T04:21:31.420Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T04:21:31.420Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2023-11-16T04:21:45.903Z</lastModifiedDate_dt>
         <objectId>ca5dae3e-8f53-4a60-8c6e-e1e28b49c627</objectId>
         <sectionId_s/>
         <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
+        <content_html><![CDATA[<p><strong><span style="color: black;">Find the latest events, openings and top deals in Quarry Bay for November 2023.&nbsp;</span></strong></p>]]></content_html>
       </component>
     </item>
     <item inline="true">
