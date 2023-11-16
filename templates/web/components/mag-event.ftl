@@ -20,6 +20,8 @@
                 <div class="icon-enlargephoto"></div>
             </a>
         </div>
+        <#else>
+            <div class="content-col">&nbsp</div>
         </#if>
     </div>
     <div class="box-wrapper">
