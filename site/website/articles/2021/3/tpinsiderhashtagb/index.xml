@@ -285,7 +285,7 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>fa8e1df6-2a08-4ce1-8224-284f326d3cfd.xml</file-name>
 	<createdDate_dt>2023-11-16T08:21:57.988Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-16T08:21:57.988Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-16T08:33:22.062Z</lastModifiedDate_dt>
 	<objectId>fa8e1df6-2a08-4ce1-8224-284f326d3cfd</objectId>
 	<sectionId_s/>
 	<title_s no-default="true"/>
@@ -301,7 +301,7 @@
 	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-16T08:21:57.988Z</createdDate>
-	<lastModifiedDate>2023-11-16T08:21:57.988Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-16T08:33:22.062Z</lastModifiedDate>
 </component>
 	</item>	<item inline="true">	<key>6cde0340-3bf9-43e8-a70b-5340bb00d0e6</key>
 	<value>New Mag Quote</value>
@@ -357,8 +357,8 @@
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1407-t.jpeg</image_s>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T08:23:51.121Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T08:23:51.121Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T08:33:21.004Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T08:33:21.004Z</lastModifiedDate_dt>
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<categories_s>People</categories_s>
