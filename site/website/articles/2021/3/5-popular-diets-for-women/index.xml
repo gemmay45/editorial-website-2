@@ -23,8 +23,8 @@
 	<image_s>/static-assets/images/diets-women-pic.jpg</image_s>
 	<createdDate>2021-03-14T23:41:13.000Z</createdDate>
 	<createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T08:56:46.521Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T08:56:46.521Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T08:57:55.809Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T08:57:55.809Z</lastModifiedDate_dt>
 	<date_dt>2017-03-13T16:00:00.000Z</date_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>6e5af418-6daf-365b-1ae9-fe2bc7e6e75d</key>
 	<value>New Banner Image</value>
@@ -48,10 +48,11 @@
 	<lastModifiedDate>2023-11-16T08:56:58.249Z</lastModifiedDate>
 	<lastModifiedDate_dt>2023-11-16T08:56:58.249Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
-	<categories_s/>
+	<categories_s>health</categories_s>
 </page>
