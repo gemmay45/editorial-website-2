@@ -34,6 +34,29 @@
           </@crafter.h1>
 		</div>
 
+		<div class="inner the-mag-detail__content the-mag-detail__main-content">
+            <@crafter.div $field="pageSections_o">
+            	<#if contentModel.pageSections_o.item??>
+                    <#list contentModel.pageSections_o.item as section>
+                      <#assign index = section?index />
+                      <@crafter.div $field="pageSections_o" $index=index>
+                        <@renderComponent component=section />
+                      </@crafter.div>
+                    </#list>
+                </#if>
+            </@crafter.div>
+        
+            <ul class="the-mag-detail__content__info">
+                <#setting time_zone = siteConfig.getString("timeZone")>
+                <li><i aria-hidden="true" class="fas fa-clock"> </i>${contentModel.date_dt?date?string['dd MMM yyyy']}</li>
+            </ul>
+                
+            <p class="the-mag-detail__content__tags">
+                <i aria-hidden="true" class="fas fa-tag"></i>
+                <a href="javascript:searchByTag('tag:${contentModel.categories_s}')">${contentModel.categories_s}</a>
+            </p>
+        </div>
+
 		<div class="inner the-mag-detail__content">
             <@crafter.div $field="pageSections_o">
             	<#if contentModel.pageSections_o.item??>
