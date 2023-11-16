@@ -23,8 +23,8 @@
 	<image_s>/static-assets/images/diets-women-pic.jpg</image_s>
 	<createdDate>2021-03-14T23:41:13.000Z</createdDate>
 	<createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T09:00:23.484Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T09:00:23.484Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T09:01:00.088Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T09:01:00.088Z</lastModifiedDate_dt>
 	<date_dt>2017-03-13T16:00:00.000Z</date_dt>
 	<pageSections_o item-list="true">	<item inline="true">	<key>6e5af418-6daf-365b-1ae9-fe2bc7e6e75d</key>
 	<value>New Banner Image</value>
@@ -69,6 +69,7 @@
 	<lastModifiedDate>2023-11-16T09:00:29.496Z</lastModifiedDate>
 	<lastModifiedDate_dt>2023-11-16T09:00:29.496Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
