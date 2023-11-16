@@ -378,8 +378,26 @@
 					<properties>
 						<property>
 							<name>repoPath</name>
-							<value>/static-assets/</value>
+							<value>/static-assets/image/the-mag</value>
 								<type>content-path-input</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>img-repository-upload</type>
+					<id>existingImages</id>
+					<title>Existing Images</title>
+					<interface>image</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/static-assets/images/the-mag</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>useSearch</name>
+							<value>false</value>
+								<type>boolean</type>
 						</property>
 					</properties>
 				</datasource>
