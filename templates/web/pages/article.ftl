@@ -36,29 +36,29 @@
 
 		<div class="inner the-mag-detail__content">
             <@crafter.div $field="pageSections_o">
-        	<#if contentModel.pageSections_o.item??>
-            <#list contentModel.pageSections_o.item as section>
-              <#assign index = section?index />
-              <@crafter.div $field="pageSections_o" $index=index>
-                <@renderComponent component=section />
-              </@crafter.div>
-            </#list>
-          </#if>
-        </@crafter.div>
+            	<#if contentModel.pageSections_o.item??>
+                    <#list contentModel.pageSections_o.item as section>
+                      <#assign index = section?index />
+                      <@crafter.div $field="pageSections_o" $index=index>
+                        <@renderComponent component=section />
+                      </@crafter.div>
+                    </#list>
+                </#if>
+            </@crafter.div>
+        
+            <ul class="the-mag-detail__content__info">
+                <li><i aria-hidden="true" class="fas fa-clock"> </i>09 Nov 2023</li>
+            </ul>
+                
+            <p class="the-mag-detail__content__tags">
+                <i aria-hidden="true" class="fas fa-tag"></i>
+                <a href="javascript:searchByTag('tag:PEOPLE')">PEOPLE</a>
+            </p>
         </div>
         
 			</section>
 		</div>
 	</div>
-
-    <ul class="the-mag-detail__content__info">
-        <li><i aria-hidden="true" class="fas fa-clock"> </i>09 Nov 2023</li>
-    </ul>
-    
-    <p class="the-mag-detail__content__tags">
-        <i aria-hidden="true" class="fas fa-tag"></i>
-        <a href="javascript:searchByTag('tag:PEOPLE')">PEOPLE</a>
-    </p>
                 
 	<#assign articleCategories = contentModel.queryValues("//categories_o/item/key")/>
 	<#assign articlePath = contentModel.storeUrl />
