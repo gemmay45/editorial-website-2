@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T04:09:46.325Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T04:09:46.325Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T04:12:03.088Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T04:12:03.088Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -54,6 +54,7 @@
       </component>
 	</item>	<item inline="true">	<key>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</key>
 	<value>New Mag Event</value>
+	<disableFlattening>false</disableFlattening>
 <component id="a6f2583a-fa9d-4a55-bf9e-04a452fadcde">
 	<content-type>/component/magevent</content-type>
 	<display-template>/templates/web/components/mag-event.ftl</display-template>
@@ -62,7 +63,7 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>a6f2583a-fa9d-4a55-bf9e-04a452fadcde.xml</file-name>
 	<createdDate_dt>2023-11-16T04:09:47.330Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-16T04:09:47.330Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-16T04:12:04.080Z</lastModifiedDate_dt>
 	<objectId>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</objectId>
 	<sectionId_s/>
 	<title_s>Qi – House of Sichuan</title_s>
@@ -72,9 +73,8 @@
 	<event_o item-list="true"/>
 	<folder-name/>
 	<createdDate>2023-11-16T04:09:47.330Z</createdDate>
-	<lastModifiedDate>2023-11-16T04:09:47.330Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-16T04:12:04.080Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>517d2a3d-a6a2-45bb-856f-5a0c9b5064fb</key>
 	<value>New Overview</value>
 	<disableFlattening>false</disableFlattening>
