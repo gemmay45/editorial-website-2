@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T04:17:31.776Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T04:17:31.776Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T04:19:13.911Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T04:19:13.911Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -63,7 +63,7 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>a6f2583a-fa9d-4a55-bf9e-04a452fadcde.xml</file-name>
 	<createdDate_dt>2023-11-16T04:09:47.330Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-16T04:17:32.762Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-16T04:19:14.911Z</lastModifiedDate_dt>
 	<objectId>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</objectId>
 	<sectionId_s/>
 	<title_s>Qi – House of Sichuan</title_s>
@@ -71,7 +71,7 @@
 	<imagePosition_s/>
 	<image_s/>
 	<event_o item-list="true">	<item>	<icon_s>fas fa-map-marker-alt</icon_s>
-	<content_html>&lt;p&gt;2/F, Berkshire House, Taikoo Place&lt;/p&gt;</content_html>
+	<content_html>2/F, Berkshire House, Taikoo Place</content_html>
 	</item>	<item>	<icon_s>fas fa-phone</icon_s>
 	<content_html>3579 8339</content_html>
 	</item>	<item>	<icon_s>fas fa-globe</icon_s>
@@ -79,7 +79,7 @@
 	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-16T04:09:47.330Z</createdDate>
-	<lastModifiedDate>2023-11-16T04:17:32.762Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-16T04:19:14.911Z</lastModifiedDate>
 </component>
 	</item>	<item inline="true">	<key>517d2a3d-a6a2-45bb-856f-5a0c9b5064fb</key>
 	<value>New Overview</value>
