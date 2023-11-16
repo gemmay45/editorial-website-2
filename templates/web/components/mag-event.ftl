@@ -11,6 +11,7 @@
     <div class="content-col image-col">
 
             <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
+                <@crafter.img $field="image_s" class="img-responsive" src=(contentModel.image_s) alt="" />
                 <img src="/-/media/images/taikooplace/siteimages/themag2023/november-2023/ttm/house-of-sichuan-nov-ttm.ashx?h=564&amp;w=750&amp;la=en&amp;hash=CD645E757206B5342DDB80582473503D" class="img-responsive lazy lz-loading" alt="" data-ll-status="loading">
                 <div class="icon-enlargephoto"></div>
             </a>
