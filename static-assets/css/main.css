@@ -1308,7 +1308,7 @@ body.the-mag {
 
 @media (min-width: 992px) {
   .the-mag-detail__content .content-row {
-      padding-top:60px
+      padding-top:60
   }
 }
 
@@ -1326,12 +1326,12 @@ body.the-mag {
   padding: 0
 }
 
-.the-mag-detail__content .content-row~.content-event {
+.the-mag-detail__content .content-event .content-row {
   padding-top: 0
 }
 
 @media (min-width: 992px) {
-  .the-mag-detail__content .content-row~.content-event {
+  .the-mag-detail__content .content-event .content-row {
       padding-top:0
   }
 }
