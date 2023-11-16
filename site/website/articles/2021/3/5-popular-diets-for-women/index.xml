@@ -23,10 +23,32 @@
 	<image_s>/static-assets/images/diets-women-pic.jpg</image_s>
 	<createdDate>2021-03-14T23:41:13.000Z</createdDate>
 	<createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T08:48:44.624Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T08:48:44.624Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T08:56:46.521Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T08:56:46.521Z</lastModifiedDate_dt>
 	<date_dt>2017-03-13T16:00:00.000Z</date_dt>
-	<pageSections_o item-list="true"/>
+	<pageSections_o item-list="true">	<item inline="true">	<key>6e5af418-6daf-365b-1ae9-fe2bc7e6e75d</key>
+	<value>New Banner Image</value>
+<component id="6e5af418-6daf-365b-1ae9-fe2bc7e6e75d">
+	<content-type>/component/magbannerimage</content-type>
+	<display-template>/templates/web/components/mag-banner-image.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6e5a</objectGroupId>
+	<objectId>6e5af418-6daf-365b-1ae9-fe2bc7e6e75d</objectId>
+	<internal-name>New Banner Image</internal-name>
+	<caption_s/>
+	<imageBackgroundColor_s/>
+	<file-name>6e5af418-6daf-365b-1ae9-fe2bc7e6e75d.xml</file-name>
+	<folder-name/>
+	<renderer_s/>
+	<imageOnDesktop_s>/static-assets/images/diets-women-pic.jpg</imageOnDesktop_s>
+	<imageOnMobile_s/>
+	<createdDate>2023-11-16T08:56:58.249Z</createdDate>
+	<createdDate_dt>2023-11-16T08:56:58.249Z</createdDate_dt>
+	<lastModifiedDate>2023-11-16T08:56:58.249Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T08:56:58.249Z</lastModifiedDate_dt>
+</component>
+	</item></pageSections_o>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
