@@ -48,6 +48,8 @@
         
             <ul class="the-mag-detail__content__info">
                 <li><i aria-hidden="true" class="fas fa-clock"> </i>${contentModel.date_dt?date?iso(siteConfig.getString("timeZone"))}</li>
+                <li><i aria-hidden="true" class="fas fa-clock"> </i>${contentModel.date_dt?date??string["dd MMMM yyyy"]}</li>
+                
             </ul>
                 
             <p class="the-mag-detail__content__tags">
