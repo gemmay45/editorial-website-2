@@ -52,7 +52,7 @@
                 
             <p class="the-mag-detail__content__tags">
                 <i aria-hidden="true" class="fas fa-tag"></i>
-                <a href="javascript:searchByTag('tag:PEOPLE')">PEOPLE</a>
+                <a href="javascript:searchByTag('tag:PEOPLE')">${contentModel.categories_s}</a>
             </p>
         </div>
         
