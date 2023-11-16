@@ -13,7 +13,6 @@
                         </figure>
                     </a>
                 </div>
-                <div class="icon-enlargephoto"></div>
         </div>
     </div>
 </section>
