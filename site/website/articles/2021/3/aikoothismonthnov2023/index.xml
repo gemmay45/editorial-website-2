@@ -29,7 +29,7 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T04:19:13.911Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T04:20:36.685Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T04:20:55.104Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -70,11 +70,11 @@
         <file-name>e7e1a921-ce5d-421d-991c-07ef6e770790.xml</file-name>
         <merge-strategy>inherit-levels</merge-strategy>
         <createdDate_dt>2023-11-16T04:20:36.684Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T04:20:36.684Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2023-11-16T04:20:55.104Z</lastModifiedDate_dt>
         <objectId>e7e1a921-ce5d-421d-991c-07ef6e770790</objectId>
         <sectionId_s/>
         <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
+        <content_html><![CDATA[<p style="text-align: center;"><strong><span style="text-decoration: underline; font-size: 32px;">Openings &amp; Launches</span></strong></p>]]></content_html>
       </component>
     </item>
     <item inline="true">
