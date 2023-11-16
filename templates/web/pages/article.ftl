@@ -34,33 +34,14 @@
           </@crafter.h1>
 		</div>
 
-		<div class="the-mag-detail__content">
-            <@crafter.div $field="pageSections_o">
-            	<#if contentModel.pageSections_o.item??>
-                    <#list contentModel.pageSections_o.item as section>
-                      <#assign index = section?index />
-                      <#if index == 0>
-                          <@crafter.div $field="pageSections_o" $index=index>
-                            <@renderComponent component=section />
-                          </@crafter.div>
-                      <#else>
-                      </#if>
-                    </#list>
-                </#if>
-            </@crafter.div>
-        </div>
-
 		<div class="inner the-mag-detail__content the-mag-detail__main-content">
             <@crafter.div $field="pageSections_o">
             	<#if contentModel.pageSections_o.item??>
                     <#list contentModel.pageSections_o.item as section>
                       <#assign index = section?index />
-                      <#if index == 0>
-                      <#else>
                           <@crafter.div $field="pageSections_o" $index=index>
                             <@renderComponent component=section />
                           </@crafter.div>
-                      </#if>
                     </#list>
                 </#if>
             </@crafter.div>
