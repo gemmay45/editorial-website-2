@@ -1302,12 +1302,12 @@ body.the-mag {
   padding-top: 40px
 }
 
-.the-mag-detail__content .content-row p {
+.the-mag-detail__content .content-row~.content-row p {
   margin: 0
 }
 
 @media (min-width: 992px) {
-  .the-mag-detail__content .content-row {
+  .the-mag-detail__content .content-row~.content-row {
       padding-top:60px
   }
 }
