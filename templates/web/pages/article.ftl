@@ -26,7 +26,7 @@
 			<section>
         <div class="the-mag-detail__header">
         
-        <#assign articleCategories = contentModel.queryValues("//categories_s/item/key")/>
+        <#assign articleCategories = contentModel.queryValues("categories_s")/>
         ${articleCategories}
           <@crafter.div class="the-mag-cat" $field="categories_s">
             ${contentModel.categories_s!""}
