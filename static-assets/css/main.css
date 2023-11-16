@@ -1298,12 +1298,12 @@ body.the-mag {
   text-underline-position: under
 }
 
-.the-mag-detail__content .content-row~.content-row {
+.the-mag-detail__content .content-row {
   padding-top: 40px
 }
 
 @media (min-width: 992px) {
-  .the-mag-detail__content .content-row~.content-row {
+  .the-mag-detail__content .content-row {
       padding-top:60px
   }
 }
