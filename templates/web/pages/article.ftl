@@ -47,7 +47,7 @@
             </@crafter.div>
         
             <ul class="the-mag-detail__content__info">
-                <li><i aria-hidden="true" class="fas fa-clock"> </i>09 Nov 2023</li>
+                <li><i aria-hidden="true" class="fas fa-clock"> </i>${contentModel.date_dt?date?iso(siteConfig.getString("timeZone"))}</li>
             </ul>
                 
             <p class="the-mag-detail__content__tags">
