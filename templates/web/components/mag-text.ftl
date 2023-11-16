@@ -9,6 +9,7 @@
           >
             ${contentModel.content_html}
           </@crafter.div>
+        <hr class="major" />
     </div>
     </div>
 </section>
