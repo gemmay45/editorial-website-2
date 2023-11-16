@@ -261,7 +261,7 @@
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value>quotePositions</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -317,7 +317,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value></value>
+							<value>/site/taxonomy/quote-positions.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
