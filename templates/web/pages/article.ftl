@@ -34,7 +34,7 @@
           </@crafter.h1>
 		</div>
 
-		<div class="inner the-mag-detail__content">
+		<div class="the-mag-detail__content">
             <@crafter.div $field="pageSections_o">
             	<#if contentModel.pageSections_o.item??>
                     <#list contentModel.pageSections_o.item as section>
