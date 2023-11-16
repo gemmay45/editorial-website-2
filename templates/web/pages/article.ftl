@@ -27,7 +27,7 @@
         <div class="the-mag-detail__header">
 
           <@crafter.div class="the-mag-cat" $field="categories_s">
-            ${contentModel.categories_s!""}
+            ${contentModel.categories_s.value!""}
           </@crafter.div>
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
@@ -52,7 +52,7 @@
                 
             <p class="the-mag-detail__content__tags">
                 <i aria-hidden="true" class="fas fa-tag"></i>
-                <a href="javascript:searchByTag('tag:PEOPLE')">${contentModel.categories_s}</a>
+                <a href="javascript:searchByTag('tag:PEOPLE')">${contentModel.categories_s.value}</a>
             </p>
         </div>
         
