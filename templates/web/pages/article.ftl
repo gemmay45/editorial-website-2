@@ -67,16 +67,18 @@
         
             <ul class="the-mag-detail__content__info">
                 <#setting time_zone = siteConfig.getString("timeZone")>
-                <li><i aria-hidden="true" class="fas fa-clock"> </i>${contentModel.date_dt?date?string['dd MMM yyyy']}</li>
+                <li><i aria-hidden="true" class="fas fa-clock"> </i>
+                <@crafter>
+                    ${contentModel.date_dt?date?string['dd MMM yyyy']}
+                </@crafter>
+                </li>
             </ul>
                 
             <p class="the-mag-detail__content__tags">
                 <i aria-hidden="true" class="fas fa-tag"></i>
-                          <@crafter.a href="javascript:searchByTag('tag:${contentModel.categories_s}')">
-            ${contentModel.categories_s!""}
-          </@crafter.a>
-
-                <a href="javascript:searchByTag('tag:${contentModel.categories_s}')">${contentModel.categories_s}</a>
+                <@crafter.a href="javascript:searchByTag('tag:${contentModel.categories_s}')">
+                    ${contentModel.categories_s!""}
+                </@crafter.a>
             </p>
         </div>
         
