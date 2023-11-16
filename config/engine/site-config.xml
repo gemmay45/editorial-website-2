@@ -21,4 +21,5 @@
 
 <site>
   <version>4.0.1</version>
+  <timeZone>Asia/Hong_Kong</timeZone>
 </site>
