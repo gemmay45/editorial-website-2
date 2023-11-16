@@ -360,23 +360,7 @@
         <lastModifiedDate>2023-11-15T07:10:13.109Z</lastModifiedDate>
       </component>
     </item>
-    <item inline="true">
-      <key>4ae85477-ff4b-49f1-aebd-fc702574f7cc</key>
-      <value><![CDATA[New Mag Text]]></value>
-      <component id="4ae85477-ff4b-49f1-aebd-fc702574f7cc">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>4ae85477-ff4b-49f1-aebd-fc702574f7cc.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T08:44:42.778Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T08:44:42.778Z</lastModifiedDate_dt>
-        <objectId>4ae85477-ff4b-49f1-aebd-fc702574f7cc</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
-      </component>
-    </item>
+
     <item inline="true">
       <key>df2f2262-236d-4a50-ae1d-fc70cd524b4b</key>
       <value>New Mag Quote With Portrait Image</value>
@@ -402,6 +386,23 @@
         <sideImage_s>/static-assets/images/the-mag/themag2023/august-2023/fwd-tl-v2.jpg</sideImage_s>
       </component>
     </item>
+    <item inline="true">
+      <key>4ae85477-ff4b-49f1-aebd-fc702574f7cc</key>
+      <value><![CDATA[New Mag Text]]></value>
+      <component id="4ae85477-ff4b-49f1-aebd-fc702574f7cc">
+        <content-type>/component/magtext</content-type>
+        <display-template>/templates/web/components/mag-text.ftl</display-template>
+        <internal-name><![CDATA[New Mag Text]]></internal-name>
+        <file-name>4ae85477-ff4b-49f1-aebd-fc702574f7cc.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-16T08:44:42.778Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-16T08:44:42.778Z</lastModifiedDate_dt>
+        <objectId>4ae85477-ff4b-49f1-aebd-fc702574f7cc</objectId>
+        <sectionId_s/>
+        <title_s><![CDATA[Title goes here]]></title_s>
+        <content_html><![CDATA[Content goes here]]></content_html>
+      </component>
+    </item>
   </pageSections_o>
   <segments_o>
     <item>
@@ -418,7 +419,7 @@
   <createdDate>2023-11-14T01:31:05.921Z</createdDate>
   <createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T08:35:56.721Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T08:44:42.779Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T08:44:56.915Z</lastModifiedDate_dt>
   <date_dt>2023-11-08T16:00:00.000Z</date_dt>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>People</categories_s>
