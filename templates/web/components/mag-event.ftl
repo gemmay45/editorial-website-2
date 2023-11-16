@@ -4,7 +4,9 @@
 <div class="content-event">
     <div class="content-row">
         <div class="content-col">
-        
+            <@crafter.h3>
+                
+            </@crafter.h3>
                     <h3>Qi – House of Sichuan</h3>
         <p>This one’s for the spice fiends; Qi – House of Sichuan will be landed in Berkshire House, following the success of the Michelin-starred Wan Chai original. Here you’ll find authentic Sichuan dishes that reflect the “seven flavours of Sichuan” – spicy, aromatic, sweet, bitter, sour, peppery and salty – so get ready for an explosive culinary adventure packed with powerful flavours, numbing mala spices and a fiery helping of heat.&nbsp;Stay tuned for its opening!</p>
     </div>
