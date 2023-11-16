@@ -1105,6 +1105,31 @@ body.the-mag {
   margin: 0 15px
 }
 
+.theMagGalleryImageLink {
+  position: relative;
+  display: inline-block
+}
+
+.theMagGalleryImageLink .icon-enlargephoto {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 20px;
+  right: 20px;
+  background: url(/files/taikooplace/images/magnifying-glass-white.png) 0 0 no-repeat
+}
+
+.theMagGalleryImageLink .icon-enlargephoto:before {
+  display: none
+}
+
+@media (min-width: 768px) {
+  .theMagGalleryImageLink .icon-enlargephoto {
+      top:10px;
+      right: 10px
+  }
+}
+
 @media (min-width: 992px) {
   .the-mag-quote .author {
       margin:0 20px
