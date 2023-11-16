@@ -18,15 +18,37 @@
 	<date_dt>2021-02-13T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-3T20:14:16.000Z</createdDate>
 	<createdDate_dt>2017-03-3T20:14:16.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T15:06:19.923Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T15:06:19.923Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T15:07:38.694Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T15:07:38.694Z</lastModifiedDate_dt>
 	<featured_b>true</featured_b>
 	<summary_t>Suspendisse a faucibus orci. Sed porta justo vel sapien iaculis pulvinar. Quisque bibendum pretium lectus ut auctor. Integer vitae libero volutpat est congue lacinia. Morbi at massa odio. Quisque non elit tellus. Donec porttitor viverra tortor. </summary_t>
 	<image_s>/static-assets/images/romantic-pic.jpg</image_s>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
-	<pageSections_o item-list="true"/>
+	<pageSections_o item-list="true">	<item inline="true">	<key>ecbcece1-80ee-b9e6-0988-71362dee4480</key>
+	<value>Banner</value>
+<component id="ecbcece1-80ee-b9e6-0988-71362dee4480">
+	<content-type>/component/magbannerimage</content-type>
+	<display-template>/templates/web/components/mag-banner-image.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>ecbc</objectGroupId>
+	<objectId>ecbcece1-80ee-b9e6-0988-71362dee4480</objectId>
+	<internal-name>Banner</internal-name>
+	<caption_s/>
+	<imageBackgroundColor_s/>
+	<renderer_s/>
+	<imageOnDesktop_s>/static-assets/images/romantic-pic.jpg</imageOnDesktop_s>
+	<imageOnMobile_s/>
+	<file-name>ecbcece1-80ee-b9e6-0988-71362dee4480.xml</file-name>
+	<folder-name/>
+	<createdDate>2023-11-16T15:07:51.039Z</createdDate>
+	<createdDate_dt>2023-11-16T15:07:51.039Z</createdDate_dt>
+	<lastModifiedDate>2023-11-16T15:07:51.039Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T15:07:51.039Z</lastModifiedDate_dt>
+</component>
+	</item></pageSections_o>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<categories_s>entertainment</categories_s>
 </page>
