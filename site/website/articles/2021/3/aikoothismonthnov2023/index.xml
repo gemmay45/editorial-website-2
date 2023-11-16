@@ -29,7 +29,7 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T07:59:24.541Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T07:59:57.201Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-16T08:01:32.983Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -138,23 +138,7 @@
         <lastModifiedDate>2023-11-16T04:26:37.034Z</lastModifiedDate>
       </component>
     </item>
-    <item inline="true">
-      <key>fce5013d-5bb7-4c3d-bda6-d3c96464a7a9</key>
-      <value><![CDATA[New Mag Portrait Image with Text]]></value>
-      <component id="fce5013d-5bb7-4c3d-bda6-d3c96464a7a9">
-        <content-type>/component/magportraitimagewithtext</content-type>
-        <display-template>/templates/web/components/mag-portrait-image-with-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Portrait Image with Text]]></internal-name>
-        <file-name>fce5013d-5bb7-4c3d-bda6-d3c96464a7a9.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T07:59:57.200Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T07:59:57.200Z</lastModifiedDate_dt>
-        <objectId>fce5013d-5bb7-4c3d-bda6-d3c96464a7a9</objectId>
-        <image_s><![CDATA[https://via.placeholder.com/150x150]]></image_s>
-        <sideContent_html/>
-        <imagePosition_s/>
-      </component>
-    </item>
+
     <item inline="true">
       <key>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</key>
       <value>New Mag Event</value>
@@ -191,6 +175,23 @@
         <folder-name/>
         <createdDate>2023-11-16T04:33:20.564Z</createdDate>
         <lastModifiedDate>2023-11-16T07:42:43.336Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>fce5013d-5bb7-4c3d-bda6-d3c96464a7a9</key>
+      <value><![CDATA[New Mag Portrait Image with Text]]></value>
+      <component id="fce5013d-5bb7-4c3d-bda6-d3c96464a7a9">
+        <content-type>/component/magportraitimagewithtext</content-type>
+        <display-template>/templates/web/components/mag-portrait-image-with-text.ftl</display-template>
+        <internal-name><![CDATA[New Mag Portrait Image with Text]]></internal-name>
+        <file-name>fce5013d-5bb7-4c3d-bda6-d3c96464a7a9.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-16T07:59:57.200Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-16T07:59:57.200Z</lastModifiedDate_dt>
+        <objectId>fce5013d-5bb7-4c3d-bda6-d3c96464a7a9</objectId>
+        <image_s><![CDATA[https://via.placeholder.com/150x150]]></image_s>
+        <sideContent_html/>
+        <imagePosition_s/>
       </component>
     </item>
   </pageSections_o>
