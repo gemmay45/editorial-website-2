@@ -1302,6 +1302,10 @@ body.the-mag {
   padding-top: 40px
 }
 
+.the-mag-detail__content .content-row .hero {
+  margin-top:-40px
+}
+
 .the-mag-detail__content .content-row~.content-row p {
   margin: 0
 }
@@ -1443,10 +1447,6 @@ body.the-mag {
   .the-mag-detail__content .content-row .content-col.hero .figure .figure-caption,.the-mag-detail__content .content-row .content-col.landscape .figure .figure-caption,.the-mag-detail__content .content-row .content-col .landscape .figure .figure-caption {
       padding:20px 0 0
   }
-}
-
-.the-mag-detail__content:first-child .content-row {
-  padding-top: 0
 }
 
 @media (min-width: 992px) {
