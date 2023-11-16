@@ -47,6 +47,7 @@
             </@crafter.div>
         
             <ul class="the-mag-detail__content__info">
+                <#setting time_zone = siteConfig.getString("timeZone")>
                 <li><i aria-hidden="true" class="fas fa-clock"> </i>${contentModel.date_dt?date?iso(siteConfig.getString("timeZone"))}</li>
                                 <li><i aria-hidden="true" class="fas fa-clock"> </i>${contentModel.date_dt?date?string['dd MMM yyyy']}</li>
             </ul>
