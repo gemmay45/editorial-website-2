@@ -4975,7 +4975,8 @@ button:disabled,
   -ms-text-underline-position: below;
   text-underline-position: under;
   display: inline-block;
-  margin: 0 1px
+  margin: 0 1px;
+  text-transform: uppercase;
 }
 
 .the-mag-detail__content__sns,.the-mag-detail__floating__sns {
