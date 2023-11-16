@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-15T0:3:41.000Z</createdDate>
 	<createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T04:15:51.204Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T04:15:51.204Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-16T04:17:12.669Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-16T04:17:12.669Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -63,17 +63,19 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>a6f2583a-fa9d-4a55-bf9e-04a452fadcde.xml</file-name>
 	<createdDate_dt>2023-11-16T04:09:47.330Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-16T04:12:04.080Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-16T04:17:13.650Z</lastModifiedDate_dt>
 	<objectId>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</objectId>
 	<sectionId_s/>
 	<title_s>Qi – House of Sichuan</title_s>
 	<summary_html>&lt;p&gt;This one&amp;rsquo;s for the spice fiends; Qi &amp;ndash; House of Sichuan will be landed in Berkshire House, following the success of the Michelin-starred Wan Chai original. Here you&amp;rsquo;ll find authentic Sichuan dishes that reflect the &amp;ldquo;seven flavours of Sichuan&amp;rdquo; &amp;ndash; spicy, aromatic, sweet, bitter, sour, peppery and salty &amp;ndash; so get ready for an explosive culinary adventure packed with powerful flavours, numbing mala spices and a fiery helping of heat.&amp;nbsp;Stay tuned for its opening!&lt;/p&gt;</summary_html>
 	<imagePosition_s/>
 	<image_s/>
-	<event_o item-list="true"/>
+	<event_o item-list="true">	<item>	<icon_s>fas fa-map-marker-alt</icon_s>
+	<content_html>&lt;p&gt;2/F, Berkshire House, Taikoo Place&lt;/p&gt;</content_html>
+	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-16T04:09:47.330Z</createdDate>
-	<lastModifiedDate>2023-11-16T04:12:04.080Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-16T04:17:13.650Z</lastModifiedDate>
 </component>
 	</item>	<item inline="true">	<key>517d2a3d-a6a2-45bb-856f-5a0c9b5064fb</key>
 	<value>New Overview</value>
