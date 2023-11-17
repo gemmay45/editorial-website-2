@@ -1,6 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<section id="testimonial" class="quotes-section parallax-section prices-background">
+<section id="testimonial" class="quotes-section parallax-section prices-background" style="background: url('') 50% 0 repeat-y fixed">
+
 	<div class="container">
 		<div class="row">
 
