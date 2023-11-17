@@ -1,39 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/article</content-type>
-  <display-template>/templates/web/pages/article.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>d582</objectGroupId>
-  <objectId>d5824453-b743-4575-bb7a-5c49c0fbedbb</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>10-tips-to-get-in-shape</folder-name>
-  <internal-name>10 Tips to Get in Shape</internal-name>
-  <title_t>10 Tips to Get in Shape</title_t>
-  <subject_t>10 Tips to Get in Shape</subject_t>
-  <author_s>John Doe</author_s>
-  <segments_o>
-    <item>
-      <key>guy</key>
-      <value_smv>Guy</value_smv>
-    </item>
-  </segments_o>
-  <date_dt>2021-02-07T16:00:00.000Z</date_dt>
-  <createdDate>2017-03-2T20:52:30.000Z</createdDate>
-  <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
-  <lastModifiedDate>2023-11-17T02:38:12.948Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T02:46:04.407Z</lastModifiedDate_dt>
-  <featured_b>true</featured_b>
-  <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
-  <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
-  <disabled>false</disabled>
-  <header_o item-list="true"/>
-  <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>1b30ca61-1225-4417-acab-dad1570dc755</key>
-      <value><![CDATA[New Mag Banner Image]]></value>
-      <component id="1b30ca61-1225-4417-acab-dad1570dc755">
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d582</objectGroupId>
+	<objectId>d5824453-b743-4575-bb7a-5c49c0fbedbb</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>10-tips-to-get-in-shape</folder-name>
+	<internal-name>10 Tips to Get in Shape</internal-name>
+	<title_t>10 Tips to Get in Shape</title_t>
+	<subject_t>10 Tips to Get in Shape</subject_t>
+	<author_s>John Doe</author_s>
+	<segments_o>	<item>	<key>guy</key>
+	<value_smv>Guy</value_smv>
+	</item></segments_o>
+	<date_dt>2021-02-07T16:00:00.000Z</date_dt>
+	<createdDate>2017-03-2T20:52:30.000Z</createdDate>
+	<createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
+	<lastModifiedDate>2023-11-17T02:46:38.590Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-17T02:46:38.590Z</lastModifiedDate_dt>
+	<featured_b>true</featured_b>
+	<summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
+	<image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<pageSections_o item-list="true">	<item inline="true">	<key>1b30ca61-1225-4417-acab-dad1570dc755</key>
+	<value>New Mag Banner Image</value>
+<component id="1b30ca61-1225-4417-acab-dad1570dc755">
         <content-type>/component/magbannerimage</content-type>
         <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
         <internal-name><![CDATA[New Mag Banner Image]]></internal-name>
@@ -49,28 +44,31 @@
         <imageBackgroundColor_s/>
         <renderer_s/>
       </component>
-    </item>
-    <item inline="true">
-      <key>00b3bade-0d12-4e4c-ad12-0ba4b08cae85</key>
-      <value><![CDATA[New Mag Event]]></value>
-      <component id="00b3bade-0d12-4e4c-ad12-0ba4b08cae85">
-        <content-type>/component/magevent</content-type>
-        <display-template>/templates/web/components/mag-event.ftl</display-template>
-        <internal-name><![CDATA[New Mag Event]]></internal-name>
-        <file-name>00b3bade-0d12-4e4c-ad12-0ba4b08cae85.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-17T02:45:18.760Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-17T02:46:04.407Z</lastModifiedDate_dt>
-        <objectId>00b3bade-0d12-4e4c-ad12-0ba4b08cae85</objectId>
-        <sectionId_s><![CDATA[Event]]></sectionId_s>
-        <title_s><![CDATA[]]></title_s>
-        <summary_html><![CDATA[]]></summary_html>
-        <imagePosition_s/>
-        <image_s/>
-        <event_o/>
-      </component>
-    </item>
-  </pageSections_o>
-  <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
-  <categories_s>health</categories_s>
+	<disableFlattening>false</disableFlattening>
+	</item>	<item inline="true">	<key>00b3bade-0d12-4e4c-ad12-0ba4b08cae85</key>
+	<value>New Mag Event</value>
+<component id="00b3bade-0d12-4e4c-ad12-0ba4b08cae85">
+	<content-type>/component/magevent</content-type>
+	<display-template>/templates/web/components/mag-event.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Event</internal-name>
+	<file-name>00b3bade-0d12-4e4c-ad12-0ba4b08cae85.xml</file-name>
+	<createdDate_dt>2023-11-17T02:46:39.578Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-17T02:46:39.578Z</lastModifiedDate_dt>
+	<objectId>00b3bade-0d12-4e4c-ad12-0ba4b08cae85</objectId>
+	<sectionId_s no-default="true"/>
+	<title_s no-default="true"/>
+	<summary_html no-default="true"/>
+	<imagePosition_s/>
+	<image_s/>
+	<event_o item-list="true"/>
+	<folder-name/>
+	<createdDate>2023-11-17T02:46:39.578Z</createdDate>
+	<lastModifiedDate>2023-11-17T02:46:39.578Z</lastModifiedDate>
+</component>
+	<disableFlattening>false</disableFlattening>
+	</item></pageSections_o>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	<categories_s>health</categories_s>
 </page>
