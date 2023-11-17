@@ -22,14 +22,33 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T07:28:30.901Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T08:28:08.034Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T08:28:31.217Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>4dd630fb-bddc-4bbe-8a61-04d98c8cf308</key>
+      <value><![CDATA[New Mag Portrait Image with Text]]></value>
+      <component id="4dd630fb-bddc-4bbe-8a61-04d98c8cf308">
+        <content-type>/component/magportraitimagewithtext</content-type>
+        <display-template>/templates/web/components/mag-portrait-image-with-text.ftl</display-template>
+        <internal-name><![CDATA[New Mag Portrait Image with Text]]></internal-name>
+        <file-name>4dd630fb-bddc-4bbe-8a61-04d98c8cf308.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-17T08:28:31.216Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-17T08:28:31.216Z</lastModifiedDate_dt>
+        <objectId>4dd630fb-bddc-4bbe-8a61-04d98c8cf308</objectId>
+        <sectionId_s/>
+        <image_s><![CDATA[https://via.placeholder.com/150x150]]></image_s>
+        <sideContent_html><![CDATA[Side Content goes here]]></sideContent_html>
+        <imagePosition_s><![CDATA[-right]]></imagePosition_s>
+      </component>
+    </item>
+  </pageSections_o>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>health</categories_s>
 </page>
