@@ -18,8 +18,8 @@
 	<date_dt>2021-02-07T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-2T20:52:30.000Z</createdDate>
 	<createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-17T11:56:28.296Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-17T11:56:28.296Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-17T12:12:40.637Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-17T12:12:40.637Z</lastModifiedDate_dt>
 	<featured_b>true</featured_b>
 	<summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
 	<image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
@@ -37,10 +37,11 @@
 	<internal-name>New Mag Image Gallery</internal-name>
 	<file-name>b39dbcb8-c7ee-474c-bd8a-06d5f02bc8eb.xml</file-name>
 	<createdDate_dt>2023-11-17T11:52:57.999Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-17T11:56:29.213Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-17T12:12:41.552Z</lastModifiedDate_dt>
 	<objectId>b39dbcb8-c7ee-474c-bd8a-06d5f02bc8eb</objectId>
 	<slideitems_o item-list="true">	<item inline="true">	<key>2f912147-c427-e7c9-3b29-0d7d0a6631f8</key>
 	<value>xx</value>
+	<disableFlattening>false</disableFlattening>
 <component id="2f912147-c427-e7c9-3b29-0d7d0a6631f8">
 	<content-type>/component/magimagegalleryitem</content-type>
 	<display-template>/templates/web/mag-image-gallery-item.ftl</display-template>
@@ -57,7 +58,6 @@
 	<lastModifiedDate>2023-11-17T11:53:03.153Z</lastModifiedDate>
 	<lastModifiedDate_dt>2023-11-17T11:53:03.153Z</lastModifiedDate_dt>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>bf04cbe9-bff0-b32f-de09-7e2b26980850</key>
 	<value>yy</value>
 <component id="bf04cbe9-bff0-b32f-de09-7e2b26980850">
@@ -76,10 +76,11 @@
 	<lastModifiedDate>2023-11-17T11:56:34.273Z</lastModifiedDate>
 	<lastModifiedDate_dt>2023-11-17T11:56:34.273Z</lastModifiedDate_dt>
 </component>
+	<disableFlattening>false</disableFlattening>
 	</item></slideitems_o>
 	<folder-name/>
 	<createdDate>2023-11-17T11:52:57.999Z</createdDate>
-	<lastModifiedDate>2023-11-17T11:56:29.213Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-17T12:12:41.552Z</lastModifiedDate>
 </component>
 	</item></pageSections_o>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
