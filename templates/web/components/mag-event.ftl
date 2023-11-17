@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<section id="${contentModel.sectionId_s}" class="parallax-section">
+<section id="event" class="parallax-section">
 <div class="content-event">
     <div class="content-row">
         <#if contentModel.summary_html?has_content>
