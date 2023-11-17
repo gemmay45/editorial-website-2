@@ -1,11 +1,11 @@
 <form>
 	<title>Mag Event</title>
-	<description></description>
+	<description/>
 	<objectType>component</objectType>
 	<content-type>/component/magevent</content-type>
-	<imageThumbnail></imageThumbnail>
+	<imageThumbnail>mag-event.png</imageThumbnail>
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath/>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value/>
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Mag Event Properties</title>
-			<description></description>
+			<description/>
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId/>
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId/>
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>size</name>
@@ -91,9 +91,9 @@
 					<id>sectionId_s</id>
 					<iceId>Event</iceId>
 					<title>Section ID</title>
-					<description></description>
+					<description/>
 					<defaultValue>Event</defaultValue>
-					<help></help>
+					<help/>
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -102,12 +102,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -123,7 +123,7 @@
 		</section>
 		<section>
 			<title>Content Section</title>
-			<description></description>
+			<description/>
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
@@ -131,9 +131,9 @@
 					<id>title_s</id>
 					<iceId>iceMagEvent</iceId>
 					<title>Title</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>size</name>
@@ -147,7 +147,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -179,13 +179,13 @@
 					<id>summary_html</id>
 					<iceId>iceMagEvent</iceId>
 					<title>Summary</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>height</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
@@ -210,7 +210,7 @@
 						</property>
 						<property>
 							<name>supportedChannels</name>
-							<value></value>
+							<value/>
 							<type>supportedChannels</type>
 						</property>
 						<property>
@@ -220,17 +220,17 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value/>
 							<type>datasource:image</type>
 						</property>
 						<property>
 							<name>videoManager</name>
-							<value></value>
+							<value/>
 							<type>datasource:video</type>
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value></value>
+							<value/>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -247,23 +247,23 @@
 					<id>imagePosition_s</id>
 					<iceId>iceMagEvent</iceId>
 					<title>Image Position</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>datasource</name>
-							<value></value>
+							<value/>
 							<type>datasource:item</type>
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -280,28 +280,28 @@
 					<id>image_s</id>
 					<iceId>iceMagEvent</iceId>
 					<title>Image</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ "exact":"", "min":"", "max":"" }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ "exact":"", "min":"", "max":"" }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>thumbnailWidth</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
 							<name>thumbnailHeight</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
@@ -311,7 +311,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -326,9 +326,9 @@
 				<field>
 					<type>repeat</type>
 					<id>event_o</id>
-					<iceId></iceId>
+					<iceId/>
 					<title>Event</title>
-					<description></description>
+					<description/>
 					<minOccurs>0</minOccurs>
 					<maxOccurs>*</maxOccurs>
 					<properties>
@@ -349,9 +349,9 @@
 					<id>icon_s</id>
 					<iceId>iceMagEvent</iceId>
 					<title>Icon</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -360,12 +360,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -382,13 +382,13 @@
 					<id>content_html</id>
 					<iceId>iceMagEvent</iceId>
 					<title>Content</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>height</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
@@ -413,7 +413,7 @@
 						</property>
 						<property>
 							<name>supportedChannels</name>
-							<value></value>
+							<value/>
 							<type>supportedChannels</type>
 						</property>
 						<property>
@@ -423,17 +423,17 @@
 						</property>
 						<property>
 							<name>imageManager</name>
-							<value></value>
+							<value/>
 							<type>datasource:image</type>
 						</property>
 						<property>
 							<name>videoManager</name>
-							<value></value>
+							<value/>
 							<type>datasource:video</type>
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value></value>
+							<value/>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -458,17 +458,17 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value>[{"value":"value","label":"","selected":false},{"value":"value_s","label":"String","selected":true},{"value":"value_i","label":"Integer","selected":false},{"value":"value_f","label":"Float","selected":false},{"value":"value_dt","label":"Date","selected":false},{"value":"value_html","label":"HTML","selected":false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;event&quot;,&quot;value&quot;:&quot;Event&quot;}]</value>
+							<value>[{"key":"event","value":"Event"}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value/>
 								<type>boolean</type>
 						</property>
 					</properties>
@@ -481,17 +481,17 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value>[{"value":"value","label":"","selected":false},{"value":"value_s","label":"String","selected":true},{"value":"value_i","label":"Integer","selected":false},{"value":"value_f","label":"Float","selected":false},{"value":"value_dt","label":"Date","selected":false},{"value":"value_html","label":"HTML","selected":false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;fas fa-calendar-alt&quot;,&quot;value&quot;:&quot;Calendar&quot;},{&quot;key&quot;:&quot;fas fa-map-marker-alt&quot;,&quot;value&quot;:&quot;Location&quot;},{&quot;key&quot;:&quot;fas fa-phone&quot;,&quot;value&quot;:&quot;Phone&quot;},{&quot;key&quot;:&quot;fas fa-clock&quot;,&quot;value&quot;:&quot;Time&quot;},{&quot;key&quot;:&quot;fas fa-globe&quot;,&quot;value&quot;:&quot;Website&quot;}]</value>
+							<value>[{"key":"fas fa-calendar-alt","value":"Calendar"},{"key":"fas fa-map-marker-alt","value":"Location"},{"key":"fas fa-phone","value":"Phone"},{"key":"fas fa-clock","value":"Time"},{"key":"fas fa-globe","value":"Website"}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value/>
 								<type>boolean</type>
 						</property>
 					</properties>
