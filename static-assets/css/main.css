@@ -5563,6 +5563,344 @@ button:disabled,
   bottom: 20px
 }
 
+@media (min-width: 768px) {
+  .the-mag-detail-carousel .slick-dots {
+      bottom:30px
+  }
+}
+
+.the-mag-detail-carousel .slick-dots ul {
+  line-height: 12px
+}
+
+.the-mag-detail-carousel .slick-dots li {
+  line-height: 12px;
+  vertical-align: top;
+  width: 12px;
+  height: 12px;
+  margin: 0 10px
+}
+
+.the-mag-detail-carousel .slick-dots li button {
+  border-color: #fff;
+  background-color: #fff
+}
+
+.the-mag-detail-carousel .slick-dots li.slick-active button {
+  border-color: #25c79b;
+  background-color: #25c79b
+}
+
+.the-mag-detail-carousel .slicks.slick-initialized {
+  display: block
+}
+
+@media (max-width: 767px) {
+  .the-mag-detail-carousel .slick-list {
+      overflow:visible!important
+  }
+}
+
+@media (max-width: 480px) {
+  .the-mag-detail-carousel .slick-arrow {
+      display:block!important
+  }
+}
+
+.the-mag-detail-carousel .icon-enlargephoto {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 20px;
+  right: 20px;
+  background: url(/files/taikooplace/images/magnifying-glass-white.png) 0 0 no-repeat
+}
+
+.the-mag-detail-carousel .icon-enlargephoto:before {
+  display: none
+}
+
+@media (min-width: 768px) {
+  .the-mag-detail-carousel .icon-enlargephoto {
+      top:10px;
+      right: 10px
+  }
+}
+
+.the-mag-detail-carousel-shadow-caption {
+  position: relative;
+  margin: 0
+}
+
+.the-mag-detail-carousel-shadow-caption .slick-track {
+  overflow: hidden
+}
+
+.the-mag-detail-carousel-shadow-caption .slicks {
+  display: none;
+  margin-bottom: 0
+}
+
+.the-mag-detail-carousel-shadow-caption .slick {
+  outline: 0;
+  position: relative
+}
+
+.the-mag-detail-carousel-shadow-caption .slicks.slick-initialized {
+  display: block
+}
+
+.the-mag-detail-carousel-shadow-caption .caption {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 20px 0 0;
+  color: #949494
+}
+
+.the-mag-detail-carousel-shadow-caption .caption strong {
+  color: #25c79b
+}
+
+.the-mag-detail-carousel-shadow-caption .caption p {
+  margin-bottom: 0
+}
+
+.theMagGalleryFull {
+  width: 100%
+}
+
+.theMagGalleryModal,.theMagGallerySingleModal {
+  padding: 0!important
+}
+
+.theMagGalleryModal .icon-cardclose,.theMagGallerySingleModal .icon-cardclose {
+  color: #fff
+}
+
+.theMagGalleryModal .close,.theMagGallerySingleModal .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-shadow: 0 3px 2px #969696
+}
+
+.theMagGalleryModal__wrapper,.theMagGallerySingleModal__wrapper {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+  max-height: 100%;
+  top: 0;
+  left: 0
+}
+
+.theMagGalleryModal__cell,.theMagGallerySingleModal__cell {
+  display: block;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  transform: translate3d(0,-50%,0);
+  max-height: 100%;
+  max-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto
+}
+
+@media (max-width: 30em) and (orientation:landscape) {
+  .theMagGalleryModal__cell,.theMagGallerySingleModal__cell {
+      top:0;
+      transform: none;
+      max-height: none
+  }
+}
+
+.theMagGalleryModal__cell-wrap,.theMagGallerySingleModal__cell-wrap {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%
+}
+
+.theMagGalleryModal__cell-wrap:before,.theMagGallerySingleModal__cell-wrap:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  padding: 75.0666666667% 0 0;
+  z-index: 0
+}
+
+.theMagGalleryModal__image-wrap,.theMagGallerySingleModal__image-wrap {
+  z-index: 2;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden
+}
+
+.theMagGalleryModal__image,.theMagGallerySingleModal__image {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  width: auto!important;
+  max-width: 100%;
+  max-height: 100%
+}
+
+.theMagGalleryModal__text,.theMagGallerySingleModal__text {
+  color: #fff;
+  padding: 20px
+}
+
+@media (min-width: 768px) {
+  .theMagGalleryModal__text,.theMagGallerySingleModal__text {
+      padding:20px 40px
+  }
+}
+
+.theMagGalleryModal__text p strong,.theMagGallerySingleModal__text p strong {
+  color: #25c79b
+}
+
+.the-mag-detail-page-nav {
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  position: relative;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  margin: 0
+}
+
+.the-mag-detail-page-nav:after {
+  content: "";
+  border-left: 1px solid #ccc;
+  top: 0;
+  left: 50%;
+  bottom: 0;
+  position: absolute;
+  z-index: 3;
+  width: 0;
+  height: 100%
+}
+
+.the-mag-detail-page-nav .nav {
+  position: relative;
+  width: 50%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 1;
+  padding: 30px 0;
+  font-size: 14px
+}
+
+.the-mag-detail-page-nav .nav .arrow {
+  -ms-flex: 0 0 40px;
+  flex: 0 0 40px;
+  text-align: center
+}
+
+.the-mag-detail-page-nav .nav .arrow i {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 10px;
+  height: 19px;
+  background-size: 10px 19px;
+  margin: 0 auto;
+  display: block
+}
+
+.the-mag-detail-page-nav .nav .hints {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  font-weight: 700;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
+  color: #25c79b
+}
+
+.the-mag-detail-page-nav .nav .hints .title {
+  font-weight: 400;
+  color: #000
+}
+
+.the-mag-detail-page-nav .nav.prev {
+  -ms-flex-direction: row;
+  flex-direction: row
+}
+
+.the-mag-detail-page-nav .nav.prev .arrow i {
+  background-image: url(/files/taikooplace/images/arrow-grey-prev-xs.png)
+}
+
+.the-mag-detail-page-nav .nav.prev .hints {
+  padding-right: 15px
+}
+
+.the-mag-detail-page-nav .nav.next .arrow i {
+  background-image: url(/files/taikooplace/images/arrow-grey-next-xs.png)
+}
+
+.the-mag-detail-page-nav .nav.next .hints {
+  padding-left: 15px
+}
+
+@media (min-width: 992px) {
+  .the-mag-detail-page-nav {
+      display:none
+  }
+}
+
+.the-mag-detail__floating__sns {
+  display: none
+}
+
+@media (min-width: 992px) {
+  .the-mag-detail__floating__sns {
+      position:fixed;
+      z-index: -1
+  }
+}
+
+@media (min-width: 992px) {
+  .the-mag-detail__floating__sns.sticky {
+      display:block;
+      z-index: 99;
+      top: 50%;
+      left: 50%;
+      opacity: 1;
+      width: 48px;
+      margin-left: -453px;
+      transform: translate3d(0,-50%,0)
+  }
+}
+
+.theMagGalleryImageLink {
+  position: relative;
+  display: inline-block
+}
+
+.theMagGalleryImageLink .icon-enlargephoto {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 20px;
+  right: 20px;
+  background: url(/files/taikooplace/images/magnifying-glass-white.png) 0 0 no-repeat
+}
+
+.theMagGalleryImageLink .icon-enlargephoto:before {
+  display: none
+}
+
 .slick-slider {
   margin-bottom: 30px
 }
