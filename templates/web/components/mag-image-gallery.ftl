@@ -8,14 +8,14 @@
                         <div aria-live="polite" class="slick-list draggable" style="height: 562.998px;"><div class="slick-track" style="opacity: 1; width: 1500px;" role="listbox"><div class="slick slick-slide" data-slick-index="0" aria-hidden="true" style="width: 750px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 800ms ease 0s;" tabindex="-1" role="option" aria-describedby="slick-slide40">
                             <a href="#" data-toggle="modal" data-target=".theMagGalleryModal" class="js-theMagGalleryFor" tabindex="-1">
                                 <div class="photo">
-                                    <img data-large="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/treehouse_feature.ashx" alt="" class="" style="opacity: 1;" src="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/treehouse_feature.ashx?bc=dddddd&amp;as=0&amp;db=web&amp;h=563&amp;vs=1&amp;w=750&amp;hash=3CBEAD240E2C7FDF8B995965A4A51447">
+                                    <img data-large="https://www.taikooplace.com/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/treehouse_feature.ashx" alt="" class="" style="opacity: 1;" src="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/treehouse_feature.ashx?bc=dddddd&amp;as=0&amp;db=web&amp;h=563&amp;vs=1&amp;w=750&amp;hash=3CBEAD240E2C7FDF8B995965A4A51447">
                                     <div class="icon-enlargephoto"></div>
                                 </div>
                             </a>
                         </div><div class="slick slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" style="width: 750px; position: relative; left: -750px; top: 0px; z-index: 999; opacity: 1;" tabindex="-1" role="option" aria-describedby="slick-slide41">
                             <a href="#" data-toggle="modal" data-target=".theMagGalleryModal" class="js-theMagGalleryFor" tabindex="0">
                                 <div class="photo">
-                                    <img data-large="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/nood_feature.ashx" alt="" class="" style="opacity: 1;" src="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/nood_feature.ashx?bc=dddddd&amp;as=0&amp;db=web&amp;h=563&amp;vs=1&amp;w=750&amp;hash=3737D4EC2DE862FA36AA9592E664EC0B">
+                                    <img data-large="https://www.taikooplace.com/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/nood_feature.ashx" alt="" class="" style="opacity: 1;" src="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/nood_feature.ashx?bc=dddddd&amp;as=0&amp;db=web&amp;h=563&amp;vs=1&amp;w=750&amp;hash=3737D4EC2DE862FA36AA9592E664EC0B">
                                     <div class="icon-enlargephoto"></div>
                                 </div>
                             </a>
