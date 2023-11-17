@@ -3,7 +3,7 @@
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/magbannerimage</content-type>
-	<imageThumbnail></imageThumbnail>
+	<imageThumbnail>mag-banner-image.png</imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
 	<properties>		<property>
