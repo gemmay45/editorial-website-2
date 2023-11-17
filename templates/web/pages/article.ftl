@@ -35,16 +35,7 @@
 		</div>
 
 		<div class="inner the-mag-detail__content the-mag-detail__main-content">
-            <@crafter.div $field="pageSections_o">
-            	<#if contentModel.pageSections_o.item??>
-                    <#list contentModel.pageSections_o.item as section>
-                      <#assign index = section?index />
-                          <@crafter.div $field="pageSections_o" $index=index>
-                            <@renderComponent component=section />
-                          </@crafter.div>
-                    </#list>
-                </#if>
-            </@crafter.div>
+		<@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
         
             <ul class="the-mag-detail__content__info">
                 <#setting time_zone = siteConfig.getString("timeZone")>
