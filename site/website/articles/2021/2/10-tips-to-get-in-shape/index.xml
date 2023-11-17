@@ -22,45 +22,14 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T03:06:58.453Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T05:08:04.698Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T05:08:10.600Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>08c27df9-a223-42c6-883b-f7c80e0e8427</key>
-      <value>New Mag Event</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="08c27df9-a223-42c6-883b-f7c80e0e8427">
-        <content-type>/component/magevent</content-type>
-        <display-template>/templates/web/components/mag-event.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Mag Event</internal-name>
-        <file-name>08c27df9-a223-42c6-883b-f7c80e0e8427.xml</file-name>
-        <createdDate_dt>2023-11-17T03:03:06.192Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-17T03:06:59.420Z</lastModifiedDate_dt>
-        <objectId>08c27df9-a223-42c6-883b-f7c80e0e8427</objectId>
-        <sectionId_s>event</sectionId_s>
-        <title_s/>
-        <summary_html/>
-        <imagePosition_s/>
-        <image_s/>
-        <event_o item-list="true">
-          <item>
-            <icon_s>fas fa-calendar-alt</icon_s>
-            <content_html>xxx</content_html>
-          </item>
-        </event_o>
-        <folder-name/>
-        <createdDate>2023-11-17T03:03:06.192Z</createdDate>
-        <lastModifiedDate>2023-11-17T03:06:59.420Z</lastModifiedDate>
-      </component>
-    </item>
-  </pageSections_o>
+  <pageSections_o item-list="true"/>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>health</categories_s>
 </page>
