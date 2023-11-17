@@ -22,14 +22,35 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T03:06:58.453Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T05:08:10.600Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T05:08:18.922Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true"/>
+  <pageSections_o item-list="true">
+    <item inline="true">
+      <key>91b1bab0-790c-4cd2-8b3d-8fc74aa303df</key>
+      <value><![CDATA[New Mag Banner Image]]></value>
+      <component id="91b1bab0-790c-4cd2-8b3d-8fc74aa303df">
+        <content-type>/component/magbannerimage</content-type>
+        <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
+        <internal-name><![CDATA[New Mag Banner Image]]></internal-name>
+        <file-name>91b1bab0-790c-4cd2-8b3d-8fc74aa303df.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-17T05:08:18.921Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-17T05:08:18.921Z</lastModifiedDate_dt>
+        <objectId>91b1bab0-790c-4cd2-8b3d-8fc74aa303df</objectId>
+        <sectionId_s><![CDATA[Banner Image]]></sectionId_s>
+        <caption_s/>
+        <imageOnDesktop_s><![CDATA[https://via.placeholder.com/150x150]]></imageOnDesktop_s>
+        <imageOnMobile_s/>
+        <imageBackgroundColor_s/>
+        <renderer_s/>
+      </component>
+    </item>
+  </pageSections_o>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>health</categories_s>
 </page>
