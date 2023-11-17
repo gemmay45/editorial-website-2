@@ -248,7 +248,7 @@
 					<iceId>Image Position</iceId>
 					<title>Image Position</title>
 					<description></description>
-					<defaultValue>Right</defaultValue>
+					<defaultValue>-right</defaultValue>
 					<help></help>
 					<properties>
 						<property>
