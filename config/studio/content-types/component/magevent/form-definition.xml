@@ -132,7 +132,7 @@
 					<iceId>iceMagEvent</iceId>
 					<title>Title</title>
 					<description></description>
-					<defaultValue>Event Title</defaultValue>
+					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -180,7 +180,7 @@
 					<iceId>iceMagEvent</iceId>
 					<title>Summary</title>
 					<description></description>
-					<defaultValue>Event Summary</defaultValue>
+					<defaultValue></defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -384,7 +384,7 @@
 					<title>Content</title>
 					<description></description>
 					<defaultValue>Event Content</defaultValue>
-					<help></help>
+					<help>Enter event content</help>
 					<properties>
 						<property>
 							<name>height</name>
