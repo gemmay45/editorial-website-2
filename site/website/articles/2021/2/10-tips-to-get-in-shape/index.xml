@@ -1,78 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/article</content-type>
-  <display-template>/templates/web/pages/article.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>d582</objectGroupId>
-  <objectId>d5824453-b743-4575-bb7a-5c49c0fbedbb</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>10-tips-to-get-in-shape</folder-name>
-  <internal-name>10 Tips to Get in Shape</internal-name>
-  <title_t>10 Tips to Get in Shape</title_t>
-  <subject_t>10 Tips to Get in Shape</subject_t>
-  <author_s>John Doe</author_s>
-  <segments_o>
-    <item>
-      <key>guy</key>
-      <value_smv>Guy</value_smv>
-    </item>
-  </segments_o>
-  <date_dt>2021-02-07T16:00:00.000Z</date_dt>
-  <createdDate>2017-03-2T20:52:30.000Z</createdDate>
-  <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
-  <lastModifiedDate>2023-11-17T01:14:50.910Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T01:15:31.748Z</lastModifiedDate_dt>
-  <featured_b>true</featured_b>
-  <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
-  <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
-  <disabled>false</disabled>
-  <header_o item-list="true"/>
-  <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>c217f4b5-b372-4b95-9b16-eb4c2ad25ffd</key>
-      <value>New Mag Banner Image</value>
-      <component id="c217f4b5-b372-4b95-9b16-eb4c2ad25ffd">
-        <content-type>/component/magbannerimage</content-type>
-        <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Mag Banner Image</internal-name>
-        <file-name>c217f4b5-b372-4b95-9b16-eb4c2ad25ffd.xml</file-name>
-        <createdDate_dt>2023-11-17T01:14:54.961Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-17T01:14:54.961Z</lastModifiedDate_dt>
-        <objectId>c217f4b5-b372-4b95-9b16-eb4c2ad25ffd</objectId>
-        <sectionId_s>bannerImage</sectionId_s>
-        <caption_s/>
-        <imageOnDesktop_s>https://via.placeholder.com/150x150</imageOnDesktop_s>
-        <imageOnMobile_s/>
-        <imageBackgroundColor_s/>
-        <renderer_s/>
-        <folder-name/>
-        <createdDate>2023-11-17T01:14:54.961Z</createdDate>
-        <lastModifiedDate>2023-11-17T01:14:54.961Z</lastModifiedDate>
-      </component>
-      <disableFlattening>false</disableFlattening>
-    </item>
-    <item inline="true">
-      <key>3f839767-6510-484b-92bf-a8f4b8b018b8</key>
-      <value><![CDATA[New Mag Text]]></value>
-      <component id="3f839767-6510-484b-92bf-a8f4b8b018b8">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>3f839767-6510-484b-92bf-a8f4b8b018b8.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-17T01:15:31.747Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-17T01:15:31.747Z</lastModifiedDate_dt>
-        <objectId>3f839767-6510-484b-92bf-a8f4b8b018b8</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[Content goes here]]></content_html>
-      </component>
-    </item>
-  </pageSections_o>
-  <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
-  <categories_s>health</categories_s>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>d582</objectGroupId>
+	<objectId>d5824453-b743-4575-bb7a-5c49c0fbedbb</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>10-tips-to-get-in-shape</folder-name>
+	<internal-name>10 Tips to Get in Shape</internal-name>
+	<title_t>10 Tips to Get in Shape</title_t>
+	<subject_t>10 Tips to Get in Shape</subject_t>
+	<author_s>John Doe</author_s>
+	<segments_o>	<item>	<key>guy</key>
+	<value_smv>Guy</value_smv>
+	</item></segments_o>
+	<date_dt>2021-02-07T16:00:00.000Z</date_dt>
+	<createdDate>2017-03-2T20:52:30.000Z</createdDate>
+	<createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
+	<lastModifiedDate>2023-11-17T01:16:14.029Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-17T01:16:14.029Z</lastModifiedDate_dt>
+	<featured_b>true</featured_b>
+	<summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
+	<image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<pageSections_o item-list="true"/>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	<categories_s>health</categories_s>
 </page>
