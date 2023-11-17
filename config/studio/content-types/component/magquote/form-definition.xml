@@ -132,7 +132,7 @@
 					<iceId>iceQuote</iceId>
 					<title>Quote</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Quote goes here</defaultValue>
 					<help></help>
 					<properties>
 						<property>
@@ -175,7 +175,7 @@
 					<iceId>iceQuote</iceId>
 					<title>Quote By</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Quote By goes here</defaultValue>
 					<help></help>
 					<properties>
 						<property>
