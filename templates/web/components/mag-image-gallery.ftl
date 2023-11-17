@@ -4,18 +4,7 @@
 	<div class="container">
 		<div class="row">
 
-			<#if contentModel.displayTitleDescription_b>
-				<div class="col-md-12 col-sm-12 text-center">
-					<@crafter.h2 $field="titleText_t" style="color:${contentModel.titleColor_s}">
-						${contentModel.titleText_t}
-					</@crafter.h2>
-					<@crafter.p $field="description_t">
-						${contentModel.description_t}
-					</@crafter.p>
-				</div>
-			</#if>
-
-			<!-- Testimonial Owl Carousel section
+			<!-- Owl Carousel section
 			================================================== -->
 
 			<div id="owl-testimonial" class="owl-carousel components-container col-md-12 col-sm-12" model-id="${contentModel.objectId}">
