@@ -22,7 +22,7 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T05:18:15.913Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T05:33:37.300Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T07:28:00.109Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
@@ -76,6 +76,26 @@
       </component>
     </item>
 
+    <item inline="true">
+      <key>dacc014e-c94f-48e4-9ea5-73d25692d6e6</key>
+      <value><![CDATA[New Mag Banner Image]]></value>
+      <component id="dacc014e-c94f-48e4-9ea5-73d25692d6e6">
+        <content-type>/component/magbannerimage</content-type>
+        <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
+        <internal-name><![CDATA[New Mag Banner Image]]></internal-name>
+        <file-name>dacc014e-c94f-48e4-9ea5-73d25692d6e6.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-17T07:28:00.108Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-17T07:28:00.108Z</lastModifiedDate_dt>
+        <objectId>dacc014e-c94f-48e4-9ea5-73d25692d6e6</objectId>
+        <sectionId_s><![CDATA[Banner Image]]></sectionId_s>
+        <caption_s/>
+        <imageOnDesktop_s><![CDATA[https://via.placeholder.com/150x150]]></imageOnDesktop_s>
+        <imageOnMobile_s/>
+        <imageBackgroundColor_s/>
+        <renderer_s/>
+      </component>
+    </item>
     <item inline="true">
       <key>289abaf5-a792-4e61-ad9e-d97f38a64ffb</key>
       <value><![CDATA[New Mag Quote]]></value>
