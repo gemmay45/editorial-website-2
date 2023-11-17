@@ -86,6 +86,39 @@
 						</constraint>
 					</constraints>
 				</field>
+				<field>
+					<type>dropdown</type>
+					<id>sectionId_s</id>
+					<iceId></iceId>
+					<title>Section ID</title>
+					<description></description>
+					<defaultValue>Portrait Image With Text</defaultValue>
+					<help></help>
+					<properties>
+						<property>
+							<name>datasource</name>
+							<value>sectionIdsSource</value>
+							<type>datasource:item</type>
+						</property>
+						<property>
+							<name>emptyvalue</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>readonly</name>
+							<value></value>
+							<type>boolean</type>
+						</property>
+					</properties>
+					<constraints>
+						<constraint>
+							<name>required</name>
+							<value><![CDATA[]]></value>
+							<type>boolean</type>
+						</constraint>
+					</constraints>
+				</field>
 			</fields>
 		</section>
 		<section>
@@ -290,6 +323,29 @@
 						<property>
 							<name>options</name>
 							<value>[{&quot;key&quot;:&quot;-left&quot;,&quot;value&quot;:&quot;Left&quot;},{&quot;key&quot;:&quot;-right&quot;,&quot;value&quot;:&quot;Right&quot;}]</value>
+								<type>keyValueMap</type>
+						</property>
+						<property>
+							<name>showkeys</name>
+							<value></value>
+								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>key-value-list</type>
+					<id>sectionIdsSource</id>
+					<title>Section Ids Source</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>dataType</name>
+							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+								<type>dropdown</type>
+						</property>
+						<property>
+							<name>options</name>
+							<value>[{&quot;key&quot;:&quot;portraitImageWithText&quot;,&quot;value&quot;:&quot;Portrait Image With Text&quot;}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
