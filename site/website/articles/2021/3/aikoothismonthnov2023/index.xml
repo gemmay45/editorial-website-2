@@ -29,7 +29,7 @@
   <createdDate>2017-03-15T0:3:41.000Z</createdDate>
   <createdDate_dt>2017-03-15T0:3:41.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-16T07:59:24.541Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T08:02:16.078Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T03:37:01.802Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -151,7 +151,7 @@
         <internal-name>New Mag Event</internal-name>
         <file-name>f41f3e92-256e-4231-8f3d-b6bbdfbc5117.xml</file-name>
         <createdDate_dt>2023-11-16T04:33:20.564Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T07:42:43.336Z</lastModifiedDate_dt>
+        <lastModifiedDate_dt>2023-11-17T03:37:01.802Z</lastModifiedDate_dt>
         <objectId>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</objectId>
         <sectionId_s/>
         <title_s>Hashtag B</title_s>
@@ -170,6 +170,10 @@
           <item>
             <icon_s>fas fa-globe</icon_s>
             <content_html>&lt;span style="text-decoration: underline;"&gt;&lt;a href="http://www.hashtag-b.com/" target="_blank" rel="noopener noreferrer"&gt;hashtag-b.com &lt;/a&gt;&lt;/span&gt;</content_html>
+          </item>
+          <item>
+            <icon_s/>
+            <content_html/>
           </item>
         </event_o>
         <folder-name/>
