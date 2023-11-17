@@ -22,7 +22,7 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T02:50:57.893Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T02:57:13.307Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T02:59:06.414Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
@@ -52,6 +52,26 @@
         <folder-name/>
         <createdDate>2023-11-17T02:50:58.899Z</createdDate>
         <lastModifiedDate>2023-11-17T02:50:58.899Z</lastModifiedDate>
+      </component>
+    </item>
+    <item inline="true">
+      <key>08c27df9-a223-42c6-883b-f7c80e0e8427</key>
+      <value><![CDATA[New Mag Event]]></value>
+      <component id="08c27df9-a223-42c6-883b-f7c80e0e8427">
+        <content-type>/component/magevent</content-type>
+        <display-template>/templates/web/components/mag-event.ftl</display-template>
+        <internal-name><![CDATA[New Mag Event]]></internal-name>
+        <file-name>08c27df9-a223-42c6-883b-f7c80e0e8427.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-17T02:59:06.413Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-17T02:59:06.413Z</lastModifiedDate_dt>
+        <objectId>08c27df9-a223-42c6-883b-f7c80e0e8427</objectId>
+        <sectionId_s><![CDATA[Event]]></sectionId_s>
+        <title_s/>
+        <summary_html/>
+        <imagePosition_s/>
+        <image_s/>
+        <event_o/>
       </component>
     </item>
   </pageSections_o>
