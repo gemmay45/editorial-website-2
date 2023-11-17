@@ -22,7 +22,7 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T02:46:38.590Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T02:47:07.748Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T02:47:13.901Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
@@ -92,6 +92,24 @@
         <image_s><![CDATA[https://via.placeholder.com/150x150]]></image_s>
         <sideContent_html/>
         <imagePosition_s/>
+      </component>
+    </item>
+    <item inline="true">
+      <key>3b787d53-3928-47ab-bb52-716f4d73b933</key>
+      <value><![CDATA[New Mag Quote]]></value>
+      <component id="3b787d53-3928-47ab-bb52-716f4d73b933">
+        <content-type>/component/magquote</content-type>
+        <display-template>/templates/web/components/mag-quote.ftl</display-template>
+        <internal-name><![CDATA[New Mag Quote]]></internal-name>
+        <file-name>3b787d53-3928-47ab-bb52-716f4d73b933.xml</file-name>
+        <merge-strategy>inherit-levels</merge-strategy>
+        <createdDate_dt>2023-11-17T02:47:13.901Z</createdDate_dt>
+        <lastModifiedDate_dt>2023-11-17T02:47:13.901Z</lastModifiedDate_dt>
+        <objectId>3b787d53-3928-47ab-bb52-716f4d73b933</objectId>
+        <sectionId_s><![CDATA[Quote]]></sectionId_s>
+        <quote_t/>
+        <quoteBy_s/>
+        <quoteStyle_s/>
       </component>
     </item>
   </pageSections_o>
