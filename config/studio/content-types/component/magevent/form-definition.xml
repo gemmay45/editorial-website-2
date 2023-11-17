@@ -383,8 +383,8 @@
 					<iceId>iceMagEvent</iceId>
 					<title>Content</title>
 					<description></description>
-					<defaultValue>Event Content</defaultValue>
-					<help>Enter event content</help>
+					<defaultValue></defaultValue>
+					<help></help>
 					<properties>
 						<property>
 							<name>height</name>
