@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<section id="testimonial" class="quotes-section parallax-section prices-background" style="background: url('${contentModel.imageBackground_s}') 50% 0 repeat-y fixed">
+<section id="testimonial" class="quotes-section parallax-section prices-background">
 	<div class="container">
 		<div class="row">
 
