@@ -28,7 +28,7 @@
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
 					    <dt><i class="${item.icon_s}"></i></dt>
-						<dd>${item.content_html}</dd>
+						<dd><@crafter.span>${item.content_html}</@crafter.span></dd>
 					</#list>
 				</#if>
             </dl>
