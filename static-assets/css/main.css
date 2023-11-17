@@ -5432,6 +5432,137 @@ button:disabled,
   }
 }
 
+.the-mag-detail-carousel .slick-nav {
+  position: absolute;
+  top: 50%;
+  transform: translate3d(0,-50%,0);
+  border-radius: 0;
+  width: 22px;
+  height: 40px;
+  color: #fff;
+  z-index: 99;
+  cursor: pointer;
+  font-weight: 400;
+  text-align: center
+}
+
+.the-mag-detail-carousel .slick-nav i {
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 22px;
+  height: 40px;
+  background-size: 22px 40px;
+  margin: 0 auto;
+  display: block
+}
+
+.the-mag-detail-carousel .slick-nav.prev {
+  left: 20px
+}
+
+@media (min-width: 768px) {
+  .the-mag-detail-carousel .slick-nav.prev {
+      left:40px
+  }
+}
+
+.the-mag-detail-carousel .slick-nav.prev i {
+  background-image: url(/files/taikooplace/images/arrow-white-prev.png)
+}
+
+.the-mag-detail-carousel .slick-nav.next {
+  right: 20px
+}
+
+@media (min-width: 768px) {
+  .the-mag-detail-carousel .slick-nav.next {
+      right:30px
+  }
+}
+
+.the-mag-detail-carousel .slick-nav.next i {
+  background-image: url(/files/taikooplace/images/arrow-white-next.png)
+}
+
+.the-mag-detail-carousel .slick-track {
+  overflow: hidden
+}
+
+.the-mag-detail-carousel .slicks {
+  display: none;
+  margin-bottom: 0
+}
+
+.the-mag-detail-carousel .slick {
+  outline: 0;
+  position: relative
+}
+
+.the-mag-detail-carousel .slick img {
+  position: absolute;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+  width: auto;
+  height: 100%;
+  max-width: none;
+  margin-left: 50%;
+  transform: translate3d(-50%,0,0)
+}
+
+.the-mag-detail-carousel .slick .photo {
+  overflow: hidden;
+  position: relative;
+  background: #ddd;
+  height: 375px
+}
+
+@media (min-width: 768px) {
+  .the-mag-detail-carousel .slick .photo {
+      height:563px
+  }
+}
+
+.the-mag-detail-carousel .slick .photo .embed-responsive {
+  position: relative;
+  z-index: 2
+}
+
+.the-mag-detail-carousel .slick .photo.itemVideo {
+  padding-top: 56.2%
+}
+
+.the-mag-detail-carousel .slick .photo.itemVideo img,.the-mag-detail-carousel .slick .photo.itemVideo video {
+  position: absolute;
+  top: 0
+}
+
+.the-mag-detail-carousel .slick .photo.itemVideo.is-poster:before {
+  content: "u";
+  font-family: taikoo-place;
+  font-size: 120px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -60px;
+  margin-top: -90px;
+  z-index: 3
+}
+
+.the-mag-detail-carousel .slick.slick-current img {
+  opacity: 1
+}
+
+.the-mag-detail-carousel .slick video {
+  z-index: 2
+}
+
+.the-mag-detail-carousel .slick-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 20px
+}
+
 /*---------------------------------------
     Testimonial section              
 -----------------------------------------*/
