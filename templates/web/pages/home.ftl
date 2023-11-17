@@ -36,7 +36,7 @@
           </@crafter.div>
         </div>
         <span class="image object">
-          <@crafter.img $field="hero_image_s" src=(contentModel.hero_image_s) alt=""/>
+          <@crafter.img $field="hero_image_s" src=(contentModel.hero_image_s!"") class="sss" alt=""/>
         </span>
       </section>
       <!-- /Banner -->
