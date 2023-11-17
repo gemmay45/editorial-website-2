@@ -23,7 +23,7 @@
 						<div id="owl-testimonial" class="owl-carousel components-container col-md-12 col-sm-12" model-id="${contentModel.objectId}">
 				<#list contentModel.slideitems_o.item as item>
 
-						<#assign myContentItem = item.component />
+						<#assign myContentItem =  siteItemService.getSiteItem(item.key) />
 
 					<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
 						<@crafter.h3 $model=myContentItem $field="description_t">
