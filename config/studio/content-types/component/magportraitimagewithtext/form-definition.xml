@@ -180,7 +180,7 @@
 					<iceId>iceMagPortaitImageWithText</iceId>
 					<title>Side Content</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Side Content goes here</defaultValue>
 					<help></help>
 					<properties>
 						<property>
