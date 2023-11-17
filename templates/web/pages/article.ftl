@@ -35,7 +35,7 @@
 		</div>
 
 		<div class="inner the-mag-detail__content the-mag-detail__main-content">
-		<@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
+		    <@crafter.renderComponentCollection $field="pageSections_o" $model=contentModel/>
         
             <ul class="the-mag-detail__content__info">
                 <#setting time_zone = siteConfig.getString("timeZone")>
