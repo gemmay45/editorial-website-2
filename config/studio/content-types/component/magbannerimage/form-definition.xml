@@ -1,11 +1,11 @@
 <form>
 	<title>Mag Banner Image</title>
-	<description></description>
+	<description/>
 	<objectType>component</objectType>
 	<content-type>/component/magbannerimage</content-type>
 	<imageThumbnail>mag-banner-image.png</imageThumbnail>
 	<quickCreate>false</quickCreate>
-	<quickCreatePath></quickCreatePath>
+	<quickCreatePath/>
 	<properties>		<property>
 			<name>display-template</name>
 			<label>Display Template</label>
@@ -15,7 +15,7 @@
 		<property>
 			<name>no-template-required</name>
 			<label>No Template Required</label>
-			<value></value>
+			<value/>
 			<type>boolean</type>
 		</property>
 		<property>
@@ -27,17 +27,17 @@
 	</properties>
 	<sections>		<section>
 			<title>Mag Banner Image Properties</title>
-			<description></description>
+			<description/>
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>auto-filename</type>
 					<id>file-name</id>
-					<iceId></iceId>
+					<iceId/>
 					<title>Component ID</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>size</name>
@@ -51,7 +51,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -61,11 +61,11 @@
 				<field>
 					<type>input</type>
 					<id>internal-name</id>
-					<iceId></iceId>
+					<iceId/>
 					<title>Internal Name</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>size</name>
@@ -91,9 +91,9 @@
 					<id>sectionId_s</id>
 					<iceId>BannerImage</iceId>
 					<title>Section ID</title>
-					<description></description>
+					<description/>
 					<defaultValue>Banner Image</defaultValue>
-					<help></help>
+					<help/>
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -102,12 +102,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -123,7 +123,7 @@
 		</section>
 		<section>
 			<title>Content Section</title>
-			<description></description>
+			<description/>
 			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
@@ -131,9 +131,9 @@
 					<id>caption_s</id>
 					<iceId>iceMagBannerImage</iceId>
 					<title>Caption</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>size</name>
@@ -147,7 +147,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -179,28 +179,28 @@
 					<id>imageOnDesktop_s</id>
 					<iceId>iceMagBannerImage</iceId>
 					<title>Image On Desktop</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ "exact":"", "min":"", "max":"" }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ "exact":"", "min":"", "max":"" }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>thumbnailWidth</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
 							<name>thumbnailHeight</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
@@ -210,7 +210,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -227,28 +227,28 @@
 					<id>imageOnMobile_s</id>
 					<iceId>iceMagBannerImage</iceId>
 					<title>Image On Mobile</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>width</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ "exact":"", "min":"", "max":"" }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>height</name>
-							<value>{ &quot;exact&quot;:&quot;&quot;, &quot;min&quot;:&quot;&quot;, &quot;max&quot;:&quot;&quot; }</value>
+							<value>{ "exact":"", "min":"", "max":"" }</value>
 							<type>range</type>
 						</property>
 						<property>
 							<name>thumbnailWidth</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
 							<name>thumbnailHeight</name>
-							<value></value>
+							<value/>
 							<type>int</type>
 						</property>
 						<property>
@@ -258,7 +258,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -275,9 +275,9 @@
 					<id>imageBackgroundColor_s</id>
 					<iceId>iceMagBannerImage</iceId>
 					<title>Image Background Color</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>size</name>
@@ -291,7 +291,7 @@
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -323,9 +323,9 @@
 					<id>renderer_s</id>
 					<iceId>iceMagBannerImage</iceId>
 					<title>Renderer</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
+					<description/>
+					<defaultValue/>
+					<help/>
 					<properties>
 						<property>
 							<name>datasource</name>
@@ -334,12 +334,12 @@
 						</property>
 						<property>
 							<name>emptyvalue</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>readonly</name>
-							<value></value>
+							<value/>
 							<type>boolean</type>
 						</property>
 					</properties>
@@ -362,17 +362,17 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value>[{"value":"value","label":"","selected":false},{"value":"value_s","label":"String","selected":true},{"value":"value_i","label":"Integer","selected":false},{"value":"value_f","label":"Float","selected":false},{"value":"value_dt","label":"Date","selected":false},{"value":"value_html","label":"HTML","selected":false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;bannerImage&quot;,&quot;value&quot;:&quot;Banner Image&quot;},{&quot;key&quot;:&quot;imageGallery&quot;,&quot;value&quot;:&quot;Image Gallery&quot;}]</value>
+							<value>[{"key":"bannerImage","value":"Banner Image"},{"key":"imageGallery","value":"Image Gallery"}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value/>
 								<type>boolean</type>
 						</property>
 					</properties>
@@ -421,17 +421,17 @@
 					<properties>
 						<property>
 							<name>dataType</name>
-							<value>[{&quot;value&quot;:&quot;value&quot;,&quot;label&quot;:&quot;&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_s&quot;,&quot;label&quot;:&quot;String&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;value_i&quot;,&quot;label&quot;:&quot;Integer&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_f&quot;,&quot;label&quot;:&quot;Float&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_dt&quot;,&quot;label&quot;:&quot;Date&quot;,&quot;selected&quot;:false},{&quot;value&quot;:&quot;value_html&quot;,&quot;label&quot;:&quot;HTML&quot;,&quot;selected&quot;:false}]</value>
+							<value>[{"value":"value","label":"","selected":false},{"value":"value_s","label":"String","selected":true},{"value":"value_i","label":"Integer","selected":false},{"value":"value_f","label":"Float","selected":false},{"value":"value_dt","label":"Date","selected":false},{"value":"value_html","label":"HTML","selected":false}]</value>
 								<type>dropdown</type>
 						</property>
 						<property>
 							<name>options</name>
-							<value>[{&quot;key&quot;:&quot;bannerImage&quot;,&quot;value&quot;:&quot;Banner Image&quot;}]</value>
+							<value>[{"key":"bannerImage","value":"Banner Image"}]</value>
 								<type>keyValueMap</type>
 						</property>
 						<property>
 							<name>showkeys</name>
-							<value></value>
+							<value/>
 								<type>boolean</type>
 						</property>
 					</properties>
