@@ -20,15 +20,13 @@
                 <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
                     <figure class="figure">
                         <@crafter.img
-		$field="sideImage_s"
-		class="figure-img img-responsive lazy lz-loaded"
-		src=(contentModel.sideImage_s)
-		$attributes={'data-ll-status': 'loaded'}
-		alt=""
-	/>
-        
-                            <!--<img alt="" class="figure-img img-responsive lazy lz-loaded" data-ll-status="loaded" src="https://www.taikooplace.com/-/media/images/taikooplace/siteimages/themag2023/august-2023/feature/fwd-tl-v2.ashx?bc=dbdbdb&amp;as=0&amp;db=web&amp;h=480&amp;vs=1&amp;w=360&amp;hash=3D48FFD0C46B4A841DCA28539CB7AD36">-->
-                                <figcaption data-content=" " class="figure-caption">&nbsp;</figcaption>
+                    		$field="sideImage_s"
+                    		class="figure-img img-responsive lazy lz-loaded"
+                    		src=(contentModel.sideImage_s)
+                    		$attributes={'data-ll-status': 'loaded'}
+                    		alt=""
+                    	/>
+                                        <figcaption data-content=" " class="figure-caption">&nbsp;</figcaption>
                             <div class="icon-enlargephoto"></div>
                     </figure>
                 </a>
