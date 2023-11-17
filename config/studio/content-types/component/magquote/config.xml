@@ -9,5 +9,5 @@
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
 	<noThumbnail>true</noThumbnail>
-	<image-thumbnail></image-thumbnail>
+	<image-thumbnail>mag-quote.png</image-thumbnail>
 </content-type>

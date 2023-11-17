@@ -3,7 +3,7 @@
 	<description></description>
 	<objectType>component</objectType>
 	<content-type>/component/magquotewithportraitimage</content-type>
-	<imageThumbnail></imageThumbnail>
+	<imageThumbnail>mag-portrait-image-with-text.png</imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
 	<properties>		<property>
