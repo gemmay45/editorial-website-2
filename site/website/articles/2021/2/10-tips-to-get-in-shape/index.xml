@@ -18,8 +18,8 @@
 	<date_dt>2021-02-07T16:00:00.000Z</date_dt>
 	<createdDate>2017-03-2T20:52:30.000Z</createdDate>
 	<createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-17T03:03:05.217Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-17T03:03:05.217Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-17T03:03:43.476Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-17T03:03:43.476Z</lastModifiedDate_dt>
 	<featured_b>true</featured_b>
 	<summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
 	<image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
@@ -28,6 +28,7 @@
 	<left_rail_o item-list="true"/>
 	<pageSections_o item-list="true">	<item inline="true">	<key>284e1bae-a5b4-4a56-8d40-6037aec69f9e</key>
 	<value>New Mag Banner Image</value>
+	<disableFlattening>false</disableFlattening>
 <component id="284e1bae-a5b4-4a56-8d40-6037aec69f9e">
         <content-type>/component/magbannerimage</content-type>
         <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
@@ -48,9 +49,9 @@
         <createdDate>2023-11-17T02:50:58.899Z</createdDate>
         <lastModifiedDate>2023-11-17T02:50:58.899Z</lastModifiedDate>
       </component>
-	<disableFlattening>false</disableFlattening>
 	</item>	<item inline="true">	<key>08c27df9-a223-42c6-883b-f7c80e0e8427</key>
 	<value>New Mag Event</value>
+	<disableFlattening>false</disableFlattening>
 <component id="08c27df9-a223-42c6-883b-f7c80e0e8427">
 	<content-type>/component/magevent</content-type>
 	<display-template>/templates/web/components/mag-event.ftl</display-template>
@@ -59,9 +60,9 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>08c27df9-a223-42c6-883b-f7c80e0e8427.xml</file-name>
 	<createdDate_dt>2023-11-17T03:03:06.192Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-17T03:03:06.192Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-17T03:03:44.443Z</lastModifiedDate_dt>
 	<objectId>08c27df9-a223-42c6-883b-f7c80e0e8427</objectId>
-	<sectionId_s no-default="true"/>
+	<sectionId_s>event</sectionId_s>
 	<title_s/>
 	<summary_html/>
 	<imagePosition_s/>
@@ -71,9 +72,8 @@
 	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-17T03:03:06.192Z</createdDate>
-	<lastModifiedDate>2023-11-17T03:03:06.192Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-17T03:03:44.443Z</lastModifiedDate>
 </component>
-	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<categories_s>health</categories_s>
