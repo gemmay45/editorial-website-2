@@ -92,7 +92,7 @@
 					<iceId>Event</iceId>
 					<title>Section ID</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Event</defaultValue>
 					<help></help>
 					<properties>
 						<property>
