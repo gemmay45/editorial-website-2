@@ -2,12 +2,6 @@
 
 <div class="content-row">
     <div class="content-col">
-	<@crafter.img
-		$field="image_s"
-		class="img-responsive trainer-image"
-		src=(contentModel.image_s)
-		alt="Trainer"
-	/>
         <@crafter.div class="${contentModel.imagePosition_s}">
             <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
                 <figure class="figure">
