@@ -5432,6 +5432,29 @@ button:disabled,
   }
 }
 
+/*---------------------------------------
+    Testimonial section              
+-----------------------------------------*/
+.quotes-section {
+  background: #ffffff;
+  color: #26253a;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.quotes-section .fa {
+font-size: 42px;
+padding-bottom: 14px;
+}
+
+.quotes-section h3 {
+letter-spacing: 1px;
+}
+
+.owl-wrapper {
+margin-top: 40px;
+}
+
 /*!
  * Copyright (C) 2007-2022 Crafter Software Corporation. All Rights Reserved.
  *
