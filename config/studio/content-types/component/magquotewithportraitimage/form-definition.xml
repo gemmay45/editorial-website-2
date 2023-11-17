@@ -256,7 +256,7 @@
 					<iceId>iceQuoteWithPortraitImage</iceId>
 					<title>Quote Position</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>-left</defaultValue>
 					<help></help>
 					<properties>
 						<property>
