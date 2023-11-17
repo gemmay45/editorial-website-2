@@ -22,33 +22,14 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T07:28:30.901Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T08:27:53.570Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T08:28:08.034Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>961bff32-f6ed-4935-b6a8-b83e05d7bcfa</key>
-      <value><![CDATA[New Mag Quote]]></value>
-      <component id="961bff32-f6ed-4935-b6a8-b83e05d7bcfa">
-        <content-type>/component/magquote</content-type>
-        <display-template>/templates/web/components/mag-quote.ftl</display-template>
-        <internal-name><![CDATA[New Mag Quote]]></internal-name>
-        <file-name>961bff32-f6ed-4935-b6a8-b83e05d7bcfa.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-17T08:27:53.570Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-17T08:27:53.570Z</lastModifiedDate_dt>
-        <objectId>961bff32-f6ed-4935-b6a8-b83e05d7bcfa</objectId>
-        <sectionId_s><![CDATA[Quote]]></sectionId_s>
-        <quote_t><![CDATA[Quote goes here]]></quote_t>
-        <quoteBy_s><![CDATA[Quote By goes here]]></quoteBy_s>
-        <quoteStyle_s/>
-      </component>
-    </item>
-  </pageSections_o>
+  <pageSections_o item-list="true"/>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <categories_s>health</categories_s>
 </page>
