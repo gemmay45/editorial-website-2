@@ -20,7 +20,23 @@
 
 			<!-- Testimonial Owl Carousel section
 			================================================== -->
+						<div id="owl-testimonial" class="owl-carousel components-container col-md-12 col-sm-12" model-id="${contentModel.objectId}">
+				<#list contentModel.slideitems_o.item as item>
 
+						<#assign myContentItem = item.component />
+
+					<div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp" data-wow-delay="0.6s">
+						<@crafter.h3 $model=myContentItem $field="description_t">
+							${myContentItem.description_t}
+						</@crafter.h3>
+					</div>
+				</#list>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--
 			<div id="owl-testimonial" class="owl-carousel components-container col-md-12 col-sm-12 owl-theme" model-id="30c8af7d-fa27-00b8-e0b7-b72ccdfdb920" style="opacity: 1; display: block;">
 					<div class="owl-wrapper-outer"><div class="owl-wrapper" data-craftercms-model-id="30c8af7d-fa27-00b8-e0b7-b72ccdfdb920" data-craftercms-model-path="/site/components/page-sections/quote1.xml" data-craftercms-field-id="quotes_o" data-craftercms-label="Quotes" style="width: 2880px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(-720px, 0px, 0px);"><div class="owl-item" data-craftercms-model-id="30c8af7d-fa27-00b8-e0b7-b72ccdfdb920" data-craftercms-model-path="/site/components/page-sections/quote1.xml" data-craftercms-field-id="quotes_o" data-craftercms-index="0" data-craftercms-label="Quotes" style="width: 720px;"><div class="item col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 wow fadeInUp animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
 							<i class="fa fa-quote-left"></i>
@@ -52,4 +68,4 @@
 		</div>
 	</div>
 </section>
-
+-->
