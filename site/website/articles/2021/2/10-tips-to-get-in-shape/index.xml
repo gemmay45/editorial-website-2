@@ -22,7 +22,7 @@
   <createdDate>2017-03-2T20:52:30.000Z</createdDate>
   <createdDate_dt>2017-03-2T20:52:30.000Z</createdDate_dt>
   <lastModifiedDate>2023-11-17T05:18:15.913Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-17T05:33:10.332Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-17T05:33:37.300Z</lastModifiedDate_dt>
   <featured_b>true</featured_b>
   <summary_t>Ut pellentesque nibh porta lacinia porta. Nam eleifend aliquam tellus sit amet sagittis. Maecenas id eros velit. Donec feugiat iaculis augue eu egestas. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</summary_t>
   <image_s>/static-assets/images/get-in-shape-pic.jpg</image_s>
@@ -95,26 +95,6 @@
       </component>
     </item>
 
-    <item inline="true">
-      <key>90e9872d-aac5-4079-bd66-545f24c6bdb6</key>
-      <value><![CDATA[New Mag Quote With Portrait Image]]></value>
-      <component id="90e9872d-aac5-4079-bd66-545f24c6bdb6">
-        <content-type>/component/magquotewithportraitimage</content-type>
-        <display-template>/templates/web/components/mag-quote-with-portrait-image.ftl</display-template>
-        <internal-name><![CDATA[New Mag Quote With Portrait Image]]></internal-name>
-        <file-name>90e9872d-aac5-4079-bd66-545f24c6bdb6.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-17T05:33:10.331Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-17T05:33:10.331Z</lastModifiedDate_dt>
-        <objectId>90e9872d-aac5-4079-bd66-545f24c6bdb6</objectId>
-        <sectionId_s/>
-        <quote_t><![CDATA[Quote goes here]]></quote_t>
-        <quoteBy_s><![CDATA[Quote By goes here]]></quoteBy_s>
-        <quoteStyle_s/>
-        <quotePosition_s><![CDATA[-left]]></quotePosition_s>
-        <sideImage_s><![CDATA[https://via.placeholder.com/150x150]]></sideImage_s>
-      </component>
-    </item>
     <item inline="true">
       <key>2e3ec5f0-ad1d-4164-ac36-c28da5aecc14</key>
       <value><![CDATA[New Mag Quote With Portrait Image]]></value>
