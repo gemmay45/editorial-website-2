@@ -92,7 +92,7 @@
 					<iceId>BannerImage</iceId>
 					<title>Section ID</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Banner Image</defaultValue>
 					<help></help>
 					<properties>
 						<property>
