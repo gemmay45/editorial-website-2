@@ -8,6 +8,6 @@
 	<previewable>false</previewable>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
-	<noThumbnail>true</noThumbnail>
+	<noThumbnail>false</noThumbnail>
 	<image-thumbnail>mag-banner-image.png</image-thumbnail>
 </content-type>
