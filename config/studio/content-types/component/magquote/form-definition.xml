@@ -92,7 +92,7 @@
 					<iceId>Quote</iceId>
 					<title>Section ID</title>
 					<description></description>
-					<defaultValue></defaultValue>
+					<defaultValue>Quote</defaultValue>
 					<help></help>
 					<properties>
 						<property>
