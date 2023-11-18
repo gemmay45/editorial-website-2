@@ -114,6 +114,17 @@ h1 {
 }
 </style>
 
+<h1>Slick Carousel</h1>
+
+<div id="slick" data-slick='{}'>
+  <div><h3 style="background-color: #e53935;">1</h3></div>
+  <div><h3 style="background-color: #fb8c00;">2</h3></div>
+  <div><h3 style="background-color: #fdd835;">3</h3></div>
+  <div><h3 style="background-color: #43a047;">4</h3></div>
+  <div><h3 style="background-color: #1e88e5;">5</h3></div>
+  <div><h3 style="background-color: #3949ab;">6</h3></div>
+</div>
+
 <script>
 // check all settings on Slick site 
 
