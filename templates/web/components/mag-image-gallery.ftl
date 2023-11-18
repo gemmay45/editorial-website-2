@@ -57,6 +57,40 @@
     </div>
 </div>
 
+<script>
+// check all settings on Slick site 
+
+$("#slick").slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  adaptiveHeight: true,
+  // prevArrow: "<span class='slick-prev'>&lt;</span>",
+  // nextArrow: "<span class='slick-next'>&gt;</span>",
+  responsive: [{
+    breakpoint: 992,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 3
+    }
+  }, {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2
+    }
+  }, {
+    breakpoint: 576,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }]
+});
+</script>
+
 <!--<section id="testimonial" class="quotes-section parallax-section prices-background" style="background: url('') 50% 0 repeat-y fixed">
 
 	<div class="container">
