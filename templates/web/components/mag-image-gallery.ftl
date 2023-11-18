@@ -57,6 +57,63 @@
     </div>
 </div>
 
+<style>
+body {
+  width: 80%;
+  margin: auto;
+  font-family: Arial;
+  /*background: lightgrey;*/
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+#slick h3 {
+  background: black;
+/*   margin: 10px; */
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  color: white;
+}
+
+#slick .slick-arrow {
+  z-index: 1000;
+}
+
+#slick .slick-arrow::before {
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+#slick .slick-prev {
+  left: 0px;
+}
+
+#slick .slick-next {
+  right: 30px;
+}
+
+
+#slick .slick-prev::before {
+  content: "◀";
+/*   font-weigth: bold; */
+  background: #333;
+  padding: 5px 15px 10px 10px;
+}
+
+#slick .slick-next::before {
+  content: "▶";
+/*   font-weigth: bold; */
+  background: #333;
+  padding: 5px 10px 10px 15px;
+}
+</style>
+
 <script>
 // check all settings on Slick site 
 
