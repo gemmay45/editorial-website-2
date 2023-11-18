@@ -127,7 +127,7 @@ h1 {
 }
 </style>
 
-<script type="text/javascript"
+<script type="text/javascript">
 // check all settings on Slick site 
 
 $("#slick").slick({
