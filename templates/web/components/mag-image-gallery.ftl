@@ -127,6 +127,9 @@ h1 {
 }
 </style>
 
+<link href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <script type="text/javascript">
 // check all settings on Slick site 
 
