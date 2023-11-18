@@ -2,6 +2,7 @@
 
 <div class="content-row">
     <div class="content-col">
+    <!--
         <div class="the-mag-detail-carousel">
 
             <div data-autoplay-speed="3000" data-slide-speed="800" class="slicks autoplay slick-initialized slick-slider" role="toolbar">
@@ -53,6 +54,38 @@
                     </a>
                 </div></div></div>
                 
+        </div>-->
+        <div class="the-mag-detail-carousel">
+
+            <div data-autoplay-speed="3000" data-slide-speed="800" class="slicks autoplay slick-initialized slick-slider" role="toolbar">
+                        <div aria-live="polite" class="slick-list draggable" style="height: 562.998px;"><div class="slick-track" style="opacity: 1; width: 2250px;" role="listbox"><div class="slick slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" style="width: 750px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" tabindex="-1" role="option" aria-describedby="slick-slide00">
+                            <a href="#" data-toggle="modal" data-target=".theMagGalleryModal" class="js-theMagGalleryFor" tabindex="0">
+                                <div class="photo">
+                                    <img data-large="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/adventist-clinic-1.ashx" alt="" class="" style="opacity: 1;" src="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/adventist-clinic-1.ashx?bc=dddddd&amp;as=0&amp;db=web&amp;h=563&amp;vs=1&amp;w=750&amp;hash=AA5CA2D4EF9583306BAB05EC7F585350">
+                                    <div class="icon-enlargephoto"></div>
+                                </div>
+                            </a>
+                        </div><div class="slick slick-slide" data-slick-index="1" aria-hidden="true" style="width: 750px; position: relative; left: -750px; top: 0px; z-index: 998; opacity: 0; transition: opacity 800ms ease 0s;" tabindex="-1" role="option" aria-describedby="slick-slide01">
+                            <a href="#" data-toggle="modal" data-target=".theMagGalleryModal" class="js-theMagGalleryFor" tabindex="-1">
+                                <div class="photo">
+                                    <img data-large="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/adventist-clinic-2.ashx" alt="" class="" style="opacity: 1;" src="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/adventist-clinic-2.ashx?bc=dddddd&amp;as=0&amp;db=web&amp;h=563&amp;vs=1&amp;w=750&amp;hash=7A626DAEE25B5D2B5DCC7642706DC807">
+                                    <div class="icon-enlargephoto"></div>
+                                </div>
+                            </a>
+                        </div><div class="slick slick-slide" data-slick-index="2" aria-hidden="true" style="width: 750px; position: relative; left: -1500px; top: 0px; z-index: 998; opacity: 0; transition: opacity 800ms ease 0s;" tabindex="-1" role="option" aria-describedby="slick-slide02">
+                            <a href="#" data-toggle="modal" data-target=".theMagGalleryModal" class="js-theMagGalleryFor" tabindex="-1">
+                                <div class="photo">
+                                    <img data-large="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/adventist-clinic-3.ashx" alt="" class="" style="opacity: 1;" src="/-/media/images/taikooplace/siteimages/themag2023/october-2023/tpfeature/adventist-clinic-3.ashx?bc=dddddd&amp;as=0&amp;db=web&amp;h=563&amp;vs=1&amp;w=750&amp;hash=DDFA0A332A444BA7E3644368EAF5252A">
+                                    <div class="icon-enlargephoto"></div>
+                                </div>
+                            </a>
+                        </div></div></div>
+                        
+                        
+            <ul class="slick-dots" style="" role="tablist"><li class="slick-active" aria-hidden="false" role="presentation" aria-selected="true" aria-controls="navigation00" id="slick-slide00"><button type="button" data-role="none" role="button" aria-required="false" tabindex="0">1</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation01" id="slick-slide01" class=""><button type="button" data-role="none" role="button" aria-required="false" tabindex="0">2</button></li><li aria-hidden="true" role="presentation" aria-selected="false" aria-controls="navigation02" id="slick-slide02" class=""><button type="button" data-role="none" role="button" aria-required="false" tabindex="0">3</button></li></ul></div>
+
+                <div class="slick-nav prev slick-arrow" style="" aria-disabled="true"><i aria-hidden="true"></i></div>
+                <div class="slick-nav next slick-arrow" style="" aria-disabled="true"><i aria-hidden="true"></i></div>
         </div>
     </div>
 </div>
