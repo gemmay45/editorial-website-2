@@ -876,7 +876,7 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/website/{pageURL}</value>
+							<value>/site/website/articles/{year}/{month}/{objectID}</value>
 								<type>string</type>
 						</property>
 						<property>
