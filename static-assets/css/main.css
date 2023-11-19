@@ -6078,8 +6078,7 @@ button:disabled,
   border-radius: 50px;
   width: 12px;
   height: 12px;
-  background-color: #fff;
-  border: none;
+  background-color: #fff
 }
 
 .theme-blue .slick-slide,.theme-green .slick-slide,.theme-orange .slick-slide,.the-mag-detail-carousel .slick-dots {
@@ -6087,7 +6086,8 @@ button:disabled,
 }
 
 .theme-green .slick-dots li button,.the-mag-detail-carousel .slick-dots li button {
-  border: 1px solid #01aa73
+  border: none;
+  box-shadow: none
 }
 
 .theme-green .slick-dots li.slick-active button,.the-mag-detail-carousel .slick-dots li.slick-active button {
@@ -6114,7 +6114,6 @@ button:disabled,
   width: 36px;
   height: 36px;
   border: 0;
-  box-shadow: none
 }
 
 .theme-green .slick-prev,.theme-green .slick-prev:focus,.theme-green .slick-prev:hover,.the-mag-detail-carousel .slick-prev,.the-mag-detail-carousel .slick-prev:focus,.the-mag-detail-carousel .slick-prev:hover {
