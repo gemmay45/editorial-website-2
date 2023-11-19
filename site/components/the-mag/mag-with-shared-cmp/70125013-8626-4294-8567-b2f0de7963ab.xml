@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component id="70125013-8626-4294-8567-b2f0de7963ab">
-  <content-type>/component/magevent</content-type>
-  <display-template>/templates/web/components/mag-event.ftl</display-template>
-  <internal-name><![CDATA[New Mag Event]]></internal-name>
-  <file-name>70125013-8626-4294-8567-b2f0de7963ab.xml</file-name>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <createdDate_dt>2023-11-19T01:47:42.678Z</createdDate_dt>
-  <lastModifiedDate_dt>2023-11-19T01:47:42.678Z</lastModifiedDate_dt>
-  <objectId>70125013-8626-4294-8567-b2f0de7963ab</objectId>
-  <sectionId_s><![CDATA[Event]]></sectionId_s>
-  <title_s/>
-  <summary_html/>
-  <imagePosition_s/>
-  <image_s/>
-  <event_o/>
+<component>
+	<content-type>/component/magevent</content-type>
+	<display-template>/templates/web/components/mag-event.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<internal-name>New Mag Event</internal-name>
+	<file-name>70125013-8626-4294-8567-b2f0de7963ab.xml</file-name>
+	<createdDate_dt>2023-11-19T01:48:06.302Z</createdDate_dt>
+	<lastModifiedDate_dt>2023-11-19T01:48:06.302Z</lastModifiedDate_dt>
+	<objectId>70125013-8626-4294-8567-b2f0de7963ab</objectId>
+	<sectionId_s no-default="true"/>
+	<title_s>Qi – House of Sichuan</title_s>
+	<summary_html/>
+	<imagePosition_s/>
+	<image_s/>
+	<event_o item-list="true"/>
+	<folder-name/>
+	<createdDate>2023-11-19T01:48:06.302Z</createdDate>
+	<lastModifiedDate>2023-11-19T01:48:06.302Z</lastModifiedDate>
 </component>
