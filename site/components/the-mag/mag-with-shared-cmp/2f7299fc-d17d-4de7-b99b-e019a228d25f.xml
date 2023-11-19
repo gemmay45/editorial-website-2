@@ -7,7 +7,7 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>2f7299fc-d17d-4de7-b99b-e019a228d25f.xml</file-name>
 	<createdDate_dt>2023-11-19T01:53:43.699Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-19T01:55:13.269Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-19T01:55:47.769Z</lastModifiedDate_dt>
 	<objectId>2f7299fc-d17d-4de7-b99b-e019a228d25f</objectId>
 	<sectionId_s/>
 	<title_s>Hashtag B</title_s>
@@ -16,8 +16,10 @@
 	<image_s/>
 	<event_o item-list="true">	<item>	<icon_s>fas fa-calendar-alt</icon_s>
 	<content_html>Monday-Friday, 9am-6pm</content_html>
+	</item>	<item>	<icon_s>fas fa-map-marker-alt</icon_s>
+	<content_html>Area A, G/F, Berkshire House, Taikoo Place</content_html>
 	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-19T01:53:43.699Z</createdDate>
-	<lastModifiedDate>2023-11-19T01:55:13.269Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-19T01:55:47.769Z</lastModifiedDate>
 </component>
