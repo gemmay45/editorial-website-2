@@ -891,7 +891,7 @@
 						</property>
 						<property>
 							<name>contentTypes</name>
-							<value>/component/magtext,/component/magportraitimagewithtext,/component/magevent,/component/magbannerimage,/component/magquote,/component/magquotewithportraitimage,/component/magimagegallery</value>
+							<value>/component/magtext,/component/magportraitimagewithtext,/component/magevent,/component/magbannerimage,/component/magquote,/component/magquotewithportraitimage</value>
 								<type>contentTypes</type>
 						</property>
 						<property>
