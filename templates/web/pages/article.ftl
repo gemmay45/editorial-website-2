@@ -40,7 +40,7 @@
             <ul class="the-mag-detail__content__info">
                 <#setting time_zone = siteConfig.getString("timeZone")>
                 <li><i aria-hidden="true" class="fas fa-clock"> </i>
-                <@crafter.span>
+                <@crafter.span $field="date_dt">
                     ${contentModel.date_dt?date?string['dd MMM yyyy']}
                 </@crafter.span>
                 </li>
