@@ -881,7 +881,7 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components/the-mag/{url}</value>
+							<value>/site/websuter/{url}</value>
 								<type>string</type>
 						</property>
 						<property>
