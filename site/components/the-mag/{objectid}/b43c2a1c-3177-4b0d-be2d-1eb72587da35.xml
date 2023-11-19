@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component id="b43c2a1c-3177-4b0d-be2d-1eb72587da35">
+  <content-type>/component/magbannerimage</content-type>
+  <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
+  <internal-name><![CDATA[New Mag Banner Image]]></internal-name>
+  <file-name>b43c2a1c-3177-4b0d-be2d-1eb72587da35.xml</file-name>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <createdDate_dt>2023-11-19T02:27:32.713Z</createdDate_dt>
+  <lastModifiedDate_dt>2023-11-19T02:27:32.713Z</lastModifiedDate_dt>
+  <objectId>b43c2a1c-3177-4b0d-be2d-1eb72587da35</objectId>
+  <sectionId_s><![CDATA[Banner Image]]></sectionId_s>
+  <caption_s/>
+  <imageOnDesktop_s><![CDATA[https://via.placeholder.com/150x150]]></imageOnDesktop_s>
+  <imageOnMobile_s/>
+  <imageBackgroundColor_s/>
+  <renderer_s/>
+</component>
