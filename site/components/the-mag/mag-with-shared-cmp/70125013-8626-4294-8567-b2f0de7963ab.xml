@@ -7,7 +7,7 @@
 	<internal-name>New Mag Event</internal-name>
 	<file-name>70125013-8626-4294-8567-b2f0de7963ab.xml</file-name>
 	<createdDate_dt>2023-11-19T01:48:06.302Z</createdDate_dt>
-	<lastModifiedDate_dt>2023-11-19T01:51:20.762Z</lastModifiedDate_dt>
+	<lastModifiedDate_dt>2023-11-19T01:52:08.430Z</lastModifiedDate_dt>
 	<objectId>70125013-8626-4294-8567-b2f0de7963ab</objectId>
 	<sectionId_s/>
 	<title_s>Qi – House of Sichuan</title_s>
@@ -18,8 +18,10 @@
 	<content_html>2/F, Berkshire House, Taikoo Place</content_html>
 	</item>	<item>	<icon_s>fas fa-phone</icon_s>
 	<content_html>3579 8339</content_html>
+	</item>	<item>	<icon_s>fas fa-globe</icon_s>
+	<content_html>&lt;span style="text-decoration: underline;"&gt;&lt;a href="http://www.qi-sichuan.hk/" target="_blank" rel="noopener noreferrer"&gt;qi-sichuan.hk&lt;/a&gt;&lt;/span&gt;</content_html>
 	</item></event_o>
 	<folder-name/>
 	<createdDate>2023-11-19T01:48:06.302Z</createdDate>
-	<lastModifiedDate>2023-11-19T01:51:20.762Z</lastModifiedDate>
+	<lastModifiedDate>2023-11-19T01:52:08.430Z</lastModifiedDate>
 </component>
