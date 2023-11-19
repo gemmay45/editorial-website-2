@@ -29,12 +29,18 @@
   <createdDate>2023-11-19T01:37:05.003Z</createdDate>
   <createdDate_dt>2023-11-19T01:37:05.003Z</createdDate_dt>
   <lastModifiedDate>2023-11-19T01:41:34.339Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-19T01:56:56.355Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-19T02:17:05.073Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
   <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
   <pageSections_o item-list="true">
+    <item inline="false">
+      <key>/site/website/{pageURL}/a4ef4d02-9734-44f8-b0c6-b17023b382d7.xml</key>
+      <value><![CDATA[New Mag Banner Image]]></value>
+      <include>/site/website/{pageURL}/a4ef4d02-9734-44f8-b0c6-b17023b382d7.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
     <item inline="false">
       <key>/site/components/the-mag/mag-with-shared-cmp/b6b0d5a1-e3be-4335-8814-6744a350d5fb.xml</key>
       <value><![CDATA[New Mag Banner Image]]></value>
