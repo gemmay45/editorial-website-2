@@ -23,7 +23,7 @@
                     		$field="sideImage_s"
                     		class="figure-img img-responsive lazy lz-loaded"
                     		src=(contentModel.sideImage_s)
-                    		$attributes={'data-ll-status': 'loaded','data-studio-embedded-item-id':'df2f2262-236d-4a50-ae1d-fc70cd524b4b'}
+                    		$attributes={'data-ll-status': 'loaded'}
                     		alt=""
                     	/>
                                         <figcaption data-content=" " class="figure-caption">&nbsp;</figcaption>
