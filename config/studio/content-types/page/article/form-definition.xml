@@ -876,7 +876,7 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components</value>
+							<value>/site/components/the-mag/{objectId}</value>
 								<type>string</type>
 						</property>
 						<property>
