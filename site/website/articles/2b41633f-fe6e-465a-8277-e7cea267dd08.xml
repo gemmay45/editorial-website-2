@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component id="2b41633f-fe6e-465a-8277-e7cea267dd08">
+  <content-type>/component/magimagegallery</content-type>
+  <display-template>/templates/web/components/mag-image-gallery.ftl</display-template>
+  <internal-name><![CDATA[New Mag Image Gallery]]></internal-name>
+  <file-name>2b41633f-fe6e-465a-8277-e7cea267dd08.xml</file-name>
+  <merge-strategy>inherit-levels</merge-strategy>
+  <createdDate_dt>2023-11-19T08:38:23.733Z</createdDate_dt>
+  <lastModifiedDate_dt>2023-11-19T08:38:23.733Z</lastModifiedDate_dt>
+  <objectId>2b41633f-fe6e-465a-8277-e7cea267dd08</objectId>
+  <slideitems_o/>
+</component>
