@@ -881,7 +881,7 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components</value>
+							<value>/site/components/{parentPath[0]}</value>
 								<type>string</type>
 						</property>
 						<property>
