@@ -27,7 +27,7 @@
   <createdDate>2017-01-31T16:18:14.000Z</createdDate>
   <createdDate_dt>2017-01-31T16:18:14.000Z</createdDate_dt>
   <lastModifiedDate>2021-03-31T18:08:03.196Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-19T02:38:16.247Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-19T02:38:40.048Z</lastModifiedDate_dt>
   <title_t>Editorial</title_t>
   <hero_text_html>&lt;p&gt;Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.&lt;/p&gt;</hero_text_html>
   <hero_title_html>&lt;h1&gt;Hi, I&amp;rsquo;m Editorial&lt;/h1&gt;
@@ -39,12 +39,7 @@
       <include>/site/components/features/4be0a368-783c-8f73-7469-63a62636bd4c.xml</include>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item inline="false">
-      <key>/site/components/5f0ffa2a-4089-4aac-954d-9e66e5825387.xml</key>
-      <value><![CDATA[New Feature]]></value>
-      <include>/site/components/5f0ffa2a-4089-4aac-954d-9e66e5825387.xml</include>
-      <disableFlattening>false</disableFlattening>
-    </item>
+
     <item datasource="features" inline="true">
       <key>310b0c87-c3ca-4da0-4aa2-7002a318d7ce</key>
       <value>Download</value>
