@@ -29,7 +29,7 @@
   <createdDate>2023-11-19T01:37:05.003Z</createdDate>
   <createdDate_dt>2023-11-19T01:37:05.003Z</createdDate_dt>
   <lastModifiedDate>2023-11-19T01:41:34.339Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-19T01:46:51.470Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-19T01:47:22.681Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -54,24 +54,7 @@
       <include>/site/components/the-mag/mag-with-shared-cmp/e4832303-8416-471b-a590-75f68c5b1986.xml</include>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item inline="true">
-      <key>e7e1a921-ce5d-421d-991c-07ef6e770790</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="e7e1a921-ce5d-421d-991c-07ef6e770790">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <internal-name><![CDATA[New Mag Text]]></internal-name>
-        <file-name>e7e1a921-ce5d-421d-991c-07ef6e770790.xml</file-name>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <createdDate_dt>2023-11-16T04:20:36.684Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T04:20:55.104Z</lastModifiedDate_dt>
-        <objectId>e7e1a921-ce5d-421d-991c-07ef6e770790</objectId>
-        <sectionId_s/>
-        <title_s><![CDATA[Title goes here]]></title_s>
-        <content_html><![CDATA[<p style="text-align: center;"><strong><span style="text-decoration: underline; font-size: 32px;">Openings &amp; Launches</span></strong></p>]]></content_html>
-      </component>
-    </item>
+
     <item inline="true">
       <key>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</key>
       <value>New Mag Event</value>
