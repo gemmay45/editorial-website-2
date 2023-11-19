@@ -6072,6 +6072,81 @@ button:disabled,
   display: none
 }
 
+.theme-blue .slick-dots li button,.theme-green .slick-dots li button,.theme-orange .slick-dots li button {
+  text-indent: 999px;
+  overflow: hidden;
+  border-radius: 50px;
+  width: 12px;
+  height: 12px;
+  background-color: #fff
+}
+
+.theme-blue .slick-slide,.theme-green .slick-slide,.theme-orange .slick-slide {
+  outline: 0
+}
+
+.theme-green .slick-dots li button {
+  border: 1px solid #01aa73
+}
+
+.theme-green .slick-dots li.slick-active button {
+  background-color: #01aa73
+}
+
+.theme-orange .slick-dots li button {
+  border: 1px solid #e36f17
+}
+
+.theme-orange .slick-dots li.slick-active button {
+  background-color: #e36f17
+}
+
+.theme-blue .slick-dots li button {
+  border: 1px solid #008fd7
+}
+
+.theme-blue .slick-dots li.slick-active button {
+  background-color: #008fd7
+}
+
+.theme-blue .slick-next,.theme-blue .slick-prev,.theme-green .slick-next,.theme-green .slick-prev,.theme-orange .slick-next,.theme-orange .slick-prev {
+  width: 36px;
+  height: 36px;
+  border: 0;
+  box-shadow: none
+}
+
+.theme-green .slick-prev,.theme-green .slick-prev:focus,.theme-green .slick-prev:hover {
+  background: transparent url(/files/taikooplace/images/arrow_green.png) 0 0 no-repeat;
+  background-size: auto 36px
+}
+
+.theme-green .slick-next,.theme-green .slick-next:focus,.theme-green .slick-next:hover {
+  background: transparent url(/files/taikooplace/images/arrow_green.png) -36px 0 no-repeat;
+  background-size: auto 36px
+}
+
+.theme-blue .slick-prev,.theme-blue .slick-prev:focus,.theme-blue .slick-prev:hover {
+  background: transparent url(/files/taikooplace/images/arrow_blue.png) 0 0 no-repeat;
+  background-size: auto 36px
+}
+
+.theme-blue .slick-next,.theme-blue .slick-next:focus,.theme-blue .slick-next:hover {
+  background: transparent url(/files/taikooplace/images/arrow_blue.png) -36px 0 no-repeat;
+  background-size: auto 36px
+}
+
+.theme-orange .slick-prev,.theme-orange .slick-prev:focus,.theme-orange .slick-prev:hover {
+  background: transparent url(/files/taikooplace/images/arrow_orange.png) 0 0 no-repeat;
+  background-size: auto 36px
+}
+
+.theme-orange .slick-next,.theme-orange .slick-next:focus,.theme-orange .slick-next:hover {
+  background: transparent url(/files/taikooplace/images/arrow_orange.png) -36px 0 no-repeat;
+  background-size: auto 36px
+}
+
+
 /*---------------------------------------
     Testimonial section              
 -----------------------------------------*/
