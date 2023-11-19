@@ -6078,7 +6078,8 @@ button:disabled,
   border-radius: 50px;
   width: 12px;
   height: 12px;
-  background-color: #fff
+  background-color: #fff;
+  border: none;
 }
 
 .theme-blue .slick-slide,.theme-green .slick-slide,.theme-orange .slick-slide,.the-mag-detail-carousel .slick-dots {
