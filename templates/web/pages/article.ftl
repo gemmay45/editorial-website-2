@@ -17,7 +17,7 @@
 <!-- Wrapper -->
 <div id="wrapper">
 	<!-- Main -->
-	<div id="main theme-green">
+	<div id="main">
 
 			<!-- Header -->
 			<@renderComponent component = contentModel.header_o.item />
