@@ -861,27 +861,27 @@
 					<properties>
 						<property>
 							<name>allowShared</name>
-							<value>true</value>
-								<type>boolean</type>
-						</property>
-						<property>
-							<name>allowEmbedded</name>
 							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
-							<name>enableBrowse</name>
+							<name>allowEmbedded</name>
 							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowse</name>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
 							<name>enableSearch</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components/{parentPath[0]}</value>
+							<value>/site/components</value>
 								<type>string</type>
 						</property>
 						<property>
