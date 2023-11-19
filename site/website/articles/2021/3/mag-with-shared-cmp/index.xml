@@ -29,7 +29,7 @@
   <createdDate>2023-11-19T01:37:05.003Z</createdDate>
   <createdDate_dt>2023-11-19T01:37:05.003Z</createdDate_dt>
   <lastModifiedDate>2023-11-19T01:41:34.339Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-19T01:46:24.379Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-19T01:46:31.454Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -48,28 +48,6 @@
       <disableFlattening>false</disableFlattening>
     </item>
 
-    <item inline="true">
-      <key>e15a5bfc-0052-40d8-a67a-383957008735</key>
-      <value>New Mag Text</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="e15a5bfc-0052-40d8-a67a-383957008735">
-        <content-type>/component/magtext</content-type>
-        <display-template>/templates/web/components/mag-text.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Mag Text</internal-name>
-        <file-name>e15a5bfc-0052-40d8-a67a-383957008735.xml</file-name>
-        <createdDate_dt>2023-11-16T05:37:01.834Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T05:37:01.834Z</lastModifiedDate_dt>
-        <objectId>e15a5bfc-0052-40d8-a67a-383957008735</objectId>
-        <sectionId_s/>
-        <title_s no-default="true"/>
-        <content_html>&lt;p&gt;&lt;strong&gt;&lt;span style="color: black;"&gt;Find the latest events, openings and top deals in Quarry Bay for November 2023.&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;</content_html>
-        <folder-name/>
-        <createdDate>2023-11-16T05:37:01.834Z</createdDate>
-        <lastModifiedDate>2023-11-16T05:37:01.834Z</lastModifiedDate>
-      </component>
-    </item>
     <item inline="true">
       <key>e7e1a921-ce5d-421d-991c-07ef6e770790</key>
       <value>New Mag Text</value>
