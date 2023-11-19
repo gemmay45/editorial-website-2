@@ -20,7 +20,7 @@
                 <a href="#" data-toggle="modal" data-target=".theMagGallerySingleModal" class="theMagGalleryImageLink">
                     <figure class="figure">
                         <@crafter.img
-                    		$field="sideImage_s"
+                    		$field="contentModel.sideImage_s"
                     		class="figure-img img-responsive lazy lz-loaded"
                     		src=(contentModel.sideImage_s)
                     		$attributes={'data-ll-status': 'loaded'}
