@@ -29,7 +29,7 @@
   <createdDate>2023-11-19T01:37:05.003Z</createdDate>
   <createdDate_dt>2023-11-19T01:37:05.003Z</createdDate_dt>
   <lastModifiedDate>2023-11-19T01:41:34.339Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-19T01:47:43.105Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-19T01:52:35.672Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -61,44 +61,7 @@
       <include>/site/components/the-mag/mag-with-shared-cmp/70125013-8626-4294-8567-b2f0de7963ab.xml</include>
       <disableFlattening>false</disableFlattening>
     </item>
-    <item inline="true">
-      <key>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</key>
-      <value>New Mag Event</value>
-      <disableFlattening>false</disableFlattening>
-      <component id="a6f2583a-fa9d-4a55-bf9e-04a452fadcde">
-        <content-type>/component/magevent</content-type>
-        <display-template>/templates/web/components/mag-event.ftl</display-template>
-        <no-template-required/>
-        <merge-strategy>inherit-levels</merge-strategy>
-        <internal-name>New Mag Event</internal-name>
-        <file-name>a6f2583a-fa9d-4a55-bf9e-04a452fadcde.xml</file-name>
-        <createdDate_dt>2023-11-16T04:09:47.330Z</createdDate_dt>
-        <lastModifiedDate_dt>2023-11-16T04:26:37.034Z</lastModifiedDate_dt>
-        <objectId>a6f2583a-fa9d-4a55-bf9e-04a452fadcde</objectId>
-        <sectionId_s/>
-        <title_s>Qi – House of Sichuan</title_s>
-        <summary_html>&lt;p&gt;This one&amp;rsquo;s for the spice fiends; Qi &amp;ndash; House of Sichuan will be landed in Berkshire House, following the success of the Michelin-starred Wan Chai original. Here you&amp;rsquo;ll find authentic Sichuan dishes that reflect the &amp;ldquo;seven flavours of Sichuan&amp;rdquo; &amp;ndash; spicy, aromatic, sweet, bitter, sour, peppery and salty &amp;ndash; so get ready for an explosive culinary adventure packed with powerful flavours, numbing mala spices and a fiery helping of heat.&amp;nbsp;Stay tuned for its opening!&lt;/p&gt;</summary_html>
-        <imagePosition_s/>
-        <image_s>/static-assets/images/the-mag/themag2023/november-2023/taikoothismonthnov2023/house-of-sichuan-nov-ttm.jpg</image_s>
-        <event_o item-list="true">
-          <item>
-            <icon_s>fas fa-map-marker-alt</icon_s>
-            <content_html>2/F, Berkshire House, Taikoo Place</content_html>
-          </item>
-          <item>
-            <icon_s>fas fa-phone</icon_s>
-            <content_html>3579 8339</content_html>
-          </item>
-          <item>
-            <icon_s>fas fa-globe</icon_s>
-            <content_html>&lt;span style="text-decoration: underline;"&gt;&lt;a href="http://www.qi-sichuan.hk/" target="_blank" rel="noopener noreferrer"&gt;qi-sichuan.hk&lt;/a&gt;&lt;/span&gt;</content_html>
-          </item>
-        </event_o>
-        <folder-name/>
-        <createdDate>2023-11-16T04:09:47.330Z</createdDate>
-        <lastModifiedDate>2023-11-16T04:26:37.034Z</lastModifiedDate>
-      </component>
-    </item>
+
     <item inline="true">
       <key>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</key>
       <value>New Mag Event</value>
