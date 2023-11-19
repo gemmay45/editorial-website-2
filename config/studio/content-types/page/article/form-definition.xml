@@ -861,12 +861,12 @@
 					<properties>
 						<property>
 							<name>allowShared</name>
-							<value>false</value>
+							<value>true</value>
 								<type>boolean</type>
 						</property>
 						<property>
 							<name>allowEmbedded</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
@@ -881,7 +881,7 @@
 						</property>
 						<property>
 							<name>baseRepoPath</name>
-							<value>/site/components</value>
+							<value>/site/website/articles</value>
 								<type>string</type>
 						</property>
 						<property>
