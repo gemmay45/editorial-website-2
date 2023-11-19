@@ -29,7 +29,7 @@
   <createdDate>2023-11-19T01:37:05.003Z</createdDate>
   <createdDate_dt>2023-11-19T01:37:05.003Z</createdDate_dt>
   <lastModifiedDate>2023-11-19T01:41:34.339Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-19T01:52:35.672Z</lastModifiedDate_dt>
+  <lastModifiedDate_dt>2023-11-19T01:53:20.683Z</lastModifiedDate_dt>
   <disabled>false</disabled>
   <header_o item-list="true"/>
   <left_rail_o item-list="true"/>
@@ -62,6 +62,12 @@
       <disableFlattening>false</disableFlattening>
     </item>
 
+    <item inline="false">
+      <key>/site/components/the-mag/mag-with-shared-cmp/2f7299fc-d17d-4de7-b99b-e019a228d25f.xml</key>
+      <value><![CDATA[New Mag Event]]></value>
+      <include>/site/components/the-mag/mag-with-shared-cmp/2f7299fc-d17d-4de7-b99b-e019a228d25f.xml</include>
+      <disableFlattening>false</disableFlattening>
+    </item>
     <item inline="true">
       <key>f41f3e92-256e-4231-8f3d-b6bbdfbc5117</key>
       <value>New Mag Event</value>
