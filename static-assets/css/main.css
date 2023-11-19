@@ -6072,7 +6072,7 @@ button:disabled,
   display: none
 }
 
-.theme-blue .slick-dots li button,.theme-green .slick-dots li button,.theme-orange .slick-dots li button {
+.theme-blue .slick-dots li button,.theme-green .slick-dots li button,.theme-orange .slick-dots li button,.the-mag-detail-carousel .slick-dots {
   text-indent: 999px;
   overflow: hidden;
   border-radius: 50px;
