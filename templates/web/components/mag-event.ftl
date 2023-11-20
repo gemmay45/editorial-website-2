@@ -29,8 +29,8 @@
           $containerAttributes={'style': 'list-style: none; padding-left: 0;'};
           item, index
         >
- 					    <dt><i class="${item.icon_s}"></i></dt>
-						<dd><span>${item.content_html}</span></dd>
+					    <dt><@crafter.i $field="event_o" class="${item.icon_s}"></@crafter.i></dt>
+						<dd><@crafter.span $field="event_o">${item.content_html}</@crafter.span></dd>
 
           </@crafter.div>
           <hr class="major" />
