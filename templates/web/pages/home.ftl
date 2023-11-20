@@ -14,11 +14,6 @@
 <body class="is-preload">
 <@crafter.body_top/>
 
-    <div class="body" <@studio.iceAttr iceGroup="hero"/>>
-      ${contentModel.hero_text_html}
-    </div>
-
-
 <!-- Wrapper -->
 <div id="wrapper">
 
