@@ -23,19 +23,7 @@
         </#if>
     </div>
     <div class="box-wrapper">
-        <!--<div class="box">-->
-        	<@crafter.renderRepeatGroup
-				$field="event_o"
-				$containerTag="div"
-				$containerAttributes={"class":"box"};
-				row, index
-			>
-					    <dl>
-					    <dt><i class="${row.icon_s}"></i></dt>
-						<dd>${row.content_html}</dd>
-						</dl>
-			</@crafter.renderRepeatGroup>
-
+        <div class="box">
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
@@ -44,7 +32,7 @@
 					</#list>
 				</#if>
             </dl>
-        </@crafter.renderRepeatGroup>
+        </div>
     </div>
 </div>
 </section>
