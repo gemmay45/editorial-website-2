@@ -30,8 +30,8 @@
               $itemTag="div";
               item, index
             >
-                <@crafter.tag $tag="dt" $field="event_o.icon_s"><i class="${item.icon_s}"</i></@crafter.tag>
-                <@crafter.tag $tag="dd" $field="event_o.content_html">${item.content_html}</@crafter.tag>
+                <@crafter.tag $tag="dt" $field="icon_s"><i class="${item.icon_s}"</i></@crafter.tag>
+                <@crafter.tag $tag="dd" $field="content_html">${item.content_html}</@crafter.tag>
             </@crafter.renderRepeatGroup>
         </div>
     </div>
