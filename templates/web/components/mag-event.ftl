@@ -23,16 +23,16 @@
         </#if>
     </div>
     <div class="box-wrapper">
-        <div class="box">
+        <@crafter.div class="box" $field="icon_s,event_o">
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
-					    <dt><@crafter.i $field="event_o" class="${item.icon_s}"></@crafter.i></dt>
-						<dd><@crafter.span $field="event_o">${item.content_html}</@crafter.span></dd>
+					    <dt><i class="${item.icon_s}"></i></dt>
+						<dd><span>${item.content_html}</span></dd>
 					</#list>
 				</#if>
             </dl>
-        </div>
+        </crafter.div>
     </div>
 </div>
 </section>
