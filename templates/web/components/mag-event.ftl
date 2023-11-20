@@ -24,6 +24,16 @@
     </div>
     <div class="box-wrapper">
         <div class="box">
+        	<@crafter.renderRepeatGroup
+				$field="event_o"
+				$containerTag="dl"
+				$containerAttributes={"class":"nav navbar-nav navbar-right"};
+				row, index
+			>
+					    <dt><i class="${row.icon_s}"></i></dt>
+						<dd><span>${row.content_html}</span></dd>
+			</@crafter.renderRepeatGroup>
+
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
