@@ -23,11 +23,10 @@
         </#if>
     </div>
     <div class="box-wrapper">
-        <div class="box">
+        <div class="box" style="display:contents">
             <@crafter.renderRepeatGroup
               $field="event_o"
               $containerTag="dl"
-              $containerAttributes={"style":"display:contents"}
               $itemTag="div";
               item, index
             >
