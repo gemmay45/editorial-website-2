@@ -23,7 +23,7 @@
         </#if>
     </div>
     <div class="box-wrapper">
-        <div class="box">
+        <@crafter.div class="box">
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
@@ -32,7 +32,7 @@
 					</#list>
 				</#if>
             </dl>
-        </div>
+        </@crafter.div>
     </div>
 </div>
 </section>
