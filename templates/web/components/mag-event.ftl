@@ -26,8 +26,7 @@
         <div class="box">
         	<@crafter.renderRepeatGroup
 				$field="event_o"
-				$containerTag="dl"
-				$containerAttributes={"class":"nav navbar-nav navbar-right"};
+				$containerTag="dl";
 				row, index
 			>
 					    <dt><i class="${row.icon_s}"></i></dt>
