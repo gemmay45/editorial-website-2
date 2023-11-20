@@ -31,7 +31,7 @@
 				$itemTag="dt,dd";
 				row, index
 			>
-
+                    ${item.icon_s}
 					${row.content_html}
 			</@crafter.renderRepeatGroup>
 
