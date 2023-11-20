@@ -25,7 +25,7 @@
     <div class="box-wrapper">
         <div class="box">
         			<@crafter.renderRepeatGroup
-				$field="navigationMenuList_o"
+				$field="event_o"
 				$containerTag="dl";
 				row, index
 			>
