@@ -30,8 +30,12 @@
               $itemTag="div";
               item, index
             >
-                <@crafter.tag $tag="dt" $field="icon_s"><i class="${item.icon_s}"</i></@crafter.tag>
-                <@crafter.tag $tag="dd" $field="content_html">${item.content_html}</@crafter.tag>
+              <#if item.title_s?has_content>
+                <@crafter.tag $tag="dt" $field="stats_o" $index=index>${item.content_html}</@crafter.tag>
+              </#if>
+              <#if item.stat_s?has_content>
+                <@crafter.tag $tag="dd" $field="stats_o" $index=index>${item.content_html}</@crafter.tag>
+              </#if>
             </@crafter.renderRepeatGroup>
         </div>
     </div>
