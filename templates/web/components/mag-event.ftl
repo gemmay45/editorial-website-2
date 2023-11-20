@@ -24,24 +24,6 @@
     </div>
     <div class="box-wrapper">
         <div class="box">
-                    <dl>
-                        <dt><i class="fas fa-map-marker-alt"></i></dt>
-        <dd>2/F, Berkshire House, Taikoo Place</dd>
-
-                        <dt><i class="fas fa-phone"></i></dt>
-        <dd>3579 8339</dd>
-
-                        <dt><i class="fas fa-globe"></i></dt>
-        <dd><span style="text-decoration: underline;"><a rel="noopener noreferrer" href="http://www.qi-sichuan.hk/" target="_blank">qi-sichuan.hk</a></span></dd>
-
-                
-                
-                
-                
-                
-                
-                
-            </dl>
         	<@crafter.renderRepeatGroup
 				$field="event_o"
 				$containerTag="dl";
