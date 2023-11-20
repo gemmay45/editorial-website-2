@@ -25,7 +25,7 @@
     <div class="box-wrapper">
         <div class="box">
          <@crafter.renderRepeatGroup
-          $field="dl"
+          $field="event_o"
           $containerAttributes={'style': 'list-style: none; padding-left: 0;'};
           item, index
         >
