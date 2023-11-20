@@ -29,7 +29,7 @@
           $containerAttributes={'style': 'list-style: none; padding-left: 0;'};
           item, index
         >
-					    <dt><@crafter.i class="${item.icon_s}"></@crafter.i></dt>
+					    <dt><@crafter.i class=(item.icon_s!"")></@crafter.i></dt>
 						<dd><@crafter.span>${item.content_html}</@crafter.span></dd>
 
           </@crafter.div>
