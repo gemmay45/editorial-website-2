@@ -23,14 +23,17 @@
         </#if>
     </div>
     <div class="box-wrapper">
-        <div class="box">
+        <!--<div class="box">-->
         	<@crafter.renderRepeatGroup
 				$field="event_o"
-				$containerTag="dl";
+				$containerTag="div"
+				$containerAttributes={"class":"box"};
 				row, index
 			>
+					    <dl>
 					    <dt><i class="${row.icon_s}"></i></dt>
 						<dd>${row.content_html}</dd>
+						</dl>
 			</@crafter.renderRepeatGroup>
 
             <dl>
@@ -41,7 +44,7 @@
 					</#list>
 				</#if>
             </dl>
-        </div>
+        </@crafter.renderRepeatGroup>
     </div>
 </div>
 </section>
