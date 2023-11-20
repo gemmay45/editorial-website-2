@@ -30,7 +30,7 @@
 				row, index
 			>
 					    <dt><i class="${row.icon_s}"></i></dt>
-						<dd><span>${row.content_html}</span></dd>
+						<dd>${row.content_html}</dd>
 			</@crafter.renderRepeatGroup>
 
             <dl>
