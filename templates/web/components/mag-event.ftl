@@ -31,10 +31,10 @@
               item, index
             >
               <#if item.title_s?has_content>
-                <@crafter.tag $tag="dt" $field="stats_o" $index=index>${item.content_html}</@crafter.tag>
+                <@crafter.tag $tag="dt" $field="event_o" $index=index>${item.content_html}</@crafter.tag>
               </#if>
               <#if item.stat_s?has_content>
-                <@crafter.tag $tag="dd" $field="stats_o" $index=index>${item.content_html}</@crafter.tag>
+                <@crafter.tag $tag="dd" $field="event_o" $index=index>${item.content_html}</@crafter.tag>
               </#if>
             </@crafter.renderRepeatGroup>
         </div>
