@@ -24,7 +24,7 @@
     </div>
     <div class="box-wrapper">
         <div class="box">
-            Using renderRepeatGroup<br/>
+            Using renderRepeatGroup<br/><br/>
             <@crafter.renderRepeatGroup
               $field="event_o"
               $containerTag="dl"
@@ -43,7 +43,7 @@
     
     <div class="box-wrapper">
         <div class="box">
-            Not using renderRepeatGroup<br/>
+            Not using renderRepeatGroup<br/><br/>
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
