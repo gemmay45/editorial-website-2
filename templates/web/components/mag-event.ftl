@@ -27,8 +27,7 @@
             <@crafter.renderRepeatGroup
               $field="event_o"
               $containerTag="dl"
-              $itemTag="div"
-              $itemAttributes={"style":"display:contents"};
+              $itemTag="div";
               item, index
             >
               <#if item.content_html?has_content>
