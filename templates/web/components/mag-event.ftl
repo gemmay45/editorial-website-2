@@ -28,7 +28,8 @@
 				$field="event_o"
 				$containerTag="dl"
 				$containerAttributes={"class":"nav navbar-nav navbar-right"}
-				$itemTag="dt,dd";
+				$itemTag="dt"
+				$itemTag="dd";
 				row, index
 			>
                     ${item.icon_s}
