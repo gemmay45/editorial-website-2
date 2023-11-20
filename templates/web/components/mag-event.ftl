@@ -23,7 +23,7 @@
         </#if>
     </div>
     <div class="box-wrapper">
-        <@crafter.div class="box">
+        <@crafter.div class="box" $field="content_html">
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
