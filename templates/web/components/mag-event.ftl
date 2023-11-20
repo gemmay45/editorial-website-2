@@ -26,9 +26,9 @@
         <div class="box">
             <@crafter.renderRepeatGroup
 				$field="event_o"
-				$containerTag="ul"
+				$containerTag="dl"
 				$containerAttributes={"class":"nav navbar-nav navbar-right"}
-				$itemTag="li";
+				$itemTag="dt,dd";
 				row, index
 			>
 
