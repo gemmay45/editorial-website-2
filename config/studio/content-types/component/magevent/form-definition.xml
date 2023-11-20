@@ -326,7 +326,7 @@
 				<field>
 					<type>repeat</type>
 					<id>event_o</id>
-					<iceId></iceId>
+					<iceId>iceEventRepeat</iceId>
 					<title>Event</title>
 					<description></description>
 					<minOccurs>0</minOccurs>
