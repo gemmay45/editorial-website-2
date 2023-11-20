@@ -24,6 +24,36 @@
     </div>
     <div class="box-wrapper">
         <div class="box">
+            <@crafter.renderRepeatGroup
+              $field="event_o"
+              $containerTag="dl"
+              $itemTag="div";
+              item, index
+            >
+                <@crafter.tag $tag="dt" $field="event_o.icon_s">${item.icon_s}</@crafter.tag>
+                <@crafter.tag $tag="dd" $field="event_o.content_html">${item.content_html}</@crafter.tag>
+            </@crafter.renderRepeatGroup>
+        </div>
+    </div>
+    
+    <div class="box-wrapper">
+        <div class="box">
+        <@crafter.renderRepeatGroup
+				$field="navigationMenuList_o"
+				$containerTag="ul"
+				$containerAttributes={"class":"box"}
+				$itemTag="li";
+				row, index
+			>
+				<a href="${row.navigationMenu_s}">
+					<@crafter.span $field="navigationMenuList_o.navigationMenuLabel_t" $index=index>${row.navigationMenuLabel_t}</@crafter.span>
+				</a>
+			</@crafter.renderRepeatGroup>
+        </div>
+    </div>
+    
+    <div class="box-wrapper">
+        <div class="box">
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
