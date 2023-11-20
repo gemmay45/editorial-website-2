@@ -24,17 +24,6 @@
     </div>
     <div class="box-wrapper">
         <div class="box">
-         <@crafter.renderRepeatGroup
-          $field="event_o"
-          $containerAttributes={'style': 'list-style: none; padding-left: 0;'};
-          item, index
-        >
-					    <dt><i class=""></i></dt>
-						<dd>${item.content_html}</dd>
-
-          </@crafter.div>
-          <hr class="major" />
-        </@crafter.renderRepeatGroup>
             <dl>
                 <#if contentModel.event_o?? && contentModel.event_o.item??>
 					<#list contentModel.event_o.item as item>
