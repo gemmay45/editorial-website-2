@@ -26,7 +26,7 @@
         <div class="box">
                     <dl>
                         <dt><i class="fas fa-map-marker-alt"></i></dt>
-        <dd><p>2/F, Berkshire House, Taikoo Place</p></dd>
+        <dd>2/F, Berkshire House, Taikoo Place</dd>
 
                         <dt><i class="fas fa-phone"></i></dt>
         <dd>3579 8339</dd>
