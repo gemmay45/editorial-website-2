@@ -24,6 +24,11 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
         </div>
+        <section>
+        <@crafter.h1 $field="name_t">
+            ${contentModel.name_t!""}
+          </@crafter.h1>
+        </section>
     </div>
     <#include "/templates/web/fragments/scripts.ftl">
 
