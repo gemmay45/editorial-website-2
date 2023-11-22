@@ -41,10 +41,10 @@ ${contentModel.opinion_t}<br/>
 ${contentModel.hashtags_o}<br/>
 ${contentModel.googleMapsDirection_s}<br/>
 ${contentModel.appleMapsDirection_s}<br/>
-${contentModel.citymapperDirections_s}<br/>
+${contentModel.citymapperDirections_s}<br/><br/>
 
 
-                    <h3>Related MAG</h3>
+                    <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as row>
 					    <#assign classItem =  siteItemService.getSiteItem(row.key) />
 					    <#assign field = "subject_t" />
