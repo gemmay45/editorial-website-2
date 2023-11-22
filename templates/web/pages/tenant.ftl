@@ -43,13 +43,10 @@ ${contentModel.googleMapsDirection_s}<br/>
 ${contentModel.appleMapsDirection_s}<br/>
 ${contentModel.citymapperDirections_s}<br/>
 
-            <@crafter.renderRepeatGroup
-              $field="relatedMAGArticle_o"
-              $containerTag="ul"
-              $itemTag="li";
-              item, index
-            >
-            <@crafter.div $field="item.subject_t" $index=index>${item.subject_t}</@crafter.div>
+          <#list articles as article>
+            <@crafter.article $model=article>
+
+                <@crafter.div>${article.subject_t}</@crafter.div>
 
             </@crafter.renderRepeatGroup>
 
