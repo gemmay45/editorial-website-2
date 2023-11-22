@@ -46,7 +46,7 @@ ${contentModel.citymapperDirections_s}<br/>
           <#list articles as article>
             <@crafter.article $model=article>
 
-                <@crafter.div>${article.subject_t}</@crafter.div>
+                <@crafter.div $field="subject_t">${article.subject_t}</@crafter.div>
 </@crafter.article>
             						</#list>
 
