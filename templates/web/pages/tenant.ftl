@@ -30,19 +30,19 @@
                 <@crafter.div $field="category_s">
                     ${contentModel.category_s!""}
                 </@crafter.div>
-                description_html
+${contentModel.description_html}
 ${contentModel.address_s}
-${openingHours_html}
-${contactNumber_s}
-${websiteURL_s}
-${quote_t}
-${quoteBy_s}
-${opinion_t}
-${hashtags_o}
-${googleMapsDirection_s}
-${appleMapsDirection_s}
-${citymapperDirections_s}
-${relatedMAGArticle_o}
+${contentModel.openingHours_html}
+${contentModel.contactNumber_s}
+${contentModel.websiteURL_s}
+${contentModel.quote_t}
+${contentModel.quoteBy_s}
+${contentModel.opinion_t}
+${contentModel.hashtags_o}
+${contentModel.googleMapsDirection_s}
+${contentModel.appleMapsDirection_s}
+${contentModel.citymapperDirections_s}
+${contentModel.relatedMAGArticle_o}
 
             </section>
         </div>
