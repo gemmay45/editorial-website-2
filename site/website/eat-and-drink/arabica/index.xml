@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/tenant</content-type>
+	<display-template>/templates/web/tenant.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fb94</objectGroupId>
+	<objectId>fb94eef2-9915-9c90-3727-633cc97bf3ea</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>arabica</folder-name>
+	<internal-name>% Arabica</internal-name>
+	<navLabel>% Arabica</navLabel>
+	<name_s/>
+	<address_s/>
+	<contactNumber_s/>
+	<websiteURL_s/>
+	<quoteBy_s/>
+	<googleMapsDirection_s/>
+	<appleMapsDirection_s/>
+	<citymapperDirections_s/>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<category_s/>
+	<openingHours_t/>
+	<quote_t/>
+	<opinion_t/>
+	<hashtags_o/>
+	<relatedMAGArticle_o item-list="true"/>
+	<description_html/>
+	<createdDate>2023-11-22T06:05:41.320Z</createdDate>
+	<createdDate_dt>2023-11-22T06:05:41.320Z</createdDate_dt>
+	<lastModifiedDate>2023-11-22T06:05:41.320Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-22T06:05:41.320Z</lastModifiedDate_dt>
+</page>
