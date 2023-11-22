@@ -13,6 +13,11 @@
 </head>
 
 <body>
+<@crafter.body_top/>
+<!-- Wrapper -->
+<div id="wrapper">
+
+</div>
 
 </body>
 </html>
