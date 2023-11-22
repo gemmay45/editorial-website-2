@@ -31,9 +31,9 @@
                     ${contentModel.category_s!""}
                 </@crafter.div>
 ${contentModel.description_html}
-${contentModel.address_s}
+${contentModel.address_s}<br/>
 ${contentModel.openingHours_html}
-${contentModel.contactNumber_s}
+${contentModel.contactNumber_s}<br/>
 ${contentModel.websiteURL_s}<br/>
 ${contentModel.quote_t}<br/>
 ${contentModel.quoteBy_s}<br/>
