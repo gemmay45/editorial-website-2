@@ -7,17 +7,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html lang="en">
-<head>
-    <#include "/templates/web/fragments/head.ftl">
-    <@crafter.head/>
-</head>
+    <head>
+        <#include "/templates/web/fragments/head.ftl">
+        <@crafter.head/>
+    </head>
+    
+    <body>
+    <@crafter.body_top/>
+    <!-- Wrapper -->
+    <div id="wrapper">
+    
+    </div>
+    <#include "/templates/web/fragments/scripts.ftl">
 
-<body>
-<@crafter.body_top/>
-<!-- Wrapper -->
-<div id="wrapper">
-
-</div>
+<@crafter.body_bottom/>
 
 </body>
 </html>
