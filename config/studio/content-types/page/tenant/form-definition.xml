@@ -999,7 +999,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value>articles</value>
+							<value>Articles</value>
 								<type>string</type>
 						</property>
 					</properties>
