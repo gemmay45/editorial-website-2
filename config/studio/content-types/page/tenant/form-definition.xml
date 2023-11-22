@@ -974,7 +974,7 @@
 					<properties>
 						<property>
 							<name>enableCreateNew</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
@@ -994,7 +994,7 @@
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/site</value>
+							<value>/site/home/articles</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
