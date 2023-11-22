@@ -42,7 +42,6 @@ ${contentModel.hashtags_o}<br/>
 ${contentModel.googleMapsDirection_s}<br/>
 ${contentModel.appleMapsDirection_s}<br/>
 ${contentModel.citymapperDirections_s}<br/>
-${contentModel.relatedMAGArticle_o}<br/>
 
             <@crafter.renderRepeatGroup
               $field="relatedMAGArticle_o"
@@ -50,7 +49,7 @@ ${contentModel.relatedMAGArticle_o}<br/>
               $itemTag="li";
               item, index
             >
-            ${item.icon_s}
+            ${item.subject_t}
             </@crafter.renderRepeatGroup>
 
             </section>
