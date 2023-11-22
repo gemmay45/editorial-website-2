@@ -44,7 +44,7 @@ ${contentModel.appleMapsDirection_s}<br/>
 ${contentModel.citymapperDirections_s}<br/>
 
 
-
+                    <h3>Related MAG</h3>
 					<#list contentModel.relatedMAGArticle_o.item as row>
 					    <#assign classItem =  siteItemService.getSiteItem(row.key) />
 					    <#assign field = "subject_t" />
