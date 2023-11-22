@@ -48,6 +48,8 @@ ${contentModel.citymapperDirections_s}<br/>
 					<#list contentModel.relatedMAGArticle_o.item as row>
 					    <#assign classItem =  siteItemService.getSiteItem(row.key) />
 					    <#assign field = "subject_t" />
+					    <#assign fieldVal = "(classItem[field])" />
+					    ${fieldVal}
 
 					</#list>
 
