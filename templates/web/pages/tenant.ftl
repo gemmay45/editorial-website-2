@@ -45,10 +45,6 @@ ${contentModel.citymapperDirections_s}<br/>
 
 
 
-					<#list contentModel.relatedMAGArticle_o.item as row>
-						<li><a href="${row.subject_t}" wow fadeIn" data-wow-delay="1s"></a></li>
-					</#list>
-
             </section>
         </div>
     </div>
