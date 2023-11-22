@@ -999,7 +999,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value>page/article</value>
+							<value>/article</value>
 								<type>string</type>
 						</property>
 					</properties>
