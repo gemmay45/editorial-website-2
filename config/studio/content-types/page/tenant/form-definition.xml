@@ -1067,7 +1067,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value></value>
+							<value>/site/taxonomy/hashtags.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
