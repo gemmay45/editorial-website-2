@@ -43,22 +43,13 @@ ${contentModel.googleMapsDirection_s}<br/>
 ${contentModel.appleMapsDirection_s}<br/>
 ${contentModel.citymapperDirections_s}<br/>
 
-        <@crafter.div $field="relatedMAGArticle_o">
-        	<#if contentModel.relatedMAGArticle_o.item??>
-            <#list contentModel.relatedMAGArticle_o.item as article>
-${article.subject_t}
-
-            </#list>
-          </#if>
-        </@crafter.div>
 
 						<#list contentModel.relatedMAGArticle_o.item as article>
-							<#assign index = class?index />
+							<#assign index = article?index />
 
-							<#assign articleItem =  siteItemService.getSiteItem(article.key) />
 
-${articleItem}
-				
+							<@crafter.div $field="relatedMAGArticle_o" $index=index class="${subject_t}">
+							</@crafter.div>
 						</#list>
 
             </section>
