@@ -25,8 +25,8 @@
             </div>
         </div>
         <section>
-        <@crafter.h1 $field="name_t">
-            ${contentModel.name_t!""}
+        <@crafter.h1 $field="name_s">
+            ${contentModel.name_s!""}
           </@crafter.h1>
         </section>
     </div>
