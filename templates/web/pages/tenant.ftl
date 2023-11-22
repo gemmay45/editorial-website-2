@@ -49,7 +49,7 @@ ${contentModel.citymapperDirections_s}<br/>
 					    <#assign classItem =  siteItemService.getSiteItem(row.key) />
 					    <#assign field = "subject_t" />
 					    <#assign fieldVal = classItem[field] />
-					    ${fieldVal}
+					    ${fieldVal}<br/>
 
 					</#list>
 
