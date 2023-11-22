@@ -47,7 +47,7 @@ ${contentModel.citymapperDirections_s}<br/>
 
 					<#list contentModel.relatedMAGArticle_o.item as row>
 					    <#assign classItem =  siteItemService.getSiteItem(row.key) />
-					    ${classItem["subject_t"]}
+					    ${classItem["content-type"]}
 					</#list>
 
 
