@@ -17,7 +17,13 @@
     <!-- Wrapper -->
     <div id="wrapper">
     
-    xxxx
+        <div id="main">
+            <div class="inner">
+    
+              <!-- Header -->
+              <@renderComponent component=contentModel.header_o.item />
+            </div>
+        </div>
     </div>
     <#include "/templates/web/fragments/scripts.ftl">
 
