@@ -46,7 +46,6 @@ ${contentModel.citymapperDirections_s}<br/>
 
 
 					<#list contentModel.relatedMAGArticle_o.item as row>
-						${row}
 					</#list>
 
 
