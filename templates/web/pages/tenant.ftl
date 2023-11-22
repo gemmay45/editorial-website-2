@@ -20,16 +20,12 @@
   <div id="main">
     <div class="inner">
 
-      <!-- Header -->
-      <@renderComponent component=contentModel.header_o.item />
       
       
       
           </div>
   </div>
 
-  <!-- Left Rail -->
-  <@renderComponent component=contentModel.left_rail_o.item />
 
 </div>
 
