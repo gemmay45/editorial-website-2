@@ -197,7 +197,7 @@
 	</sections>
 	<datasources>				<datasource>
 					<type>simpleTaxonomy</type>
-					<id>categoriesSource</id>
+					<id>categories</id>
 					<title>Categories Source</title>
 					<interface>item</interface>
 					<properties>
