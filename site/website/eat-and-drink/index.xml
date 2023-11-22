@@ -6,7 +6,7 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>907f</objectGroupId>
 	<objectId>907ffedc-1eb5-fff8-f0a0-a48f2b54b3ed</objectId>
-	<internal-name>eat-and-drink</internal-name>
+	<internal-name>Eat &amp; Drink</internal-name>
 	<navLabel>Eat &amp; Drink</navLabel>
 	<file-name>index.xml</file-name>
 	<folder-name>eat-and-drink</folder-name>
@@ -14,6 +14,6 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-11-22T05:56:27.594Z</createdDate>
 	<createdDate_dt>2023-11-22T05:56:27.594Z</createdDate_dt>
-	<lastModifiedDate>2023-11-22T05:56:27.594Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-22T05:56:27.594Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-22T06:04:00.969Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-22T06:04:00.969Z</lastModifiedDate_dt>
 </page>
