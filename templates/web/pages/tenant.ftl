@@ -51,7 +51,6 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 					    <#assign fieldVal = classItem[field] />
 					    ${fieldVal}<br/>
 					    ${row.key}<br/>
-					    ${row.url}
 
 
 					</#list>
