@@ -47,8 +47,9 @@ ${contentModel.citymapperDirections_s}<br/>
             <@crafter.article $model=article>
 
                 <@crafter.div>${article.subject_t}</@crafter.div>
+</@crafter.article>
+            						</#list>
 
-            </@crafter.renderRepeatGroup>
 
             </section>
         </div>
