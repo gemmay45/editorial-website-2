@@ -1,27 +1,20 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
+<!DOCTYPE HTML>
 <!--
 	Editorial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<!doctype html>
-<html lang="en">
+<html lang="en" data-craftercms-preview="${modePreview?c}">
 <head>
-  <#include "/templates/web/fragments/head.ftl">
-  <@crafter.head/>
+	<#include "/templates/web/fragments/head.ftl">
+	<@crafter.head/>
 </head>
-<body class="is-preload">
+<body class="the-mag">
 <@crafter.body_top/>
 
 <!-- Wrapper -->
 <div id="wrapper">
-
-
-
-</div>
-
-<#include "/templates/web/fragments/scripts.ftl">
-
-<@crafter.body_bottom/>
-</body>
+	<!-- Main -->
+	<div id="main">
