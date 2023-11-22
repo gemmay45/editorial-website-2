@@ -50,9 +50,9 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 					    <#assign field = "subject_t" />
 					    <#assign fieldVal = classItem[field] />
 					    ${fieldVal}<br/>
-					    <#assign field = "url" />
-					    <#assign fieldVal = classItem[field] />
-					    ${fieldVal}<br/>
+					    ${row.key}<br/>
+					    ${row.url}
+
 
 					</#list>
 
