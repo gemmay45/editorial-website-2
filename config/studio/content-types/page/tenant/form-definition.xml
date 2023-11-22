@@ -994,12 +994,12 @@
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/site/home/articles</value>
+							<value>/site/website/articles/</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
 							<name>type</name>
-							<value>Articles</value>
+							<value></value>
 								<type>string</type>
 						</property>
 					</properties>
