@@ -52,6 +52,14 @@ ${article.subject_t}
           </#if>
         </@crafter.div>
 
+						<#list contentModel.relatedMAGArticle_o.item as article>
+							<#assign index = class?index />
+
+							<#assign articleItem =  siteItemService.getSiteItem(article.key) />
+
+${articleItem}
+				
+						</#list>
 
             </section>
         </div>
