@@ -48,7 +48,7 @@ ${contentModel.citymapperDirections_s}<br/>
 							<#assign index = article?index />
 
 
-							<@crafter.div $field="relatedMAGArticle_o" $index=index class="${subject_t}">
+
 							</@crafter.div>
 						</#list>
 
