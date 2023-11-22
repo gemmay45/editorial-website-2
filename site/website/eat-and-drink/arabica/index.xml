@@ -12,23 +12,23 @@
 	<navLabel>% Arabica</navLabel>
 	<name_s>% Arabica</name_s>
 	<address_s>Shop 3, Yick Fat Building, 1048-1056 King’s Rd, Quarry Bay</address_s>
-	<contactNumber_s/>
-	<websiteURL_s/>
-	<quoteBy_s/>
-	<googleMapsDirection_s/>
-	<appleMapsDirection_s/>
+	<contactNumber_s>+852 2131 8836</contactNumber_s>
+	<websiteURL_s>https://arabica.coffee/en/</websiteURL_s>
+	<quoteBy_s>Enid, Barista</quoteBy_s>
+	<googleMapsDirection_s>https://www.google.com/maps/search/?api=1&amp;query=22</googleMapsDirection_s>
+	<appleMapsDirection_s>http://maps.apple.com/?ll=22.28395,114.21255&amp;q=%25</appleMapsDirection_s>
 	<citymapperDirections_s/>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<category_s>drink</category_s>
-	<quote_t/>
-	<opinion_t/>
+	<quote_t>We’re a secret spot inside this old building, many of our customers end up staying for a whole afternoon.</quote_t>
+	<opinion_t>Brought all the way from Japan, the % Arabica coffee experience is all about understated minimalism. The dark roasts contrast the bright interior, creating a quiet nook in the dense urban jungle. The matcha latte is a must try. </opinion_t>
 	<hashtags_o/>
 	<relatedMAGArticle_o item-list="true"/>
 	<description_html>&lt;p&gt;Tucked away in the basement of Quarry Bay&amp;rsquo;s most Instagrammable spot lies a truly transformational coffee experience. Perched between the barbershops and Thai eateries is this tiny futuristic coffee shop. Its interior is modelled after the Monster Building with stacks of coffee bags resembling the iconic architecture of the local landmark.&lt;/p&gt;</description_html>
 	<createdDate>2023-11-22T06:05:41.320Z</createdDate>
 	<createdDate_dt>2023-11-22T06:05:41.320Z</createdDate_dt>
-	<lastModifiedDate>2023-11-22T06:18:02.181Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-22T06:18:02.181Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-22T06:18:36.221Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-22T06:18:36.221Z</lastModifiedDate_dt>
 	<openingHours_html>&lt;p&gt;Mon-Fri 8:30am-7pm&lt;br /&gt;Sat-Sun 9am-7pm&lt;/p&gt;</openingHours_html>
 </page>
