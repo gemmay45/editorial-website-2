@@ -192,9 +192,9 @@
 				</field>
 				<field>
 					<type>node-selector</type>
-					<id>left_o</id>
+					<id>leftRail_o</id>
 					<iceId></iceId>
-					<title>Left</title>
+					<title>Left Rail</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -211,7 +211,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>componentsLeftRail</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -1171,7 +1171,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/component/headers</value>
+							<value>/site/components/headers</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
@@ -1209,7 +1209,7 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/component/left-rail</value>
+							<value>/site/components/left-rail</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
