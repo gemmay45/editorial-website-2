@@ -23,12 +23,12 @@
               <!-- Header -->
               <@renderComponent component=contentModel.header_o.item />
             </div>
-        </div>
-        <section>
+                    <section>
         <@crafter.h1 $field="name_s">
             ${contentModel.name_s!""}
           </@crafter.h1>
         </section>
+        </div>
     </div>
     <#include "/templates/web/fragments/scripts.ftl">
 
