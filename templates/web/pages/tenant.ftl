@@ -34,15 +34,15 @@ ${contentModel.description_html}
 ${contentModel.address_s}
 ${contentModel.openingHours_html}
 ${contentModel.contactNumber_s}
-${contentModel.websiteURL_s}
-${contentModel.quote_t}
-${contentModel.quoteBy_s}
-${contentModel.opinion_t}
-${contentModel.hashtags_o}
-${contentModel.googleMapsDirection_s}
-${contentModel.appleMapsDirection_s}
-${contentModel.citymapperDirections_s}
-${contentModel.relatedMAGArticle_o}
+${contentModel.websiteURL_s}<br/>
+${contentModel.quote_t}<br/>
+${contentModel.quoteBy_s}<br/>
+${contentModel.opinion_t}<br/>
+${contentModel.hashtags_o}<br/>
+${contentModel.googleMapsDirection_s}<br/>
+${contentModel.appleMapsDirection_s}<br/>
+${contentModel.citymapperDirections_s}<br/>
+${contentModel.relatedMAGArticle_o}<br/>
 
             </section>
         </div>
