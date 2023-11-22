@@ -15,9 +15,9 @@
 	<contactNumber_s>+852 2131 8836</contactNumber_s>
 	<websiteURL_s>https://arabica.coffee/en/</websiteURL_s>
 	<quoteBy_s>Enid, Barista</quoteBy_s>
-	<googleMapsDirection_s>https://www.google.com/maps/search/?api=1&amp;query=22</googleMapsDirection_s>
-	<appleMapsDirection_s>http://maps.apple.com/?ll=22.28395,114.21255&amp;q=%25</appleMapsDirection_s>
-	<citymapperDirections_s/>
+	<googleMapsDirection_s>https://www.google.com/maps/search/?api=1&amp;query=22.28395%2C114.21255&amp;query_place_id=ChIJ5Uq2HkkBBDQRzng_WiLIGEY</googleMapsDirection_s>
+	<appleMapsDirection_s>http://maps.apple.com/?ll=22.28395,114.21255&amp;q=%25%20Arabica</appleMapsDirection_s>
+	<citymapperDirections_s>https://citymapper.com/directions?endcoord=22.28395%2C114.21255&amp;endname=%25%20Arabica&amp;endaddress=Shop%203%2C%20Yick%20Fat%20Building%2C%201048-1056%20King%E2%80%99s%20Rd%2C%20Quarry%20Bay</citymapperDirections_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<category_s>drink</category_s>
@@ -28,7 +28,7 @@
 	<description_html>&lt;p&gt;Tucked away in the basement of Quarry Bay&amp;rsquo;s most Instagrammable spot lies a truly transformational coffee experience. Perched between the barbershops and Thai eateries is this tiny futuristic coffee shop. Its interior is modelled after the Monster Building with stacks of coffee bags resembling the iconic architecture of the local landmark.&lt;/p&gt;</description_html>
 	<createdDate>2023-11-22T06:05:41.320Z</createdDate>
 	<createdDate_dt>2023-11-22T06:05:41.320Z</createdDate_dt>
-	<lastModifiedDate>2023-11-22T06:18:36.221Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-22T06:18:36.221Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-22T06:23:58.820Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-22T06:23:58.820Z</lastModifiedDate_dt>
 	<openingHours_html>&lt;p&gt;Mon-Fri 8:30am-7pm&lt;br /&gt;Sat-Sun 9am-7pm&lt;/p&gt;</openingHours_html>
 </page>
