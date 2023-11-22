@@ -18,3 +18,15 @@
 <div id="wrapper">
 	<!-- Main -->
 	<div id="main">
+	
+	
+		</div>
+                
+
+</div>
+
+<#include "/templates/web/fragments/scripts.ftl">
+
+<@crafter.body_bottom/>
+</body>
+</html>
