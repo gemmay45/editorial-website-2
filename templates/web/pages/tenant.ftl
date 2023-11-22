@@ -44,6 +44,15 @@ ${contentModel.appleMapsDirection_s}<br/>
 ${contentModel.citymapperDirections_s}<br/>
 ${contentModel.relatedMAGArticle_o}<br/>
 
+            <@crafter.renderRepeatGroup
+              $field="relatedMAGArticle_o"
+              $containerTag="ul"
+              $itemTag="li";
+              item, index
+            >
+            ${item.icon_s}
+            </@crafter.renderRepeatGroup>
+
             </section>
         </div>
     </div>
