@@ -14,16 +14,7 @@
 <body class="the-mag">
 <@crafter.body_top/>
 
-<!-- Wrapper -->
-<div id="wrapper">
-	<!-- Main -->
-	<div id="main">
-	XXXX
-	
-		</div>
-                
-
-</div>
+xxx
 
 <#include "/templates/web/fragments/scripts.ftl">
 
