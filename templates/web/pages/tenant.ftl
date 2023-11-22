@@ -45,11 +45,7 @@ ${contentModel.citymapperDirections_s}<br/>
 
 
 						<#list contentModel.relatedMAGArticle_o.item as article>
-							<#assign index = article?index />
 
-
-
-							</@crafter.div>
 						</#list>
 
             </section>
