@@ -49,7 +49,7 @@ ${contentModel.citymapperDirections_s}<br/>
               $itemTag="li";
               item, index
             >
-            <@crafter.div $field="relatedMAGArticle_o">${item.subject_t}</@crafter.div>
+            <@crafter.div $field="relatedMAGArticle_o" index=$index>${item.subject_t}</@crafter.div>
 
             </@crafter.renderRepeatGroup>
 
