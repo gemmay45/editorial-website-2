@@ -30,6 +30,20 @@
                 <@crafter.div $field="category_s">
                     ${contentModel.category_s!""}
                 </@crafter.div>
+                description_html
+${contentModel.address_s}
+openingHours_html
+contactNumber_s
+websiteURL_s
+quote_t
+quoteBy_s
+opinion_t
+hashtags_o
+googleMapsDirection_s
+appleMapsDirection_s
+citymapperDirections_s
+relatedMAGArticle_o
+
             </section>
         </div>
     </div>
