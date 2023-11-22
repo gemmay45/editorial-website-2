@@ -46,10 +46,8 @@ ${contentModel.citymapperDirections_s}<br/>
         <@crafter.div $field="relatedMAGArticle_o">
         	<#if contentModel.relatedMAGArticle_o.item??>
             <#list contentModel.relatedMAGArticle_o.item as article>
-              <#assign index = article?index />
-              <@crafter.div $field="relatedMAGArticle_o" $index=index>
-                ${relatedMAGArticle_o[index].subject_t}
-              </@crafter.div>
+${article.subject_t}
+
             </#list>
           </#if>
         </@crafter.div>
