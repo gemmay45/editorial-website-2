@@ -989,17 +989,17 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/website/articles</value>
+							<value>/site</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/site/website/articles</value>
+							<value>/site</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
 							<name>type</name>
-							<value></value>
+							<value>articles</value>
 								<type>string</type>
 						</property>
 					</properties>
