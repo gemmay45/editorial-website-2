@@ -21,7 +21,6 @@
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<category_s>drink</category_s>
-	<openingHours_t/>
 	<quote_t/>
 	<opinion_t/>
 	<hashtags_o/>
@@ -29,6 +28,7 @@
 	<description_html>&lt;p&gt;Tucked away in the basement of Quarry Bay&amp;rsquo;s most Instagrammable spot lies a truly transformational coffee experience. Perched between the barbershops and Thai eateries is this tiny futuristic coffee shop. Its interior is modelled after the Monster Building with stacks of coffee bags resembling the iconic architecture of the local landmark.&lt;/p&gt;</description_html>
 	<createdDate>2023-11-22T06:05:41.320Z</createdDate>
 	<createdDate_dt>2023-11-22T06:05:41.320Z</createdDate_dt>
-	<lastModifiedDate>2023-11-22T06:14:45.563Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-22T06:14:45.563Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-22T06:18:02.181Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-22T06:18:02.181Z</lastModifiedDate_dt>
+	<openingHours_html>&lt;p&gt;Mon-Fri 8:30am-7pm&lt;br /&gt;Sat-Sun 9am-7pm&lt;/p&gt;</openingHours_html>
 </page>
