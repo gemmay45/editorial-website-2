@@ -65,8 +65,9 @@
                     ${category.key}<br/>
                 </#list>
 
-    <#assign taxonomy=tenant-categories/>
+    
     <#--
+    <#assign taxonomy=tenant-categories/>
     <#assign url="/tenant-categories"/>
 
     <@crafter.renderRepeatGroup
