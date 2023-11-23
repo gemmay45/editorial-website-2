@@ -32,7 +32,7 @@ import org.craftercms.sites.editorial.SearchHelper
                     ${contentModel.category_s!""}
                 </@crafter.div>
 
-				<#list categories as category>
+				<#list contentModel.categories_o as category>
 					${category.value}
 				</#list>
 						
