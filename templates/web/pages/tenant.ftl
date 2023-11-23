@@ -35,8 +35,8 @@
                 </@crafter.renderRepeatGroup>-->
                 
     <div class="row">
-        <div class="col-sm-4"><img src="/static-assets/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" /></div>
-        <div class="col-sm-8"><img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" alt="" class="img-fluid" /></div>
+        <div class="col-mb-4"><img src="/static-assets/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" /></div>
+        <div class="col-mb-8"><img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" alt="" class="img-fluid" /></div>
     </div>
 
 <div class="col-md-9 mb-4”>
