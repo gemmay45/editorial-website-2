@@ -36,7 +36,7 @@
                 
 
 <div class="row">
-  <div class="col-md-4"><img src="/static-assets/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" /></div>
+  <div class="col-md-4" witdth="300"><img src="/static-assets/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" /></div>
   <div class="col-md-8">
     <div class="pb-3">
         <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" />
