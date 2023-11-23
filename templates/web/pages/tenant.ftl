@@ -34,6 +34,8 @@
       
                 </@crafter.renderRepeatGroup>-->
                 
+<div class="col-sm-4">.col-sm-4</div>
+<div class="col-sm-8">
 <div class="col-md-9 mb-4”>
 <div>
 <div>
@@ -52,6 +54,7 @@
 <div>
 <div>
     <img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" alt="" class="img-fluid" />
+</div>
 </div>
 </div>
 </div>
