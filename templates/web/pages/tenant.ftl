@@ -68,18 +68,6 @@
     <#assign taxonomy=tenant-categories/>
     <#assign url="/tenant-categories"/>
 
-    <@crafter.renderRepeatGroup
-      $model=taxonomy
-      $field="items"
-      $containerTag="ul"
-      $containerAttributes={'class': '${contentModel.taxonomy_s}', 'clearfix': ''}
-      $itemTag="li";
-      item, index
-    >
-      <@crafter.a $model=taxonomy $field="items.value" $index=index href="${url}?id=${item.key}">
-        ${item.value}
-      </@crafter.a>
-    </@crafter.renderRepeatGroup>
 
                 <@crafter.renderRepeatGroup
                   $model=taxonomy
