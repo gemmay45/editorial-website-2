@@ -34,10 +34,11 @@
       
                 </@crafter.renderRepeatGroup>
                 
-                <div class="row mb-5" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="fe25d814-27a0-41b8-815e-9ec852fda275" data-craftercms-field-id="columns_o">    
-                <div class="col-md-4 mb-4" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="fe25d814-27a0-41b8-815e-9ec852fda275" data-craftercms-field-id="columns_o" data-craftercms-index="0">
-                <div data-craftercms-type="collection" data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o">    <div data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o" data-craftercms-index="0">
-                    <img src="/static-assets/images/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" alt="" class="img-fluid" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="b9a87606-e4c5-3181-3ee8-62d8e0e84eff" data-craftercms-field-id="image_s">
+                <div class="row mb-5">    
+                <div class="col-md-4 mb-4">
+                <div>    
+                <div>
+                    <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" alt="" class="img-fluid">
                 </div>
                 </div>
                 </div>
