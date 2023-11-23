@@ -34,7 +34,7 @@ import org.craftercms.sites.editorial.SearchHelper
 
 
                 <#list contentModel.categories_o.item as category>
-                    ${category.value_smv}
+                    ${category.value}
                 </#list>
 
 
