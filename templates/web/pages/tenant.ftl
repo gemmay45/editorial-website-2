@@ -31,7 +31,7 @@
                       item, index
                 >
                 <@crafter.img
-                    $field="images_o.image_s"
+                    $field="images_o"
                     $index=index
                     src="${(images_o.image_s)}"
                 />
