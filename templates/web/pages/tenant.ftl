@@ -74,7 +74,7 @@
       $containerTag="div";
       item, index
     >
-      <@crafter.a $model=taxonomy $field="items.value" $index=index>
+      <@crafter.a $model=taxonomy $field="items.value" $index=index href="">
         ${item.value}
       </@crafter.a>
     </@crafter.renderRepeatGroup>
