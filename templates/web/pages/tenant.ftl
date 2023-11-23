@@ -32,7 +32,7 @@
                 </@crafter.div>
 
                 <#list contentModel.categories_o.item as category>
-                    ${category.value}
+                    ${category.key}
                 </#list>
 
 
