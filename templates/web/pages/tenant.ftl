@@ -24,6 +24,20 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
             <section>
+                        <@crafter.renderRepeatGroup
+              $field="event_o"
+              $containerTag="dl"
+              $itemTag="div";
+              item, index
+            >
+              <#if item.content_html?has_content>
+                <@crafter.tag $tag="dt" $field="event_o" $index=index><i $field="event_o" class="${item.icon_s}"></i></@crafter.tag>
+              </#if>
+              <#if item.content_html?has_content>
+                <@crafter.tag $tag="dd" $field="event_o" $index=index>${item.content_html}</@crafter.tag>
+              </#if>
+            </@crafter.renderRepeatGroup>
+            
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
                 </@crafter.h1>
