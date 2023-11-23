@@ -33,7 +33,6 @@ import org.craftercms.sites.editorial.SearchHelper
                 </@crafter.div>
 
                 <#list contentModel.categories_o.item as category>
-<#assign classItem = category.component />
 
                 </#list>
 
