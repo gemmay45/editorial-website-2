@@ -32,23 +32,9 @@
                     <#if index==0>
                         <#assign image1 = item.image_s />
                     </#if>
-                	<#list myItem.bannerImages_o.item as row>
-						<#if (imageSource?length > 0) >
-							<#assign imageSource = imageSource + ',' + row.bannerImage_s />
-						<#else>
-							<#assign imageSource = row.bannerImage_s />
-						</#if>
-					</#list>
-					<input type="hidden" id="mediaBannerImages" data-media-banner-images="${imageSource}"/>
 
-
-                   <#list images_o.image_s as imageItem>
-
-                    <div class="row">
-                    <div class="col-md-4"><@crafter.img src="" width="320" /></div>
-                    </div>
-                    </#list>
                 </@crafter.renderRepeatGroup>
+                ${image1}
 
 
 <div class="row">
