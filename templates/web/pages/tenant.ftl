@@ -30,7 +30,7 @@
                       $itemTag="li";
                       item, index
                 >
-                    <@crafter.img $model=images_o $field="image_s" $index=index src="${image_s!''}" />
+                    <@crafter.img $model=images_o $field="image_s" $index=index src="${images_o.image_s!''}" />
       
                 </@crafter.renderRepeatGroup>
             
