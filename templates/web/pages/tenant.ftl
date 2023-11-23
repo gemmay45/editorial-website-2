@@ -33,7 +33,6 @@
 
                 <#list contentModel.categories_o.item as category>
                     ${category.key}<br/>
-                    <@crafter.span $model=category $field="name_s">${category.value}</@crafter.span>
                 </#list>
 
 
