@@ -63,21 +63,6 @@
                     ${category.value_smv}
                 </#list>
 
-    <#--
-    <#assign taxonomy=tenant-categories/>
-    <#assign url="/tenant-categories"/>
-
-    <@crafter.renderRepeatGroup
-      $model=taxonomy
-      $field="items"
-      $containerTag="div";
-      item, index
-    >
-      <@crafter.a $model=taxonomy $field="items.value" $index=index href="">
-        ${item.value}
-      </@crafter.a>
-    </@crafter.renderRepeatGroup>
-    -->
 
 ${contentModel.description_html}
 ${contentModel.address_s}<br/>
