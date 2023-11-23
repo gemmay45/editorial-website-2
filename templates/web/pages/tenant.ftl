@@ -24,18 +24,31 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
             <section>
-                <#--<@crafter.renderRepeatGroup
+                <@crafter.renderRepeatGroup
                       $field="images_o"
                       $containerTag="div";
                       item, index
-                >-->
+                >
+                    <#if index==0>
+                        <#assign image1 = item. />
+                    </#if>
+                	<#list myItem.bannerImages_o.item as row>
+						<#if (imageSource?length > 0) >
+							<#assign imageSource = imageSource + ',' + row.bannerImage_s />
+						<#else>
+							<#assign imageSource = row.bannerImage_s />
+						</#if>
+					</#list>
+					<input type="hidden" id="mediaBannerImages" data-media-banner-images="${imageSource}"/>
+
+
                    <#list images_o.image_s as imageItem>
 
                     <div class="row">
-                    <div class="col-md-4"><@crafter.img src="${images_o.item[0].image_s!''}" width="320" /></div>
+                    <div class="col-md-4"><@crafter.img src="" width="320" /></div>
                     </div>
                     </#list>
-                <#--</@crafter.renderRepeatGroup>-->
+                </@crafter.renderRepeatGroup>
 
 
 <div class="row">
