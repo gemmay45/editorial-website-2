@@ -98,7 +98,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 					</#if>
 
                     <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
-                    <h4>Related MAG</h4>
+                    <h4>Recommended</h4>
 					<#list contentModel.recommended_o.item as row>
 					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
 					    <@crafter.div $model=articleItem>
