@@ -1110,7 +1110,7 @@
 						</property>
 						<property>
 							<name>itemManager</name>
-							<value></value>
+							<value>recommendedSource</value>
 							<type>datasource:item</type>
 						</property>
 						<property>
@@ -1227,7 +1227,7 @@
 					<properties>
 						<property>
 							<name>enableCreateNew</name>
-							<value>true</value>
+							<value>false</value>
 								<type>boolean</type>
 						</property>
 						<property>
