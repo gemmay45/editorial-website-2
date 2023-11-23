@@ -80,6 +80,7 @@ ${contentModel.appleMapsDirection_s}<br/>
 ${contentModel.citymapperDirections_s}<br/><br/>
 
 
+                    <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as row>
 					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
@@ -94,6 +95,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
     					    ${url}
                         </@crafter.div>
 					</#list>
+					</#if>
 
 
             </section>
