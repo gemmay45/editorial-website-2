@@ -31,9 +31,7 @@ import org.craftercms.sites.editorial.SearchHelper
                 <@crafter.div $field="category_s">
                     ${contentModel.category_s!""}
                 </@crafter.div>
-                
-                <#assign categoryItem =  siteItemService.getSiteItem(contentModel.category_s) />
-                    ${categoryItem.value}
+
                 
 ${contentModel.description_html}
 ${contentModel.address_s}<br/>
