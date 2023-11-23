@@ -31,9 +31,8 @@
                     ${contentModel.category_s!""}
                 </@crafter.div>
                 
-                <@crafter.h2 $model=taxonomy $field="category_s.value">
-                    ${category_s.value}
-                </@crafter.h2>
+                <#assign categoryItem =  siteItemService.getSiteItem(contentModel.category_s) />
+                    ${categoryItem.value}
                 
 ${contentModel.description_html}
 ${contentModel.address_s}<br/>
