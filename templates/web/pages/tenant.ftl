@@ -38,14 +38,14 @@
 <div class="col-md-6 mb-4">
 <div>
 <div>
-    <img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" alt="" class="img-fluid” />
+    <img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" alt="" class="img-fluid" />
 </div>
 </div>
 </div>
     <div class="col-md-6 mb-4">
 <div>
 <div>
-    <img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" alt="" class="img-fluid” />
+    <img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" alt="" class="img-fluid" />
 </div>
 </div>
 </div>
