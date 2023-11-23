@@ -81,6 +81,23 @@
       </@crafter.a>
     </@crafter.renderRepeatGroup>
 
+                <@crafter.renderRepeatGroup
+                  $model=taxonomy
+                  $field="items"
+                  $containerTag="div"
+                  $containerAttributes={'class': 'row'}
+                  $itemTag="div"
+                  $itemAttributes={'class': 'col-md-6 mb-4'};
+                  item, index
+                >
+                  <#--<a class="blog-entry category-card" href="<#if requestURI == '/category'>/category<#else>/tag</#if>?id=${item.key}">
+                      <#if item.image_s??>
+                        <@crafter.img $model=taxonomy $field="items.image_s" $index=index class="background" src="${item.image_s!''}" alt="${item.value}" />
+                      </#if>
+                    <@crafter.h2 $model=taxonomy $field="items.value" $index=index class="title">${item.value}</@crafter.h2>
+                  </a>-->
+                  <@crafter.h2 $model=taxonomy $field="items.value" $index=index class="title">${item.value}</@crafter.h2>
+                </@crafter.renderRepeatGroup>
 
 
 ${contentModel.description_html}
