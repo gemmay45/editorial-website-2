@@ -107,9 +107,9 @@ recommended_o
                               ?replace("/site/website", "")
                               ?replace("/index.xml", "")
                             />
-    					    <#assign field = "subject_t" />
-    					    <#assign title = articleItem[field] />
-    					    ${title}<br/>
+    					    <#assign field = "name_t" />
+    					    <#assign name = articleItem[field] />
+    					    ${name}<br/>
     					    ${url}
                         </@crafter.div>
 					</#list>
