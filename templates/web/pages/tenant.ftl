@@ -97,7 +97,6 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 					</#list>
 					</#if>
 
-recommended_o
                     <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Related MAG</h4>
 					<#list contentModel.recommended_o.item as row>
@@ -107,7 +106,7 @@ recommended_o
                               ?replace("/site/website", "")
                               ?replace("/index.xml", "")
                             />
-    					    <#assign field = "name_t" />
+    					    <#assign field = "name_s" />
     					    <#assign name = articleItem[field] />
     					    ${name}<br/>
     					    ${url}
