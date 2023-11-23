@@ -46,6 +46,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as row>
+					<@crafter.div $model=relatedMAGArticle_o>
 					    <#assign classItem =  siteItemService.getSiteItem(row.key) />
 					    <#assign field = "subject_t" />
 					    <#assign fieldVal = classItem[field] />
@@ -53,7 +54,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 					    ${row.key}<br/>
 					    ${row.url}<br/>
 
-
+                    </@crafter.div>
 					</#list>
 
 
