@@ -74,8 +74,7 @@
                   $field="items"
                   $containerTag="div"
                   $containerAttributes={'class': 'row'}
-                  $itemTag="div"
-                  $itemAttributes={'class': 'col-md-6 mb-4'};
+                  $itemTag="div";
                   item, index
                 >
                   <#--<a class="blog-entry category-card" href="<#if requestURI == '/category'>/category<#else>/tag</#if>?id=${item.key}">
