@@ -299,10 +299,10 @@
 					</constraints>
 				</field>
 				<field>
-					<type>checkbox-group</type>
-					<id>categories_o</id>
+					<type>dropdown</type>
+					<id>category_s</id>
 					<iceId></iceId>
-					<title>Categories</title>
+					<title>Category</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -310,17 +310,12 @@
 						<property>
 							<name>datasource</name>
 							<value>categories</value>
-							<type>datasource:item:singleSelection</type>
+							<type>datasource:item</type>
 						</property>
 						<property>
-							<name>selectAll</name>
+							<name>emptyvalue</name>
 							<value></value>
 							<type>boolean</type>
-						</property>
-						<property>
-							<name>listDirection</name>
-							<value>[{&quot;value&quot;:&quot;horizontal&quot;,&quot;label&quot;:&quot;Horizonal&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;Vertical&quot;,&quot;selected&quot;:false}]</value>
-							<type>dropdown</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -330,9 +325,9 @@
 					</properties>
 					<constraints>
 						<constraint>
-							<name>minSize</name>
+							<name>required</name>
 							<value><![CDATA[]]></value>
-							<type>int</type>
+							<type>boolean</type>
 						</constraint>
 					</constraints>
 				</field>
