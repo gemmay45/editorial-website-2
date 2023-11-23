@@ -35,6 +35,15 @@
                 </@crafter.renderRepeatGroup>
                 
                 <div class="row mb-5">    
+                <div class="col-md-4 mb-4">    
+                <div>
+                <div>
+                    <img src="/static-assets/images/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" alt="" class="img-fluid">
+                </div>
+                </div>
+                </div>
+
+                <div class="row mb-5">    
                 <div class="col-md-4 mb-4">
                 <div>    
                 <div>
