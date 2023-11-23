@@ -57,13 +57,6 @@
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
                 </@crafter.h1>
-                <@crafter.div $field="category_s">
-                    ${contentModel.category_s!""}
-                </@crafter.div>
-
-                <#list contentModel.categories_o.item as category>
-                    ${category.key}<br/>
-                </#list>
 
     
     <#list contentModel.categories_o.item as category>
