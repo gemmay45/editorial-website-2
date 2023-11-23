@@ -34,7 +34,7 @@ import org.craftercms.sites.editorial.SearchHelper
 
                 <#list contentModel.categories_o.item as category>
 <#assign classItem = category.component />
-<@renderComponent component=category />
+
                 </#list>
 
 
