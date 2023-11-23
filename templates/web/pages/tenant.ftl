@@ -42,10 +42,10 @@
                 </div>
                 </div>
                 </div>
-                <div class="col-md-9 mb-4" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="fe25d814-27a0-41b8-815e-9ec852fda275" data-craftercms-field-id="columns_o" data-craftercms-index="1">
-                <div data-craftercms-type="collection" data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o">
-                <div data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o" data-craftercms-index="0">
-                    <img src="/static-assets/images/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" alt="" class="img-fluid" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="068ff384-cd66-298c-8639-5e915a55bc6f" data-craftercms-field-id="image_s">
+                <div class="col-md-9 mb-4">
+                <div>
+                <div>
+                    <img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" alt="" class="img-fluid">
                 </div>
                 <div data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o" data-craftercms-index="1">
                     <div class="row mb-5" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="66377957-ee5a-0976-b1ec-f1642d18e642" data-craftercms-field-id="columns_o">
