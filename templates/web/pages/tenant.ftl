@@ -50,7 +50,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 					    <@crafter.div $model=articleItem>
 					       <#assign url = articleItem.storeUrl
                               ?replace("/site/website", "")
-                              ?replace(".xml", "")
+                              ?replace("/index.xml", "")
                             />
     					    <#assign field = "subject_t" />
     					    <#assign fieldVal = articleItem[field] />
