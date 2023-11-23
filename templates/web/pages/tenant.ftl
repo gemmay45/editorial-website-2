@@ -66,6 +66,7 @@
                 </#list>
 
     <#assign taxonomy=tenant-categories/>
+    <#--
     <#assign url="/tenant-categories"/>
 
     <@crafter.renderRepeatGroup
@@ -78,7 +79,7 @@
         ${item.value}
       </@crafter.a>
     </@crafter.renderRepeatGroup>
-
+    -->
 
 ${contentModel.description_html}
 ${contentModel.address_s}<br/>
