@@ -30,7 +30,7 @@
                       item, index
                 >-->
                     <div class="row">
-                    <div class="col-md-4"><@crafter.img $field="images_o.items.image_s" src="${images_o.items[0].image_s!''}" width="320" /></div>
+                    <div class="col-md-4"><@crafter.img src="${images_o.item[0].image_s!''}" width="320" /></div>
                     </div>
                 <#--</@crafter.renderRepeatGroup>-->
 
