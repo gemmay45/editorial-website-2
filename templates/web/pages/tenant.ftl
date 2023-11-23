@@ -53,9 +53,8 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                               ?replace("/index.xml", "")
                             />
     					    <#assign field = "subject_t" />
-    					    <#assign fieldVal = articleItem[field] />
-    					    ${fieldVal}<br/>
-    					    ${row.key}<br/>
+    					    <#assign title = articleItem[field] />
+    					    ${title}<br/>
     					    ${url}
                         </@crafter.div>
 					</#list>
