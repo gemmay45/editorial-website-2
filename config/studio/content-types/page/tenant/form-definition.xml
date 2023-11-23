@@ -305,7 +305,7 @@
 					<title>Images</title>
 					<description></description>
 					<minOccurs>0</minOccurs>
-					<maxOccurs>*</maxOccurs>
+					<maxOccurs>4</maxOccurs>
 					<properties>
 						<property>
 							<name>minOccurs</name>
@@ -314,7 +314,7 @@
 						</property>
 						<property>
 							<name>maxOccurs</name>
-							<value>*</value>
+							<value>4</value>
 							<type>string</type>
 						</property>
 					</properties>
