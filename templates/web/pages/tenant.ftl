@@ -39,7 +39,7 @@
   <div class="col-md-4"><img src="/static-assets/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" width="320" /></div>
   <div class="col-md-8">
     <div class="pb-3">
-        <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" width="600"/>
+        <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" width="640"/>
     </div>
     <div class="row">
       <div class="col-md-6"><img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" width="310" /></div>
