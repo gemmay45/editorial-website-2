@@ -1242,12 +1242,12 @@
 						</property>
 						<property>
 							<name>repoPath</name>
-							<value>/site/tenants</value>
+							<value>/site</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
 							<name>browsePath</name>
-							<value>/site/tenants</value>
+							<value>/site/website/eat-and-drink</value>
 								<type>content-path-input</type>
 						</property>
 						<property>
