@@ -28,7 +28,7 @@
                     ${contentModel.name_s!""}
                 </@crafter.h1>
                 <@crafter.div $field="category_s">
-                    ${contentModel.category_s["value"]!""}
+                    ${contentModel.category_s!""}
                 </@crafter.div>
 ${contentModel.description_html}
 ${contentModel.address_s}<br/>
