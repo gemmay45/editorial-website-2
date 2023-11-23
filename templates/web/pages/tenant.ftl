@@ -32,7 +32,7 @@ import org.craftercms.sites.editorial.SearchHelper
                     ${contentModel.category_s!""}
                 </@crafter.div>
 
-                
+categories_o
 ${contentModel.description_html}
 ${contentModel.address_s}<br/>
 ${contentModel.openingHours_html}
