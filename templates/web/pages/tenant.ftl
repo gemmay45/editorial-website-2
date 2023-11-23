@@ -40,9 +40,7 @@
                     </#if>
 
                 </@crafter.renderRepeatGroup>
-                ${image1}
-
-
+                
                 <div class="row">
                   <div class="col-md-4"><img src="${image1}" width="320" /></div>
                   <div class="col-md-8">
