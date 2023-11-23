@@ -29,7 +29,7 @@
                       $containerTag="div";
                       item, index
                 >-->
-                   <#list postsInfo.paginatedPosts as post>
+                   <#list images_o.image_s as imageItem>
 
                     <div class="row">
                     <div class="col-md-4"><@crafter.img src="${images_o.item[0].image_s!''}" width="320" /></div>
