@@ -75,7 +75,7 @@
       $itemTag="li";
       item, index
     >
-      <@crafter.a $model=taxonomy $field="items.value" $index=index href="${url}?id=${item.key}">
+      <@crafter.a $model=taxonomy $field="items.value" $index=index>
         ${item.value}
       </@crafter.a>
     </@crafter.renderRepeatGroup>
