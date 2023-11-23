@@ -34,8 +34,7 @@
       
                 </@crafter.renderRepeatGroup>-->
                 
-<div class="col-sm-4">.col-sm-4</div>
-<div class="col-sm-8">
+
 <div class="col-md-9 mb-4”>
 <div>
 <div>
@@ -61,7 +60,7 @@
 </div>
 </div>
 </div>
-</div>
+
 
             
                 <@crafter.h1 $field="name_s">
