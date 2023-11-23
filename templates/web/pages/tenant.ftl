@@ -73,7 +73,6 @@
                   $model=taxonomy
                   $field="items"
                   $containerTag="div"
-                  $containerAttributes={'class': 'row'}
                   $itemTag="div";
                   item, index
                 >
