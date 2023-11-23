@@ -1,5 +1,4 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
-import org.craftercms.sites.editorial.SearchHelper
 
 <!DOCTYPE HTML>
 <!--
