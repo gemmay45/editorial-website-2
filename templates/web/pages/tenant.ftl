@@ -42,8 +42,8 @@
         <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" width="600"/>
     </div>
     <div class="row">
-      <div class="col-md-6"><img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" width="300"/></div>
-      <div class="col-md-6"><img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" width="300"/></div>
+      <div class="col-md-6"><img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" /></div>
+      <div class="col-md-6"><img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" /></div>
     </div>
   </div>
 </div>
