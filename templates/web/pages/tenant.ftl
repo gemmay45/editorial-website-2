@@ -32,7 +32,7 @@ import org.craftercms.sites.editorial.SearchHelper
                     ${contentModel.category_s!""}
                 </@crafter.div>
 
-<#assign tenantCategory = contentModel.queryValues("//category_o/item/key")/>
+<#assign tenantCategory = contentModel.queryValues("//categories_o/item/key")/>
 
 					${tenantCategory}
 
