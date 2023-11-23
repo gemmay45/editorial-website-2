@@ -33,7 +33,7 @@
                 <@crafter.img
                     $field="images_o.image_s"
                     $index=index
-                    src="${(images_o.image_s)?has_content?then(images_o.image_s, icon)}"
+                    src="${(images_o.image_s)?has_content?then(images_o.image_s)}"
                 />
       
                 </@crafter.renderRepeatGroup>
