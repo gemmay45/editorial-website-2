@@ -24,21 +24,16 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
             <section>
-            <div class="row">
-                <@crafter.renderRepeatGroup
+                <#--<@crafter.renderRepeatGroup
                       $field="images_o"
                       $containerTag="div";
                       item, index
-                >
-                    <#if index==0>
-                    <div class="col-md-4"><@crafter.img $model=images_o $field="items.image_s" $index=index src="${item.image_s!''}" width="320" /></div>
-                    <#else>
-                        <div class="col-md-8">
-                            <div class="pb-3">
-                        </div>
-                    </#if>
-                </@crafter.renderRepeatGroup>
-                </div>
+                >-->
+                    <div class="row">
+                    <div class="col-md-4"><@crafter.img $model=images_o $field="items.image_s" src="${images_o[0].image_s!''}" width="320" /></div>
+                    </div>
+                <#--</@crafter.renderRepeatGroup>-->
+
 
 <div class="row">
   <div class="col-md-4"><img src="/static-assets/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" width="320" /></div>
