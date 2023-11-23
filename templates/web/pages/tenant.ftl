@@ -29,26 +29,32 @@
                       $containerTag="div";
                       item, index
                 >
-                    <#if index==0>
+                    <#if index == 0>
                         <#assign image1 = item.image_s />
+                    <#elseif index == 1>
+                        <#assign image2 = item.image_s />
+                    <#elseif index == 2>
+                        <#assign image3 = item.image_s />
+                    <#elseif index == 3>
+                        <#assign image4 = item.image_s />
                     </#if>
 
                 </@crafter.renderRepeatGroup>
                 ${image1}
 
 
-<div class="row">
-  <div class="col-md-4"><img src="/static-assets/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp" width="320" /></div>
-  <div class="col-md-8">
-    <div class="pb-3">
-        <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" width="640"/>
-    </div>
-    <div class="row">
-      <div class="col-md-6"><img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" width="310" /></div>
-      <div class="col-md-6"><img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" width="310" /></div>
-    </div>
-  </div>
-</div>
+                <div class="row">
+                  <div class="col-md-4"><img src="${image1}" width="320" /></div>
+                  <div class="col-md-8">
+                    <div class="pb-3">
+                        <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" width="640"/>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6"><img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" width="310" /></div>
+                      <div class="col-md-6"><img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" width="310" /></div>
+                    </div>
+                  </div>
+                </div>
 
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
