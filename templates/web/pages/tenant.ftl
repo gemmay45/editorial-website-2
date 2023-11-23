@@ -47,12 +47,12 @@
                 <div>
                     <img src="/static-assets/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" alt="" class="img-fluid">
                 </div>
-                <div data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o" data-craftercms-index="1">
-                    <div class="row mb-5" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="66377957-ee5a-0976-b1ec-f1642d18e642" data-craftercms-field-id="columns_o">
-                    <div class="col-md-6 mb-4" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="66377957-ee5a-0976-b1ec-f1642d18e642" data-craftercms-field-id="columns_o" data-craftercms-index="0">
-                    <div data-craftercms-type="collection" data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o">
-                    <div data-craftercms-model-path="__PATH_NOT_FOUND__" data-craftercms-model-id="__ID_NOT_FOUND__" data-craftercms-field-id="content_o" data-craftercms-index="0">
-                        <img src="/static-assets/images/e263071651eaf24de31572c012ba0ed8750bdd18-960x640.webp" alt="" class="img-fluid" data-craftercms-model-path="/site/website/post/index.xml" data-craftercms-model-id="548e9ce1-433b-541f-509e-9b2eb413cf4f" data-craftercms-field-id="image_s">
+                <div>
+                    <div class="row mb-5">
+                    <div class="col-md-6 mb-4">
+                    <div>
+                    <div>
+                        <img src="/static-assets/c63968a78b8619b920a49a0a4eb0e2d946b0bc76-960x640.webp" alt="" class="img-fluid">
                 </div>
                 </div>
                 </div>
