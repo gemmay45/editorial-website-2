@@ -30,7 +30,7 @@
                       item, index
                 >
                     <#if index==0>
-                        <#assign image1 = item. />
+                        <#assign image1 = item.image_s />
                     </#if>
                 	<#list myItem.bannerImages_o.item as row>
 						<#if (imageSource?length > 0) >
