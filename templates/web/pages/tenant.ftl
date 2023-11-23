@@ -34,7 +34,7 @@ import org.craftercms.sites.editorial.SearchHelper
 
                 <#list contentModel.categories_o.item as category>
                     <#assign catItem =  siteItemService.getSiteItem(category.key) />
-                    ${catItem}
+                    ${catItem.storeUrl}
                 </#list>
 
 
