@@ -31,7 +31,11 @@
                       item, index
                 >
                     <#if index==0>
-                    <div class="col-md-4"><@crafter.img $model=images_o $field="items.image_s" $index=index src="${item.image_s!''}" /></div>
+                    <div class="col-md-4"><@crafter.img $model=images_o $field="items.image_s" $index=index src="${item.image_s!''}" width="320" /></div>
+                    <#else>
+                        <div class="col-md-8">
+                            <div class="pb-3">
+                        </div>
                     </#if>
                 </@crafter.renderRepeatGroup>
                 </div>
