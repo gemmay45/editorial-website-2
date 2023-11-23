@@ -32,10 +32,8 @@ import org.craftercms.sites.editorial.SearchHelper
                     ${contentModel.category_s!""}
                 </@crafter.div>
 
-<#assign articleCategories = contentModel.queryValues("//categories_o/item")/>
-
                 <#list contentModel.categories_o.item as category>
-                    ${category.value}
+                    ${category}
                 </#list>
 
 
