@@ -24,19 +24,19 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
             <section>
-                        <@crafter.renderRepeatGroup
-              $field="event_o"
-              $containerTag="dl"
-              $itemTag="div";
-              item, index
-            >
-              <#if item.content_html?has_content>
-                <@crafter.tag $tag="dt" $field="event_o" $index=index><i $field="event_o" class="${item.icon_s}"></i></@crafter.tag>
-              </#if>
-              <#if item.content_html?has_content>
-                <@crafter.tag $tag="dd" $field="event_o" $index=index>${item.content_html}</@crafter.tag>
-              </#if>
-            </@crafter.renderRepeatGroup>
+                <@crafter.renderRepeatGroup
+                      $field="images_o"
+                      $containerTag="ul"
+                      $itemTag="li";
+                      item, index
+                >
+                <@crafter.img
+                    $field="images_o.image_s"
+                    $index=index
+                    src="${(images_o.image_s)?has_content?then(images_o.image_s, icon)}"
+                />
+      
+                </@crafter.renderRepeatGroup>
             
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
