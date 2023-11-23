@@ -71,8 +71,7 @@
     <@crafter.renderRepeatGroup
       $model=taxonomy
       $field="items"
-      $containerTag="ul"
-      $itemTag="li";
+      $containerTag="div";
       item, index
     >
       <@crafter.a $model=taxonomy $field="items.value" $index=index>
