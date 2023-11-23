@@ -95,6 +95,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
     					    ${url}
                         </@crafter.div>
 					</#list>
+					<br/>
 					</#if>
 
                     <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
