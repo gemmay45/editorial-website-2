@@ -59,11 +59,9 @@
                 </@crafter.h1>
 
     
-    <#list contentModel.categories_o.item as category>
-                  <a class="category mb-5" href="/category?id=${category.key}">
-                      ${category.value_smv}
-                  </a>
-    </#list>
+                <#list contentModel.categories_o.item as category>
+                    ${category.value_smv}
+                </#list>
 
     <#--
     <#assign taxonomy=tenant-categories/>
