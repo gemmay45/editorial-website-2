@@ -46,7 +46,7 @@
 <div class="row">
   <div class="col-md-8">
     <div class="pb-3">
-      .col-md-8
+        <img src="/static-assets/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp" />
     </div>
     <div class="row">
       <div class="col-md-6">.col-md-6</div>
