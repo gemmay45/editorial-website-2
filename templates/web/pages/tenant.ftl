@@ -46,13 +46,18 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as row>
-										    ${row.storeUrl}<br/>
-					    <#assign classItem =  siteItemService.getSiteItem(row.key) />
-					    <#assign field = "subject_t" />
-					    <#assign fieldVal = classItem[field] />
-					    ${fieldVal}<br/>
-					    ${row.key}<br/>
-
+					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
+					    <@crafter.div $model=articleItem>
+					       <#assign url = articleItem.storeUrl
+                              ?replace("/site/website", "")
+                              ?replace(".xml", "")
+                            />
+    					    <#assign field = "subject_t" />
+    					    <#assign fieldVal = articleItem[field] />
+    					    ${fieldVal}<br/>
+    					    ${row.key}<br/>
+    					    ${url}
+                        </@crafter.div>
 					</#list>
 
 
