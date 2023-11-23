@@ -68,22 +68,17 @@
     <#assign taxonomy=tenant-categories/>
     <#assign url="/tenant-categories"/>
 
-
-                <@crafter.renderRepeatGroup
-                  $model=taxonomy
-                  $field="items"
-                  $containerTag="div"
-                  $itemTag="div";
-                  item, index
-                >
-                  <#--<a class="blog-entry category-card" href="<#if requestURI == '/category'>/category<#else>/tag</#if>?id=${item.key}">
-                      <#if item.image_s??>
-                        <@crafter.img $model=taxonomy $field="items.image_s" $index=index class="background" src="${item.image_s!''}" alt="${item.value}" />
-                      </#if>
-                    <@crafter.h2 $model=taxonomy $field="items.value" $index=index class="title">${item.value}</@crafter.h2>
-                  </a>-->
-                  <@crafter.h2 $model=taxonomy $field="items.value" $index=index class="title">${item.value}</@crafter.h2>
-                </@crafter.renderRepeatGroup>
+    <@crafter.renderRepeatGroup
+      $model=taxonomy
+      $field="items"
+      $containerTag="ul"
+      $itemTag="li";
+      item, index
+    >
+      <@crafter.a $model=taxonomy $field="items.value" $index=index href="${url}?id=${item.key}">
+        ${item.value}
+      </@crafter.a>
+    </@crafter.renderRepeatGroup>
 
 
 ${contentModel.description_html}
