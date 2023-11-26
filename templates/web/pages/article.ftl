@@ -33,10 +33,6 @@
             <#list contentModel.categories_o.item as category>
                 ${category.value_smv}
             </#list>
-                
-          <@crafter.div class="the-mag-cat" $field="categories_o">
-            ${contentModel.categories_o.items.item}
-          </@crafter.div>
           
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
