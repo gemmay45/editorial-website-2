@@ -29,6 +29,11 @@
           <@crafter.div class="the-mag-cat" $field="categories_s">
             ${contentModel.categories_s!""}
           </@crafter.div>
+          
+            <#list contentModel.categories_o.item as category>
+                ${category.value_smv}
+            </#list>
+                
           <@crafter.div class="the-mag-cat" $field="categories_o">
             ${contentModel.categories_o.items.item}
           </@crafter.div>
