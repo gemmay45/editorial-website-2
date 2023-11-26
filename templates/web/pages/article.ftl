@@ -30,7 +30,7 @@
             ${contentModel.categories_s!""}
           </@crafter.div>
           <@crafter.div class="the-mag-cat" $field="categories_o">
-            ${contentModel.categories_o.items[0]}
+            ${contentModel.categories_o.items.item}
           </@crafter.div>
           
           <@crafter.h1 $field="subject_t">
