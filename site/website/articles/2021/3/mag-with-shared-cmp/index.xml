@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2023-11-19T01:37:05.003Z</createdDate>
 	<createdDate_dt>2023-11-19T01:37:05.003Z</createdDate_dt>
-	<lastModifiedDate>2023-11-19T05:06:22.924Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-19T05:06:22.924Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-26T12:25:34.420Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-26T12:25:34.420Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -51,4 +51,7 @@
 	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
 	<categories_s>Taikoo This Month</categories_s>
+	<categories_o>	<item>	<key>Taikoo This Month</key>
+	<value_smv>Taikoo This Month</value_smv>
+	</item></categories_o>
 </page>
