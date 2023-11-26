@@ -8,8 +8,8 @@
 	<previewable>false</previewable>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
-	<noThumbnail>true</noThumbnail>
-	<image-thumbnail>mag-portrait-image-with-text</image-thumbnail>
+	<noThumbnail>false</noThumbnail>
+	<image-thumbnail>mag-portrait-image-with-text.png</image-thumbnail>
 	<paths>
 		<includes>
 			<pattern>^/site/components/the-mag/.*</pattern>
