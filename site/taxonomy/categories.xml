@@ -14,11 +14,11 @@
 	<value>Entertainment</value>
 	</item>	<item>	<key>technology</key>
 	<value>Technology</value>
-	</item>	<item>	<key>People</key>
+	</item>	<item>	<key>people</key>
 	<value>People</value>
-	</item>	<item>	<key>Talking Points</key>
+	</item>	<item>	<key>talking-points</key>
 	<value>Talking Points</value>
-	</item>	<item>	<key>Taikoo This Month</key>
+	</item>	<item>	<key>taikoo-this-month</key>
 	<value>Taikoo This Month</value>
 	</item></items>
 	<file-name>categories.xml</file-name>
@@ -26,6 +26,6 @@
 	<internal-name>Categories</internal-name>
 	<createdDate>2017-05-12T4:56:54.000Z</createdDate>
 	<createdDate_dt>2017-05-12T4:56:54.000Z</createdDate_dt>
-	<lastModifiedDate>2023-11-16T02:59:09.085Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-16T02:59:09.085Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-26T12:34:13.603Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-26T12:34:13.603Z</lastModifiedDate_dt>
 </component>
