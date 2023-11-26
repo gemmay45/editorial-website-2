@@ -10,4 +10,9 @@
 	<quickCreatePath></quickCreatePath>
 	<noThumbnail>true</noThumbnail>
 	<image-thumbnail>mag-text.png</image-thumbnail>
+	<paths>
+		<includes>
+			<pattern>^/site/components/the-mag/.*</pattern>
+		</includes>
+	</paths>
 </content-type>
