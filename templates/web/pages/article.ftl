@@ -25,14 +25,12 @@
 			<!-- Content -->
 			<section>
         <div class="the-mag-detail__header">
-        
+
           <@crafter.div class="the-mag-cat" $field="categories_s">
-            ${contentModel.categories_s!""}
-          </@crafter.div>
-          
             <#list contentModel.categories_o.item as category>
                 ${category.value_smv}
             </#list>
+          </@crafter.div>
           
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
