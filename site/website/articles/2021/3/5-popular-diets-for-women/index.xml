@@ -1,39 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
-  <content-type>/page/article</content-type>
-  <display-template>/templates/web/pages/article.ftl</display-template>
-  <no-template-required/>
-  <merge-strategy>inherit-levels</merge-strategy>
-  <objectGroupId>6121</objectGroupId>
-  <objectId>6121741f-8b6f-75ce-151b-75e57f04da13</objectId>
-  <file-name>index.xml</file-name>
-  <folder-name>5-popular-diets-for-women</folder-name>
-  <featured_b>true</featured_b>
-  <internal-name>5 Popular Diets for Women</internal-name>
-  <title_t>5 Popular Diets for Women</title_t>
-  <subject_t>5 Popular Diets for Women</subject_t>
-  <author_s>Jane Doe</author_s>
-  <segments_o>
-    <item>
-      <key>gal</key>
-      <value_smv>Gal</value_smv>
-    </item>
-  </segments_o>
-  <summary_t>
+	<content-type>/page/article</content-type>
+	<display-template>/templates/web/pages/article.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>6121</objectGroupId>
+	<objectId>6121741f-8b6f-75ce-151b-75e57f04da13</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>5-popular-diets-for-women</folder-name>
+	<featured_b>true</featured_b>
+	<internal-name>5 Popular Diets for Women</internal-name>
+	<title_t>5 Popular Diets for Women</title_t>
+	<subject_t>5 Popular Diets for Women</subject_t>
+	<author_s>Jane Doe</author_s>
+	<segments_o>	<item>	<key>gal</key>
+	<value_smv>Gal</value_smv>
+	</item></segments_o>
+	<summary_t>
     Donec euismod et ligula quis porta. Vivamus lacinia tortor lectus, a dictum nisi
     efficitur consequat. Duis posuere aliquet massa, quis sollicitudin dolor fringilla nec.
   </summary_t>
-  <image_s>/static-assets/images/diets-women-pic.jpg</image_s>
-  <createdDate>2021-03-14T23:41:13.000Z</createdDate>
-  <createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
-  <lastModifiedDate>2023-11-16T09:07:26.187Z</lastModifiedDate>
-  <lastModifiedDate_dt>2023-11-16T09:09:57.218Z</lastModifiedDate_dt>
-  <date_dt>2017-03-13T16:00:00.000Z</date_dt>
-  <pageSections_o item-list="true">
-    <item inline="true">
-      <key>7f34730d-5318-4799-9014-084694a2c88e</key>
-      <value>New Mag Banner Image</value>
-      <component id="7f34730d-5318-4799-9014-084694a2c88e">
+	<image_s>/static-assets/images/diets-women-pic.jpg</image_s>
+	<createdDate>2021-03-14T23:41:13.000Z</createdDate>
+	<createdDate_dt>2017-03-14T23:41:13.000Z</createdDate_dt>
+	<lastModifiedDate>2023-11-26T12:25:23.518Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-26T12:25:23.518Z</lastModifiedDate_dt>
+	<date_dt>2017-03-13T16:00:00.000Z</date_dt>
+	<pageSections_o item-list="true">	<item inline="true">	<key>7f34730d-5318-4799-9014-084694a2c88e</key>
+	<value>New Mag Banner Image</value>
+	<disableFlattening>false</disableFlattening>
+<component id="7f34730d-5318-4799-9014-084694a2c88e">
         <content-type>/component/magbannerimage</content-type>
         <display-template>/templates/web/components/mag-banner-image.ftl</display-template>
         <no-template-required/>
@@ -53,12 +49,13 @@
         <createdDate>2023-11-16T09:07:27.051Z</createdDate>
         <lastModifiedDate>2023-11-16T09:07:27.051Z</lastModifiedDate>
       </component>
-      <disableFlattening>false</disableFlattening>
-    </item>
-  </pageSections_o>
-  <disabled>false</disabled>
-  <header_o item-list="true"/>
-  <left_rail_o item-list="true"/>
-  <date_dt_tz>Asia/Hong_Kong</date_dt_tz>
-  <categories_s>health</categories_s>
+	</item></pageSections_o>
+	<disabled>false</disabled>
+	<header_o item-list="true"/>
+	<left_rail_o item-list="true"/>
+	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
+	<categories_s>health</categories_s>
+	<categories_o>	<item>	<key>health</key>
+	<value_smv>Health</value_smv>
+	</item></categories_o>
 </page>
