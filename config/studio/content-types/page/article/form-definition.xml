@@ -318,7 +318,7 @@
 					<constraints>
 						<constraint>
 							<name>required</name>
-							<value><![CDATA[true]]></value>
+							<value><![CDATA[false]]></value>
 							<type>boolean</type>
 						</constraint>
 					</constraints>
@@ -356,7 +356,7 @@
 					<constraints>
 						<constraint>
 							<name>minSize</name>
-							<value><![CDATA[]]></value>
+							<value><![CDATA[1]]></value>
 							<type>int</type>
 						</constraint>
 					</constraints>
