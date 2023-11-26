@@ -29,6 +29,10 @@
           <@crafter.div class="the-mag-cat" $field="categories_s">
             ${contentModel.categories_s!""}
           </@crafter.div>
+          <@crafter.div class="the-mag-cat" $field="categories_o">
+            ${contentModel.categories_o.items[0]}
+          </@crafter.div>
+          
           <@crafter.h1 $field="subject_t">
             ${contentModel.subject_t!""}
           </@crafter.h1>
