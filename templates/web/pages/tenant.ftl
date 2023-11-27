@@ -57,9 +57,6 @@
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
                 </@crafter.h1>
-
-    
-    <@renderComponent component=contentModel.categories_o.item />
     
     
                 <#list contentModel.categories_o.item as category>
