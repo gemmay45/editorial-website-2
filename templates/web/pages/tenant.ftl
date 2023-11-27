@@ -128,11 +128,10 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             
                             </@crafter.renderRepeatGroup>
                             
-                            <@crafter.h1 $field="name_s">
+                            <@crafter.h3 $field="name_s">
                                 ${articleItem.name_s!""}
-                            </@crafter.h1>
+                            </@crafter.h3>
                 
-    					    ${name}<br/>
     					    ${tagline}<br/>
     					    ${url}
                         </@crafter.div>
