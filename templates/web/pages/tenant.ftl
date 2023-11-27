@@ -118,12 +118,12 @@
                                 >
                                 
                                   <#if index == 0>
-                                  <@crafter.img
-                                    $field="images_o.image_s"
-                                    $index="${index}"
-                                    src="${item.image_s}"
-                                    alt="" width="112px"
-                                  />
+                                      <@crafter.img
+                                        $field="images_o.image_s"
+                                        $index="${index}"
+                                        src="${item.image_s}"
+                                        alt="" width="112px"
+                                      />
                                   </#if>
                                 
                                 </@crafter.renderRepeatGroup>
