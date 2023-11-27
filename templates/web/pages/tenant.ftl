@@ -107,21 +107,6 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             />
     					    <#assign field = "name_s" />
     					    <#assign name = articleItem[field] />
-    					    
-    					    <@crafter.renderRepeatGroup
-                                  $field="images_o"
-                                  item, index
-                            >
-                                <#if index == 0>
-                                    <#assign image = item.image_s />
-                                </#if>
-  <@crafter.img
-    $field="images_o.image_s"
-    $index=0
-    src="${item.image_s}"
-    alt=""
-  />
-                            </@crafter.renderRepeatGroup>
                             
                             <@crafter.renderRepeatGroup
   $field="images_o";
