@@ -110,7 +110,7 @@
         					    <#assign tfield = "tagline_s" />
         					    <#assign tagline = articleItem[tfield] />
                                 
-                                ${articleItem.images_o[0].items[0].image_s}
+                                ${articleItem.images_o[0].item.image_s}
                                       
                                 <#--
                                 <@crafter.renderRepeatGroup
