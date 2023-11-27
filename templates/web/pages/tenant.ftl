@@ -63,10 +63,9 @@
                     ${category.value_smv}
                 </#list>
 
-          <#--<@crafter.div class="the-mag-cat" $field="categories_s">
+          <@crafter.div $field="categories_s">
             ${contentModel.categories_s!""}
           </@crafter.div>
-          -->
           
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
