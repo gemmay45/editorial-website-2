@@ -114,7 +114,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 >
 <#if index == 0>
   <@crafter.img
-    $field="images_o.image_s"
+    $field="articleItem.images_o.image_s"
     $index="${index}"
     src="${item.image_s}"
     alt=""
