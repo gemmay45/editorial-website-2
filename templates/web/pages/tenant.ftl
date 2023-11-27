@@ -96,11 +96,13 @@
         					    <#assign tfield = "tagline_s" />
         					    <#assign tagline = tenantItem[tfield] />
                                 
+                                <#--
                                 <br/>
                                 <#list tenantItem.categories_o.item as category>
                                     ${category.value_smv}
                                 </#list>
                                 <br/>
+                                -->
                                 <@crafter.span $model=tenantItem $index=index $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
                                     ${tenantItem.name_s!""}
                                 </@crafter.span>
