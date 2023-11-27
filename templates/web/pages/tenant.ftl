@@ -108,8 +108,8 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             />
     					    <#assign field = "name_s" />
     					    <#assign name = articleItem[field] />
-    					    <#assign field = "tagline_s" />
-    					    <#assign tagline = articleItem[field] />
+    					    <#assign tfield = "tagline_s" />
+    					    <#assign tagline = articleItem[tfield] />
                             
                             <@crafter.renderRepeatGroup
                                 $model=articleItem
