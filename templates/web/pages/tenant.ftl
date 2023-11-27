@@ -115,6 +115,7 @@
         					    
         					    ${img}
                                 
+                                <#--
                                 <@crafter.renderRepeatGroup
                                     $model=articleItem
                                     $field="images_o";
@@ -131,6 +132,7 @@
                                   </#if>
                                 
                                 </@crafter.renderRepeatGroup>
+                                -->
                                 
                                 <#list articleItem.categories_o.item as category>
                                     ${category.value_smv}
