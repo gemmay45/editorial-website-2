@@ -45,11 +45,11 @@
                   <div class="col-md-4"><img src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
                   <div class="col-md-8">
                     <div class="pb-3">
-                        <img src="${image2}" height="140"/>
+                        <img src="${contentModel.images_o.item[1].image_s}" height="140"/>
                     </div>
                     <div class="row">
-                      <div class="col-md-6"><img src="${image3}" height="145" /></div>
-                      <div class="col-md-6"><img src="${image4}" height="145" /></div>
+                      <div class="col-md-6"><img src="${contentModel.images_o.item[2].image_s}" height="145" /></div>
+                      <div class="col-md-6"><img src="${contentModel.images_o.item[3].image_s}" height="145" /></div>
                     </div>
                   </div>
                 </div>
