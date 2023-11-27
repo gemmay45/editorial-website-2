@@ -112,7 +112,7 @@
                                 
                                 <@crafter.img
                                         $model=articleItem
-                                        $field="images_o[0].image_s"
+                                        $field="images_o[0]"
                                         src="${images_o[0].image_s}"
                                         alt="" width="112px"
                                       />
