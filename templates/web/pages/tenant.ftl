@@ -24,6 +24,7 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
             <section>
+                <#--
                 <div class="row">
                   <div class="col-md-4"><@crafter.img $field="images_o" src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
                   <div class="col-md-8">
@@ -36,7 +37,8 @@
                     </div>
                   </div>
                 </div>
-
+                -->
+                
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
                 </@crafter.h1>
