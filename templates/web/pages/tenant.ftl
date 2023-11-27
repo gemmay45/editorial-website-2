@@ -81,7 +81,7 @@
                     <h4>Recommended</h4>
 				    <#list contentModel.recommended_o.item as row>
 					    <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
-					    <@crafter.div $model=tenantItem class="location-card">
+					    <@crafter.div class="location-card">
     					    
     					    <@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
     					    
