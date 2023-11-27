@@ -24,7 +24,6 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
             <section>
-                <#--
                 <div class="row">
                   <div class="col-md-4"><@crafter.img $field="images_o" src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
                   <div class="col-md-8">
@@ -59,7 +58,6 @@
                 ${contentModel.googleMapsDirection_s}<br/>
                 ${contentModel.appleMapsDirection_s}<br/>
                 ${contentModel.citymapperDirections_s}<br/><br/>
-                -->
 
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
@@ -69,7 +67,6 @@
     					    
     					    <@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
     					    
-    					    <#--
     					    <#assign url = tenantItem.storeUrl
                               ?replace("/site/website", "")
                               ?replace("/index.xml", "")
@@ -90,11 +87,9 @@
                             <@crafter.span $model=tenantItem $field="tagline_s" class="location-card__tagline">
                                 ${tenantItem.tagline_s!""}
                             </@crafter.span>
-                            -->
-                            <#--
+
                             <br/>
     					    ${url}<br/><br/>
-    					    -->
                             
                         </@crafter.div>
 				    </#list>
