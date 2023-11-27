@@ -131,7 +131,7 @@
                                 -->
                                 
                                 <@crafter.img
-                                    $field="images_o[0].image_s"
+                                    $field="images_o[0].items_o[0].image_s"
                                     src="${image_s}"
                                     alt="" width="112px"
                                   />
