@@ -96,7 +96,7 @@
         					    <#assign ifield = "images_o" />
         					    <#assign img = articleItem[ifield][0] />
         					    
-        					    <@crafter.img $field="images_o" src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
+        					    <@crafter.img $field="articleItem.images_o" src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
         					    
                                 <br/>
                                 
