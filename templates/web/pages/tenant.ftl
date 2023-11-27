@@ -77,36 +77,39 @@
 					</#list>
 				</#if>
 
-                <ul>
-                    <#list contentModel.recommended_o.item as row>
-                        <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
-                        <li>
-                          <#assign url = tenantItem.storeUrl
-                            ?replace("/site/website", "")
-                            ?replace("index.xml", "")
-                          />
-
-                          <@crafter.a $model=tenantItem href="${url}">
-                            <@crafter.img
-                              $model=tenantItem
-                              $field="image_s"
-                              src=tenantItem.images_o.item[0].image_s
-                              alt=""
-                            />
-                            
-                            <div class="text">
-                                <@crafter.h4 $model=tenantItem $field="name_s">
-                                ${tenantItem.name_s}
-                                </@crafter.h4>
-                                <@crafter.p $model=tenantItem $field="tagline_s" class="location-card__tagline">
-                                    ${tenantItem.tagline_s!""}
-                                </@crafter.p>
-                            </div>
-                          </@crafter.a>
-                        </li>
-                    </#list>
-                </ul>
-                
+                <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
+                    <h4>Recommended</h4>
+                    <ul>
+                        <#list contentModel.recommended_o.item as row>
+                            <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
+                            <li>
+                              <#assign url = tenantItem.storeUrl
+                                ?replace("/site/website", "")
+                                ?replace("index.xml", "")
+                              />
+    
+                              <@crafter.a $model=tenantItem href="${url}">
+                                <@crafter.img
+                                  $model=tenantItem
+                                  $field="image_s"
+                                  src=tenantItem.images_o.item[0].image_s
+                                  alt=""
+                                />
+                                
+                                <div class="text">
+                                    <@crafter.h4 $model=tenantItem $field="name_s">
+                                    ${tenantItem.name_s}
+                                    </@crafter.h4>
+                                    <@crafter.p $model=tenantItem $field="tagline_s" class="location-card__tagline">
+                                        ${tenantItem.tagline_s!""}
+                                    </@crafter.p>
+                                </div>
+                              </@crafter.a>
+                            </li>
+                        </#list>
+                    </ul>
+				</#if>
+				
                 <#--
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
