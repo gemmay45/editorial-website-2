@@ -96,7 +96,7 @@
                             
                             <div class="text">
                               <@crafter.h4 $model=tenantItem $field="name_s">
-                                ${row.name_s}
+                                ${tenantItem.name_s}
                               </@crafter.h4>
                             </div>
                           </@crafter.a>
