@@ -230,7 +230,7 @@
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value>fileBrowse</value>
+							<value>pages</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -357,8 +357,8 @@
 				</datasource>
 				<datasource>
 					<type>file-browse-repo</type>
-					<id>fileBrowse</id>
-					<title>File Browse</title>
+					<id>pages</id>
+					<title>Pages</title>
 					<interface>item</interface>
 					<properties>
 						<property>
