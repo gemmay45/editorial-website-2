@@ -60,7 +60,7 @@
     
     
                 <#list contentModel.categories_o.item as category>
-                    ${${category.value}}
+                    ${${category.value_smv}}
                 </#list>
 
           
