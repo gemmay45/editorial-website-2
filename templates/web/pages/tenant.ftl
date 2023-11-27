@@ -65,32 +65,8 @@
 					    <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
 					    <@crafter.div $model=tenantItem class="location-card">
     					    
-    					    <#--<@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>-->
+    					    <@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
                             
-					        <#assign url = tenantItem.storeUrl
-                              ?replace("/site/website", "")
-                              ?replace("/index.xml", "")
-                            />
-    					    <#assign field = "name_s" />
-    					    <#assign name = tenantItem[field] />
-    					    <#assign tfield = "tagline_s" />
-    					    <#assign tagline = tenantItem[tfield] />
-                            
-                            <#list tenantItem.categories_o.item as category>
-                                ${category.value_smv}
-                            </#list>
-                            <br/>
-                            <@crafter.span $model=tenantItem $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
-                                ${tenantItem.name_s!""}
-                            </@crafter.span>
-                            <br/>
-                            <@crafter.span $model=tenantItem $field="tagline_s" class="location-card__tagline">
-                                ${tenantItem.tagline_s!""}
-                            </@crafter.span>
-                            <#--
-                            <br/>
-    					    ${url}<br/><br/>
-    					    -->
                         </@crafter.div>
 				    </#list>
 				</#if>
