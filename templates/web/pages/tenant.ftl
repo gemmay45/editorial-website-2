@@ -60,7 +60,7 @@
                 ${contentModel.citymapperDirections_s}<br/><br/>
 
 
-                    <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
+                <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as row>
 					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
@@ -77,45 +77,45 @@
                         </@crafter.div>
 					</#list>
 					<br/>
-					</#if>
+				</#if>
 
-                    <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
-                        <h4>Recommended</h4>
-					    <#list contentModel.recommended_o.item as row>
-    					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
-    					    <@crafter.div $model=articleItem class="location-card">
-    					       <#assign url = articleItem.storeUrl
-                                  ?replace("/site/website", "")
-                                  ?replace("/index.xml", "")
-                                />
-        					    <#assign field = "name_s" />
-        					    <#assign name = articleItem[field] />
-        					    <#assign tfield = "tagline_s" />
-        					    <#assign tagline = articleItem[tfield] />
-        					    
-        					    <#assign ifield = "images_o" />
-        					    <#assign img = articleItem[ifield][0] />
-        					    
-        					    <@crafter.img $model=articleItem $field="images_o" src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
-        					    
-                                <br/>
-                                
-                                <#list articleItem.categories_o.item as category>
-                                    ${category.value_smv}
-                                </#list>
-                                <br/>
-                                <@crafter.span $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
-                                    ${articleItem.name_s!""}
-                                </@crafter.span>
-                                <br/>
-                                <@crafter.span $field="tagline_s" class="location-card__tagline">
-                                    ${articleItem.tagline_s!""}
-                                </@crafter.span>
-                                <br/>
-        					    ${url}<br/><br/>
-                            </@crafter.div>
-					    </#list>
-					</#if>
+                <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
+                    <h4>Recommended</h4>
+				    <#list contentModel.recommended_o.item as row>
+					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
+					    <@crafter.div $model=articleItem class="location-card">
+					       <#assign url = articleItem.storeUrl
+                              ?replace("/site/website", "")
+                              ?replace("/index.xml", "")
+                            />
+    					    <#assign field = "name_s" />
+    					    <#assign name = articleItem[field] />
+    					    <#assign tfield = "tagline_s" />
+    					    <#assign tagline = articleItem[tfield] />
+    					    
+    					    <#assign ifield = "images_o" />
+    					    <#assign img = articleItem[ifield][0] />
+    					    
+    					    <@crafter.img $model=articleItem $field="images_o" src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
+    					    
+                            <br/>
+                            
+                            <#list articleItem.categories_o.item as category>
+                                ${category.value_smv}
+                            </#list>
+                            <br/>
+                            <@crafter.span $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
+                                ${articleItem.name_s!""}
+                            </@crafter.span>
+                            <br/>
+                            <@crafter.span $field="tagline_s" class="location-card__tagline">
+                                ${articleItem.tagline_s!""}
+                            </@crafter.span>
+                            <br/>
+    					    ${url}<br/><br/>
+                        </@crafter.div>
+				    </#list>
+				</#if>
             </section>
         </div>
     </div>
