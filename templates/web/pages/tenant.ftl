@@ -77,6 +77,7 @@
 					</#list>
 				</#if>
 
+                <#--
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
 				    <#list contentModel.recommended_o.item as row>
@@ -87,7 +88,6 @@
     					    <@crafter.div $model=tenantItem>
         					    <@crafter.img $model=tenantItem $field="images_o" src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px" />
     
-        					    <#--
         					    <#assign url = tenantItem.storeUrl
                                   ?replace("/site/website", "")
                                   ?replace("/index.xml", "")
@@ -96,15 +96,13 @@
         					    <#assign name = tenantItem[field] />
         					    <#assign tfield = "tagline_s" />
         					    <#assign tagline = tenantItem[tfield] />
-                                -->
-                                <#--
+
                                 <br/>
                                 <#list tenantItem.categories_o.item as category>
                                     ${category.value_smv}
                                 </#list>
                                 <br/>
-                                -->
-                                <#--
+
                                 <@crafter.span $model=tenantItem $index=index $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
                                     ${tenantItem.name_s!""}
                                 </@crafter.span>
@@ -112,16 +110,15 @@
                                 <@crafter.span $model=tenantItem $index=index $field="tagline_s" class="location-card__tagline">
                                     ${tenantItem.tagline_s!""}
                                 </@crafter.span>
-                                -->
-                                <#--
+
                                 <br/>
-        					    ${url}<br/><br/>-->
+        					    ${url}<br/><br/>
     					    
                             </@crafter.div>
                         </div>
 				    </#list>
 				</#if>
-				
+				-->
             </section>
         </div>
     </div>
