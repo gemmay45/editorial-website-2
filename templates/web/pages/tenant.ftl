@@ -63,7 +63,7 @@
                 <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as row>
-					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
+					    <#assign articleItem = siteItemService.getSiteItem(row.key) />
 					    <@crafter.div $model=articleItem>
 					       <#assign url = articleItem.storeUrl
                               ?replace("/site/website", "")
@@ -76,7 +76,6 @@
     					    <@crafter.span $model=articleItem>${url}</@crafter.span>
                         </@crafter.div>
 					</#list>
-					<br/>
 				</#if>
 
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
