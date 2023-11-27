@@ -87,6 +87,7 @@
     					    <@crafter.div $model=tenantItem $index=index>
         					    <@crafter.img $model=tenantItem $field="images_o" src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px" />
     
+        					    <#--
         					    <#assign url = tenantItem.storeUrl
                                   ?replace("/site/website", "")
                                   ?replace("/index.xml", "")
@@ -95,7 +96,7 @@
         					    <#assign name = tenantItem[field] />
         					    <#assign tfield = "tagline_s" />
         					    <#assign tagline = tenantItem[tfield] />
-                                
+                                -->
                                 <#--
                                 <br/>
                                 <#list tenantItem.categories_o.item as category>
@@ -103,6 +104,7 @@
                                 </#list>
                                 <br/>
                                 -->
+                                <#--
                                 <@crafter.span $model=tenantItem $index=index $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
                                     ${tenantItem.name_s!""}
                                 </@crafter.span>
@@ -110,7 +112,7 @@
                                 <@crafter.span $model=tenantItem $index=index $field="tagline_s" class="location-card__tagline">
                                     ${tenantItem.tagline_s!""}
                                 </@crafter.span>
-    
+                                -->
                                 <#--
                                 <br/>
         					    ${url}<br/><br/>-->
