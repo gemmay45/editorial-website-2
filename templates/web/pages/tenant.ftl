@@ -98,6 +98,7 @@
 				    </#list>
 				</#if>
 				
+                <#--
                 <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as row>
@@ -115,8 +116,7 @@
                         </@crafter.div>
 					</#list>
 				</#if>
-
-
+                -->
             </section>
         </div>
     </div>
