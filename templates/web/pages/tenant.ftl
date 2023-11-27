@@ -90,18 +90,18 @@
                               />
     
                               <#--<@crafter.a $model=tenantItem href="${url}">-->
-                                <@crafter.img
+                                <#--<@crafter.img
                                   $model=tenantItem
                                   $field="images_o"
                                   src=tenantItem.images_o.item[0].image_s
                                   alt=""
                                   width="112px"
-                                />
+                                />-->
                                 
-                                    <@crafter.h4 $model=tenantItem $field="name_s">
+                                    <@crafter.h4 $model=tenantItem>
                                     ${tenantItem.name_s}
                                     </@crafter.h4>
-                                    <@crafter.p $model=tenantItem $field="tagline_s" class="location-card__tagline">
+                                    <@crafter.p $model=tenantItem class="location-card__tagline">
                                         ${tenantItem.tagline_s!""}
                                     </@crafter.p>
 
