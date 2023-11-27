@@ -110,6 +110,15 @@
         					    <#assign tfield = "tagline_s" />
         					    <#assign tagline = articleItem[tfield] />
                                 
+                                articleItem.images_o[0]
+                                
+                                <@crafter.img
+                                        $field="articleItem.images_o[0].image_s"
+                                        src="${articleItem.images_o[0].image_s}"
+                                        alt="" width="112px"
+                                      />
+                                      
+                                <#--
                                 <@crafter.renderRepeatGroup
                                     $model=articleItem
                                     $field="images_o";
@@ -126,7 +135,8 @@
                                   </#if>
                                 
                                 </@crafter.renderRepeatGroup>
-                                      
+                                -->
+                                
                                 <#list articleItem.categories_o.item as category>
                                     ${category.value_smv}
                                 </#list>
