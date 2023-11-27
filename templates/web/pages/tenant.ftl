@@ -85,17 +85,15 @@
                             ?replace("/site/components", "")
                             ?replace(".xml", "")
                           />
-                ${url}
-                          <#--
+
                           <@crafter.a $model=tenantItem href="${url}">
                             <@crafter.img
                               $model=tenantItem
-                              $field="mainImage_s"
-                              src=tenantItem.mainImage_s
+                              $field="images_o.item[0].image_s"
+                              src=tenantItem.images_o.item[0].image_s
                               alt=""
-                              class="mr-4"
                             />
-                
+                            <#--
                             <div class="text">
                               <@crafter.h4 $model=tenantItem $field="headline_s">
                                 ${post.headline}
@@ -104,8 +102,8 @@
                                 <span class="mr-2">${post.lastModifiedDate?datetime.iso?date}</span>
                               </div>
                             </div>
+                            -->
                           </@crafter.a>
-                          -->
                         </li>
                     </#list>
                 </ul>
