@@ -42,14 +42,14 @@
                 </@crafter.renderRepeatGroup>
                 
                 <div class="row">
-                  <div class="col-md-4"><img src="${image1}" height="320" /></div>
+                  <div class="col-md-4"><img src="${image1}" height="292" /></div>
                   <div class="col-md-8">
                     <div class="pb-3">
-                        <img src="${image2}" height="160"/>
+                        <img src="${image2}" height="138"/>
                     </div>
                     <div class="row">
-                      <div class="col-md-6"><img src="${image3}" height="160" /></div>
-                      <div class="col-md-6"><img src="${image4}" height="160" /></div>
+                      <div class="col-md-6"><img src="${image3}" height="138" /></div>
+                      <div class="col-md-6"><img src="${image4}" height="138" /></div>
                     </div>
                   </div>
                 </div>
