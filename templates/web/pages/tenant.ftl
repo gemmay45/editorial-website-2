@@ -64,7 +64,6 @@
                                     ${category.value_smv}
                                 </@crafter.span>
                                 
-                    ${category.value_smv}
                 </#list>
 
 
