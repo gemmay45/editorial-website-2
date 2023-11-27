@@ -110,7 +110,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             
                             <@crafter.renderRepeatGroup
                                 $model=articleItem
-                                $field=images_o;
+                                $field="images_o";
                                 item, index
                             >
                             
