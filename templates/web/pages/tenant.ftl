@@ -89,6 +89,11 @@
                                 ?replace("index.xml", "")
                               />
     
+    					        <#assign name_field = "name_s" />
+    					        <#assign tenantName = tenantItem[name_field] />
+    					        <#assign tagline_field = "tagline_s" />
+    					        <#assign tagline = tenantItem[tagline_field] />
+
                               <#--<@crafter.a $model=tenantItem href="${url}">-->
                                 <#--<@crafter.img
                                   $model=tenantItem
@@ -99,10 +104,10 @@
                                 />-->
                                 
                                     <@crafter.h4 $model=tenantItem>
-                                    ${tenantItem.name_s}
+                                    ${tenantName}
                                     </@crafter.h4>
                                     <@crafter.p $model=tenantItem class="location-card__tagline">
-                                        ${tenantItem.tagline_s!""}
+                                        ${tagline!""}
                                     </@crafter.p>
 
                               <#--</@crafter.a>-->
