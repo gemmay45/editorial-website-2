@@ -135,7 +135,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                                 <@crafter.span $field="tagline_s" class="location-card__tagline">
                                     ${articleItem.tagline_s!""}
                                 </@crafter.span>
-                                
+                                <br/>
         					    ${url}<br/><br/>
                             </@crafter.div>
 					    </#list>
