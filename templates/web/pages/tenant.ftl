@@ -89,6 +89,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             />
     					    <#assign field = "subject_t" />
     					    <#assign title = articleItem[field] />
+    					    <#assign tagline = articleItem["tagline_s"] />
     					    ${title}<br/>
     					    ${url}
                         </@crafter.div>
