@@ -85,7 +85,7 @@
 					    <div class="location-card">
     					    
     					    <@crafter.div $field="recommended_o" $index=index>
-        					    <@crafter.img src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px" />
+        					    <@crafter.img $index=index src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px" />
     
         					    <#assign url = tenantItem.storeUrl
                                   ?replace("/site/website", "")
