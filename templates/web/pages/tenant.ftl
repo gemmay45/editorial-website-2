@@ -98,47 +98,47 @@ ${contentModel.citymapperDirections_s}<br/><br/>
 					</#if>
 
                     <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
-                    <h4>Recommended</h4>
-					<#list contentModel.recommended_o.item as row>
-					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
-					    <@crafter.div $model=articleItem>
-					       <#assign url = articleItem.storeUrl
-                              ?replace("/site/website", "")
-                              ?replace("/index.xml", "")
-                            />
-    					    <#assign field = "name_s" />
-    					    <#assign name = articleItem[field] />
-    					    <#assign tfield = "tagline_s" />
-    					    <#assign tagline = articleItem[tfield] />
-                            
-                            <@crafter.renderRepeatGroup
-                                $model=articleItem
-                                $field="images_o";
-                                item, index
-                            >
-                            
-                              <#if index == 0>
-                              <@crafter.img
-                                $field="images_o.image_s"
-                                $index="${index}"
-                                src="${item.image_s}"
-                                alt="" width="112px"
-                              />
-                              </#if>
-                            
-                            </@crafter.renderRepeatGroup>
-                            
-                            <@crafter.p $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
-                                ${articleItem.name_s!""}
-                            </@crafter.p>
-
-                            <@crafter.p $field="tagline_s" class="location-card__tagline">
-                                ${articleItem.tagline_s!""}
-                            </@crafter.p>
-                            
-    					    ${url}
-                        </@crafter.div>
-					</#list>
+                        <h4>Recommended</h4>
+					    <#list contentModel.recommended_o.item as row>
+    					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
+    					    <@crafter.div $model=articleItem class="location-card">
+    					       <#assign url = articleItem.storeUrl
+                                  ?replace("/site/website", "")
+                                  ?replace("/index.xml", "")
+                                />
+        					    <#assign field = "name_s" />
+        					    <#assign name = articleItem[field] />
+        					    <#assign tfield = "tagline_s" />
+        					    <#assign tagline = articleItem[tfield] />
+                                
+                                <@crafter.renderRepeatGroup
+                                    $model=articleItem
+                                    $field="images_o";
+                                    item, index
+                                >
+                                
+                                  <#if index == 0>
+                                  <@crafter.img
+                                    $field="images_o.image_s"
+                                    $index="${index}"
+                                    src="${item.image_s}"
+                                    alt="" width="112px"
+                                  />
+                                  </#if>
+                                
+                                </@crafter.renderRepeatGroup>
+                                
+                                <@crafter.p $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
+                                    ${articleItem.name_s!""}
+                                </@crafter.p>
+    
+                                <@crafter.p $field="tagline_s" class="location-card__tagline">
+                                    ${articleItem.tagline_s!""}
+                                </@crafter.p>
+                                
+        					    ${url}
+                            </@crafter.div>
+					    </#list>
 					</#if>
 					
             </section>
