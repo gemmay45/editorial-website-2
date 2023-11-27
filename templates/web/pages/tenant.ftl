@@ -110,12 +110,7 @@
         					    <#assign tfield = "tagline_s" />
         					    <#assign tagline = articleItem[tfield] />
                                 
-                                <@crafter.img
-                                        $model=articleItem
-                                        $field="images_o[0].item"
-                                        src="${images_o[0].item.image_s}"
-                                        alt="" width="112px"
-                                      />
+                                ${articleItem.images_o[0].image_s}
                                       
                                 <#--
                                 <@crafter.renderRepeatGroup
