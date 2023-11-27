@@ -85,7 +85,7 @@
     					    
     					    <@crafter.div $model=tenantItem $index=index>
     					    <@crafter.img src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px" />
-    					    </@crafter.div>
+
     					    
     					    <#--
     					    <#assign url = tenantItem.storeUrl
@@ -113,7 +113,7 @@
                             <br/>
     					    ${url}<br/><br/>
     					    -->
-                            
+                            </@crafter.div>
                         </div>
 				    </#list>
 				</#if>
