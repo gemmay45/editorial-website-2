@@ -109,9 +109,9 @@ ${contentModel.citymapperDirections_s}<br/><br/>
     					    <#assign name = articleItem[field] />
                             
                             <@crafter.renderRepeatGroup
-                            $model=articleItem
-                              $field="images_o";
-                              item, index
+                                $model=articleItem
+                                $field="images_o";
+                                item, index
                             >
                             
                               <#if index == 0>
