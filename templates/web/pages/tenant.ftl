@@ -158,10 +158,11 @@
 				</#if>
 				-->
             </section>
-            <p>Footer</p>
         </div>
     </div>
-    <#include "/templates/web/fragments/scripts.ftl">
+            <p>Footer</p>
+            
+            <#include "/templates/web/fragments/scripts.ftl">
 
 <@crafter.body_bottom/>
 
