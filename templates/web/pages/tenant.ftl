@@ -128,9 +128,9 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             
                             </@crafter.renderRepeatGroup>
                             
-                            <@crafter.h3 $field="name_s">
+                            <@crafter.p $field="name_s" class="location-card__title" aria-hidden="true">
                                 ${articleItem.name_s!""}
-                            </@crafter.h3>
+                            </@crafter.p>
                 
     					    ${tagline}<br/>
     					    ${url}
