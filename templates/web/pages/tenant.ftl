@@ -85,7 +85,7 @@
 					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
 					    <@crafter.div $model=articleItem class="location-card">
     					    
-    					    <@crafter.img $model=articleItem src="${articleItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
+    					    <#--<@crafter.img $model=articleItem src="${articleItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>-->
     					    
                             <br/>
                             
