@@ -121,6 +121,13 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                                 src="${item.image_s}"
                                 alt=""
                               />
+                              <#elseif index == 1>
+                              <@crafter.img
+                                $field="images_o.image_s"
+                                $index="${index}"
+                                src="${item.image_s}"
+                                alt=""
+                              />
                               </#if>
                             
                             </@crafter.renderRepeatGroup>
