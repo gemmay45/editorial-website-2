@@ -132,8 +132,7 @@
                                 
                                 <@crafter.img
                                     $field="images_o[0].image_s"
-                                    $index="${index}"
-                                    src="${item.image_s}"
+                                    src="${image_s}"
                                     alt="" width="112px"
                                   />
                                       
