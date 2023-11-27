@@ -59,6 +59,9 @@
                 </@crafter.h1>
 
     
+    <@renderComponent component=contentModel.categories_o.item />
+    
+    
                 <#list contentModel.categories_o.item as category>
                     ${category.value_smv}
                 </#list>
