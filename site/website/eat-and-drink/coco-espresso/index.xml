@@ -23,8 +23,8 @@
 	<header_o item-list="true"/>
 	<leftRail_o item-list="true"/>
 	<relatedMAGArticle_o item-list="true"/>
-	<categories_o>	<item>	<key>eat</key>
-	<value_smv>Eat</value_smv>
+	<categories_o>	<item>	<key>drink</key>
+	<value_smv>Drink</value_smv>
 	</item></categories_o>
 	<hashtags_o/>
 	<quote_t>CoCo espresso is our coffee treat of choice when we need an energy boost.</quote_t>
@@ -38,8 +38,8 @@
 	</item></images_o>
 	<createdDate>2023-11-23T08:08:42.469Z</createdDate>
 	<createdDate_dt>2023-11-23T08:08:42.469Z</createdDate_dt>
-	<lastModifiedDate>2023-11-27T05:31:26.164Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-27T05:31:26.164Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-27T05:31:52.075Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-27T05:31:52.075Z</lastModifiedDate_dt>
 	<recommended_o item-list="true"/>
 	<tagline_s>Popular neighbourhood street-side café</tagline_s>
 </page>
