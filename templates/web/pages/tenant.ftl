@@ -89,7 +89,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             />
     					    <#assign field = "subject_t" />
     					    <#assign title = articleItem[field] />
-    					    <#assign tagline = articleItem[(tagline_s)] />
+    					    
     					    ${title}<br/>
     					    ${url}
                         </@crafter.div>
@@ -108,6 +108,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             />
     					    <#assign field = "name_s" />
     					    <#assign name = articleItem[field] />
+    					    <#assign tagline = articleItem[(tagline_s)] />
                             
                             <@crafter.renderRepeatGroup
                                 $model=articleItem
