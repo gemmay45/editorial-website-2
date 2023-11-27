@@ -129,6 +129,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             </@crafter.renderRepeatGroup>
                             
     					    ${name}<br/>
+    					    ${tagline}<br/>
     					    ${url}
                         </@crafter.div>
 					</#list>
