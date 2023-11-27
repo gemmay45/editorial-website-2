@@ -114,7 +114,7 @@
                                 <@crafter.renderRepeatGroup
                                     $model=articleItem
                                     $field="images_o";
-                                    item, index="0"
+                                    item, index
                                 >
                                 
                                   <#if index == 0>
