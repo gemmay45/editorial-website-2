@@ -60,10 +60,9 @@
     
     
                 <#list contentModel.categories_o.item as category>
-                    ${category.value_smv}
+                    ${${category.value}}
                 </#list>
 
-<@renderComponent component=contentModel.categories_o.item.value_smv />
           
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
