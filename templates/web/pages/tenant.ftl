@@ -84,8 +84,8 @@
 					    <div class="location-card">
     					    
     					    <@crafter.div>
-    					    <@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
-    					    </crafter.div>
+    					    <@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px" />
+    					    </@crafter.div>
     					    
     					    <#--
     					    <#assign url = tenantItem.storeUrl
