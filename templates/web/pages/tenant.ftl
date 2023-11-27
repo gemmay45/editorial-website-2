@@ -91,7 +91,7 @@
                               <#--<@crafter.a $model=tenantItem href="${url}">-->
                                 <@crafter.img
                                   $model=tenantItem
-                                  $field="image_s"
+                                  $field="images_o"
                                   src=tenantItem.images_o.item[0].image_s
                                   alt=""
                                   width="112px"
