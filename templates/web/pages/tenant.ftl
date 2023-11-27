@@ -88,12 +88,13 @@
                                 ?replace("index.xml", "")
                               />
     
-                              <@crafter.a $model=tenantItem href="${url}">
+                              <#--<@crafter.a $model=tenantItem href="${url}">-->
                                 <@crafter.img
                                   $model=tenantItem
                                   $field="image_s"
                                   src=tenantItem.images_o.item[0].image_s
                                   alt=""
+                                  width="112px"
                                 />
                                 
                                 <div class="text">
@@ -104,7 +105,7 @@
                                         ${tenantItem.tagline_s!""}
                                     </@crafter.p>
                                 </div>
-                              </@crafter.a>
+                              <#--</@crafter.a>-->
                             </li>
                         </#list>
                     </ul>
