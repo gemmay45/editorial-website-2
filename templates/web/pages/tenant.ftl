@@ -131,6 +131,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                                 <#list articleItem.categories_o.item as category>
                                     ${category.value_smv}
                                 </#list>
+                                <br/>
                                 <@crafter.span $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
                                     ${articleItem.name_s!""}
                                 </@crafter.span>
