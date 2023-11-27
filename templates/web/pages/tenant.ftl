@@ -100,11 +100,11 @@
                                 ${category.value_smv}
                             </#list>
                             <br/>
-                            <@crafter.span $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
+                            <@crafter.span $model=tenantItem $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
                                 ${tenantItem.name_s!""}
                             </@crafter.span>
                             <br/>
-                            <@crafter.span $field="tagline_s" class="location-card__tagline">
+                            <@crafter.span $model=tenantItem $field="tagline_s" class="location-card__tagline">
                                 ${tenantItem.tagline_s!""}
                             </@crafter.span>
                             <#--
