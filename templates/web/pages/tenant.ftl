@@ -113,7 +113,7 @@
         					    <#assign ifield = "images_o" />
         					    <#assign img = articleItem[ifield][0] />
         					    
-        					    ${articleItem.images_o.item[0].image_s}
+        					    <@crafter.img src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
         					    
                                 <#--
                                 <@crafter.renderRepeatGroup
