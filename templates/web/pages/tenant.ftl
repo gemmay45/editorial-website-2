@@ -93,7 +93,7 @@
     					    <#assign tfield = "tagline_s" />
     					    <#assign tagline = articleItem[tfield] />
     					    
-    					    <@crafter.img src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
+    					    <@crafter.img $model=articleItem src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
     					    
                             <br/>
                             
