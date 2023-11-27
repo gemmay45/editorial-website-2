@@ -119,7 +119,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                                 $field="images_o.image_s"
                                 $index="${index}"
                                 src="${item.image_s}"
-                                alt=""
+                                alt="" width="112px"
                               />
                               </#if>
                             
