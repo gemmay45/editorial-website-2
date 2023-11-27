@@ -88,7 +88,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                               ?replace("/index.xml", "")
                             />
     					    <#assign field = "subject_t" />
-    					    <#assign title = articleItem[images_o.item[0]] />
+    					    <#assign title = articleItem[field] />
     					    ${title}<br/>
     					    ${url}
                         </@crafter.div>
@@ -107,7 +107,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             />
     					    <#assign field = "name_s" />
     					    <#assign name = articleItem[field] />
-    					    <#assign image = articleItem["image_s"] />
+    					    <#assign image = articleItem[images_o.item[0]] />
     					    ${name}<br/>
     					    ${url}
                         </@crafter.div>
