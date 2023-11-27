@@ -111,8 +111,9 @@
         					    <#assign tagline = articleItem[tfield] />
                                 
                                 <@crafter.img
-                                        $field="articleItem.images_o[0].image_s"
-                                        src="${articleItem.images_o[0].image_s}"
+                                        $model=articleItem
+                                        $field="images_o[0].image_s"
+                                        src="${images_o[0].image_s}"
                                         alt="" width="112px"
                                       />
                                       
