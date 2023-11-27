@@ -83,7 +83,7 @@
 					    <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
 					    <@crafter.div $model=tenantItem class="location-card">
     					    
-    					    <@crafter.img src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
+    					    <@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
     					    
     					    <#assign url = tenantItem.storeUrl
                               ?replace("/site/website", "")
