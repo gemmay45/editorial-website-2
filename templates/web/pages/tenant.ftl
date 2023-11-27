@@ -65,7 +65,7 @@
 
                 <#assign articleCategories = contentModel.queryValues("//categories_o/item/key")/>
 
-${articleCategories.smv}
+${articleCategories.value_smv}
           
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
