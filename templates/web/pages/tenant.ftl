@@ -37,7 +37,6 @@
                     </div>
                   </div>
                 </div>
-                -->
                 
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
@@ -60,6 +59,7 @@
                 ${contentModel.googleMapsDirection_s}<br/>
                 ${contentModel.appleMapsDirection_s}<br/>
                 ${contentModel.citymapperDirections_s}<br/><br/>
+                -->
 
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
