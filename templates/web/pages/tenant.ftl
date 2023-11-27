@@ -64,7 +64,7 @@
                 </#list>
 
           <@crafter.div $field="categories_s">
-            ${contentModel.categories_s!""}
+            ${contentModel.categories_s.value}
           </@crafter.div>
           
                 ${contentModel.description_html}
