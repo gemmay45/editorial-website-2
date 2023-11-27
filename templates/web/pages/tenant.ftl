@@ -60,7 +60,9 @@
 
     
                 <#list contentModel.categories_o.item as category>
-                    ${category.value_smv}
+                    <@crafter.h2 $field="name_s">
+                    ${contentModel.value_smv}
+                    </@crafter.h2>
                 </#list>
 
 
