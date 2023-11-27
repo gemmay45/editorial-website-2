@@ -63,6 +63,7 @@
                     ${category.value_smv}
                 </#list>
 
+<@renderComponent component=contentModel.categories_o.item />
           
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
