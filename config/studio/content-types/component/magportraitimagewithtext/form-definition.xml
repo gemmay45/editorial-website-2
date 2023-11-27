@@ -230,7 +230,7 @@
 						</property>
 						<property>
 							<name>fileManager</name>
-							<value></value>
+							<value>fileBrowse</value>
 							<type>datasource:item</type>
 						</property>
 					</properties>
@@ -352,6 +352,19 @@
 							<name>showkeys</name>
 							<value></value>
 								<type>boolean</type>
+						</property>
+					</properties>
+				</datasource>
+				<datasource>
+					<type>file-browse-repo</type>
+					<id>fileBrowse</id>
+					<title>File Browse</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>repoPath</name>
+							<value>/site/website</value>
+								<type>content-path-input</type>
 						</property>
 					</properties>
 				</datasource>
