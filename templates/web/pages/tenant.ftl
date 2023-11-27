@@ -72,8 +72,8 @@
     					    <#assign field = "subject_t" />
     					    <#assign title = articleItem[field] />
     					    
-    					    ${title}<br/>
-    					    ${url}
+    					    <@crafter.span>${title}</@crafter.span><br/>
+    					    <@crafter.span>${url}</@crafter.span>
                         </@crafter.div>
 					</#list>
 					<br/>
