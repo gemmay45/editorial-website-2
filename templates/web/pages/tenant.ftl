@@ -136,7 +136,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                                     ${articleItem.tagline_s!""}
                                 </@crafter.p>
                                 
-        					    ${url}
+        					    ${url}<br/>
                             </@crafter.div>
 					    </#list>
 					</#if>
