@@ -114,6 +114,8 @@
         					    <#assign img = articleItem[ifield][0] />
         					    
         					    <@crafter.img src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />
+        					    
+                                <br/>
                                 
                                 <#list articleItem.categories_o.item as category>
                                     ${category.value_smv}
