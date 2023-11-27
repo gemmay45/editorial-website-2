@@ -63,9 +63,9 @@
                     ${category.value_smv}
                 </#list>
 
-          <@crafter.div class="the-mag-cat" $field="categories_s">
-            ${contentModel.categories_s!""}
-          </@crafter.div>
+                <#assign articleCategories = contentModel.queryValues("//categories_o/item/key")/>
+
+${articleCategories}
           
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
