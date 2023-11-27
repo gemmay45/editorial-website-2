@@ -128,6 +128,9 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                                 
                                 </@crafter.renderRepeatGroup>
                                 
+                                <#list articleItem.categories_o.item as category>
+                                    ${category.value_smv}
+                                </#list>
                                 <@crafter.span $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
                                     ${articleItem.name_s!""}
                                 </@crafter.span>
