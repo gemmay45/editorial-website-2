@@ -84,7 +84,12 @@
 				    <#list contentModel.recommended_o.item as row>
 					    <#assign articleItem =  siteItemService.getSiteItem(row.key) />
 					    <@crafter.div $model=articleItem class="location-card">
-					       <#assign url = articleItem.storeUrl
+    					    
+    					    <@crafter.img $model=articleItem src="${articleItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>
+    					    
+                            <br/>
+                            
+					        <#assign url = articleItem.storeUrl
                               ?replace("/site/website", "")
                               ?replace("/index.xml", "")
                             />
@@ -92,10 +97,6 @@
     					    <#assign name = articleItem[field] />
     					    <#assign tfield = "tagline_s" />
     					    <#assign tagline = articleItem[tfield] />
-    					    
-    					    <#--<@crafter.img $model=articleItem src="${articleItem.images_o.item[0].image_s}" alt="" width="112px" />-->
-    					    
-                            <br/>
                             
                             <#list articleItem.categories_o.item as category>
                                 ${category.value_smv}
