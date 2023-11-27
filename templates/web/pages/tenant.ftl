@@ -64,7 +64,7 @@
                 </#list>
 
           <@crafter.div $field="categories_s">
-            ${contentModel.categories_s.value_smv!""}
+            ${contentModel.categories_s!""}
           </@crafter.div>
           
                 ${contentModel.description_html}
