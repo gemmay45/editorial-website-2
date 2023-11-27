@@ -113,9 +113,6 @@
         					    <#assign ifield = "images_o" />
         					    <#assign img = articleItem[ifield][0] />
         					    
-        					    ${articleItem.images_o[0].image_s}
-                                
-                                <#--
                                 <@crafter.renderRepeatGroup
                                     $model=articleItem
                                     $field="images_o";
@@ -132,7 +129,6 @@
                                   </#if>
                                 
                                 </@crafter.renderRepeatGroup>
-                                -->
                                 
                                 <#list articleItem.categories_o.item as category>
                                     ${category.value_smv}
