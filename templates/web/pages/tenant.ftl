@@ -96,10 +96,10 @@
                             
                             <div class="text">
                                 <@crafter.h4 $model=tenantItem $field="name_s">
-                                ${tenantItem.name_s}
+                                ${row.name_s}
                                 </@crafter.h4>
                                 <@crafter.p $model=tenantItem $field="tagline_s" class="location-card__tagline">
-                                    ${tenantItem.tagline_s!""}
+                                    ${row.tagline_s!""}
                                 </@crafter.p>
                             </div>
                           </@crafter.a>
