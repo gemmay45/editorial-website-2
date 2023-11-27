@@ -1140,7 +1140,7 @@
 				<field>
 					<type>node-selector</type>
 					<id>recommended_o</id>
-					<iceId></iceId>
+					<iceId>ice_recommended</iceId>
 					<title>Recommended</title>
 					<description></description>
 					<defaultValue></defaultValue>
