@@ -59,25 +59,6 @@
                 ${contentModel.appleMapsDirection_s}<br/>
                 ${contentModel.citymapperDirections_s}<br/><br/>
 
-
-                <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
-                    <h4>Related MAG</h4>
-					<#list contentModel.relatedMAGArticle_o.item as row>
-					    <#assign articleItem = siteItemService.getSiteItem(row.key) />
-					    <@crafter.div $model=articleItem>
-					       <#assign url = articleItem.storeUrl
-                              ?replace("/site/website", "")
-                              ?replace("/index.xml", "")
-                            />
-    					    <#assign field = "subject_t" />
-    					    <#assign title = articleItem[field] />
-    					    
-    					    <@crafter.span $model=articleItem>${title}</@crafter.span><br/>
-    					    <@crafter.span $model=articleItem>${url}</@crafter.span>
-                        </@crafter.div>
-					</#list>
-				</#if>
-
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
 				    <#list contentModel.recommended_o.item as row>
@@ -113,6 +94,26 @@
                         </@crafter.div>
 				    </#list>
 				</#if>
+				
+                <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
+                    <h4>Related MAG</h4>
+					<#list contentModel.relatedMAGArticle_o.item as row>
+					    <#assign articleItem = siteItemService.getSiteItem(row.key) />
+					    <@crafter.div $model=articleItem>
+					       <#assign url = articleItem.storeUrl
+                              ?replace("/site/website", "")
+                              ?replace("/index.xml", "")
+                            />
+    					    <#assign field = "subject_t" />
+    					    <#assign title = articleItem[field] />
+    					    
+    					    <@crafter.span $model=articleItem>${title}</@crafter.span><br/>
+    					    <@crafter.span $model=articleItem>${url}</@crafter.span>
+                        </@crafter.div>
+					</#list>
+				</#if>
+
+
             </section>
         </div>
     </div>
