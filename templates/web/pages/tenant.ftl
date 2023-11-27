@@ -79,10 +79,11 @@
 
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
-                    <ul>
-                        <#list contentModel.recommended_o.item as row>
-                            <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
-                            <li>
+
+                        <#list contentModel.recommended_o.item as tenant>
+                            <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
+                                					    <@crafter.div $model=tenantItem>
+
                               <#assign url = tenantItem.storeUrl
                                 ?replace("/site/website", "")
                                 ?replace("index.xml", "")
@@ -105,9 +106,8 @@
                                     </@crafter.p>
 
                               <#--</@crafter.a>-->
-                            </li>
+                              </@crafter.div>
                         </#list>
-                    </ul>
 				</#if>
 				
                 <#--
