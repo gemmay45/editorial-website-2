@@ -131,8 +131,11 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             <@crafter.p $field="name_s" class="location-card__title" $attributes={'aria-hidden':'true'}>
                                 ${articleItem.name_s!""}
                             </@crafter.p>
-                
-    					    ${tagline}<br/>
+
+                            <@crafter.p $field="tagline_s" class="location-card__tagline">
+                                ${articleItem.tagline_s!""}
+                            </@crafter.p>
+                            
     					    ${url}
                         </@crafter.div>
 					</#list>
