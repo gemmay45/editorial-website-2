@@ -60,7 +60,11 @@
 
     
                 <#list contentModel.categories_o.item as category>
-                    ${category.item.value_smv}
+                <@crafter.span $model=category $field="category">
+                                    ${category.value_smv}
+                                </@crafter.span>
+                                
+                    ${category.value_smv}
                 </#list>
 
 
