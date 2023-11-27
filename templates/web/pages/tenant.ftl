@@ -89,7 +89,7 @@
                           <@crafter.a $model=tenantItem href="${url}">
                             <@crafter.img
                               $model=tenantItem
-                              $field="images_o.item[0].image_s"
+                              $field="image_s"
                               src=tenantItem.images_o.item[0].image_s
                               alt=""
                             />
@@ -98,9 +98,9 @@
                                 <@crafter.h4 $model=tenantItem $field="name_s">
                                 ${tenantItem.name_s}
                                 </@crafter.h4>
-                                <@crafter.span $model=tenantItem $field="tagline_s" class="location-card__tagline">
+                                <@crafter.p $model=tenantItem $field="tagline_s" class="location-card__tagline">
                                     ${tenantItem.tagline_s!""}
-                                </@crafter.span>
+                                </@crafter.p>
                             </div>
                           </@crafter.a>
                         </li>
