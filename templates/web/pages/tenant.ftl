@@ -62,11 +62,6 @@
                 <#list contentModel.categories_o.item as category>
                     ${category.value_smv}
                 </#list>
-
-                <#assign articleCategories = contentModel.queryValues("//categories_o/item/key")/>
-                <#list articleCategories as category>
-                    ${category.value_smv}
-                </#list>
           
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
