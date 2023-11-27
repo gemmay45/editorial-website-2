@@ -122,6 +122,19 @@ ${contentModel.citymapperDirections_s}<br/><br/>
     alt=""
   />
                             </@crafter.renderRepeatGroup>
+                            
+                            <@crafter.renderRepeatGroup
+  $field="images_o";
+  item, index
+>
+  <@crafter.img
+    $field="images_o.image_s"
+    $index="${index}"
+    src="${item.image_s}"
+    alt=""
+  />
+
+</@crafter.renderRepeatGroup>
                 
     					    ${name}<br/>
     					    ${url}
