@@ -114,12 +114,14 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                               item, index
                             >
                             
+                              <#if index == 0>
                               <@crafter.img
                                 $field="images_o.image_s"
                                 $index="${index}"
                                 src="${item.image_s}"
                                 alt=""
                               />
+                              </#if>
                             
                             </@crafter.renderRepeatGroup>
                             
