@@ -93,16 +93,12 @@
                               src=tenantItem.images_o.item[0].image_s
                               alt=""
                             />
-                            <#--
+                            
                             <div class="text">
-                              <@crafter.h4 $model=tenantItem $field="headline_s">
-                                ${post.headline}
+                              <@crafter.h4 $model=tenantItem $field="name_s">
+                                ${row.name_s}
                               </@crafter.h4>
-                              <div class="post-meta">
-                                <span class="mr-2">${post.lastModifiedDate?datetime.iso?date}</span>
-                              </div>
                             </div>
-                            -->
                           </@crafter.a>
                         </li>
                     </#list>
