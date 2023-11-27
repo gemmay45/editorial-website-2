@@ -109,6 +109,11 @@
         					    <#assign name = articleItem[field] />
         					    <#assign tfield = "tagline_s" />
         					    <#assign tagline = articleItem[tfield] />
+        					    
+        					    <#assign ifield = "images_o" />
+        					    <#assign img = articleItem[ifield][0] />
+        					    
+        					    ${img}
                                 
                                 <@crafter.renderRepeatGroup
                                     $model=articleItem
