@@ -355,18 +355,5 @@
 						</property>
 					</properties>
 				</datasource>
-				<datasource>
-					<type>file-browse-repo</type>
-					<id>pages</id>
-					<title>Pages</title>
-					<interface>item</interface>
-					<properties>
-						<property>
-							<name>repoPath</name>
-							<value>/site/website</value>
-								<type>content-path-input</type>
-						</property>
-					</properties>
-				</datasource>
 	</datasources>
 </form>
