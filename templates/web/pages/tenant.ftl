@@ -42,7 +42,7 @@
                 </@crafter.renderRepeatGroup>
                 
                 <div class="row">
-                  <div class="col-md-4"><img src="${images_o.item[0].image_s}" height="292" /></div>
+                  <div class="col-md-4"><img src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
                   <div class="col-md-8">
                     <div class="pb-3">
                         <img src="${image2}" height="140"/>
