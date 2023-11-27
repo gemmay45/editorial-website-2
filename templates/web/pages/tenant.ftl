@@ -158,6 +158,7 @@
 				</#if>
 				-->
             </section>
+            <p>Footer</p>
         </div>
     </div>
     <#include "/templates/web/fragments/scripts.ftl">
