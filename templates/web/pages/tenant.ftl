@@ -111,8 +111,9 @@
                                     ${tenantItem.tagline_s!""}
                                 </@crafter.span>
     
+                                <#--
                                 <br/>
-        					    ${url}<br/><br/>
+        					    ${url}<br/><br/>-->
     					    
                             </@crafter.div>
                         </div>
