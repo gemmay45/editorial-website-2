@@ -83,7 +83,7 @@
 					    <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
 					    <div class="location-card">
     					    
-    					    <@crafter.div $model=tenantItem>
+    					    <@crafter.div $field=images_o>
     					    <@crafter.img $model=tenantItem src="${tenantItem.images_o.item[0].image_s}" alt="" width="112px" />
     					    </@crafter.div>
     					    
