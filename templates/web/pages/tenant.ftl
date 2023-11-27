@@ -24,23 +24,6 @@
               <@renderComponent component=contentModel.header_o.item />
             </div>
             <section>
-                <@crafter.renderRepeatGroup
-                      $field="images_o"
-                      $containerTag="div";
-                      item, index
-                >
-                    <#if index == 0>
-                        <#assign image1 = item.image_s />
-                    <#elseif index == 1>
-                        <#assign image2 = item.image_s />
-                    <#elseif index == 2>
-                        <#assign image3 = item.image_s />
-                    <#elseif index == 3>
-                        <#assign image4 = item.image_s />
-                    </#if>
-
-                </@crafter.renderRepeatGroup>
-                
                 <div class="row">
                   <div class="col-md-4"><img src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
                   <div class="col-md-8">
