@@ -95,9 +95,12 @@
                             />
                             
                             <div class="text">
-                              <@crafter.h4 $model=tenantItem $field="name_s">
+                                <@crafter.h4 $model=tenantItem $field="name_s">
                                 ${tenantItem.name_s}
-                              </@crafter.h4>
+                                </@crafter.h4>
+                                <@crafter.span $model=tenantItem $field="tagline_s" class="location-card__tagline">
+                                    ${tenantItem.tagline_s!""}
+                                </@crafter.span>
                             </div>
                           </@crafter.a>
                         </li>
