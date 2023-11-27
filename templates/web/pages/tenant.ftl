@@ -108,9 +108,8 @@ ${contentModel.citymapperDirections_s}<br/><br/>
     					    <#assign field = "name_s" />
     					    <#assign name = articleItem[field] />
                             
-                            <#--
                             <@crafter.renderRepeatGroup
-                              $field="images_o";
+                              $field="articleItem.images_o";
                               item, index
                             >
                             
@@ -122,7 +121,6 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                               />
                             
                             </@crafter.renderRepeatGroup>
-                            -->
                             
     					    ${name}<br/>
     					    ${url}
