@@ -78,8 +78,7 @@
 				</#if>
 
                 <ul>
-                    <#list contentModel.recommended_o as row>
-                        <#assign postItem = siteItemService.getSiteItem(post.localId) />
+                    <#list contentModel.recommended_o.item as row>
                         <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
                         <li>
                           <#assign url = tenantItem.storeUrl
