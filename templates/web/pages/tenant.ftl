@@ -25,7 +25,7 @@
             </div>
             <section>
                 <div class="row">
-                  <div class="col-md-4"><@crafter.img $field="item[0].image_s" src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
+                  <div class="col-md-4"><@crafter.img src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
                   <div class="col-md-8">
                     <div class="pb-3">
                         <@crafter.img src="${contentModel.images_o.item[1].image_s}" height="140"/>
