@@ -82,8 +82,8 @@
                         <#assign tenantItem =  siteItemService.getSiteItem(row.key) />
                         <li>
                           <#assign url = tenantItem.storeUrl
-                            ?replace("/site/components", "")
-                            ?replace(".xml", "")
+                            ?replace("/site/website", "")
+                            ?replace("index.xml", "")
                           />
 
                           <@crafter.a $model=tenantItem href="${url}">
