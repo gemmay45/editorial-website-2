@@ -86,8 +86,6 @@
 					    <@crafter.div $model=articleItem class="location-card">
     					    
     					    <#--<@crafter.img $model=articleItem src="${articleItem.images_o.item[0].image_s}" alt="" width="112px"></@crafter.img>-->
-    					    
-                            <br/>
                             
 					        <#assign url = articleItem.storeUrl
                               ?replace("/site/website", "")
@@ -117,7 +115,6 @@
 				    </#list>
 				</#if>
             </section>
-            xxx
         </div>
     </div>
     <#include "/templates/web/fragments/scripts.ftl">
