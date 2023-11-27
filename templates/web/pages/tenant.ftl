@@ -63,9 +63,6 @@
                     ${category.value_smv}
                 </#list>
 
-          <@crafter.div $field="categories_s.item">
-            ${contentModel.categories_s.item.value}
-          </@crafter.div>
           
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
