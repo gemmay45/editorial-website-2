@@ -64,18 +64,18 @@
                 </#list>
 
 
-${contentModel.description_html}
-${contentModel.address_s}<br/>
-${contentModel.openingHours_html}
-${contentModel.contactNumber_s}<br/>
-${contentModel.websiteURL_s}<br/>
-${contentModel.quote_t}<br/>
-${contentModel.quoteBy_s}<br/>
-${contentModel.opinion_t}<br/>
-${contentModel.hashtags_o}<br/>
-${contentModel.googleMapsDirection_s}<br/>
-${contentModel.appleMapsDirection_s}<br/>
-${contentModel.citymapperDirections_s}<br/><br/>
+                ${contentModel.description_html}
+                ${contentModel.address_s}<br/>
+                ${contentModel.openingHours_html}
+                ${contentModel.contactNumber_s}<br/>
+                ${contentModel.websiteURL_s}<br/>
+                ${contentModel.quote_t}<br/>
+                ${contentModel.quoteBy_s}<br/>
+                ${contentModel.opinion_t}<br/>
+                ${contentModel.hashtags_o}<br/>
+                ${contentModel.googleMapsDirection_s}<br/>
+                ${contentModel.appleMapsDirection_s}<br/>
+                ${contentModel.citymapperDirections_s}<br/><br/>
 
 
                     <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
@@ -144,7 +144,6 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             </@crafter.div>
 					    </#list>
 					</#if>
-					
             </section>
         </div>
     </div>
