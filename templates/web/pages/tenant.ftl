@@ -107,7 +107,7 @@ ${contentModel.citymapperDirections_s}<br/><br/>
                             />
     					    <#assign field = "name_s" />
     					    <#assign name = articleItem[field] />
-    					    <@crafter.img $field="images_o.items.image_s" $index=0 src="${item.image_s!''}" />
+    					    <@crafter.img $field="images_o.image_s" $index=0 src="${image_s!''}" />
     					    ${name}<br/>
     					    ${url}
                         </@crafter.div>
