@@ -2,7 +2,7 @@
 	<title>Tentant Listing</title>
 	<description></description>
 	<objectType>page</objectType>
-	<content-type>/page/tentantlisting</content-type>
+	<content-type>/page/tentant-listing</content-type>
 	<imageThumbnail></imageThumbnail>
 	<quickCreate>false</quickCreate>
 	<quickCreatePath></quickCreatePath>
