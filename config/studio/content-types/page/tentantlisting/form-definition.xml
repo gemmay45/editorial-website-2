@@ -142,8 +142,8 @@
 	</sections>
 	<datasources>				<datasource>
 					<type>simpleTaxonomy</type>
-					<id>categories</id>
-					<title>Categories</title>
+					<id>ca</id>
+					<title>Cate</title>
 					<interface>item</interface>
 					<properties>
 						<property>
@@ -153,7 +153,7 @@
 						</property>
 						<property>
 							<name>componentPath</name>
-							<value>/site/taxonomy/categories.xml</value>
+							<value>/site/taxonomy/tenant-categories.xml</value>
 								<type>string</type>
 						</property>
 					</properties>
