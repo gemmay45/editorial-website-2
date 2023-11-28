@@ -40,7 +40,9 @@
                                 ${article.title}
                     </@crafter.a>
                 </h3>
-                <br/><br/>
+                <@crafter.p $model=article $field="tagline_s">
+                    ${article.tagline}
+                </@crafter.p>
         
               <#--
               <a href="${article.url}" class="image">
