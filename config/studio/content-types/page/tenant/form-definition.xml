@@ -1300,7 +1300,7 @@
 						</property>
 						<property>
 							<name>type</name>
-							<value></value>
+							<value>/page/tenant</value>
 								<type>string</type>
 						</property>
 					</properties>
