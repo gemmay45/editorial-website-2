@@ -24,17 +24,6 @@
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
 
-                    <@crafter.forEach contentModel.recommended_o.item; tenant, index>
-                        <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                        <#assign url = tenantItem.storeUrl
-                                ?replace("/site/website", "")
-                                ?replace("index.xml", "")
-                        />
-                        <@crafter.a $model=tenantItem href="${url}">
-                        ddd
-                        </@crafter.a>
-                    </@crafter.forEach>
-                    
                     <#--
                     <#list contentModel.recommended_o.item as tenant>
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
