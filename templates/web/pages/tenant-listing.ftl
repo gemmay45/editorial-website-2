@@ -21,20 +21,23 @@
       <!-- /Header -->
       
       
-                <#list articles as article>
+      <@crafter.section $model=contentModel>
+        <header class="main">
+          <h1>${contentModel.articles_title_t}</h1>
+        </header>
+        <div class="posts">
+          <#list articles as article>
             <@crafter.article $model=article>
+            xxxx
+              <#--
               <a href="${article.url}" class="image">
-              xxx
-                <#--
                 <@crafter.img
                   $model=article
                   $field="image_s"
                   src=article.image???then(article.image, "/static-assets/images/placeholder.png")
                   alt=""
                 />
-                -->
               </a>
-              <#--
               <h3>
                 <@crafter.a $model=article $field="subject_t" href="${article.url}">
                   ${article.title}
@@ -49,6 +52,8 @@
               -->
             </@crafter.article>
           </#list>
+        </div>
+      </@crafter.section>
 
     </div>
   </div>
