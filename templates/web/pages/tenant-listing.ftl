@@ -22,9 +22,6 @@
       
       
       <@crafter.section $model=contentModel>
-        <header class="main">
-          <h1>${contentModel.articles_title_t}</h1>
-        </header>
         <div class="posts">
           <#list articles as article>
             <@crafter.article $model=article>
