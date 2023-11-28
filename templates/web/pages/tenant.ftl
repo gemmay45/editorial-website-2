@@ -45,7 +45,7 @@
                                 <@crafter.img
                                   $model=tenantItem
                                   $field="images_o"
-                                  src="${images_o.item[0].image_s}"
+                                  src="${tenantItem.images_o.item[0].image_s}"
                                   alt=""
                                   width="112px"
                                 />
