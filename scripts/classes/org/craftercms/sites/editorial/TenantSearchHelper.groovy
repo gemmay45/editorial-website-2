@@ -233,6 +233,7 @@ class TenantSearchHelper {
         article.summary = doc.summary_t
         article.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
         article.image = doc.images_o.item[0].image_s
+        article.tagline = doc.tagline_s
 
         articles << article
       }
