@@ -25,4 +25,6 @@ def articles = searchHelper.searchArticles(false, category, segment, 0, maxArtic
 
 def dummyText = "xxx"
 
+templateModel.dummyText = dummyText
+
 templateModel.articles = articles
