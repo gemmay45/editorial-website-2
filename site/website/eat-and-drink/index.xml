@@ -14,15 +14,15 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-11-22T05:56:27.594Z</createdDate>
 	<createdDate_dt>2023-11-22T05:56:27.594Z</createdDate_dt>
-	<lastModifiedDate>2023-11-28T23:28:25.299Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-28T23:28:25.299Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-28T23:29:27.410Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T23:29:27.410Z</lastModifiedDate_dt>
 	<category_s>drink</category_s>
 	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
 	<value>Left Rail with No Articles</value>
 	<include>/site/components/left-rails/left-rail-with-no-articles.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></leftRail_o>
-	<maxArticles_i>10</maxArticles_i>
 	<header_o item-list="true"/>
 	<tenantsTitle_s>Eat &amp; Drink</tenantsTitle_s>
+	<maxTenants_i>10</maxTenants_i>
 </page>
