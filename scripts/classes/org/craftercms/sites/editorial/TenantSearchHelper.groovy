@@ -29,7 +29,7 @@ import org.craftercms.search.opensearch.client.OpenSearchClientWrapper
 
 class TenantSearchHelper {
 
-  static final String ARTICLE_CONTENT_TYPE = "/page/article"
+  static final String TENANT_CONTENT_TYPE = "/page/tenant"
   static final List<String> ARTICLE_SEARCH_FIELDS = [
     'subject_t^1.5',
     'sections_o.item.section_html^1.0'
@@ -55,7 +55,7 @@ class TenantSearchHelper {
       .match(m -> m
         .field("content-type")
         .query(v -> v
-          .stringValue(ARTICLE_CONTENT_TYPE)
+          .stringValue(TENANT_CONTENT_TYPE)
         )
       )
     )
@@ -134,7 +134,7 @@ class TenantSearchHelper {
             .match(m -> m
               .field("content-type")
               .query(v -> v
-                .stringValue(ARTICLE_CONTENT_TYPE)
+                .stringValue(TENANT_CONTENT_TYPE)
               )
             )
           )
