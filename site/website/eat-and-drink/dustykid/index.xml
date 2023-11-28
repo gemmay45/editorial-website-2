@@ -29,19 +29,20 @@
 	<disableFlattening>false</disableFlattening>
 	</item></relatedMAGArticle_o>
 	<recommended_o item-list="true"/>
-	<categories_s>drink</categories_s>
 	<categories_o>	<item>	<key>drink</key>
 	<value_smv>Drink</value_smv>
 	</item></categories_o>
-	<hashtags_o/>
+	<hashtags_o item-list="true">	<item>	<hashtag_s>#DustyKidTea</hashtag_s>
+	</item>	<item>	<hashtag_s>#DustyKid</hashtag_s>
+	</item></hashtags_o>
 	<quote_t>We always try to see how we can mean something for the neighbourhood.</quote_t>
 	<opinion_t>Popular choices at this take-away joint are the vitamin probiotic sodas and the signature black sugar pearl bubble tea. Various upgrades are on offer to make your drink extra fruity, spicy, sweet or sour. Or choose from a selection of ramen and rice bowls for a quick, nutritious lunch.</opinion_t>
 	<description_html>&lt;p&gt;Dustykid is a Taiwanese inspired local accessory brand that branched out into bubbly drinks and healthy fast food. The brand is all about spreading positivity in the city through its quirky illustrations and poetry. Mr Wong, who operates this Quarry Bay outlet with his wife, doubles as a social worker. His mission is to reduce anxiety among Hong Kong youth from this happy place with &amp;lsquo;chewy drinks to moisturise the soul&amp;rsquo;.&lt;/p&gt;</description_html>
 	<openingHours_html>&lt;p&gt;Mon-Sat 12pm-8pm&lt;/p&gt;</openingHours_html>
 	<createdDate>2023-11-28T01:33:24.196Z</createdDate>
 	<createdDate_dt>2023-11-28T01:33:24.196Z</createdDate_dt>
-	<lastModifiedDate>2023-11-28T01:52:36.059Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-28T01:52:36.059Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-28T03:41:10.706Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T03:41:10.706Z</lastModifiedDate_dt>
 	<images_o item-list="true">	<item>	<image_s>/static-assets/images/tenants/dustykid/5f5a41b590874caf8cfe2905f2c442fe160a112e-1280x1280.webp</image_s>
 	</item>	<item>	<image_s>/static-assets/images/tenants/dustykid/6400222f1e6ea92bbf17502d182ae7e2ca98b7f8-2000x618.webp</image_s>
 	</item>	<item>	<image_s>/static-assets/images/tenants/dustykid/3941cf22337027a1152c053b4895c2e3b04e9aaf-960x640.webp</image_s>
