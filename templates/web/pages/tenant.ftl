@@ -39,8 +39,8 @@
     
     					        <#assign name_field = "name_s" />
     					        <#assign tenantName = tenantItem[name_field] />
-    					        <#--<#assign tagline_field = "tagline_s" />
-    					        <#assign tagline = tenantItem[tagline_field] />-->
+    					        <#assign tagline_field = "tagline_s" />
+    					        <#assign tagline = tenantItem[tagline_field] />
 
                               <#--<@crafter.a $model=tenantItem href="${url}">-->
                                 <#--<@crafter.img
@@ -54,9 +54,11 @@
                                     <@crafter.span $model=tenantItem>
                                     ${tenantName}
                                     </@crafter.span>
-                                    <#--<@crafter.p $model=tenantItem class="location-card__tagline">
+                                    <br/>
+                                    <@crafter.span $model=tenantItem class="location-card__tagline">
                                         ${tagline!""}
-                                    </@crafter.p>-->
+                                    </@crafter.span>
+                                    <br/><br/>
 
                               <#--</@crafter.a>-->
                               </@crafter.div>
