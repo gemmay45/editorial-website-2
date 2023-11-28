@@ -21,6 +21,6 @@ def segment = ProfileUtils.getSegment(profile, siteItemService)
 def category = contentModel.category_s
 def maxTenants = contentModel.max_articles_i
 def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService)
-def articles = searchHelper.searchArticles(false, category, segment, 0, maxArticles)
+def articles = searchHelper.searchArticles(false, category, segment, 0, maxTenants)
 
 templateModel.articles = articles
