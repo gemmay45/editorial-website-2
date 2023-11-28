@@ -26,6 +26,15 @@
         <div class="posts">
           <#list articles as article>
             <@crafter.div $model=article>
+                <a href="${article.url}" class="image">
+                <@crafter.img
+                  $model=article
+                  $field="image_s"
+                  src=article.image???then(article.image, "/static-assets/images/placeholder.png")
+                  alt=""
+                />
+                </a>
+
                 <h3>
                     <@crafter.a $model=article $field="name_s" href="${article.url}">
                                 ${article.title}
