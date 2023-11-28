@@ -42,14 +42,14 @@
     					        <#assign tagline_field = "tagline_s" />
     					        <#assign tagline = tenantItem[tagline_field] />
 
-                              <#--<@crafter.a $model=tenantItem href="${url}">-->
-                                <#--<@crafter.img
+                                <@crafter.a $model=tenantItem href="${url}">
+                                <@crafter.img
                                   $model=tenantItem
                                   $field="images_o"
                                   src=tenantItem.images_o.item[0].image_s
                                   alt=""
                                   width="112px"
-                                />-->
+                                />
                                 
                                     <@crafter.span $model=tenantItem>
                                     ${tenantName}
@@ -60,7 +60,7 @@
                                     </@crafter.span>
                                     <br/><br/>
 
-                              <#--</@crafter.a>-->
+                              </@crafter.a>
                               </@crafter.div>
                         </#list>
 				</#if>
