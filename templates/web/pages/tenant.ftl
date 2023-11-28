@@ -117,7 +117,7 @@
                     $itemTag="p";
                     item, index
                     >
-                    <@crafter.span $field="hashtags_o">${item.hashtag_s}</@crafter.span>
+                    <@crafter.span $field="hashtags_o" $index=index>${item.hashtag_s}</@crafter.span>
                     <#--
                     <#if item.content_html?has_content>
                     <@crafter.tag $tag="dt" $field="event_o" $index=index><i $field="event_o" class="${item.icon_s}"></i></@crafter.tag>
