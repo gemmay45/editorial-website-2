@@ -29,7 +29,7 @@
           <h1>${contentModel.articles_title_t}</h1>
         </header>
         
-        ${dummyText}
+        ${contentModel.dummyText}
         
         <div class="posts">
           <#list articles as article>
