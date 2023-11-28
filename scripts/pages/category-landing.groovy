@@ -23,4 +23,6 @@ def maxArticles = contentModel.max_articles_i
 def searchHelper = new SearchHelper(searchClient, urlTransformationService)
 def articles = searchHelper.searchArticles(false, category, segment, 0, maxArticles)
 
+def dummyText = "xxx"
+
 templateModel.articles = articles
