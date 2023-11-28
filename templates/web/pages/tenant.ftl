@@ -102,7 +102,7 @@
                     </#list>
                 </#if>
                                 
-                ${contentModel.description_html}
+                <@crafter.span $field="description_html">${contentModel.description_html}</@crafter.span>
                 ${contentModel.address_s}<br/>
                 ${contentModel.openingHours_html}
                 ${contentModel.contactNumber_s}<br/>
