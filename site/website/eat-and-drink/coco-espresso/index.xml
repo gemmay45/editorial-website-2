@@ -26,7 +26,9 @@
 	<categories_o>	<item>	<key>drink</key>
 	<value_smv>Drink</value_smv>
 	</item></categories_o>
-	<hashtags_o/>
+	<hashtags_o item-list="true">	<item>	<hashtag_s>#CoffeeRoaster</hashtag_s>
+	</item>	<item>	<hashtag_s>#SpecialtyCoffee</hashtag_s>
+	</item></hashtags_o>
 	<quote_t>CoCo espresso is our coffee treat of choice when we need an energy boost.</quote_t>
 	<opinion_t>People queue up at the intimate coffee bar, no matter what time of day. Ethiopian coffee beans give their brews a hint of sweetness and they also have a singular selection of cold brews, good for a sweltering day.</opinion_t>
 	<description_html>&lt;p&gt;This street-side neighbourhood caf&amp;eacute; at the corner of Hoi Kwong Street is a popular choice for a quick take-away coffee. CoCo Espresso oozes hipster cool and promises a steaming cup of Australian coffee, perfect for every occasion. The owner, Johnson Ko, has travelled all over the world to learn about different coffee techniques and now he&amp;rsquo;s brought them to Hong Kong.&lt;br /&gt;&lt;/p&gt;</description_html>
@@ -38,9 +40,8 @@
 	</item></images_o>
 	<createdDate>2023-11-23T08:08:42.469Z</createdDate>
 	<createdDate_dt>2023-11-23T08:08:42.469Z</createdDate_dt>
-	<lastModifiedDate>2023-11-27T06:24:42.185Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-27T06:24:42.185Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-28T03:40:33.312Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T03:40:33.312Z</lastModifiedDate_dt>
 	<recommended_o item-list="true"/>
 	<tagline_s>Popular neighbourhood street-side café</tagline_s>
-	<categories_s>drink</categories_s>
 </page>
