@@ -164,7 +164,7 @@
         </div>
     </div>
             
-            <#include "/templates/web/fragments/scripts.ftl">
+    <#include "/templates/web/fragments/scripts.ftl">
 
 <@crafter.body_bottom/>
 
