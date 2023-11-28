@@ -30,7 +30,7 @@ import org.craftercms.search.opensearch.client.OpenSearchClientWrapper
 class TenantSearchHelper {
 
   static final String TENANT_CONTENT_TYPE = "/page/tenant"
-  static final List<String> ARTICLE_SEARCH_FIELDS = [
+  static final List<String> TENANT_SEARCH_FIELDS = [
     'subject_t^1.5',
     'sections_o.item.section_html^1.0'
   ]
@@ -72,7 +72,7 @@ class TenantSearchHelper {
         query.must(q -> q
           .multiMatch(m -> m
             .query(matcher.group(2))
-            .fields(ARTICLE_SEARCH_FIELDS)
+            .fields(TENANT_SEARCH_FIELDS)
             .fuzzyTranspositions(false)
             .autoGenerateSynonymsPhraseQuery(false)
           )
@@ -92,7 +92,7 @@ class TenantSearchHelper {
           .should(q -> q
             .multiMatch(m -> m
               .query(userTerm)
-              .fields(ARTICLE_SEARCH_FIELDS)
+              .fields(TENANT_SEARCH_FIELDS)
               .type(TextQueryType.PhrasePrefix)
               .boost(1.5f)
             )
@@ -101,7 +101,7 @@ class TenantSearchHelper {
           .should(q -> q
             .multiMatch(m -> m
               .query(userTerm)
-              .fields(ARTICLE_SEARCH_FIELDS)
+              .fields(TENANT_SEARCH_FIELDS)
             )
           )
       }
