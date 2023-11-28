@@ -27,7 +27,7 @@ import org.apache.commons.lang3.StringUtils
 import org.craftercms.engine.service.UrlTransformationService
 import org.craftercms.search.opensearch.client.OpenSearchClientWrapper
 
-class SearchHelper {
+class TenantSearchHelper {
 
   static final String ARTICLE_CONTENT_TYPE = "/page/article"
   static final List<String> ARTICLE_SEARCH_FIELDS = [
