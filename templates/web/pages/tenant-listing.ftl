@@ -34,6 +34,9 @@
                     </@crafter.a>
                 </h3>
         
+                <@crafter.p $model=article $field="name_s">
+                ${article.name}
+              </@crafter.p>
 
               <#--
               <a href="${article.url}" class="image">
