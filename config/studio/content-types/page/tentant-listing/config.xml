@@ -1,6 +1,6 @@
 <content-type name="/page/tentant-listing" is-wcm-type="true">
 	<label>Tentant Listing</label>
-	<form>/page/tentant-listing</form>
+	<form>/page/tentantlisting</form>
 	<form-path>simple</form-path>
 	<model-instance-path>NOT-USED-BY-SIMPLE-FORM-ENGINE</model-instance-path>
 	<file-extension>xml</file-extension>
