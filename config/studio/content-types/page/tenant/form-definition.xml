@@ -1140,7 +1140,7 @@
 				<field>
 					<type>node-selector</type>
 					<id>recommended_o</id>
-					<iceId>ice_recommended</iceId>
+					<iceId></iceId>
 					<title>Recommended</title>
 					<description></description>
 					<defaultValue></defaultValue>
@@ -1153,7 +1153,7 @@
 						</property>
 						<property>
 							<name>maxSize</name>
-							<value></value>
+							<value>2</value>
 							<type>int</type>
 						</property>
 						<property>
