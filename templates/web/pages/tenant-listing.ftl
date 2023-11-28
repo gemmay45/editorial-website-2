@@ -29,12 +29,21 @@
                 <a href="${article.url}" class="image">
                 <@crafter.img
                   $model=article
-                  $field="image_s"
-                  src=article.image???then(article.image, "/static-assets/images/placeholder.png")
-                  alt=""
+                  $field="images_o"
+                  src="${article.images_o.item[0].image_s}"
+                  <#--src=article.image???then(article.images_o.item[0].image_s, "/static-assets/images/placeholder.png")-->
+                  alt="" width="112px"
                 />
                 </a>
 
+<@crafter.img
+                                  $model=tenantItem
+                                  $field="images_o"
+                                  src="${tenantItem.images_o.item[0].image_s}"
+                                  alt=""
+                                  width="112px"
+                                />
+                                
                 <h3>
                     <@crafter.a $model=article $field="name_s" href="${article.url}">
                                 ${article.title}
