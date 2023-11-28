@@ -24,13 +24,17 @@
                 <#list articles as article>
             <@crafter.article $model=article>
               <a href="${article.url}" class="image">
+              xxx
+                <#--
                 <@crafter.img
                   $model=article
                   $field="image_s"
                   src=article.image???then(article.image, "/static-assets/images/placeholder.png")
                   alt=""
                 />
+                -->
               </a>
+              <#--
               <h3>
                 <@crafter.a $model=article $field="subject_t" href="${article.url}">
                   ${article.title}
@@ -42,6 +46,7 @@
               <ul class="actions">
                 <li><a href="${article.url}" class="button">More</a></li>
               </ul>
+              -->
             </@crafter.article>
           </#list>
 
