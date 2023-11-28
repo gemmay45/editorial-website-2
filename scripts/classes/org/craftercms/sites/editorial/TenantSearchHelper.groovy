@@ -42,7 +42,7 @@ class TenantSearchHelper {
   OpenSearchClientWrapper searchClient
   UrlTransformationService urlTransformationService
 
-  SearchHelper(OpenSearchClientWrapper searchClient, UrlTransformationService urlTransformationService) {
+  TenantSearchHelper(OpenSearchClientWrapper searchClient, UrlTransformationService urlTransformationService) {
     this.searchClient = searchClient
     this.urlTransformationService = urlTransformationService
   }
