@@ -25,7 +25,7 @@
               
         <div class="posts">
           <#list articles as article>
-            <@crafter.div $model=article>
+            <@crafter.article $model=article>
                 <a href="${article.url}" class="image">
                 <@crafter.img
                   $model=article
@@ -65,7 +65,7 @@
                 <li><a href="${article.url}" class="button">More</a></li>
               </ul>
                 -->
-            </@crafter.div>
+            </@crafter.article>
           </#list>
         </div>
       </@crafter.section>
