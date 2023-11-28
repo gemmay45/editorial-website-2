@@ -63,7 +63,7 @@
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as article>
 					    <#assign articleItem = siteItemService.getSiteItem(article.key) />
-					    <@crafter.div $model=articleItem>
+					    <@crafter.div $model=relatedMAGArticle_o>
 					       <#assign url = articleItem.storeUrl
                               ?replace("/site/website", "")
                               ?replace("/index.xml", "")
