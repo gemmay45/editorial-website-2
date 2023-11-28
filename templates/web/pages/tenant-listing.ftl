@@ -31,7 +31,7 @@
                   $model=article
                   $field="images_o"
                   src=article.image???then(article.image, "/static-assets/images/placeholder.png")
-                  alt="" width="112px"
+                  alt="" width="320px"
                 />
                 </a>
                                 
