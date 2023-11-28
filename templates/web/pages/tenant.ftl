@@ -51,7 +51,7 @@
                                   width="112px"
                                 />-->
                                 
-                                    <@crafter.span $model=tenantItem>
+                                    <@crafter.span $model=tenant>
                                     ${tenantName}
                                     </@crafter.span>
                                     <#--<@crafter.p $model=tenantItem class="location-card__tagline">
