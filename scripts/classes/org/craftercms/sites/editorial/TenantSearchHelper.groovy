@@ -31,7 +31,7 @@ class TenantSearchHelper {
 
   static final String TENANT_CONTENT_TYPE = "/page/tenant"
   static final List<String> TENANT_SEARCH_FIELDS = [
-    'subject_t^1.5',
+    'name_s^1.5',
     'sections_o.item.section_html^1.0'
   ]
   static final String[] HIGHLIGHT_FIELDS = ["name_s", "sections_o.item.section_html"]
