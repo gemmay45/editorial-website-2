@@ -1,21 +1,24 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<html lang="en" data-craftercms-preview="${modePreview?c}">
+<!doctype html>
+<html lang="en">
 <head>
-	<#include "/templates/web/fragments/head.ftl">
-	<@crafter.head/>
+  <#include "/templates/web/fragments/head.ftl">
+  <@crafter.head/>
 </head>
-<body class="the-mag">
+<body class="is-preload">
 <@crafter.body_top/>
 
 <!-- Wrapper -->
 <div id="wrapper">
-	<!-- Main -->
-	<div id="main">
 
-			<!-- Header -->
-			<@renderComponent component = contentModel.header_o.item />
+  <!-- Main -->
+  <div id="main">
+    <div class="inner">
 
+      <!-- Header -->
+      <@crafter.renderComponentCollection $field="header_o"/>
+      <!-- /Header -->
 
 		</div>
 	</div>
