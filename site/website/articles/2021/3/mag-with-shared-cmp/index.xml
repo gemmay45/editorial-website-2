@@ -23,8 +23,8 @@
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<createdDate>2023-11-19T01:37:05.003Z</createdDate>
 	<createdDate_dt>2023-11-19T01:37:05.003Z</createdDate_dt>
-	<lastModifiedDate>2023-11-26T12:35:36.663Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-26T12:35:36.663Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-28T06:00:00.075Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T06:00:00.075Z</lastModifiedDate_dt>
 	<disabled>false</disabled>
 	<header_o item-list="true"/>
 	<left_rail_o item-list="true"/>
@@ -50,7 +50,6 @@
 	<include>/site/components/the-mag/mag-with-shared-cmp/2f7299fc-d17d-4de7-b99b-e019a228d25f.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></pageSections_o>
-	<categories_s>people</categories_s>
 	<categories_o>	<item>	<key>people</key>
 	<value_smv>People</value_smv>
 	</item></categories_o>
