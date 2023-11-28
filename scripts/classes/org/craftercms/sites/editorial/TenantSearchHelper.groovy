@@ -194,7 +194,7 @@ class TenantSearchHelper {
             article.id = doc.objectId
             article.objectId = doc.objectId
             article.path = doc.localId
-            article.title = doc.title_t
+            article.name = doc.name_s
             article.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
 
         if (hit.highlight()) {
