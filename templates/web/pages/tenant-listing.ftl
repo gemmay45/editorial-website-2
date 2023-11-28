@@ -27,7 +27,7 @@
         </header>
         
         <div class="posts">
-          <#list articles as article>
+          <#list tenants as article>
             <@crafter.article $model=article>
                 <a href="${article.url}" class="image">
                 <@crafter.img
@@ -40,7 +40,7 @@
                                 
                 <h3>
                     <@crafter.a $model=article $field="name_s" href="${article.url}">
-                                ${article.title}
+                        ${article.title}
                     </@crafter.a>
                 </h3>
                 <@crafter.p $model=article $field="tagline_s">
