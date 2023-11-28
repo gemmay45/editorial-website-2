@@ -126,7 +126,7 @@ class TenantSearchHelper {
     }
   }
 
-  def searchArticles(featured, categories, segments, start = DEFAULT_START, rows = DEFAULT_ROWS, additionalCriteria = null) {
+  def searchTenants(featured, categories, segments, start = DEFAULT_START, rows = DEFAULT_ROWS, additionalCriteria = null) {
     SearchRequest request = SearchRequest.of(r -> r
       .query(q -> q
         .bool(b -> {
