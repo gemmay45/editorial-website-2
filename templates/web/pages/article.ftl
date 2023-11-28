@@ -28,8 +28,7 @@
 
           <@crafter.div class="the-mag-cat" $field="categories_s">
             <#list contentModel.categories_o.item as category>
-            <@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>
-                ${category.value_smv}
+                <@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>
             </#list>
           </@crafter.div>
           
@@ -53,6 +52,7 @@
             <p class="the-mag-detail__content__tags">
                 <i aria-hidden="true" class="fas fa-tag"></i>
                 <@crafter.a $field="categories_s" href="javascript:searchByTag('tag:${contentModel.categories_s}')">
+                    
                     ${contentModel.categories_s!""}
                 </@crafter.a>
             </p>
