@@ -30,7 +30,7 @@
 
                         <#list contentModel.recommended_o.item as tenant>
                             <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                                					    <@crafter.div $model=recommended_o>
+                                					    <@crafter.div $model=contentModel.recommended_o>
 
                               <#assign url = tenantItem.storeUrl
                                 ?replace("/site/website", "")
