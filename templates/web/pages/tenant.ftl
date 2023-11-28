@@ -30,7 +30,7 @@
 
                     <#list contentModel.recommended_o.item as tenant>
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                        <@crafter.div $model=articleItem>
+                        <@crafter.div $model=tenantItem>
                             <#assign url = tenantItem.storeUrl
                                 ?replace("/site/website", "")
                                 ?replace("index.xml", "")
@@ -63,7 +63,7 @@
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as article>
 					    <#assign articleItem = siteItemService.getSiteItem(article.key) />
-					    <@crafter.div $model=article>
+					    <@crafter.div $model=articleItem>
 					       <#assign url = articleItem.storeUrl
                               ?replace("/site/website", "")
                               ?replace("/index.xml", "")
