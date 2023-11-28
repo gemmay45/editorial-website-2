@@ -51,10 +51,18 @@
                 
             <p class="the-mag-detail__content__tags">
                 <i aria-hidden="true" class="fas fa-tag"></i>
+                <#list contentModel.categories_o.item as category>
+                    <@crafter.a $field="categories_o" href="javascript:searchByTag('tag:${category.value_smv}')">
+                        <@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>
+                    </@crafter.a>
+                </#list>
+                <#--
+                <@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>
                 <@crafter.a $field="categories_s" href="javascript:searchByTag('tag:${contentModel.categories_s}')">
                     
                     ${contentModel.categories_s!""}
                 </@crafter.a>
+                -->
             </p>
         </div>
         
