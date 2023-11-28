@@ -34,14 +34,6 @@
                   alt="" width="112px"
                 />
                 </a>
-
-<@crafter.img
-                                  $model=tenantItem
-                                  $field="images_o"
-                                  src="${tenantItem.images_o.item[0].image_s}"
-                                  alt=""
-                                  width="112px"
-                                />
                                 
                 <h3>
                     <@crafter.a $model=article $field="name_s" href="${article.url}">
