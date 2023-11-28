@@ -99,7 +99,7 @@
     
 				<#if contentModel.categories_o?? && contentModel.categories_o.item??>
                     <#list contentModel.categories_o.item as category>
-                        <@crafter.span>${category.value_smv}</@crafter.span>
+                        <@crafter.span $model=categories_o>${category.value_smv}</@crafter.span>
                     </#list>
                 </#if>
                                 
