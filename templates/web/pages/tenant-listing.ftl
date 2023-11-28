@@ -23,7 +23,7 @@
       
       <@crafter.section $model=contentModel>
         <header class="main">
-          <h1>${contentModel.articles_title_s}</h1>
+          <h1>${contentModel.articlesTitle_s}</h1>
         </header>
         
         <div class="posts">
