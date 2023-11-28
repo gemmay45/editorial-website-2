@@ -29,7 +29,7 @@
                 <h3>
                     <@crafter.a $model=article $field="name_s" href="${article.url}">
                                 xxxyyy
-                                ${article.name}
+                                ${article.title}
                       <#-- $field="name_s"  ${article.name_s} -->
                     </@crafter.a>
                 </h3>
