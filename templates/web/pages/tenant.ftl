@@ -110,8 +110,12 @@
                 <@crafter.span $field="quote_t">${contentModel.quote_t}</@crafter.span><br/>
                 <@crafter.span $field="quoteBy_s">${contentModel.quoteBy_s}</@crafter.span><br/>
                 <@crafter.span $field="opinion_t">${contentModel.opinion_t}</@crafter.span><br/>
-                
-                <#if contentModel.hashtags_o?? && contentModel.hashtags_o.item??>
+                 
+                <@crafter.span $field="googleMapsDirection_s">${contentModel.googleMapsDirection_s}</@crafter.span><br/>
+                <@crafter.span $field="appleMapsDirection_s">${contentModel.appleMapsDirection_s}</@crafter.span><br/>
+                <@crafter.span $field="citymapperDirections_s">${contentModel.citymapperDirections_s}</@crafter.span><br/><br/>
+
+				<#if contentModel.hashtags_o?? && contentModel.hashtags_o.item??>
                     <@crafter.renderRepeatGroup
                         $field="hashtags_o"
                         $containerTag="div";
@@ -119,12 +123,8 @@
                         >
                         <@crafter.span $field="hashtags_o" $index=index>${item.hashtag_s}</@crafter.span>
                     </@crafter.renderRepeatGroup>
-                    
-                    <@crafter.span $field="googleMapsDirection_s">${contentModel.googleMapsDirection_s}</@crafter.span><br/>
-                    <@crafter.span $field="appleMapsDirection_s">${contentModel.appleMapsDirection_s}</@crafter.span><br/>
-                    <@crafter.span $field="citymapperDirections_s">${contentModel.citymapperDirections_s}</@crafter.span><br/><br/>
-                </#if>
-				
+                </#if>   
+                
                 <#--
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
