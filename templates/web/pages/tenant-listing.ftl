@@ -35,7 +35,7 @@
                 </h3>
         
                 <@crafter.p $model=article $field="name_s">
-                ${article.name}
+                ${article.path}
               </@crafter.p>
 
               <#--
