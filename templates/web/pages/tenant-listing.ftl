@@ -27,6 +27,7 @@
         <div class="posts">
           <#list articles as article>
             <@crafter.article $model=article>
+            xxxyyy
               <#--
               <a href="${article.url}" class="image">
                 <@crafter.img
