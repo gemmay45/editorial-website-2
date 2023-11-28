@@ -17,6 +17,9 @@
 import org.craftercms.sites.editorial.SearchHelper
 import org.craftercms.sites.editorial.ProfileUtils
 
+
+log.info "xxxx"
+
 def segment = ProfileUtils.getSegment(profile, siteItemService)
 def category = contentModel.category_s
 def maxArticles = contentModel.max_articles_i
