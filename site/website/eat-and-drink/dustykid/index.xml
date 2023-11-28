@@ -23,9 +23,9 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<header_o item-list="true"/>
 	<leftRail_o item-list="true"/>
-	<relatedMAGArticle_o item-list="true">	<item>	<key>/site/website/articles/2021/3/aikoothismonthnov2023/index.xml</key>
-	<value>taikoothismonthnov2023</value>
-	<include>/site/website/articles/2021/3/aikoothismonthnov2023/index.xml</include>
+	<relatedMAGArticle_o item-list="true">	<item>	<key>/site/website/articles/2021/3/tpinsiderhashtagb/index.xml</key>
+	<value>tpinsiderhashtagb</value>
+	<include>/site/website/articles/2021/3/tpinsiderhashtagb/index.xml</include>
 	<disableFlattening>false</disableFlattening>
 	</item></relatedMAGArticle_o>
 	<recommended_o item-list="true"/>
@@ -40,8 +40,8 @@
 	<openingHours_html>&lt;p&gt;Mon-Sat 12pm-8pm&lt;/p&gt;</openingHours_html>
 	<createdDate>2023-11-28T01:33:24.196Z</createdDate>
 	<createdDate_dt>2023-11-28T01:33:24.196Z</createdDate_dt>
-	<lastModifiedDate>2023-11-28T01:38:45.135Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-28T01:38:45.135Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-28T01:49:44.748Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T01:49:44.748Z</lastModifiedDate_dt>
 	<images_o item-list="true">	<item>	<image_s>/static-assets/images/tenants/dustykid/5f5a41b590874caf8cfe2905f2c442fe160a112e-1280x1280.webp</image_s>
 	</item>	<item>	<image_s>/static-assets/images/tenants/dustykid/6400222f1e6ea92bbf17502d182ae7e2ca98b7f8-2000x618.webp</image_s>
 	</item>	<item>	<image_s>/static-assets/images/tenants/dustykid/3941cf22337027a1152c053b4895c2e3b04e9aaf-960x640.webp</image_s>
