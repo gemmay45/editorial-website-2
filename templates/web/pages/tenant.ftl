@@ -111,35 +111,19 @@
                 <@crafter.span $field="quoteBy_s">${contentModel.quoteBy_s}</@crafter.span><br/>
                 <@crafter.span $field="opinion_t">${contentModel.opinion_t}</@crafter.span><br/>
                 
-                <@crafter.renderRepeatGroup
-                    $field="hashtags_o"
-                    $containerTag="div";
-                    item, index
-                    >
-                    <@crafter.p $field="hashtags_o" $index=index>${item.hashtag_s}</@crafter.p>
-                    <#--
-                    <#if item.content_html?has_content>
-                    <@crafter.tag $tag="dt" $field="event_o" $index=index><i $field="event_o" class="${item.icon_s}"></i></@crafter.tag>
-                    </#if>
-                    <#if item.content_html?has_content>
-                    <@crafter.tag $tag="dd" $field="event_o" $index=index>${item.content_html}</@crafter.tag>
-                    </#if>
-                    -->
-                </@crafter.renderRepeatGroup>
-
-                <#--
                 <#if contentModel.hashtags_o?? && contentModel.hashtags_o.item??>
-                    <#list contentModel.hashtags_o.item as hashtag>
-                        <@crafter.span $field="hashtags_o">${hashtag.value_smv}</@crafter.span>
-                        <br/>
-                    </#list>
+                    <@crafter.renderRepeatGroup
+                        $field="hashtags_o"
+                        $containerTag="div";
+                        item, index
+                        >
+                        <@crafter.span $field="hashtags_o" $index=index>${item.hashtag_s}</@crafter.span>
+                    </@crafter.renderRepeatGroup>
+                    
+                    <@crafter.span $field="googleMapsDirection_s">${contentModel.googleMapsDirection_s}</@crafter.span><br/>
+                    <@crafter.span $field="appleMapsDirection_s">${contentModel.appleMapsDirection_s}</@crafter.span><br/>
+                    <@crafter.span $field="citymapperDirections_s">${contentModel.citymapperDirections_s}</@crafter.span><br/><br/>
                 </#if>
-                -->
-                
-                <@crafter.span $field="googleMapsDirection_s">${contentModel.googleMapsDirection_s}</@crafter.span><br/>
-                <@crafter.span $field="appleMapsDirection_s">${contentModel.appleMapsDirection_s}</@crafter.span><br/>
-                <@crafter.span $field="citymapperDirections_s">${contentModel.citymapperDirections_s}</@crafter.span><br/><br/>
-
 				
                 <#--
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
