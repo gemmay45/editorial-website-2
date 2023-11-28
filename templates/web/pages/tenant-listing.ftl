@@ -47,27 +47,6 @@
                     ${article.tagline}
                 </@crafter.p>
         
-              <#--
-              <a href="${article.url}" class="image">
-                <@crafter.img
-                  $model=article
-                  $field="image_s"
-                  src=article.image???then(article.image, "/static-assets/images/placeholder.png")
-                  alt=""
-                />
-              </a>
-              <h3>
-                <@crafter.a $model=article $field="subject_t" href="${article.url}">
-                  ${article.title}
-                </@crafter.a>
-              </h3>
-              <@crafter.p $model=article $field="summary_t">
-                ${article.summary}
-              </@crafter.p>
-              <ul class="actions">
-                <li><a href="${article.url}" class="button">More</a></li>
-              </ul>
-                -->
             </@crafter.article>
           </#list>
         </div>
