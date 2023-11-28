@@ -333,9 +333,9 @@
 				</field>
 				<field>
 					<type>numeric-input</type>
-					<id>maxArticles_i</id>
+					<id>maxTenants_i</id>
 					<iceId></iceId>
-					<title>Max Articles</title>
+					<title>Max Tenants</title>
 					<description></description>
 					<defaultValue>10</defaultValue>
 					<help></help>
