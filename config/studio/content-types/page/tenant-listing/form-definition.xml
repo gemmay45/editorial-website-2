@@ -252,9 +252,9 @@
 			<fields>
 				<field>
 					<type>input</type>
-					<id>articlesTitle_s</id>
+					<id>tenantsTitle_s</id>
 					<iceId></iceId>
-					<title>Articles Title</title>
+					<title>Tenants Title</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
