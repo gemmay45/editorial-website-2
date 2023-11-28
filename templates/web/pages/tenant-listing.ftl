@@ -27,7 +27,7 @@
           <#list articles as article>
             <@crafter.div $model=article>
                 <h3>
-                    <@crafter.a $model=article href="${article.url}">
+                    <@crafter.a $model=article $field="name_s" href="${article.url}">
                                 xxxyyy
                                 ${article.name_s}
                       <#-- $field="name_s"  ${article.name_s} -->
