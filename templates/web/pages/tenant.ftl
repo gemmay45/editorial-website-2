@@ -110,7 +110,13 @@
                 <@crafter.span $field="quote_t">${contentModel.quote_t}</@crafter.span><br/>
                 <@crafter.span $field="quoteBy_s">${contentModel.quoteBy_s}</@crafter.span><br/>
                 <@crafter.span $field="opinion_t">${contentModel.opinion_t}</@crafter.span><br/>
-                ${contentModel.hashtags_o}<br/>
+                <#if contentModel.hashtags_o?? && contentModel.hashtags_o.item??>
+                    <#list contentModel.hashtags_o.item as hashtag>
+                        <@crafter.span $field="hashtags_o">${hashtag.value_smv}</@crafter.span>
+                        <br/>
+                    </#list>
+                </#if>
+
                 <@crafter.span $field="googleMapsDirection_s">${contentModel.googleMapsDirection_s}</@crafter.span><br/>
                 <@crafter.span $field="appleMapsDirection_s">${contentModel.appleMapsDirection_s}</@crafter.span><br/>
                 <@crafter.span $field="citymapperDirections_s">${contentModel.citymapperDirections_s}</@crafter.span><br/><br/>
