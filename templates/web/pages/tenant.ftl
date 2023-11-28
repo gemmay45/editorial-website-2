@@ -24,6 +24,9 @@
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
 
+                    <@renderComponent component = contentModel.recommended_o.item />
+                    
+                    <#--
                     <#list contentModel.recommended_o.item as tenant>
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
@@ -72,7 +75,8 @@
                         </@crafter.div>
 					</#list>
 				</#if>
-
+                -->
+                
 				<#if contentModel.images_o?? && contentModel.images_o.item??>
                     <div class="row">
                       <div class="col-md-4"><@crafter.img $field="images_o" src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
