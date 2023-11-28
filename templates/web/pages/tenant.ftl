@@ -60,18 +60,18 @@
 				</#if>
 				
 				<#if contentModel.images_o?? && contentModel.images_o.item??>
-                <div class="row">
-                  <div class="col-md-4"><@crafter.img $field="images_o" src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
-                  <div class="col-md-8">
-                    <div class="pb-3">
-                        <@crafter.img $field="images_o" src="${contentModel.images_o.item[1].image_s}" height="140"/>
-                    </div>
                     <div class="row">
-                      <div class="col-md-6"><@crafter.img $field="images_o" src="${contentModel.images_o.item[2].image_s}" height="145" /></div>
-                      <div class="col-md-6"><@crafter.img $field="images_o" src="${contentModel.images_o.item[3].image_s}" height="145" /></div>
+                      <div class="col-md-4"><@crafter.img $field="images_o" src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
+                      <div class="col-md-8">
+                        <div class="pb-3">
+                            <@crafter.img $field="images_o" src="${contentModel.images_o.item[1].image_s}" height="140"/>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-6"><@crafter.img $field="images_o" src="${contentModel.images_o.item[2].image_s}" height="145" /></div>
+                          <div class="col-md-6"><@crafter.img $field="images_o" src="${contentModel.images_o.item[3].image_s}" height="145" /></div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
                 </#if>
                 
                 <@crafter.h1 $field="name_s">
@@ -79,10 +79,12 @@
                 </@crafter.h1>
     
     
-                <#list contentModel.categories_o.item as category>
-                    ${category.value_smv}
-                </#list>
-          
+				<#if contentModel.categories_o?? && contentModel.categories_o.item??>
+                    <#list contentModel.categories_o.item as category>
+                        ${category.value_smv}
+                    </#list>
+                </#if>
+                                
                 ${contentModel.description_html}
                 ${contentModel.address_s}<br/>
                 ${contentModel.openingHours_html}
