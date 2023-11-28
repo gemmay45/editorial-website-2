@@ -475,9 +475,9 @@
 					<fields>
 				<field>
 					<type>input</type>
-					<id>hashtags_s</id>
+					<id>hashtag_s</id>
 					<iceId></iceId>
-					<title>hashtags</title>
+					<title>Hashtag</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
