@@ -22,7 +22,6 @@
       
       
       <@crafter.section $model=contentModel>
-              ${dummyText}
 
         <div class="posts">
           <#list articles as article>
