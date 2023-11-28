@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-11-22T05:56:27.594Z</createdDate>
 	<createdDate_dt>2023-11-22T05:56:27.594Z</createdDate_dt>
-	<lastModifiedDate>2023-11-28T09:37:39.068Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-28T09:37:39.068Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-28T23:28:15.854Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T23:28:15.854Z</lastModifiedDate_dt>
 	<category_s>drink</category_s>
 	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
 	<value>Left Rail with No Articles</value>
@@ -24,5 +24,5 @@
 	</item></leftRail_o>
 	<maxArticles_i>10</maxArticles_i>
 	<header_o item-list="true"/>
-	<articlesTitle_s>Eat &amp; Drink</articlesTitle_s>
+	<tenantsTitle_s/>
 </page>
