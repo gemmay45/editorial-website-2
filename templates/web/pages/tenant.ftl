@@ -25,24 +25,23 @@
             </div>
             <section>
             
-                            <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
+                <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
 
-                        <#list contentModel.recommended_o.item as tenant>
-                            <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                                					    <@crafter.div $model=tenantItem>
-
-                              <#assign url = tenantItem.storeUrl
+                    <#list contentModel.recommended_o.item as tenant>
+                        <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
+                        <@crafter.div $model=tenantItem>
+                            <#assign url = tenantItem.storeUrl
                                 ?replace("/site/website", "")
                                 ?replace("index.xml", "")
-                              />
+                            />
+        
+        				    <#assign name_field = "name_s" />
+    				        <#assign tenantName = tenantItem[name_field] />
+    				        <#assign tagline_field = "tagline_s" />
+    				        <#assign tagline = tenantItem[tagline_field] />
     
-    					        <#assign name_field = "name_s" />
-    					        <#assign tenantName = tenantItem[name_field] />
-    					        <#assign tagline_field = "tagline_s" />
-    					        <#assign tagline = tenantItem[tagline_field] />
-
-                                <@crafter.a $model=tenantItem href="${url}">
+                            <@crafter.a $model=tenantItem href="${url}">
                                 <@crafter.img
                                   $model=tenantItem
                                   $field="images_o"
@@ -51,18 +50,13 @@
                                   width="112px"
                                 />
                                 
-                                    <@crafter.span $model=tenantItem>
-                                    ${tenantName}
-                                    </@crafter.span>
-                                    <br/>
-                                    <@crafter.span $model=tenantItem class="location-card__tagline">
-                                        ${tagline!""}
-                                    </@crafter.span>
-                                    <br/><br/>
-
-                              </@crafter.a>
-                              </@crafter.div>
-                        </#list>
+                                <@crafter.span $model=tenantItem>${tenantName}</@crafter.span>
+                                <br/>
+                                <@crafter.span $model=tenantItem class="location-card__tagline">${tagline!""}</@crafter.span>
+                                <br/><br/>
+                            </@crafter.a>
+                        </@crafter.div>
+                    </#list>
 				</#if>
 				
                 <div class="row">
