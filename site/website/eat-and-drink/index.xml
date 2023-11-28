@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page>
 	<content-type>/page/tenant-listing</content-type>
-	<display-template>/templates/web/tenant-listing.ftl</display-template>
+	<display-template>/templates/web/pages/tenant-listing.ftl</display-template>
 	<no-template-required/>
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>907f</objectGroupId>
@@ -14,8 +14,8 @@
 	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-11-22T05:56:27.594Z</createdDate>
 	<createdDate_dt>2023-11-22T05:56:27.594Z</createdDate_dt>
-	<lastModifiedDate>2023-11-28T07:07:37.990Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-28T07:07:37.990Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-28T07:15:42.428Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T07:15:42.428Z</lastModifiedDate_dt>
 	<category_s>drink</category_s>
 	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
 	<value>Left Rail with No Articles</value>
