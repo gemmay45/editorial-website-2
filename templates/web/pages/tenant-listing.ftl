@@ -30,8 +30,7 @@
                 <@crafter.img
                   $model=article
                   $field="images_o"
-                  src="${article.images_o.item[0].image_s}"
-                  <#--src=article.image???then(article.images_o.item[0].image_s, "/static-assets/images/placeholder.png")-->
+                  src=article.image???then(article.image, "/static-assets/images/placeholder.png")
                   alt="" width="112px"
                 />
                 </a>
