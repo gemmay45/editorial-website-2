@@ -28,11 +28,12 @@
             <@crafter.div $model=article>
                 <h3>
                     <@crafter.a $model=article href="${article.url}">
+                                xxxyyy
                       <#-- $field="name_s"  ${article.name_s} -->
                     </@crafter.a>
                 </h3>
         
-            xxxyyy
+
               <#--
               <a href="${article.url}" class="image">
                 <@crafter.img
