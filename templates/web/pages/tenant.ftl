@@ -102,18 +102,18 @@
                     </#list>
                 </#if>
                                 
-                <@crafter.span $field="description_html">${contentModel.description_html}</@crafter.span>
-                ${contentModel.address_s}<br/>
-                ${contentModel.openingHours_html}
-                ${contentModel.contactNumber_s}<br/>
-                ${contentModel.websiteURL_s}<br/>
-                ${contentModel.quote_t}<br/>
-                ${contentModel.quoteBy_s}<br/>
-                ${contentModel.opinion_t}<br/>
+                <@crafter.div $field="description_html">${contentModel.description_html}</@crafter.div>
+                <@crafter.span $field="address_s">${contentModel.address_s}</@crafter.span><br/>
+                <@crafter.div $field="openingHours_html">${contentModel.openingHours_html}</@crafter.div>
+                <@crafter.span $field="contactNumber_s">${contentModel.contactNumber_s}</@crafter.span><br/>
+                <@crafter.span $field="websiteURL_s">${contentModel.websiteURL_s}</@crafter.span><br/>
+                <@crafter.span $field="quote_t">${contentModel.quote_t}</@crafter.span><br/>
+                <@crafter.span $field="quoteBy_s">${contentModel.quoteBy_s}</@crafter.span><br/>
+                <@crafter.span $field="opinion_t">${contentModel.opinion_t}</@crafter.span><br/>
                 ${contentModel.hashtags_o}<br/>
-                ${contentModel.googleMapsDirection_s}<br/>
-                ${contentModel.appleMapsDirection_s}<br/>
-                ${contentModel.citymapperDirections_s}<br/><br/>
+                <@crafter.span $field="googleMapsDirection_s">${contentModel.googleMapsDirection_s}</@crafter.span><br/>
+                <@crafter.span $field="appleMapsDirection_s">${contentModel.appleMapsDirection_s}</@crafter.span><br/>
+                <@crafter.span $field="citymapperDirections_s">${contentModel.citymapperDirections_s}</@crafter.span><br/><br/>
 
 				
                 <#--
