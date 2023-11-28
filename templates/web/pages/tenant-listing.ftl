@@ -22,10 +22,16 @@
       
       
       <@crafter.section $model=contentModel>
-
+              
         <div class="posts">
           <#list articles as article>
-            <@crafter.article $model=article>
+            <@crafter.div $model=article>
+                <h3>
+                    <@crafter.a $model=article $field="name_s" href="${article.url}">
+                      ${article.name_s}
+                    </@crafter.a>
+                </h3>
+        
             xxxyyy
               <#--
               <a href="${article.url}" class="image">
@@ -48,7 +54,7 @@
                 <li><a href="${article.url}" class="button">More</a></li>
               </ul>
                 -->
-            </@crafter.article>
+            </@crafter.div>
           </#list>
         </div>
       </@crafter.section>
