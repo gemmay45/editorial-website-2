@@ -34,7 +34,7 @@ class TenantSearchHelper {
     'subject_t^1.5',
     'sections_o.item.section_html^1.0'
   ]
-  static final String[] HIGHLIGHT_FIELDS = ["subject_t", "sections_o.item.section_html"]
+  static final String[] HIGHLIGHT_FIELDS = ["name_s", "sections_o.item.section_html"]
   static final int DEFAULT_START = 0
   static final int DEFAULT_ROWS = 10
   static final String MULTIPLE_VALUES_SEARCH_ANALYZER = Analyzer.Kind.Whitespace.jsonValue()
