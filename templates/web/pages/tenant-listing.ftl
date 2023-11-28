@@ -32,7 +32,7 @@
                       <#-- $field="name_s"  ${article.name_s} -->
                     </@crafter.a>
                 </h3>
-                <br/>
+                <br/><br/>
         
               <#--
               <a href="${article.url}" class="image">
