@@ -24,7 +24,7 @@
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
 
-                    <@crafter.forEach contentModel.recommended_o; tenant, index>
+                    <@crafter.forEach contentModel.recommended_o.item; tenant, index>
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <#assign url = tenantItem.storeUrl
                                 ?replace("/site/website", "")
