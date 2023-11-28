@@ -27,8 +27,8 @@
           <#list articles as article>
             <@crafter.div $model=article>
                 <h3>
-                    <@crafter.a $model=article $field="name_s" href="${article.url}">
-                      ${article.name_s}
+                    <@crafter.a $model=article href="${article.url}">
+                      <#-- $field="name_s"  ${article.name_s} -->
                     </@crafter.a>
                 </h3>
         
