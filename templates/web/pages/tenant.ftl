@@ -29,7 +29,8 @@
                     <h4>Recommended</h4>
 
                     <#list contentModel.recommended_o.item as tenant>
-                        <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
+                        <#assign index = tenant?index />
+                        <#assign tenantItem =  siteItemService.getSiteItem(contentModel.recommended_o.item[index].key) />
                         <@crafter.div $model=tenantItem>
                             <#assign url = tenantItem.storeUrl
                                 ?replace("/site/website", "")
