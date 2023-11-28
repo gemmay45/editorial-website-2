@@ -20,21 +20,19 @@
       <@crafter.renderComponentCollection $field="header_o"/>
       <!-- /Header -->
 
-		</div>
-	</div>
-                
-	<#--
-	<#assign articleCategories = contentModel.queryValues("//categories_o/item/key")/>
-	<#assign articlePath = contentModel.storeUrl />
-	<#assign additionalModel = {"articleCategories": articleCategories, "articlePath": articlePath }/>
-    -->
-    
-	<!-- Left Rail -->
-	<@renderComponent component = contentModel.left_rail_o.item additionalModel = additionalModel />
+    </div>
+  </div>
+  <!-- /Main -->
+
+  <!-- Left Rail -->
+  <@crafter.renderComponentCollection $field="left_rail_o" />
+  <!-- /Left Rail -->
+
 </div>
+<!-- /Wrapper -->
 
 <#include "/templates/web/fragments/scripts.ftl">
-
 <@crafter.body_bottom/>
+
 </body>
 </html>
