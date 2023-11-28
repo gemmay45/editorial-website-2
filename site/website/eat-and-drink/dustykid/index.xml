@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/tenant</content-type>
+	<display-template>/templates/web/pages/tenant.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>7e89</objectGroupId>
+	<objectId>7e89368f-372e-859a-bbce-2b59c37c5ec5</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>dustykid</folder-name>
+	<internal-name>Dustykid</internal-name>
+	<navLabel>Dustykid Tea - Light As Dust</navLabel>
+	<name_s>Dustykid Tea - Light As Dust</name_s>
+	<tagline_s/>
+	<address_s/>
+	<contactNumber_s/>
+	<websiteURL_s/>
+	<quoteBy_s/>
+	<googleMapsDirection_s/>
+	<appleMapsDirection_s/>
+	<citymapperDirections_s/>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<relatedMAGArticle_o item-list="true"/>
+	<recommended_o item-list="true"/>
+	<categories_s/>
+	<categories_o/>
+	<hashtags_o/>
+	<quote_t/>
+	<opinion_t/>
+	<description_html/>
+	<openingHours_html/>
+	<createdDate>2023-11-28T01:33:24.196Z</createdDate>
+	<createdDate_dt>2023-11-28T01:33:24.196Z</createdDate_dt>
+	<lastModifiedDate>2023-11-28T01:33:24.196Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-28T01:33:24.196Z</lastModifiedDate_dt>
+</page>
