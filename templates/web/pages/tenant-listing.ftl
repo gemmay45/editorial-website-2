@@ -35,8 +35,8 @@
                 </h3>
         
                 <@crafter.p $model=article $field="name_s">
-                ${article.path}
-              </@crafter.p>
+                    ${article.title}
+                </@crafter.p>
 
               <#--
               <a href="${article.url}" class="image">
