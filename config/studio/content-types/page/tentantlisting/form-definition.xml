@@ -337,5 +337,43 @@
 						</property>
 					</properties>
 				</datasource>
+				<datasource>
+					<type>shared-content</type>
+					<id>componentsHeader</id>
+					<title>Components Header</title>
+					<interface>item</interface>
+					<properties>
+						<property>
+							<name>enableCreateNew</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableBrowseExisting</name>
+							<value>true</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>enableSearchExisting</name>
+							<value>false</value>
+								<type>boolean</type>
+						</property>
+						<property>
+							<name>repoPath</name>
+							<value>/site/</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>browsePath</name>
+							<value>/site/</value>
+								<type>content-path-input</type>
+						</property>
+						<property>
+							<name>type</name>
+							<value></value>
+								<type>string</type>
+						</property>
+					</properties>
+				</datasource>
 	</datasources>
 </form>
