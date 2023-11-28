@@ -177,7 +177,7 @@ class TenantSearchHelper {
     def result = searchClient.search(request, Map)
 
     if (result) {
-      return processArticleListingResults(result)
+      return processTenantListingResults(result)
     } else {
       return []
     }
@@ -218,7 +218,7 @@ class TenantSearchHelper {
     return articles
   }
 
-  private def processArticleListingResults(result) {
+  private def processTenantListingResults(result) {
     def articles = []
     def documents = result.hits().hits()*.source()
 
