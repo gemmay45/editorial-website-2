@@ -17,10 +17,6 @@
 import org.craftercms.sites.editorial.TenantSearchHelper
 import org.craftercms.sites.editorial.ProfileUtils
 
-def dummyText = "xxx"
-
-templateModel.dummyText = dummyText
-
 def segment = ProfileUtils.getSegment(profile, siteItemService)
 def category = contentModel.category_s
 def maxArticles = contentModel.max_articles_i
