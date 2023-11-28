@@ -159,7 +159,6 @@
             </section>
         </div>
     </div>
-            <p>Footer</p>
             
             <#include "/templates/web/fragments/scripts.ftl">
 
