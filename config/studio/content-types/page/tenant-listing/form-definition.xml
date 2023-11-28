@@ -248,7 +248,7 @@
 		<section>
 			<title>Section Content</title>
 			<description></description>
-			<defaultOpen>false</defaultOpen>
+			<defaultOpen>true</defaultOpen>
 			<fields>
 				<field>
 					<type>dropdown</type>
