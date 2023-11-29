@@ -4,9 +4,10 @@
     def topNavItems = [:]
     def dirs = contentModel.recommended_o.item
     dirs.each { dir ->
-            /*def dirName = dir.getStoreName()*/
-            recTenant.title = dir.name_s
-            recTenant.key = dir.key
+            def dirName = dir.key
+            def dirItem = siteItemService.getSiteItem("${dirName}")
+            recTenant.title = "aaa"
+            recTenant.key = dirItem
             recTenants << recTenant
                         /*
                         def dirItem = siteItemService.getSiteItem("/site/website/${dirName}/index.xml")
