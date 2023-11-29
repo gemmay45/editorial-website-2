@@ -24,7 +24,7 @@
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
-                    <@crafter.div $model=contentModel.recommended_o.item>
+                    <@crafter.div $model=contentModel>
                     <#list contentModel.recommended_o.item as tenant>
                     
                     <#assign index =  tenant?index />
