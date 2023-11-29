@@ -1,12 +1,11 @@
 
 def recTenants = []
-def topNavItems = [:]
-def dirs = contentModel.recommended_o.item
-dirs.each { dir ->
+def recs = contentModel.recommended_o.item
+recs.each { rec ->
     def recTenant = [:]
     
-    def dirName = dir.key.text
-    def dirItem = siteItemService.getSiteItem(dir.key.text)
+    def dirName = rec.key.text
+    def dirItem = siteItemService.getSiteItem(rec.key.text)
     
     recTenant.id = dirItem.objectId
     recTenant.objectId = dirItem.objectId
