@@ -19,7 +19,7 @@
       <!-- Header -->
       <@crafter.renderComponentCollection $field="header_o"/>
       <!-- /Header -->
-            <section>
+            <section $model=contentModel>
 				
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
