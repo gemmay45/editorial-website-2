@@ -32,7 +32,7 @@
                               
                               <#list recTenants as recTenant>
                                 ${recTenant.title}
-                                ${recTenant.key}
+                                ${recTenant.url}
                               </#list>
                               
                 </#if>
