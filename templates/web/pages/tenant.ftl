@@ -29,7 +29,7 @@
                     
                     <#assign index =  tenant?index />
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                    <@crafter.div $model=tenantItem>
+                    <#--<@crafter.div $model=tenantItem>
                         <#assign url = tenantItem.storeUrl
                             ?replace("/site/website", "")
                             ?replace("index.xml", "")
@@ -43,7 +43,9 @@
                         <@crafter.p $model=tenantItem>${itemURL}</@crafter.p>
                         <@crafter.p $model=tenantItem>${contentModel.recommended_o.item[index].key}</@crafter.p>
                     </@crafter.div>
-
+                    -->
+                    <@renderComponent component=tenant />
+                    
                         <#--
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
