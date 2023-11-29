@@ -24,7 +24,7 @@
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
-                    <@renderComponent component=contentModel.recommended_o.item />
+                    <@renderComponent component=contentModel.recommended_o />
                                         
 				</#if>
 				
