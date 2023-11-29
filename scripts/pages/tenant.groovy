@@ -2,8 +2,8 @@
     def recTenants = []
 def recTenant = [:]
 recTenant.title = "aaa"
-recTenants << article
+recTenants << recTenant
 recTenant.title = "bbb"
-recTenants << article
+recTenants << recTenant
 
 templateModel.recTenants = recTenants
