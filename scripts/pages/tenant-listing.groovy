@@ -24,6 +24,3 @@ def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService
 def tenants = searchHelper.searchTenants(false, category, segment, 0, maxTenants)
 
 templateModel.tenants = tenants
-
-def categoriesItem = siteItemService.getSiteItem(contentModel.categories_o.item.key.text)
-templateModel.categories = categoriesItem.items.item
