@@ -161,7 +161,7 @@
                             
                             <#list relatedMags as relatedMag>
                                 <@crafter.article $model=relatedMag>
-                                    <@crafter.a $model=relatedMag href="${recTenant.url}">
+                                    <@crafter.a $model=relatedMag href="${relatedMag.url}">
                                         <@crafter.span $model=relatedMag>${relatedMag.title}</@crafter.span><br/>
                                     </@crafter.a>
                                 </@crafter.article>
