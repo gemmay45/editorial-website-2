@@ -40,18 +40,10 @@
 	</item></images_o>
 	<createdDate>2023-11-23T07:55:02.769Z</createdDate>
 	<createdDate_dt>2023-11-23T07:55:02.769Z</createdDate_dt>
-	<lastModifiedDate>2023-11-29T09:00:56.257Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-29T09:00:56.257Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-29T09:02:01.018Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-29T09:02:01.018Z</lastModifiedDate_dt>
 	<tagline_s>Rustic &amp; artsy bubble tea shop</tagline_s>
-	<recommended_o item-list="true">	<item>	<key>/site/website/eat-and-drink/coco-espresso/index.xml</key>
-	<value>CoCo Espresso</value>
-	<include>/site/website/eat-and-drink/coco-espresso/index.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item>	<item>	<key>/site/website/eat-and-drink/arabica/index.xml</key>
-	<value>Arabica</value>
-	<include>/site/website/eat-and-drink/arabica/index.xml</include>
-	<disableFlattening>false</disableFlattening>
-	</item></recommended_o>
+	<recommended_o item-list="true"/>
 	<category_s>drink</category_s>
 	<maxTenants_i>10</maxTenants_i>
 </page>
