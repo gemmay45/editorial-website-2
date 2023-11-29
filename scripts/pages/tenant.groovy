@@ -32,7 +32,7 @@ rels.each { rel ->
     recTenant.storeUrl = dirItem.storeUrl
     recTenant.url = urlTransformationService.transform("storeUrlToRenderUrl", recTenant.storeUrl)
 
-    recTenant.title = dirItem.queryValue('title_s')
+    recTenant.title = dirItem.queryValue('subject_t')
 
     relatedMags << relatedMag
 }
