@@ -8,9 +8,9 @@
 	<objectId>fb94eef2-9915-9c90-3727-633cc97bf3ea</objectId>
 	<file-name>index.xml</file-name>
 	<folder-name>arabica</folder-name>
-	<internal-name>Arabica</internal-name>
+	<internal-name>%Arabica</internal-name>
 	<navLabel>Arabica</navLabel>
-	<name_s>Arabica</name_s>
+	<name_s>%Arabica</name_s>
 	<address_s>Shop 3, Yick Fat Building, 1048-1056 King’s Rd, Quarry Bay</address_s>
 	<contactNumber_s>+852 2131 8836</contactNumber_s>
 	<websiteURL_s>https://arabica.coffee/en/</websiteURL_s>
@@ -39,8 +39,8 @@
 	<description_html>&lt;p&gt;Tucked away in the basement of Quarry Bay&amp;rsquo;s most Instagrammable spot lies a truly transformational coffee experience. Perched between the barbershops and Thai eateries is this tiny futuristic coffee shop. Its interior is modelled after the Monster Building with stacks of coffee bags resembling the iconic architecture of the local landmark.&lt;/p&gt;</description_html>
 	<createdDate>2023-11-22T06:05:41.320Z</createdDate>
 	<createdDate_dt>2023-11-22T06:05:41.320Z</createdDate_dt>
-	<lastModifiedDate>2023-11-29T13:37:19.908Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-29T13:37:19.908Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-29T14:17:12.927Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-29T14:17:12.927Z</lastModifiedDate_dt>
 	<openingHours_html>&lt;p&gt;Mon-Fri 8:30am-7pm&lt;br /&gt;Sat-Sun 9am-7pm&lt;/p&gt;</openingHours_html>
 	<header_o item-list="true"/>
 	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
