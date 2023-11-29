@@ -3,14 +3,14 @@ templateModel.getNavIcon = { item ->
   def siteItem = siteItemService.getSiteItem(storeUrl)
   
   
-  def tenant = [:]
+  def tenantInfo = [:]
             tenant.id = doc.objectId
             tenant.objectId = doc.objectId
             tenant.path = doc.localId
             tenant.title = siteItem.name_s
             tenant.url = siteItem.storeUrl
             
-  return tenant.title
+  templateModel.tenantInfo = tenantInfo
   if(siteItem) {
     def navIcon = siteItem.navIcon?.text
     if(navIcon) {
