@@ -27,24 +27,24 @@
         </header>
         
         <div class="posts">
-          <#list tenants as article>
-            <@crafter.article $model=article>
-                <a href="${article.url}" class="image">
+          <#list tenants as tenant>
+            <@crafter.article $model=tenant>
+                <a href="${tenant.url}" class="image">
                 <@crafter.img
-                  $model=article
+                  $model=tenant
                   $field="images_o"
-                  src=article.image???then(article.image, "/static-assets/images/placeholder.png")
+                  src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png")
                   alt="" width="320px"
                 />
                 </a>
                                 
                 <h3>
-                    <@crafter.a $model=article $field="name_s" href="${article.url}">
-                        ${article.title}
+                    <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
+                        ${tenant.title}
                     </@crafter.a>
                 </h3>
-                <@crafter.p $model=article $field="tagline_s">
-                    ${article.tagline}
+                <@crafter.p $model=tenant $field="tagline_s">
+                    ${tenant.tagline}
                 </@crafter.p>
         
             </@crafter.article>
