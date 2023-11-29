@@ -24,11 +24,43 @@
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
-                    <@renderComponent component=contentModel.recommended_o />
+                    <#list contentModel.recommended_o.item as tenant>
+                        <@renderComponent component=tenant />
+                    </#list>
                                         
 				</#if>
 				
 				<#--
+				<#list contentModel.recommended_o.item as tenant>
+                        <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
+                        <@crafter.div $model=tenantItem>
+                            <#assign url = tenantItem.storeUrl
+                                ?replace("/site/website", "")
+                                ?replace("index.xml", "")
+                            />
+        
+        				    <#assign name_field = "name_s" />
+    				        <#assign tenantName = tenantItem[name_field] />
+    				        <#assign tagline_field = "tagline_s" />
+    				        <#assign tagline = tenantItem[tagline_field] />
+    
+                            <@crafter.a $model=tenantItem href="${url}">
+                                <@crafter.img
+                                  $model=tenantItem
+                                  $field="images_o"
+                                  src="${tenantItem.images_o.item[0].image_s}"
+                                  alt=""
+                                  width="112px"
+                                />
+                                
+                                <@crafter.span $model=tenantItem>${tenantName}</@crafter.span>
+                                <br/>
+                                <@crafter.span $model=tenantItem class="location-card__tagline">${tagline!""}</@crafter.span>
+                                <br/><br/>
+                            </@crafter.a>
+                        </@crafter.div>
+                    </#list>
+                    
 				<#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as article>
