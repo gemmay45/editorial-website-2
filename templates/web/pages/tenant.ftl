@@ -27,8 +27,9 @@
                     <#list contentModel.recommended_o.item as tenant>
                     
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
+                    <#assign url = tenantItem.storeUrl?replace("/site/website", "") ?replace("index.xml", "")
                     
-                    <@crafter.p>${tenantItem.storeUrl}</@crafter.p>
+                    <@crafter.p>${url}</@crafter.p>
                     
                     <#--
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
