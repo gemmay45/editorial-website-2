@@ -168,7 +168,7 @@ class TenantSearchHelper {
       .size(rows)
       .sort(s -> s
         .field(f -> f
-          .field("date_dt")
+          .field("name_s")
           .order(SortOrder.Asc)
         )
       )
