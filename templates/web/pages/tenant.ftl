@@ -86,8 +86,6 @@
 					</#list>
 				</#if>
                 
-                <#--
-                
 				<#if contentModel.images_o?? && contentModel.images_o.item??>
                     <div class="row">
                       <div class="col-md-4"><@crafter.img $field="images_o" src="${contentModel.images_o.item[0].image_s}" height="292" /></div>
@@ -113,7 +111,6 @@
                     </#list>
                 </#if>
                                 
-                    <#--
                     <@crafter.div $field="description_html">${contentModel.description_html}</@crafter.div>
                     <@crafter.span $field="address_s">${contentModel.address_s}</@crafter.span><br/>
                     <@crafter.div $field="openingHours_html">${contentModel.openingHours_html}</@crafter.div>
@@ -136,7 +133,6 @@
                             <@crafter.span $field="hashtags_o" $index=index>${item.hashtag_s}</@crafter.span>
                         </@crafter.renderRepeatGroup>
                     </#if>   
-                    -->
                     </@crafter.section>
                 </div>
           </div>
