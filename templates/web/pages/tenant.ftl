@@ -32,6 +32,7 @@
                               
                               <#list recTenants as recTenant>
                                 ${recTenant.title}
+                                ${recTenant.key}
                               </#list>
                               
                 </#if>
