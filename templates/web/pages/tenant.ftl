@@ -21,6 +21,7 @@
       <!-- /Header -->
             <@crafter.section $model=contentModel>
 				
+				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
@@ -85,6 +86,7 @@
                         </@crafter.div>
 					</#list>
 				</#if>
+                -->
                 
 				<#if contentModel.images_o?? && contentModel.images_o.item??>
                     <div class="row">
