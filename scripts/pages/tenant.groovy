@@ -5,7 +5,7 @@ recTenants << recTenant
 recTenant.title = "bbb"
 recTenants << recTenant
 
-
+    def topNavItems = [:]
     def dirs = contentModel.recommended_o
     dirs.each { dir ->
             def dirName = dir.getStoreName()
