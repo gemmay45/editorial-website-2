@@ -33,10 +33,12 @@
                             ?replace("index.xml", "")
                         />
                         
-                        <#assign itemURL = url />
+                        <#assign itemURL = tenantItem.storeUrl
+                            ?replace("/site/website", "")
+                            ?replace("index.xml", "") />
     				    <#assign tenantName = tenantItem.name_s />
 
-
+                        <@crafter.p $model=tenantItem>${itemURL}</@crafter.p>
                         <@crafter.p $model=tenantItem>${tenantName}</@crafter.p>
                     </@crafter.div>
                     
