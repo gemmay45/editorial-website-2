@@ -39,7 +39,7 @@
     				    <#assign tenantName = tenantItem.name_s />
 
                         <#--<@crafter.p>${itemURL}</@crafter.p>-->
-                        <@crafter.p $model=tenant>${contentModel.recommended_o.item[0].key}</@crafter.p>
+                        <@crafter.p $model=tenantItem>${contentModel.recommended_o.item[0].key}</@crafter.p>
                     </@crafter.div>
                     
                         <#--
