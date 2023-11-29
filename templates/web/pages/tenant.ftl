@@ -26,7 +26,7 @@
                     
                     <#list recTenants as recTenant>
                         <#assign index = recTenant?index />
-                        <@crafter.article $model=recTenant.dirItem>
+                        <@crafter.article $model=recTenant>
                             <@crafter.span>${recTenants[index].title}</@crafter.span><br/>
                             <@crafter.span>${recTenants[index].storeUrl}</@crafter.span><br/>
                             <@crafter.span>${recTenants[index].url}</@crafter.span><br/>
