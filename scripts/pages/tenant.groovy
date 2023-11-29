@@ -1,4 +1,3 @@
-/*
-def categoriesItem = siteItemService.getSiteItem(contentModel.categories_o.item.key.text)
-templateModel.categories = categoriesItem.items.item
-*/
+
+def categoriesItem = siteItemService.getSiteItem(contentModel.recommended_o.item)
+templateModel.tenant = categoriesItem.items.item
