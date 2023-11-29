@@ -22,6 +22,9 @@
       
       
       <@crafter.section $model=contentModel>
+        <header class="main">
+          <h1>${contentModel.name_s}</h1>
+        </header>
         
         <div class="posts">
           <#list tenants as tenant>
