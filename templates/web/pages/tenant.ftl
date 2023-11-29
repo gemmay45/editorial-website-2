@@ -26,6 +26,9 @@
                     
                     <#list contentModel.recommended_o.item as tenant>
                     
+                    <@crafter.span>xxx</@crafter.span>
+                    
+                    <#--
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
                             <@crafter.img
@@ -35,7 +38,7 @@
                   alt="" width="320px"
                 />
                 </@crafter.div>
-                
+                -->
                         <#--
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
