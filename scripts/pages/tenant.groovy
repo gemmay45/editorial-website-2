@@ -6,6 +6,7 @@
     dirs.each { dir ->
             /*def dirName = dir.getStoreName()*/
             recTenant.title = "aaa"
+            recTenant.key = dir.key
             recTenants << recTenant
                         /*
                         def dirItem = siteItemService.getSiteItem("/site/website/${dirName}/index.xml")
