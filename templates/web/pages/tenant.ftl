@@ -19,7 +19,7 @@
       <!-- Header -->
       <@crafter.renderComponentCollection $field="header_o"/>
       <!-- /Header -->
-            <section $model=contentModel>
+            <@crafter.section $model=contentModel>
 				
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
@@ -137,7 +137,7 @@
                         </@crafter.renderRepeatGroup>
                     </#if>   
                     -->
-                    </section>
+                    </@crafter.section>
                 </div>
           </div>
           <!-- /Main -->
