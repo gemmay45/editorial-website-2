@@ -33,7 +33,11 @@
                             ?replace("index.xml", "")
                         />
                         
-                        <@crafter.p $model=tenantItem>${url}</@crafter.p>
+                        <#assign itemURL = url />
+    				    <#assign tenantName = tenantItem.name_fieldname_s />
+
+
+                        <@crafter.p>${tenantName}</@crafter.p>
                     </@crafter.div>
                     
                         <#--
