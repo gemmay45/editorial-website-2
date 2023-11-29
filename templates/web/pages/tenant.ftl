@@ -25,8 +25,8 @@
                     <h4>Recommended</h4>
                     
                               <#list recTenants as recTenant>
-                                <@crafter.span $model=recommended_o>${recTenant.title}</@crafter.span><br/>
-                                <@crafter.span $model=recommended_o>${recTenant.key}</@crafter.span><br/>
+                                <@crafter.span $model=contentModel.recommended_o.item>${recTenant.title}</@crafter.span><br/>
+                                <@crafter.span $model=contentModel.recommended_o.item>${recTenant.key}</@crafter.span><br/>
                               </#list>
                               
                 </#if>
