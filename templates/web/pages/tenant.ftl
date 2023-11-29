@@ -24,6 +24,7 @@
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
+                    <@crafter.div $model=recommended_o>
                     <#list contentModel.recommended_o.item as tenant>
                     
                     <#assign index =  tenant?index />
@@ -42,7 +43,7 @@
                         <@crafter.p $model=tenantItem>${itemURL}</@crafter.p>
                         <@crafter.p $model=tenantItem>${contentModel.recommended_o.item[index].key}</@crafter.p>
                     </@crafter.div>
-                    
+                    </@crafter.div>
                         <#--
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
