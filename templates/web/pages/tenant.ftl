@@ -28,7 +28,7 @@
                     
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                     
-                    <@crafter.span>${tenantItem.storeUrl}</@crafter.span>
+                    <@crafter.p>${tenantItem.storeUrl}</@crafter.p>
                     
                     <#--
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
