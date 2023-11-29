@@ -26,9 +26,11 @@
                     
                               <#list recTenants as recTenant>
                                 <#assign index = recTenant?index />
-                                <@crafter.div $model=recTenants[index].dirItem>
-                                    <@crafter.span $model=recTenants[index].dirItem>${recTenant.title}</@crafter.span><br/>
-                                    <@crafter.span $model=recTenants[index].dirItem>${recTenant.key}</@crafter.span><br/>
+                                <#assign tenantItem =  siteItemService.getSiteItem(recTenant.key) />
+                        
+                                <@crafter.div $model=tenantItem>
+                                    <@crafter.span $model=tenantItem>${recTenant.title}</@crafter.span><br/>
+                                    <@crafter.span $model=tenantItem>${recTenant.key}</@crafter.span><br/>
                                 </@crafter.div>
                               </#list>
                               
