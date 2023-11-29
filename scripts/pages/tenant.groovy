@@ -11,7 +11,7 @@
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
             recTenant.title = dirItem.queryValue('name_s')
             recTenant.key = dir.key
-            recTenant.url = dirItem.storeUrl
+            recTenant.url = dir.storeUrl
             recTenants << recTenant
             
                         /*
