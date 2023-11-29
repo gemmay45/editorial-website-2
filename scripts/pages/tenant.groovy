@@ -8,7 +8,7 @@
             def dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/dustykid/index.xml")
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
-            recTenant.title = "aaa"
+            recTenant.title = dirItem.queryValue('name_s')
             recTenant.key = dir.key
             recTenant.url = dirItem.storeUrl
             recTenants << recTenant
