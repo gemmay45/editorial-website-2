@@ -136,27 +136,48 @@
                         </@crafter.renderRepeatGroup>
                     </#if>   
 
-                    <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
-                        <h4>Recommended</h4>
+                        <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
+                            <h4>Recommended</h4>
+                            
+                            <#list recTenants as recTenant>
+                                <#assign index = recTenant?index />
+                                <@crafter.article $model=recTenant>
+                                    <@crafter.a $model=recTenant href="${recTenant.url}">
+                                        <@crafter.img
+                                          $model=recTenant
+                                          src="${recTenant.images.item[0].image_s}"
+                                          alt=""
+                                          width="112px"
+                                        />
+                                        <br/>
+                                        <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
+                                        <@crafter.span $model=recTenant>${recTenant.tagline}</@crafter.span><br/>
+                                    </@crafter.a>
+                                </@crafter.article>
+                            </#list>
+                        </#if>
                         
-                        <#list recTenants as recTenant>
-                            <#assign index = recTenant?index />
-                            <@crafter.article $model=recTenant>
-                                <@crafter.a $model=recTenant href="${recTenant.url}">
-                                    <@crafter.img
-                                      $model=recTenant
-                                      src="${recTenant.images.item[0].image_s}"
-                                      alt=""
-                                      width="112px"
-                                    />
-                                    <br/>
-                                    <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
-                                    <@crafter.span $model=recTenant>${recTenant.tagline}</@crafter.span><br/>
-                                </@crafter.a>
-                            </@crafter.article>
-                        </#list>
-                    </#if>
-                    
+                        <#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
+                            <h4>Related Mag</h4>
+                            
+                            <#list recTenants as recTenant>
+                                <#assign index = recTenant?index />
+                                <@crafter.article $model=recTenant>
+                                    <@crafter.a $model=recTenant href="${recTenant.url}">
+                                        <@crafter.img
+                                          $model=recTenant
+                                          src="${recTenant.images.item[0].image_s}"
+                                          alt=""
+                                          width="112px"
+                                        />
+                                        <br/>
+                                        <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
+                                        <@crafter.span $model=recTenant>${recTenant.tagline}</@crafter.span><br/>
+                                    </@crafter.a>
+                                </@crafter.article>
+                            </#list>
+                        </#if>
+
                     </@crafter.section>
                 </div>
           </div>
