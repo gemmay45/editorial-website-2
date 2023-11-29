@@ -25,12 +25,12 @@
                     <h4>Recommended</h4>
                     
                     <#list recTenants as recTenant>
-                        <@crafter.article $model=recTenant>
+                        <@crafter.article $model=recTenant.dirName>
                         <#assign tenantItem =  siteItemService.getSiteItem(recTenant.key) />
                 
                             <@crafter.span $model=tenantItem>${recTenant.title}</@crafter.span><br/>
                             <@crafter.span $model=tenantItem>${recTenant.key}</@crafter.span><br/>
-                        </@crafter.div>
+                        </@crafter.article>
                     </#list>
                               
                 </#if>
