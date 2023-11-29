@@ -381,9 +381,9 @@
 				</field>
 				<field>
 					<type>checkbox-group</type>
-					<id>cateories_o</id>
+					<id>categories_o</id>
 					<iceId></iceId>
-					<title>Cateories</title>
+					<title>Categories</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
