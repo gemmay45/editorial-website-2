@@ -12,15 +12,11 @@
             recTenant.objectId = dirItem.objectId
             recTenant.path = dirItem.localId
             recTenant.storeUrl = dirItem.storeUrl
-            /*recTenant.title = dirItem.queryValue('name_s')*/
             recTenant.url = urlTransformationService.transform("storeUrlToRenderUrl", recTenant.storeUrl)
 
-            
-            /*def dirItem = siteItemService.getSiteItem(dirName)*/
             recTenant.dirItem = dirItem
             recTenant.title = dirItem.queryValue('name_s')
             recTenant.key = dir.key
-            /*recTenant.url = dir.storeUrl*/
             recTenants << recTenant
             
                         /*
