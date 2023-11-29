@@ -19,7 +19,7 @@
 	<appleMapsDirection_s>http://maps.apple.com/?ll=22.28395,114.21255&amp;q=%25%20Arabica</appleMapsDirection_s>
 	<citymapperDirections_s>https://citymapper.com/directions?endcoord=22.28395%2C114.21255&amp;endname=%25%20Arabica&amp;endaddress=Shop%203%2C%20Yick%20Fat%20Building%2C%201048-1056%20King%E2%80%99s%20Rd%2C%20Quarry%20Bay</citymapperDirections_s>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<quote_t>We’re a secret spot inside this old building, many of our customers end up staying for a whole afternoon.</quote_t>
 	<opinion_t>Brought all the way from Japan, the % Arabica coffee experience is all about understated minimalism. The dark roasts contrast the bright interior, creating a quiet nook in the dense urban jungle. The matcha latte is a must try.</opinion_t>
 	<hashtags_o item-list="true">	<item>	<hashtags_s>#SeeTheWorldThroughCoffee</hashtags_s>
@@ -35,8 +35,8 @@
 	<description_html>&lt;p&gt;Tucked away in the basement of Quarry Bay&amp;rsquo;s most Instagrammable spot lies a truly transformational coffee experience. Perched between the barbershops and Thai eateries is this tiny futuristic coffee shop. Its interior is modelled after the Monster Building with stacks of coffee bags resembling the iconic architecture of the local landmark.&lt;/p&gt;</description_html>
 	<createdDate>2023-11-29T08:35:04.203Z</createdDate>
 	<createdDate_dt>2023-11-29T08:35:04.203Z</createdDate_dt>
-	<lastModifiedDate>2023-11-29T08:35:04.203Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-29T08:35:04.203Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-29T08:35:05.499Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-29T08:35:05.499Z</lastModifiedDate_dt>
 	<openingHours_html>&lt;p&gt;Mon-Fri 8:30am-7pm&lt;br /&gt;Sat-Sun 9am-7pm&lt;/p&gt;</openingHours_html>
 	<header_o item-list="true"/>
 	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
