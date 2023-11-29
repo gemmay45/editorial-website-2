@@ -34,7 +34,7 @@
                                   alt=""
                                   width="112px"
                                 />
-                                
+                                <br/>
                                 <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
                                 <@crafter.span $model=recTenant>${recTenant.tagline}</@crafter.span><br/>
                             </@crafter.a>
