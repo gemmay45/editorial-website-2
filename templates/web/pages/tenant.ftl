@@ -31,7 +31,7 @@
                     -->
                               <#list recTenants as recTenant>
                                 ${recTenant.title}<br/>
-                                ${recTenant.url}<br/>
+                                ${recTenant.key}<br/>
                               </#list>
                               
                 </#if>
