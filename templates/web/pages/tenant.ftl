@@ -114,12 +114,13 @@
                 </#if>
                 -->
                 
-                <#--
+
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
                 </@crafter.h1>
     
-				<#if contentModel.categories_o?? && contentModel.categories_o.item??>
+                <#--
+                <#if contentModel.categories_o?? && contentModel.categories_o.item??>
                     <#list contentModel.categories_o.item as category>
                         <@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>
                     </#list>
