@@ -25,7 +25,7 @@
                     <h4>Recommended</h4>
                     
                     <#list recTenants as recTenant>
-                        <@crafter.article $model=recTenant.dirName>
+                        <@crafter.article $model=recTenant.dirItem>
                             <@crafter.span>${recTenant.title}</@crafter.span><br/>
                             <@crafter.span>${recTenant.storeUrl}</@crafter.span><br/>
                             <@crafter.span>${recTenant.url}</@crafter.span><br/>
