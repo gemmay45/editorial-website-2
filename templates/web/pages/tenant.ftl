@@ -26,7 +26,7 @@
                     
                     <#list contentModel.recommended_o.item as tenant>
                     
-                    <@crafter.span>xxx</@crafter.span>
+                    <@crafter.span>${tenant.key}</@crafter.span>
                     
                     <#--
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
