@@ -25,7 +25,7 @@
                     <h4>Recommended</h4>
                     
  				    <#list contentModel.recommended_o.item as tenant>
-                        <i class="fa ${getNavIcon.call(tenant)}">
+                        ${getNavIcon.call(tenant)}
 
                     </#list>
                 </#if>
