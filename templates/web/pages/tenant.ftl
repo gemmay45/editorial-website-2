@@ -23,7 +23,7 @@
 				
 				<#list contentModel.recommended_o.item as tenant>
 				    <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-				    <@renderComponents model=contentModel.recommended_o />
+				    <@renderComponent model=tenant />
 
                 </#list>
 				
