@@ -184,62 +184,62 @@ class TenantSearchHelper {
   }
 
   private def processUserSearchResults(result) {
-    def articles = []
+    def tenants = []
     def hits = result.hits().hits()
 
     if (hits) {
       hits.each {hit ->
         def doc = hit.source()
-        def article = [:]
-            article.id = doc.objectId
-            article.objectId = doc.objectId
-            article.path = doc.localId
-            article.title = doc.name_s
-            article.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+        def tenant = [:]
+            tenant.id = doc.objectId
+            tenant.objectId = doc.objectId
+            tenant.path = doc.localId
+            tenant.title = doc.name_s
+            tenant.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
 
         if (hit.highlight()) {
-          def articleHighlights = hit.highlight().values()
-          if (articleHighlights) {
+          def tenantHighlights = hit.highlight().values()
+          if (tenantHighlights) {
               def highlightValues = []
 
-              articleHighlights.each { value ->
+              tenantHighlights.each { value ->
                   highlightValues.addAll(value)
               }
 
-              article.highlight = StringUtils.join(highlightValues, "... ")
-              article.highlight = StringUtils.strip(article.highlight)
+              tenant.highlight = StringUtils.join(highlightValues, "... ")
+              tenant.highlight = StringUtils.strip(tenant.highlight)
           }
         }
 
-        articles << article
+        tenants << tenant
       }
     }
 
-    return articles
+    return tenants
   }
 
   private def processTenantListingResults(result) {
-    def articles = []
+    def tenants = []
     def documents = result.hits().hits()*.source()
 
     if (documents) {
       documents.each {doc ->
-        def article = [:]
-        article.id = doc.objectId
-        article.objectId = doc.objectId
-        article.path = doc.localId
-        article.storeUrl = doc.localId
-        article.title = doc.name_s
-        article.summary = doc.summary_t
-        article.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
-        article.image = doc.images_o.item[0].image_s
-        article.tagline = doc.tagline_s
+        def tenant = [:]
+        tenant.id = doc.objectId
+        tenant.objectId = doc.objectId
+        tenant.path = doc.localId
+        tenant.storeUrl = doc.localId
+        tenant.title = doc.name_s
+        tenant.summary = doc.summary_t
+        tenant.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
+        tenant.image = doc.images_o.item[0].image_s
+        tenant.tagline = doc.tagline_s
 
-        articles << article
+        tenants << tenant
       }
     }
 
-    return articles
+    return tenants
   }
 
   private Query getFieldQueryWithMultipleValues(field, values) {
