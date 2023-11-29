@@ -2,7 +2,7 @@
     def recTenants = []
     def recTenant = [:]
     def topNavItems = [:]
-    def dirs = contentModel.recommended_o.item
+    def dirs = contentModel.recommended_o
     dirs.each { dir ->
             def dirName = dir.key
             def dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/dustykid/index.xml")
