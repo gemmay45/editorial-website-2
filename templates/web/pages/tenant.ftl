@@ -24,15 +24,14 @@
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
-                              <#list recTenants as recTenant>
-                                <#assign index = recTenant?index />
-                                <#assign tenantItem =  siteItemService.getSiteItem(recTenant.key) />
-                        
-                                <@crafter.div $model=tenantItem>
-                                    <@crafter.span $model=tenantItem>${recTenant.title}</@crafter.span><br/>
-                                    <@crafter.span $model=tenantItem>${recTenant.key}</@crafter.span><br/>
-                                </@crafter.div>
-                              </#list>
+                    <#list recTenants as recTenant>
+                        <#assign tenantItem =  siteItemService.getSiteItem(recTenant.key) />
+                
+                        <@crafter.div $model=tenantItem>
+                            <@crafter.span $model=tenantItem>${recTenant.title}</@crafter.span><br/>
+                            <@crafter.span $model=tenantItem>${recTenant.key}</@crafter.span><br/>
+                        </@crafter.div>
+                    </#list>
                               
                 </#if>
 				
