@@ -1,9 +1,5 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#if recommended??>
-XXXX
-<#else>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -117,4 +113,3 @@ XXXX
     
     </body>
 </html>
-</#if>
