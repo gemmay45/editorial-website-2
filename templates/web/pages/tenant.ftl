@@ -26,7 +26,7 @@
                     
  				    <#list contentModel.recommended_o.item as tenant>
 
-                        <i class="fa ${getNavIcon.call(navItem)}">
+                        <i class="fa ${getNavIcon.call(tenant)}">
                     </#list>
                 </#if>
 				
