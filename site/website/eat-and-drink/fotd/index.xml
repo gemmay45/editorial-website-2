@@ -25,9 +25,7 @@
 	<leftRail_o item-list="true"/>
 	<relatedMAGArticle_o item-list="true"/>
 	<recommended_o item-list="true"/>
-	<categories_o>	<item>	<key>eat</key>
-	<value_smv>Eat</value_smv>
-	</item></categories_o>
+	<categories_o/>
 	<quote_t>We noticed a lack of friendly priced healthy lunch choices in the neighbourhood, and that’s why we are here. </quote_t>
 	<opinion_t>The shop offers different meal options every day, a total of eight choices including two vegetarian ones. The homemade herbal bottled health drinks are also very popular. </opinion_t>
 	<description_html>&lt;p&gt;#FOTD serves up rice dishes, soups and drinks for take-away prepared fresh every day in the Tsing Yi kitchen without MSG or preservatives. A sustainable business, #FOTD encourages customers to bring their own bowls and cutlery or purchase the signature stainless steel lunch box.&lt;/p&gt;</description_html>
@@ -42,6 +40,6 @@
 	</item></images_o>
 	<createdDate>2023-11-29T14:03:53.533Z</createdDate>
 	<createdDate_dt>2023-11-29T14:03:53.533Z</createdDate_dt>
-	<lastModifiedDate>2023-11-29T14:35:25.720Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-29T14:35:25.720Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-29T14:35:52.949Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-29T14:35:52.949Z</lastModifiedDate_dt>
 </page>
