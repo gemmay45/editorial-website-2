@@ -20,6 +20,28 @@
       <@crafter.renderComponentCollection $field="header_o"/>
       <!-- /Header -->
             <@crafter.section $model=contentModel>
+            
+                    <div class="posts">
+          <#list recTenants as recTenant>
+            <@crafter.article $model=recTenant>
+                <a href="${recTenant.url}" class="image">
+                <@crafter.img
+                  $model=recTenant
+                  $field="images_o"
+                  src=recTenant.image???then(recTenant.image, "/static-assets/images/placeholder.png")
+                  alt="" width="320px"
+                />
+                </a>
+                                
+                <h3>
+                    <@crafter.a $model=recTenant $field="name_s" href="${recTenant.url}">
+                        ${recTenant.title}
+                    </@crafter.a>
+                </h3>
+        
+            </@crafter.article>
+          </#list>
+        </div>
 				
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
