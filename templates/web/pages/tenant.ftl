@@ -46,7 +46,7 @@
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
-                    <#list recTenants as recTenant>
+                    <#list tenants as recTenant>
                         <#assign index = recTenant?index />
                         <@crafter.article $model=recTenant>
                             <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
