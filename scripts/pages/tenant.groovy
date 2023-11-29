@@ -17,7 +17,7 @@
             recTenant.dirItem = dirItem
             recTenant.title = dirItem.queryValue('name_s')
             recTenant.tagline = dirItem.queryValue('tagline_s')
-            recTenant.key = dir.key
+
             recTenants << recTenant
             
                         /*
