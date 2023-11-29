@@ -21,8 +21,19 @@
       <!-- /Header -->
             <section>
 				
+				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
+                    <h4>Recommended</h4>
+                    
+ 				    <#list contentModel.recommended_o.item as tenant>
+
+                        <i class="fa ${getNavIcon.call(navItem)}">
+                    </#list>
+                </#if>
+				
 				<#--
-				<#list contentModel.recommended_o.item as tenant>
+				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
+                    <h4>Recommended</h4>
+    				<#list contentModel.recommended_o.item as tenant>
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
                             <#assign url = tenantItem.storeUrl
@@ -51,6 +62,7 @@
                             </@crafter.a>
                         </@crafter.div>
                     </#list>
+                </#if>
                     
 				<#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
                     <h4>Related MAG</h4>
