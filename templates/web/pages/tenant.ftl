@@ -27,13 +27,7 @@
                     <#list recTenants as recTenant>
                         <#assign index = recTenant?index />
                         <@crafter.article $model=recTenant>
-                            <#assign url = recTenant.storeUrl
-                                ?replace("/site/website", "")
-                                ?replace("index.xml", "")
-                            />
-                            
                             <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
-                            <@crafter.span $model=recTenant>${url}</@crafter.span><br/>
                             <@crafter.span $model=recTenant>${recTenant.url}</@crafter.span><br/>
                         </@crafter.article>
                     </#list>
