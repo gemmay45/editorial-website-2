@@ -28,8 +28,9 @@
                     
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                     <#assign url = tenantItem.storeUrl
-                                ?replace("/site/website", "")
-                                ?replace("index.xml", "")
+                        ?replace("/site/website", "")
+                        ?replace("index.xml", "")
+                    />
                     
                     <@crafter.p>${url}</@crafter.p>
                     
