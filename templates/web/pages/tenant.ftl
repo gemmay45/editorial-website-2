@@ -21,6 +21,20 @@
       <!-- /Header -->
             <@crafter.section $model=contentModel>
 				
+				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
+                    <h4>Recommended</h4>
+                    
+                    <#list tenants as recTenant>
+                        <#assign index = recTenant?index />
+                        <@crafter.article $model=recTenant>
+                            <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
+                            <@crafter.span $model=recTenant>${recTenant.storeUrl}</@crafter.span><br/>
+                            <@crafter.span $model=recTenant>${recTenant.url}</@crafter.span><br/>
+                        </@crafter.article>
+                    </#list>
+                              
+                </#if>
+
 				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
