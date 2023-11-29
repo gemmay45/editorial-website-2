@@ -25,7 +25,7 @@
                     <h4>Recommended</h4>
                     
                     <#list recTenants as recTenant>
-                        <@crafter.article>
+                        <@crafter.article $model=recTenant>
                             <@crafter.span>${recTenant.title}</@crafter.span><br/>
                             <@crafter.span>${recTenant.key}</@crafter.span><br/>
                         </@crafter.article>
