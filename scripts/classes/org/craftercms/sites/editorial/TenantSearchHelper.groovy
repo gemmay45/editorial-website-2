@@ -169,7 +169,7 @@ class TenantSearchHelper {
       .sort(s -> s
         .field(f -> f
           .field("date_dt")
-          .order(SortOrder.Desc)
+          .order(SortOrder.Asc)
         )
       )
     )
