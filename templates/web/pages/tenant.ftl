@@ -27,7 +27,7 @@
                     <#list recTenants as recTenant>
                         <@crafter.article $model=recTenant>
                             <@crafter.span>${recTenant.title}</@crafter.span><br/>
-                            <@crafter.span>${recTenant.path}</@crafter.span><br/>
+                            <@crafter.span>${recTenant.storeUrl}</@crafter.span><br/>
                             <@crafter.span>${recTenant.url}</@crafter.span><br/>
                         </@crafter.article>
                     </#list>
