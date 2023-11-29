@@ -21,7 +21,6 @@
       <!-- /Header -->
             <section>
             
-                <#--
                 <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
@@ -39,13 +38,13 @@
     				        <#assign tagline = tenantItem[tagline_field] />
     
                             <@crafter.a $model=tenantItem href="${url}">
-                                <@crafter.img
+                                <#--<@crafter.img
                                   $model=tenantItem
                                   $field="images_o"
                                   src="${tenantItem.images_o.item[0].image_s}"
                                   alt=""
                                   width="112px"
-                                />
+                                />-->
                                 
                                 <@crafter.span $model=tenantItem>${tenantName}</@crafter.span>
                                 <br/>
@@ -56,6 +55,7 @@
                     </#list>
 				</#if>
 				
+				<#--
 				<#if contentModel.relatedMAGArticle_o?? && contentModel.relatedMAGArticle_o.item??>
                     <h4>Related MAG</h4>
 					<#list contentModel.relatedMAGArticle_o.item as article>
