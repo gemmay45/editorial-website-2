@@ -31,9 +31,11 @@
                     -->
                               
                     
+                              <#--
                               <#list recTenants as recTenant>
 
                               </#list>
+                              -->
                               
                 </#if>
 				
