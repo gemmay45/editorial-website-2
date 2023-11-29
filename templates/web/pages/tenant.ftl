@@ -20,33 +20,7 @@
       <@crafter.renderComponentCollection $field="header_o"/>
       <!-- /Header -->
             <@crafter.section $model=contentModel>
-            
-                    <div class="posts">
-          <#list tenants as tenant>
-            <@crafter.article $model=tenant>
-                <a href="${tenant.url}" class="image">
-                <@crafter.img
-                  $model=tenant
-                  $field="images_o"
-                  src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png")
-                  alt="" width="320px"
-                />
-                </a>
-                                
-                <h3>
-                    <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
-                        ${tenant.title}
-                    </@crafter.a>
-                </h3>
-                <@crafter.p $model=tenant $field="tagline_s">
-                    ${tenant.tagline}
-                </@crafter.p>
-        
-            </@crafter.article>
-          </#list>
-        </div>
 				
-				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
@@ -60,7 +34,7 @@
                     </#list>
                               
                 </#if>
-				-->
+				
 				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
