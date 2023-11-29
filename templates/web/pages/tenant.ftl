@@ -27,24 +27,15 @@
                     <#list contentModel.recommended_o.item as tenant>
                     
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                    <#assign url = tenantItem.storeUrl
-                        ?replace("/site/website", "")
-                        ?replace("index.xml", "")
-                    />
+                    <@crafter.div $model=tenantItem>
+                        <#assign url = tenantItem.storeUrl
+                            ?replace("/site/website", "")
+                            ?replace("index.xml", "")
+                        />
+                        
+                        <@crafter.p>${url}</@crafter.p>
+                    </@crafter.div>
                     
-                    <@crafter.p>${url}</@crafter.p>
-                    
-                    <#--
-                    <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                        <@crafter.div $model=tenantItem>
-                            <@crafter.img
-                  $model=tenantItem
-                  $field="images_o"
-                  src="/static-assets/images/placeholder.png"
-                  alt="" width="320px"
-                />
-                </@crafter.div>
-                -->
                         <#--
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
