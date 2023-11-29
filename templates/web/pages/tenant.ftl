@@ -113,6 +113,8 @@
                     </div>
                 </#if>
                 -->
+                
+                <#--
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
                 </@crafter.h1>
@@ -145,7 +147,7 @@
                         <@crafter.span $field="hashtags_o" $index=index>${item.hashtag_s}</@crafter.span>
                     </@crafter.renderRepeatGroup>
                 </#if>   
-                
+                -->
                     </section>
                 </div>
           </div>
