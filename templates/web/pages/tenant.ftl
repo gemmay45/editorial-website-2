@@ -25,8 +25,8 @@
                     <h4>Recommended</h4>
                     
                               <#list recTenants as recTenant>
-                                <#assign index = recTenant?index
-                                <@crafter.div $model=contentModel.recommended_o.item[recTenant?index]>
+                                <#assign index = recTenant?index />
+                                <@crafter.div>
                                     <@crafter.span $model=contentModel.recommended_o.item[index]>${recTenant.title}</@crafter.span><br/>
                                     <@crafter.span $model=contentModel.recommended_o.item[index]>${recTenant.key}</@crafter.span><br/>
                                 </@crafter.div>
