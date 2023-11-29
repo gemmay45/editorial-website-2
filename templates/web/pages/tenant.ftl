@@ -44,7 +44,7 @@
         
             </@crafter.article>
           </#list>
-        </div>        </div>
+        </div>
 				
 				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
@@ -113,6 +113,8 @@
 					</#list>
 				</#if>
 				-->
+                
+                <#--
                 
 				<#if contentModel.images_o?? && contentModel.images_o.item??>
                     <div class="row">
