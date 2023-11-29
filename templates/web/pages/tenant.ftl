@@ -29,8 +29,7 @@
                         <@crafter.article $model=recTenant>
                             <@crafter.img
                               $model=recTenant
-                              $field="images_o"
-                              src="${tenantItem.images_o.item[0].image_s}"
+                              src="${recTenant.image}"
                               alt=""
                               width="112px"
                             />
