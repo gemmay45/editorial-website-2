@@ -6,7 +6,7 @@
             def recTenant = [:]
 
             def dirName = dir.key
-            def dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/coco-espresso/index.xml")
+            def dirItem = siteItemService.getSiteItem(dir.key)
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
             recTenant.title = dirItem.queryValue('name_s')
