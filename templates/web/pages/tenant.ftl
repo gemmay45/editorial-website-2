@@ -25,7 +25,6 @@
                     <h4>Recommended</h4>
                     
  				    <#list contentModel.recommended_o.item as tenant>
-                        ${getNavIcon(tenant)}
                         ${tenantInfo}
                     </#list>
                 </#if>
