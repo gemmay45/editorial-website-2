@@ -30,8 +30,8 @@
                     </#list>
                     -->
                               <#list recTenants as recTenant>
-                                ${recTenant.title}
-                                ${recTenant.url}
+                                ${recTenant.title}<br/>
+                                ${recTenant.url}<br/>
                               </#list>
                               
                 </#if>
