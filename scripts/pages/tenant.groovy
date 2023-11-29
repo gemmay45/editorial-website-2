@@ -7,7 +7,8 @@
             def dirName = dir.key
             def dirItem = siteItemService.getSiteItem(${dirName})
             recTenant.title = "aaa"
-            recTenant.key = dirItem.storeUrl
+            recTenant.key = dir.key
+            recTenant.url = dirItem.storeUrl
             recTenants << recTenant
                         /*
                         def dirItem = siteItemService.getSiteItem("/site/website/${dirName}/index.xml")
