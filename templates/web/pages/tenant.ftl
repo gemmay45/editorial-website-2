@@ -24,14 +24,9 @@
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
- 				    <#--
- 				    <#list contentModel.recommended_o.item as tenant>
-                        ${tenantInfo}
-                    </#list>
-                    -->
                               <#list recTenants as recTenant>
-                                <@crafter.span $model=tenantItem>${recTenant.title}</@crafter.span><br/>
-                                <@crafter.span $model=tenantItem>${recTenant.key}</@crafter.span><br/>
+                                <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
+                                <@crafter.span $model=recTenant>${recTenant.key}</@crafter.span><br/>
                               </#list>
                               
                 </#if>
