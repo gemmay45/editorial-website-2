@@ -8,10 +8,10 @@
             def dirName = dir.key.text
             def dirItem = siteItemService.getSiteItem(dir.key.text)
             
-            recTenant.id = dirItem.objectId
-            recTenant.objectId = dirItem.objectId
-            recTenant.path = dirItem.localId
-            recTenant.storeUrl = dirItem.localId
+            recTenant.id = dir.objectId
+            recTenant.objectId = dir.objectId
+            recTenant.path = dir.localId
+            recTenant.storeUrl = dir.localId
             /*recTenant.title = dirItem.queryValue('name_s')*/
             recTenant.url = dirItem.storeUrl /*urlTransformationService.transform("storeUrlToRenderUrl", dir.localId)*/
 
