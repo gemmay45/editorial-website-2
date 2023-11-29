@@ -38,8 +38,8 @@
                             ?replace("index.xml", "") />
     				    <#assign tenantName = tenantItem.name_s />
 
-                        <@crafter.p $model=tenantItem>${itemURL}</@crafter.p>
-                        <@crafter.p $model=tenantItem>${tenantName}</@crafter.p>
+                        <#--<@crafter.p>${itemURL}</@crafter.p>-->
+                        <@crafter.p>${contentModel.recommended_o.item[0].key}</@crafter.p>
                     </@crafter.div>
                     
                         <#--
