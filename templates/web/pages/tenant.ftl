@@ -28,6 +28,7 @@
                         <#assign index = recTenant?index />
                         <@crafter.article $model=recTenant>
                             <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
+                            <@crafter.span $model=recTenant>${recTenant.tagline}</@crafter.span><br/>
                             <@crafter.span $model=recTenant>${recTenant.url}</@crafter.span><br/>
                         </@crafter.article>
                     </#list>
