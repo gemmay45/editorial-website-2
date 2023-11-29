@@ -1,6 +1,5 @@
 
     def recTenants = []
-    def recTenant = [:]
     def topNavItems = [:]
     def dirs = contentModel.recommended_o.item
     dirs.each { dir ->
@@ -10,12 +9,6 @@
             def dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/arabica/index.xml")
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
-            recTenant.title = dirItem.queryValue('name_s')
-            recTenant.key = dir.key
-            recTenant.url = dirItem.storeUrl
-            recTenants << recTenant
-            
-            dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/chun-ye-hao-tea/index.xml")
             recTenant.title = dirItem.queryValue('name_s')
             recTenant.key = dir.key
             recTenant.url = dirItem.storeUrl
