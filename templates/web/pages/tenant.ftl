@@ -34,7 +34,7 @@
                         />
                         
                         <#assign itemURL = url />
-    				    <#assign tenantName = tenantItem.name_fieldname_s />
+    				    <#assign tenantName = tenantItem.name_s />
 
 
                         <@crafter.p>${tenantName}</@crafter.p>
