@@ -1,5 +1,4 @@
-
-    def recTenants = []
+def recTenants = []
 def recTenant = [:]
 recTenant.title = "aaa"
 recTenants << recTenant
