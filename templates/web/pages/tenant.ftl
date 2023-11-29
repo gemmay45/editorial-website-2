@@ -163,7 +163,6 @@
                                 <@crafter.article $model=relatedMag>
                                     <@crafter.a $model=relatedMag href="${recTenant.url}">
                                         <@crafter.span $model=relatedMag>${relatedMag.title}</@crafter.span><br/>
-                                        <@crafter.span $model=relatedMag>${relatedMag.tagline}</@crafter.span><br/>
                                     </@crafter.a>
                                 </@crafter.article>
                             </#list>
