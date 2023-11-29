@@ -26,7 +26,7 @@
                     
  				    <#list contentModel.recommended_o.item as tenant>
                         ${getNavIcon(tenant)}
-
+                        ${tenantInfo}
                     </#list>
                 </#if>
 				
