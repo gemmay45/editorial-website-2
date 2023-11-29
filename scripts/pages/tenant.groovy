@@ -1,7 +1,16 @@
 templateModel.getNavIcon = { item ->
   def storeUrl = urlTransformationService.transform("renderUrlToStoreUrl", item.url)
   def siteItem = siteItemService.getSiteItem(storeUrl)
-  return siteItem.storeUrl
+  
+  
+  def tenant = [:]
+            tenant.id = doc.objectId
+            tenant.objectId = doc.objectId
+            tenant.path = doc.localId
+            tenant.title = siteItem.name_s
+            tenant.url = siteItem.storeUrl
+            
+  return tenant
   if(siteItem) {
     def navIcon = siteItem.navIcon?.text
     if(navIcon) {
