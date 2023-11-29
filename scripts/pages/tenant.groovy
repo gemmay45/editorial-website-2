@@ -9,6 +9,7 @@
             def dirItem = siteItemService.getSiteItem(dir.key.text)
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
+            recTenant.dirItem = dirItem
             recTenant.title = dirItem.queryValue('name_s')
             recTenant.key = dir.key
             recTenant.url = dir.storeUrl
