@@ -31,7 +31,7 @@
                     -->
                               
                               <#list recTenants as recTenant>
-                                ${recTenant.title}
+                                ${recTenant}
                               </#list>
                               
                 </#if>
