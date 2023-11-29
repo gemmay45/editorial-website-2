@@ -33,7 +33,7 @@
                             ?replace("index.xml", "")
                         />
                         
-                        <@crafter.p>${url}</@crafter.p>
+                        <@crafter.p $model=tenantItem>${url}</@crafter.p>
                     </@crafter.div>
                     
                         <#--
