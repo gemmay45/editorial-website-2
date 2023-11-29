@@ -5,9 +5,8 @@
     dirs.each { dir ->
             def recTenant = [:]
 
-            /*def dirName = dir.key*/
-            def dirName = dir.getStoreName()
-            def dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/arabica/index.xml")
+            def dirName = dir.key.text
+            def dirItem = siteItemService.getSiteItem(dir.key.text)
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
             recTenant.title = dirItem.queryValue('name_s')
