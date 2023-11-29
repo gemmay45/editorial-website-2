@@ -1,6 +1,6 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
-<#if recommended?? && articlePath??>
+<#if recommended??>
 
 <#else>
 
