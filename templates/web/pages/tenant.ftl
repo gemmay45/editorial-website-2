@@ -30,8 +30,8 @@
                     </#list>
                     -->
                               <#list recTenants as recTenant>
-                                ${recTenant.title}<br/>
-                                ${recTenant.key}<br/>
+                                <@crafter.span $model=tenantItem>${recTenant.title}</@crafter.span><br/>
+                                <@crafter.span $model=tenantItem>${recTenant.key}</@crafter.span><br/>
                               </#list>
                               
                 </#if>
