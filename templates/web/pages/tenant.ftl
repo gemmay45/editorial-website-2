@@ -25,6 +25,14 @@
                     <h4>Recommended</h4>
                     
                     <#list contentModel.recommended_o.item as tenant>
+                        <@crafter.img
+                  $model=tenant
+                  $field="images_o"
+                  src="/static-assets/images/placeholder.png"
+                  alt="" width="320px"
+                />
+                
+                        <#--
                         <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
                         <@crafter.div $model=tenantItem>
                             <#assign url = tenantItem.storeUrl
@@ -38,13 +46,13 @@
     				        <#assign tagline = tenantItem[tagline_field] />
     
                             <@crafter.a $model=tenantItem href="${url}">
-                                <#--<@crafter.img
+                                <@crafter.img
                                   $model=tenantItem
                                   $field="images_o"
                                   src="${tenantItem.images_o.item[0].image_s}"
                                   alt=""
                                   width="112px"
-                                />-->
+                                />
                                 
                                 <@crafter.span $model=tenantItem>${tenantName}</@crafter.span>
                                 <br/>
@@ -52,6 +60,7 @@
                                 <br/><br/>
                             </@crafter.a>
                         </@crafter.div>
+                        -->
                     </#list>
 				</#if>
 				
