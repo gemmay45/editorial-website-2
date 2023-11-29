@@ -20,15 +20,6 @@
       <@crafter.renderComponentCollection $field="header_o"/>
       <!-- /Header -->
             <section>
-            
-                <#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
-                    <h4>Recommended</h4>
-                    
-                    <#list contentModel.recommended_o.item as tenant>
-                        <@renderComponent component=tenant />
-                    </#list>
-                                        
-				</#if>
 				
 				<#--
 				<#list contentModel.recommended_o.item as tenant>
@@ -78,6 +69,7 @@
                         </@crafter.div>
 					</#list>
 				</#if>
+				-->
                 
 				<#if contentModel.images_o?? && contentModel.images_o.item??>
                     <div class="row">
@@ -93,7 +85,6 @@
                       </div>
                     </div>
                 </#if>
-                -->
                 
                 <@crafter.h1 $field="name_s">
                     ${contentModel.name_s!""}
