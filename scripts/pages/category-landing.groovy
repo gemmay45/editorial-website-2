@@ -24,6 +24,6 @@ def searchHelper = new SearchHelper(searchClient, urlTransformationService)
 def articles = searchHelper.searchArticles(false, category, segment, 0, maxArticles)
 
 
-log.info category
+log.info "xx"
 
 templateModel.articles = articles
