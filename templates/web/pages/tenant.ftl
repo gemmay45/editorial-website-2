@@ -25,9 +25,11 @@
                     <h4>Recommended</h4>
                     
                     <#list contentModel.recommended_o.item as tenant>
-                        <@crafter.div $model=tenant>
+                    
+                    <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
+                        <@crafter.div $model=tenantItem>
                             <@crafter.img
-                  $model=tenant
+                  $model=tenantItem
                   $field="images_o"
                   src="/static-assets/images/placeholder.png"
                   alt="" width="320px"
