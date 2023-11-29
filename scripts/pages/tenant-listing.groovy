@@ -24,3 +24,5 @@ def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService
 def tenants = searchHelper.searchTenants(false, category, segment, 0, maxTenants)
 
 templateModel.tenants = tenants
+
+templateModel.category = category
