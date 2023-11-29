@@ -27,16 +27,17 @@
                     <#list recTenants as recTenant>
                         <#assign index = recTenant?index />
                         <@crafter.article $model=recTenant>
-                            <@crafter.img
-                              $model=recTenant
-                              src="${recTenant.images.item[0].image_s}"
-                              alt=""
-                              width="112px"
-                            />
-                            
-                            <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
-                            <@crafter.span $model=recTenant>${recTenant.tagline}</@crafter.span><br/>
-                            <@crafter.span $model=recTenant>${recTenant.url}</@crafter.span><br/>
+                            <@crafter.a $model=recTenant href="${recTenant.url}">
+                                <@crafter.img
+                                  $model=recTenant
+                                  src="${recTenant.images.item[0].image_s}"
+                                  alt=""
+                                  width="112px"
+                                />
+                                
+                                <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
+                                <@crafter.span $model=recTenant>${recTenant.tagline}</@crafter.span><br/>
+                            </@crafter.a>
                         </@crafter.article>
                     </#list>
                               
