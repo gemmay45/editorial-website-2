@@ -6,7 +6,8 @@
             def recTenant = [:]
 
             def dirName = dir.key
-            def dirItem = siteItemService.getSiteItem(contentModel.recommended_o.item.key.text)
+            def dirName = dir.getStoreName()
+            def dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/arabica/index.xml")
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
             recTenant.title = dirItem.queryValue('name_s')
