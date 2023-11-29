@@ -26,7 +26,7 @@
                     
                     <#list recTenants as recTenant>
                         <@crafter.article $model=recTenant.dirName>
-                        <#assign tenantItem =  siteItemService.getSiteItem(recTenant.key) />
+                        <#assign tenantItem = siteItemService.getSiteItem(recTenant.key) />
                 
                             <@crafter.span $model=recTenant.dirName>${recTenant.title}</@crafter.span><br/>
                             <@crafter.span $model=recTenant.dirName>${recTenant.key}</@crafter.span><br/>
