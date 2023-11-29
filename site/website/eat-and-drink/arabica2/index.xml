@@ -30,12 +30,12 @@
 	</item></categories_o>
 	<quote_t/>
 	<opinion_t/>
-	<category_s/>
-	<maxTenants_i/>
+	<category_s>drink</category_s>
+	<maxTenants_i>10</maxTenants_i>
 	<description_html/>
 	<openingHours_html/>
 	<createdDate>2023-11-29T08:37:39.363Z</createdDate>
 	<createdDate_dt>2023-11-29T08:37:39.363Z</createdDate_dt>
-	<lastModifiedDate>2023-11-29T08:38:22.681Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-29T08:38:22.681Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-29T08:38:43.156Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-29T08:38:43.156Z</lastModifiedDate_dt>
 </page>
