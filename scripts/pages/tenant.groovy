@@ -10,7 +10,7 @@ templateModel.getNavIcon = { item ->
             tenant.title = siteItem.name_s
             tenant.url = siteItem.storeUrl
             
-  return tenant
+  return tenant.url
   if(siteItem) {
     def navIcon = siteItem.navIcon?.text
     if(navIcon) {
