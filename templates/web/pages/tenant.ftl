@@ -21,15 +21,10 @@
       <!-- /Header -->
             <section>
 				
-				<#list contentModel.recommended_o.item as c>
-                  <#if c.id??>
-                    <div id='o_${c.id}'>
-                      <#assign curComponentPath = "" + c.contentId />
-                      <@renderComponent componentPath=curComponentPath />
-                    </div>
-                    <#assign item = siteItemService.getSiteItem(curComponentPath) />
-                    <@renderComponents model=item />
-                  </#if>
+				<#list contentModel.recommended_o.item as tenant>
+				    <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
+				    <@renderComponents model=tenantItem />
+
                 </#list>
 				
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
