@@ -27,7 +27,7 @@
                     <#list recTenants as recTenant>
                         <#assign tenantItem =  siteItemService.getSiteItem(recTenant.key) />
                 
-                        <@crafter.div $model=tenantItem>
+                        <@crafter.div>
                             <@crafter.span $model=tenantItem>${recTenant.title}</@crafter.span><br/>
                             <@crafter.span $model=tenantItem>${recTenant.key}</@crafter.span><br/>
                         </@crafter.div>
