@@ -30,7 +30,7 @@
                             <#--
                             <@crafter.img
                               $model=recTenant
-                              src="${recTenant.image}"
+                              src="${recTenant.images.item[0].image_s}"
                               alt=""
                               width="112px"
                             />
