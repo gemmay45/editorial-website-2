@@ -9,8 +9,8 @@
             recTenant.objectId = dir.objectId
             recTenant.path = dir.localId
             recTenant.storeUrl = dir.localId
-            recTenant.title = dirItem.queryValue('name_s')
-
+            /*recTenant.title = dirItem.queryValue('name_s')
+            recTenant.url = urlTransformationService.transform("storeUrlToRenderUrl", dir.localId)*/
 
         
         
