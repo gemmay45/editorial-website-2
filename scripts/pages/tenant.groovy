@@ -4,6 +4,12 @@
     def dirs = contentModel.recommended_o.item
     dirs.each { dir ->
             def recTenant = [:]
+            
+            recTenant.id = dir.objectId
+            recTenant.objectId = dir.objectId
+            recTenant.path = dir.localId
+            recTenant.storeUrl = dir.localId
+            recTenant.title = dirItem.queryValue('name_s')
 
 
         
