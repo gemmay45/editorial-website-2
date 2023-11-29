@@ -23,7 +23,7 @@
 				
 				<#list contentModel.recommended_o.item as c>
                   <#if c.id??>
-                    <div style='display:none' id='o_${c.id}'>
+                    <div id='o_${c.id}'>
                       <#assign curComponentPath = "" + c.contentId />
                       <@renderComponent componentPath=curComponentPath />
                     </div>
