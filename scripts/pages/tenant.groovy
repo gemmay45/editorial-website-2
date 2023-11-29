@@ -1,4 +1,3 @@
-
 import org.craftercms.sites.editorial.TenantSearchHelper
 import org.craftercms.sites.editorial.ProfileUtils
 
