@@ -5,7 +5,7 @@
     def dirs = contentModel.recommended_o.item
     dirs.each { dir ->
             /*def dirName = dir.getStoreName()*/
-            recTenant.title = "aaa"
+            recTenant.title = dir.name_s
             recTenant.key = dir.key
             recTenants << recTenant
                         /*
