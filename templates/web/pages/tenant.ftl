@@ -21,11 +21,7 @@
       <!-- /Header -->
             <section>
 				
-				<#list contentModel.recommended_o.item as tenant>
-				    <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-				    <@renderComponent model=tenant />
-
-                </#list>
+				    <@renderComponent model=contentModel.recommended_o.item />
 				
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
