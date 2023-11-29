@@ -17,7 +17,7 @@
             recTenant.dirItem = dirItem
             recTenant.title = dirItem.queryValue('name_s')
             recTenant.tagline = dirItem.queryValue('tagline_s')
-            recTenant.image = dirItem.images_o.item[0].queryValue('image_s')
+            recTenant.images = dirItem.images_o
 
             recTenants << recTenant
             
