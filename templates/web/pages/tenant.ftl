@@ -35,7 +35,6 @@
                               
                 </#if>
 				
-				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
     				<#list contentModel.recommended_o.item as tenant>
@@ -86,7 +85,6 @@
                         </@crafter.div>
 					</#list>
 				</#if>
-				-->
                 
                 <#--
                 
