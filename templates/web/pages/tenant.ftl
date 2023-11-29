@@ -27,7 +27,7 @@
                               <#list recTenants as recTenant>
                                 <#assign index = recTenant?index />
                                 <@crafter.div>
-                                    <@crafter.span $model=contentModel.recommended_o.item[index]>${recTenant.title}</@crafter.span><br/>
+                                    <@crafter.span $model=dirItem.dirItem>${recTenant.title}</@crafter.span><br/>
                                     <@crafter.span $model=contentModel.recommended_o.item[index]>${recTenant.key}</@crafter.span><br/>
                                 </@crafter.div>
                               </#list>
