@@ -6,4 +6,4 @@ recTenants << article
 recTenant.title = "bbb"
 recTenants << article
 
-templateModel.recTenant = recTenants
+templateModel.recTenants = recTenants
