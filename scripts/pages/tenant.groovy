@@ -13,7 +13,7 @@
             recTenant.path = dirItem.localId
             recTenant.storeUrl = dirItem.storeUrl
             /*recTenant.title = dirItem.queryValue('name_s')*/
-            recTenant.url = urlTransformationService.transform("storeUrlToRenderUrl", dirItem.localId)
+            recTenant.url = urlTransformationService.transform("storeUrlToRenderUrl", recTenant.storeUrl)
 
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
