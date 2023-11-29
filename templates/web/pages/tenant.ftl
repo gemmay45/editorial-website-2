@@ -29,11 +29,11 @@
                         ${tenantInfo}
                     </#list>
                     -->
-                              <#--
+                              
                               <#list recTenants as recTenant>
                               ${recTenant.title}
                               </#list>
-                              -->
+                              
                 </#if>
 				
 				<#--
