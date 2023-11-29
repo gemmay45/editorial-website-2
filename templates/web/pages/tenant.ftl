@@ -25,8 +25,8 @@
                     <h4>Recommended</h4>
                     
                               <#list recTenants as recTenant>
-                                <@crafter.span $model=recTenant>${recTenant.title}</@crafter.span><br/>
-                                <@crafter.span $model=recTenant>${recTenant.key}</@crafter.span><br/>
+                                <@crafter.span $model=recTenant.dirItem>${recTenant.title}</@crafter.span><br/>
+                                <@crafter.span $model=recTenant.dirItem>${recTenant.key}</@crafter.span><br/>
                               </#list>
                               
                 </#if>
