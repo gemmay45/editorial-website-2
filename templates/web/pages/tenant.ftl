@@ -27,7 +27,7 @@
                     <#list contentModel.recommended_o.item as tenant>
                     
                     <#assign tenantItem =  siteItemService.getSiteItem(tenant.key) />
-                    <@crafter.div $model=tenantItem>
+                    <@crafter.div>
                         <#assign url = tenantItem.storeUrl
                             ?replace("/site/website", "")
                             ?replace("index.xml", "")
@@ -37,7 +37,7 @@
     				    <#assign tenantName = tenantItem.name_s />
 
 
-                        <@crafter.p>${tenantName}</@crafter.p>
+                        <@crafter.p $model=tenantItem>${tenantName}</@crafter.p>
                     </@crafter.div>
                     
                         <#--
