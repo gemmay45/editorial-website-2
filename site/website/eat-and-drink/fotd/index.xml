@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/tenant</content-type>
+	<display-template>/templates/web/pages/tenant.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>985b</objectGroupId>
+	<objectId>985b8244-92b4-7ee2-b090-fa8750b3772e</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>fotd</folder-name>
+	<internal-name>#FOTD</internal-name>
+	<navLabel>#FOTD</navLabel>
+	<name_s>#FOTD</name_s>
+	<tagline_s>Find your food of the day in this little laneway</tagline_s>
+	<address_s/>
+	<contactNumber_s/>
+	<websiteURL_s/>
+	<quoteBy_s/>
+	<googleMapsDirection_s/>
+	<appleMapsDirection_s/>
+	<citymapperDirections_s/>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<relatedMAGArticle_o item-list="true"/>
+	<recommended_o item-list="true"/>
+	<categories_o/>
+	<quote_t/>
+	<opinion_t/>
+	<description_html>&lt;p&gt;#FOTD serves up rice dishes, soups and drinks for take-away prepared fresh every day in the Tsing Yi kitchen without MSG or preservatives. A sustainable business, #FOTD encourages customers to bring their own bowls and cutlery or purchase the signature stainless steel lunch box.&lt;/p&gt;</description_html>
+	<openingHours_html/>
+	<hashtags_o item-list="true">	<item>	<hashtag_s>#FOTD</hashtag_s>
+	</item>	<item>	<hashtag_s>#TakeAwayFood</hashtag_s>
+	</item></hashtags_o>
+	<images_o item-list="true">	<item>	<image_s/>
+	</item></images_o>
+	<createdDate>2023-11-29T14:03:53.533Z</createdDate>
+	<createdDate_dt>2023-11-29T14:03:53.533Z</createdDate_dt>
+	<lastModifiedDate>2023-11-29T14:03:53.533Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-29T14:03:53.533Z</lastModifiedDate_dt>
+</page>
