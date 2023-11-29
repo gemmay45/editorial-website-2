@@ -39,3 +39,4 @@ rels.each { rel ->
 
 
 templateModel.recTenants = recTenants
+templateModel.relatedMags = relatedMags
