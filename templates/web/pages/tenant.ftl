@@ -27,8 +27,8 @@
                               <#list recTenants as recTenant>
                                 ${recTenant?index}
                                 <@crafter.div $model=contentModel.recommended_o.item[recTenant?index]>
-                                    <@crafter.span $model=recommended_o>${recTenant.title}</@crafter.span><br/>
-                                    <@crafter.span $model=recommended_o>${recTenant.key}</@crafter.span><br/>
+                                    <@crafter.span $model=contentModel.recommended_o.item[recTenant?index]>${recTenant.title}</@crafter.span><br/>
+                                    <@crafter.span $model=contentModel.recommended_o.item[recTenant?index]>${recTenant.key}</@crafter.span><br/>
                                 </@crafter.div>
                               </#list>
                               
