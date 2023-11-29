@@ -21,7 +21,7 @@
       <!-- /Header -->
             <section>
 				
-				    <@renderComponent model=contentModel.recommended_o.item />
+				<@renderComponent component=contentModel.recommended_o.item />
 				
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
