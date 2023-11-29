@@ -5,7 +5,7 @@
     def dirs = contentModel.recommended_o.item
     dirs.each { dir ->
             def dirName = dir.key
-            def dirItem = siteItemService.getSiteItem("/site/website/eat-and-drink/dustykid/index.xml")
+            def dirItem = siteItemService.getSiteItem(dirName)
             
             /*def dirItem = siteItemService.getSiteItem(dirName)*/
             recTenant.title = dirItem.queryValue('name_s')
