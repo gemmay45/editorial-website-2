@@ -29,7 +29,7 @@
                         ${tenantInfo}
                     </#list>
                     -->
-                    ${recTenant.title}
+                    ${recTenants[0].title}
                 </#if>
 				
 				<#--
