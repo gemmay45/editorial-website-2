@@ -22,27 +22,31 @@
             <@crafter.section $model=contentModel>
             
                     <div class="posts">
-          <#list recTenants as recTenant>
-            <@crafter.article $model=recTenant>
-                <a href="${recTenant.url}" class="image">
+          <#list tenants as tenant>
+            <@crafter.article $model=tenant>
+                <a href="${tenant.url}" class="image">
                 <@crafter.img
-                  $model=recTenant
+                  $model=tenant
                   $field="images_o"
-                  src=recTenant.image???then(recTenant.image, "/static-assets/images/placeholder.png")
+                  src=tenant.image???then(tenant.image, "/static-assets/images/placeholder.png")
                   alt="" width="320px"
                 />
                 </a>
                                 
                 <h3>
-                    <@crafter.a $model=recTenant $field="name_s" href="${recTenant.url}">
-                        ${recTenant.title}
+                    <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
+                        ${tenant.title}
                     </@crafter.a>
                 </h3>
+                <@crafter.p $model=tenant $field="tagline_s">
+                    ${tenant.tagline}
+                </@crafter.p>
         
             </@crafter.article>
           </#list>
-        </div>
+        </div>        </div>
 				
+				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
                     
@@ -56,7 +60,7 @@
                     </#list>
                               
                 </#if>
-				
+				-->
 				<#--
 				<#if contentModel.recommended_o?? && contentModel.recommended_o.item??>
                     <h4>Recommended</h4>
