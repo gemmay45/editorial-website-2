@@ -237,13 +237,9 @@ class TenantSearchHelper {
         
         
         def categories = doc.categories_o.item.value_smv
-        /*if (doc.categories_o.item.value_smv.class.isArray()) {
-            categories = ['XXXX'] /*doc.categories_o.item.value_smv
-        } else {
-            categories << categories
-        }*/
-        tenant.categories = categories
+
         tenant.catCount = (doc.categories_o.item[1]) ? doc.categories_o.item.value_smv.size() : 1
+        tenant.categories = categories
         
         tenants << tenant
       }
