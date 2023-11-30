@@ -38,8 +38,8 @@
                 />
                 </a>
                          
-                <#if tenant.categories?? && tenant.categories.item??>
-                    ${tenant.categories.item[0].key}
+                <#if tenant.categories??>
+                    xx
                 </#if>
                 
                 <h3>
