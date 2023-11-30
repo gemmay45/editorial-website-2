@@ -43,7 +43,6 @@
     }
     if (categories) {
       params.categories = categories;
-      console.log(categories);
     }
 
     $.get('/api/search.json', params).done(function (data) {
