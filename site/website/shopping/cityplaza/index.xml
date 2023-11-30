@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+	<content-type>/page/tenant</content-type>
+	<display-template>/templates/web/pages/tenant.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>fe75</objectGroupId>
+	<objectId>fe75c459-a6bb-f0f4-551d-b5ba2e288802</objectId>
+	<file-name>index.xml</file-name>
+	<folder-name>cityplaza</folder-name>
+	<internal-name>Cityplaza</internal-name>
+	<navLabel>Cityplaza</navLabel>
+	<name_s>Cityplaza</name_s>
+	<tagline_s>The largest shopping mall on Hong Kong Island</tagline_s>
+	<address_s>18 Taikoo Shing Rd, Taikoo Shing</address_s>
+	<contactNumber_s>+852 2568 8665</contactNumber_s>
+	<websiteURL_s>https://www.cityplaza.com/en</websiteURL_s>
+	<quoteBy_s>Ed, IT consultant</quoteBy_s>
+	<googleMapsDirection_s>https://www.google.com/maps/search/?api=1&amp;query=22.28684%2C114.21746&amp;query_place_id=ChIJFz4RF3MBBDQRWmHiFkVJ12k</googleMapsDirection_s>
+	<appleMapsDirection_s>http://maps.apple.com/?ll=22.28684,114.21746&amp;q=Cityplaza</appleMapsDirection_s>
+	<citymapperDirections_s>https://citymapper.com/directions?endcoord=22.28684%2C114.21746&amp;endname=Cityplaza&amp;endaddress=18%20Taikoo%20Shing%20Rd%2C%20Taikoo%20Shing%20</citymapperDirections_s>
+	<placeInNav>false</placeInNav>
+	<orderDefault_f>-1</orderDefault_f>
+	<header_o item-list="true"/>
+	<leftRail_o item-list="true"/>
+	<relatedMAGArticle_o item-list="true"/>
+	<recommended_o item-list="true"/>
+	<categories_o>	<item>	<key>shop</key>
+	<value_smv>Shop</value_smv>
+	</item></categories_o>
+	<quote_t>Cityplaza and Quarry Bay Park is what makes this district stand out.</quote_t>
+	<opinion_t>This mall has a great mix of accessible streetwear and high-end brands, but is perhaps best known for the large Japanese department stores. Locals also love the convenience of the connected walkways providing easy access to the MTR and Taikoo Place office towers.</opinion_t>
+	<description_html>&lt;p&gt;Cityplaza offers over one million sq ft of retail therapy. The spacious six-floor shopping mall offers plenty of fashion, food, and lifestyle choices and a state-of-the-art cinema with six wide screens and even an ice rink. Citytplaza dates back to 1982, even before the MTR came to the district, but has been constantly upgraded to keep the quality level on par with the neighbourhood demographics.&lt;/p&gt;</description_html>
+	<openingHours_html>&lt;p&gt;Open daily 7am-12am&lt;/p&gt;</openingHours_html>
+	<hashtags_o item-list="true">	<item>	<hashtag_s>#CityplazaHK</hashtag_s>
+	</item>	<item>	<hashtag_s>#LiveHappy快樂識放</hashtag_s>
+	</item></hashtags_o>
+	<createdDate>2023-11-30T05:57:14.029Z</createdDate>
+	<createdDate_dt>2023-11-30T05:57:14.029Z</createdDate_dt>
+	<lastModifiedDate>2023-11-30T05:57:14.029Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-30T05:57:14.029Z</lastModifiedDate_dt>
+</page>
