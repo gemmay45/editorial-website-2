@@ -236,7 +236,7 @@ class TenantSearchHelper {
         tenant.tagline = doc.tagline_s
         
         
-        def categories = doc.categories_o.item.value_smv as List
+        def categories = doc.categories_o.item.value_smv
         /*if (doc.categories_o.item.value_smv.class.isArray()) {
             categories = ['XXXX'] /*doc.categories_o.item.value_smv
         } else {
