@@ -244,7 +244,7 @@ class TenantSearchHelper {
         }
         */
         
-        tenant.categories = doc.categories_o.item
+        tenant.categories = doc.categories_o
 
         tenants << tenant
       }
