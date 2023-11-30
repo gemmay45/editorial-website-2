@@ -39,11 +39,7 @@
                 </a>
                          
                 <#if tenant.categories?? && tenant.categories.item??>
-                    <#list tenant.categories.item as catlabel>
-                    XXXX
-
-                        <#--<@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>-->
-                    </#list>
+                    ${tenant.categories.item[0]}
                 </#if>
                 
                 <h3>
