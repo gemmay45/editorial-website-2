@@ -38,7 +38,7 @@
                 />
                 </a>
 
-
+                ${tenant.categories}
                     <#list tenant.categories.item as category>
                 <span>${category.value_smv}</span>
               </#list>
