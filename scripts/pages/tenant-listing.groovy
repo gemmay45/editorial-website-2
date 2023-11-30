@@ -17,6 +17,24 @@
 import org.craftercms.sites.editorial.TenantSearchHelper
 import org.craftercms.sites.editorial.ProfileUtils
 
+def categoRec = contentModel.categories_o.item
+categories.each { rec ->
+    def recTenant = [:]
+    
+    recTenant.id = dirItem.objectId
+    recTenant.objectId = dirItem.objectId
+    recTenant.path = dirItem.localId
+    recTenant.storeUrl = dirItem.storeUrl
+    recTenant.url = urlTransformationService.transform("storeUrlToRenderUrl", recTenant.storeUrl)
+
+    recTenant.title = dirItem.queryValue('name_s')
+    recTenant.tagline = dirItem.queryValue('tagline_s')
+    recTenant.images = dirItem.images_o
+
+    recTenants << recTenant
+}
+
+
 def segment = ProfileUtils.getSegment(profile, siteItemService)
 def category = ['eat','drink'] /*contentModel.categories_o.item.key*/
 def maxTenants = contentModel.maxTenants_i
