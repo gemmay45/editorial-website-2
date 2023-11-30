@@ -236,9 +236,12 @@ class TenantSearchHelper {
         tenant.tagline = doc.tagline_s
         
         def categories = []
-        categories << doc.categories_o.item.value_smv
+        if (doc.categories_o.item.value_smv.isArray()) {
+            categories = doc.categories_o.item.value_smv
+        } else {
+            categories << doc.categories_o.item.value_smv
+        }
         tenant.categories = categories
-        tenant.catCount = doc.categories_o.item
         
         tenants << tenant
       }
