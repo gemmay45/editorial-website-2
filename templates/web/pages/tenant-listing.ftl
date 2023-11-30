@@ -38,12 +38,13 @@
                 />
                 </a>
 
-                    <#-- 
+
                     <#list tenant.categories as category>
                 <span>${category.value_smv}</span>
               </#list>
                 
-                 <#if tenant.categories??>
+                    <#-- 
+                    <#if tenant.categories??>
                     <#list tenant.categories as category>
                     xxx
 
