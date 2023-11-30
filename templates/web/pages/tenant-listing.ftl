@@ -38,10 +38,9 @@
                 />
                 </a>
 
-                ${tenant.categories}
-                    <#list tenant.categories.item as category>
-                <span>${category.value_smv}</span>
-              </#list>
+                <#list tenant.categories as category>
+                    <span>${category}</span>
+                </#list>
                 
                     <#-- 
                     <#if tenant.categories??>
