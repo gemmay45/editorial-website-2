@@ -38,9 +38,9 @@
                 />
                 </a>
                          
-                <#if tenant.categories??>
+                <#--<#if tenant.categories??>
                     xx
-                </#if>
+                </#if>-->
                 
                 <h3>
                     <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
