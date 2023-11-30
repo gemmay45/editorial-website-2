@@ -13,11 +13,11 @@
 	<name_s>APITA</name_s>
 	<address_s>B1-G/F Cityplaza, 18 Taikoo Shing Rd, Quarry Bay</address_s>
 	<contactNumber_s>+852 2885 0331</contactNumber_s>
-	<websiteURL_s>https://apitauny.com.hk/our-stores/apita-taikoo/?l</websiteURL_s>
-	<quoteBy_s>Cherie, Financial Manager</quoteBy_s>
-	<googleMapsDirection_s>https://www.google.com/maps/search/?api=1&amp;query=22.28977%2C114.20973&amp;query_place_id=ChIJe-IWk2IBBDQRVLM44wOCqKo</googleMapsDirection_s>
-	<appleMapsDirection_s>http://maps.apple.com/?ll=22.28977,114.20973&amp;q=Chun%20Ye%20Hao%20Tea</appleMapsDirection_s>
-	<citymapperDirections_s>https://citymapper.com/directions?endcoord=22.28977%2C114.20973&amp;endname=Chun%20Ye%20Hao%20Tea&amp;endaddress=Shop%20B%2C%20G%2FF%20927%20King%27s%20Rd%2C%20Quarry%20Bay</citymapperDirections_s>
+	<websiteURL_s>https://apitauny.com.hk/our-stores/apita-taikoo/?lang=en</websiteURL_s>
+	<quoteBy_s>Ricky, Cashier</quoteBy_s>
+	<googleMapsDirection_s>https://www.google.com/maps/search/?api=1&amp;query=22.2866%2C114.2174&amp;query_place_id=ChIJvTezCHMBBDQRH-86ioBByYQ</googleMapsDirection_s>
+	<appleMapsDirection_s>http://maps.apple.com/?ll=22.2866,114.2174&amp;q=APITA</appleMapsDirection_s>
+	<citymapperDirections_s>https://citymapper.com/directions?endcoord=22.2866%2C114.2174&amp;endname=APITA&amp;endaddress=B1-G%2FF%20Cityplaza%2C%2018%20Taikoo%20Shing%20Rd%2C%20Quarry%20Bay</citymapperDirections_s>
 	<placeInNav>false</placeInNav>
 	<orderDefault_f>-1</orderDefault_f>
 	<header_o item-list="true"/>
@@ -29,8 +29,8 @@
 	<hashtags_o item-list="true">	<item>	<hashtag_s>#APITA</hashtag_s>
 	</item>	<item>	<hashtag_s>#PitaFarmhouse</hashtag_s>
 	</item></hashtags_o>
-	<quote_t>I come here often. The pearls in the tea are cooked perfectly.</quote_t>
-	<opinion_t>The fresh flavours make this a popular take-away joint. Must-haves include the Matcha brown sugar milk and the regular milk tea, with signature pearls of course!</opinion_t>
+	<quote_t>APITA is like a mini shopping mall inside another shopping mall.</quote_t>
+	<opinion_t>This store is a hit for Japanese lifestyle lovers. APITA’s spacious wood-clad interior makes for a leisurely retail experience with high quality beautifully packaged items and an exclusive product offering that celebrates Japanese craftsmanship. Especially the sweets, stationery and Japanese skincare sections are in high demand.</opinion_t>
 	<description_html>&lt;p&gt;APITA is an ever-popular Japanese department store with an amazing variety of innovative products and flavours from the land of the rising sun. APITA comprises a supermarket, food court, a bookstore, a hair salon and a variety of shops ranging from boutiques, kitchen appliances to health supplements and even a designated section for pet supplies.&lt;/p&gt;</description_html>
 	<openingHours_html>&lt;p&gt;APITA G/F: 11:00am-10:00pm&lt;br /&gt;Supermarket: 9:30am-10:00pm&lt;br /&gt;Household: 10:00am-10:00pm&lt;br /&gt;APITA Eatery: 11:00am-10:00pm&lt;/p&gt;</openingHours_html>
 	<images_o item-list="true">	<item>	<image_s>/static-assets/images/tenants/chun-ye-hao-tea/fdec4a197cc41eb33e0b2e8b294af66721b83da3-1280x1280.webp</image_s>
@@ -40,8 +40,8 @@
 	</item></images_o>
 	<createdDate>2023-11-30T05:21:13.588Z</createdDate>
 	<createdDate_dt>2023-11-30T05:21:13.588Z</createdDate_dt>
-	<lastModifiedDate>2023-11-30T05:26:36.021Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-30T05:26:36.021Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-30T05:27:36.928Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-30T05:27:36.928Z</lastModifiedDate_dt>
 	<tagline_s>Premium Japanese department store</tagline_s>
 	<recommended_o item-list="true"/>
 </page>
