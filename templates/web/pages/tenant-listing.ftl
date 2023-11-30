@@ -38,13 +38,7 @@
                 />
                 </a>
                          
-                <#if tenant.categories?? && tenant.categories.item??>
-                ${tenant.categories.item[0].key}
-                    <#--<#list tenant.categories as category>-->
-                    xxx
-                        <#--<@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>-->
-                    <#--</#list>-->
-                </#if>
+
                 
                 <h3>
                     <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
