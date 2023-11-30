@@ -41,7 +41,7 @@
                 <#if tenant.categories??>
                     <#list tenant.categories.item as category>
                     ${category}xxx
-                    ${category['value_smv']}xxx
+                    ${category.value_smv}xxx
                     </#list>
                 </#if>
                 
