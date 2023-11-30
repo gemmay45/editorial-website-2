@@ -236,12 +236,12 @@ class TenantSearchHelper {
         tenant.tagline = doc.tagline_s
         
         
-        def categories = []
+        /*def categories = []
         if (doc.categories_o.item.value_smv.class.isArray()) {
             categories = ['XXXX'] /*doc.categories_o.item.value_smv*/
-        } else {
-            categories << doc.categories_o.item.value_smv
-        }
+        } else {*/
+            categories << doc.categories_o.item.value_smv as List
+        /*}*/
         tenant.categories = categories
         
         tenants << tenant
