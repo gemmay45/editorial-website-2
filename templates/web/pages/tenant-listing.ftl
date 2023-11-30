@@ -38,11 +38,13 @@
                 />
                 </a>
 
-${tenant.categories}
-
-                <#list tenant.categories as category>
-                    <span>${category}</span>
-                </#list>
+                <#if tenant.categories?hasContent>
+                    ${tenant.categories}
+                <#else>
+                    <#list tenant.categories as category>
+                        <span>${category}</span>
+                    </#list>
+                </#if>
                 
                     <#-- 
                     <#if tenant.categories??>
