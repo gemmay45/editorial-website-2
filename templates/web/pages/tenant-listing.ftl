@@ -39,7 +39,7 @@
                 </a>
                     
                 <#list tenant.categories as category>
-                    [<span $model=tenant $field="categories_o">${category}</span>]
+                    [<@crafter.span $model=tenant $field="categories_o">${category}</@crafter.span>]
                 </#list>
                 
                 <h3>
