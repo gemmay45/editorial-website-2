@@ -244,7 +244,7 @@ class TenantSearchHelper {
         }
         */
         
-        tenant.categories = doc.categories_o.item[0].value_smv
+        tenant.categories = doc.categories_o.item
 
         tenants << tenant
       }
