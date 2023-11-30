@@ -37,12 +37,21 @@
                   alt="" width="320px"
                 />
                 </a>
-                                
+                         
+                <#if tenant.categories?? && tenant.categories.item??>
+                xxx
+                    <#--
+                    <#list contentModel.categories_o.item as category>
+                        <@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>
+                    </#list>
+                    -->
+                </#if>
+                
                 <h4>
                     <@crafter.a $model=tenant $field="categories_o" href="${tenant.url}">
                         ${tenant.categories}
                     </@crafter.a>
-                </h3>
+                </h4>
                 <h3>
                     <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
                         ${tenant.title}
