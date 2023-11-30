@@ -38,6 +38,11 @@
                 />
                 </a>
                                 
+                <h4>
+                    <@crafter.a $model=tenant $field="category_s" href="${tenant.url}">
+                        ${tenant.category}
+                    </@crafter.a>
+                </h3>
                 <h3>
                     <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
                         ${tenant.title}
