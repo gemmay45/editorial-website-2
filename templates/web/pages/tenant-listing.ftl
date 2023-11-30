@@ -38,8 +38,8 @@
                 />
                 </a>
                          
-                <#if tenant.categoriesLabel??>
-                    <#list tenant.categoriesLabel as catlabel>
+                <#if categoriesLabel??>
+                    <#list categoriesLabel as catlabel>
                     XXXX
                     ${catlabel}
                         <#--<@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>-->
