@@ -37,10 +37,10 @@
                   alt="" width="320px"
                 />
                 </a>
-                         ${tenant.categories}
+
                     <#-- 
-                    <#list tenant.categories.item as category>
-                <span class="category mb-5">${category.value_smv}</span>
+                    <#list tenant.categories as category>
+                <span>${category.value_smv}</span>
               </#list>
                 
                  <#if tenant.categories??>
