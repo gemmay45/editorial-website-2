@@ -10,7 +10,7 @@
 	<folder-name>tpinsiderhashtagb-copy-1</folder-name>
 	<internal-name>tpinsiderhashtagb (Copy 1)</internal-name>
 	<title_t>Taikoo Place Insiders: James Chu, founder of Hashtag B</title_t>
-	<subject_t>Taikoo Place Insiders: James Chu, founder of Hashtag B</subject_t>
+	<subject_t>Taikoo Place Insiders: James Chu, founder of Hashtag B Testing</subject_t>
 	<author_s>John Doe</author_s>
 	<disabled>false</disabled>
 	<featured_b>true</featured_b>
@@ -361,12 +361,12 @@
 	</item>	<item>	<key>gal</key>
 	<value_smv>Gal</value_smv>
 	</item></segments_o>
-	<summary_t>To celebrate their recent launch in Berkshire House, we grabbed a chat with Hashtag B’s founder James Chu to find out what inspired him to start a bakery and his tips for fellow entrepreneurs.</summary_t>
+	<summary_t>To celebrate their recent launch in Berkshire House, we grabbed a chat with Hashtag B’s founder James Chu to find out what inspired him to start a bakery and his tips for fellow entrepreneurs. Testing</summary_t>
 	<image_s>/static-assets/images/the-mag/themag2023/november-2023/tpinsider/_q7a1407-t.jpeg</image_s>
 	<createdDate>2023-11-14T01:31:05.921Z</createdDate>
 	<createdDate_dt>2023-11-14T01:31:05.921Z</createdDate_dt>
-	<lastModifiedDate>2023-11-28T06:00:30.445Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-28T06:00:30.445Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-30T07:49:35.199Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-30T07:49:35.199Z</lastModifiedDate_dt>
 	<date_dt>2023-11-08T16:00:00.000Z</date_dt>
 	<date_dt_tz>Asia/Hong_Kong</date_dt_tz>
 	<categories_o>	<item>	<key>taikoo-this-month</key>
