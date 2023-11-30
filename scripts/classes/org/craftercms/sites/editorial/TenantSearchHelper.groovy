@@ -234,6 +234,8 @@ class TenantSearchHelper {
         tenant.url = urlTransformationService.transform("storeUrlToRenderUrl", doc.localId)
         tenant.image = doc.images_o.item[0].image_s
         tenant.tagline = doc.tagline_s
+        
+        categories = 
         tenant.categories = doc.categories_o.item.value_smv
         tenant.catCount = doc.categories_o.item
         
