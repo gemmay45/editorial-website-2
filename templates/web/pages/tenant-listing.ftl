@@ -39,7 +39,9 @@
                 </a>
                          
                 <#if tenant.categories?? && tenant.categories.item??>
-xx
+                    <#list tenant.categories.item as category>
+
+                    </#list>
                 </#if>
                 
                 <h3>
