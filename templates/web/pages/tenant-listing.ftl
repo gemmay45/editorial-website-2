@@ -39,7 +39,7 @@
                 </a>
                     
                 <#list tenant.categories as category>
-                    - <span>${category}</span> -
+                    [<span>${category}</span>]
                 </#list>
                 
                 <h3>
