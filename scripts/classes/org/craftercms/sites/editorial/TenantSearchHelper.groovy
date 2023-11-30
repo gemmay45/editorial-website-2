@@ -235,15 +235,6 @@ class TenantSearchHelper {
         tenant.image = doc.images_o.item[0].image_s
         tenant.tagline = doc.tagline_s
         tenant.categories = doc.categories_o.item.value_smv
-        
-        /*
-        def categories = []
-        def categoryItems = doc.categories_o.item
-        categoryItems.each { item ->
-            def category = item
-            categories << category
-        }
-        */
 
         tenants << tenant
       }
