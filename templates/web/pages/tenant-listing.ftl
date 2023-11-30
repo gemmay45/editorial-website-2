@@ -38,6 +38,8 @@
                 />
                 </a>
 
+${tenant.categories}
+
                 <#list tenant.categories as category>
                     <span>${category}</span>
                 </#list>
