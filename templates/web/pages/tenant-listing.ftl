@@ -37,7 +37,7 @@
                   alt="" width="320px"
                 />
                 </a>
-                         
+                         ${tenant.categories}
                     <#-- 
                     <#list tenant.categories.item as category>
                 <span class="category mb-5">${category.value_smv}</span>
