@@ -37,7 +37,7 @@
                   alt="" width="320px"
                 />
                 </a>
-
+                    ${tenant.catCount}<br/>
                     ${tenant.categories}xxx
 
                     <#list tenant.categories as category>
