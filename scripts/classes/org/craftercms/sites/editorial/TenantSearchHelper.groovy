@@ -238,7 +238,7 @@ class TenantSearchHelper {
         def categories = []
         def categoryItems = doc.categories_o
         categoryItems.each { item ->
-            def category = "xx"
+            def category = item.key.text
                 
             categories << category
         }
