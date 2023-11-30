@@ -40,7 +40,7 @@
                          
                 <#if tenant.categories??>
                     <#list tenant.categories as category>
-                    xxx${category.value_smv}
+                    xxx
 
                    </#list>
                     <#--                    
