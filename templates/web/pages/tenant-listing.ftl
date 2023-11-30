@@ -38,7 +38,7 @@
                 />
                 </a>
                          
-                <#if tenant.categories??>
+                <#if tenant.categories?? && tenant.categories.item??>
                     <#--
                     <#list tenant.categories as category>
                     ${category}xxx
