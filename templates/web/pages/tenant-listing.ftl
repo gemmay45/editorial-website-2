@@ -38,37 +38,10 @@
                 />
                 </a>
                     
-                        <#list tenant.categories as category>
-                            <span>${category}</span>
-                        </#list>
+                <#list tenant.categories as category>
+                    - <span>${category}</span> -
+                </#list>
                 
-                    <#--
-                    <#if tenant.catCount = 1>
-                        ${tenant.categories}
-                    <#else>
-                        <#list tenant.categories as category>
-                            <span>${category}</span>
-                        </#list>
-                    </#if>
-                    -->
-                
-                    <#-- 
-                    <#if tenant.categories??>
-                    <#list tenant.categories as category>
-                    xxx
-
-                   </#list>
-                  
-                    <#list tenant.categories as category>
-                    xxx
-
-                    ${category}xxx
-                    ${category.value_smv}xxx
-
-                   </#list>
-
-                </#if>
-                    -->                
                 <h3>
                     <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
                         ${tenant.title}
