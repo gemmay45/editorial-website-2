@@ -39,7 +39,10 @@
                 </a>
                          
                 <#if tenant.categories??>
-                ${tenant}
+                    <#list tenant.categories as category>
+                    ${category.value_smv}xxx
+
+                   </#list>
                     <#--                    
                     <#list tenant.categories as category>
                     xxx
