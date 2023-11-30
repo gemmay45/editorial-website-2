@@ -6,19 +6,19 @@
 	<merge-strategy>inherit-levels</merge-strategy>
 	<objectGroupId>a372cf5c</objectGroupId>
 	<objectId>a372cf5c-f663-4a50-9602-351fdec0e28d</objectId>
-	<internal-name>Eat &amp; Drink (Copy 1)</internal-name>
-	<navLabel>Eat &amp; Drink</navLabel>
+	<internal-name>Shopping</internal-name>
+	<navLabel>Shopping</navLabel>
 	<file-name>index.xml</file-name>
-	<folder-name>eat-and-drink-copy-1</folder-name>
+	<folder-name>shopping</folder-name>
 	<placeInNav>false</placeInNav>
-	<orderDefault_f>0.0</orderDefault_f>
+	<orderDefault_f>-1</orderDefault_f>
 	<createdDate>2023-11-30T05:17:33.128Z</createdDate>
 	<createdDate_dt>2023-11-30T05:17:33.128Z</createdDate_dt>
-	<lastModifiedDate>2023-11-30T05:17:33.128Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-30T05:17:33.128Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-30T05:17:41.343Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-30T05:17:41.343Z</lastModifiedDate_dt>
 	<leftRail_o item-list="true"/>
 	<header_o item-list="true"/>
-	<tenantsTitle_s>Eat &amp; Drink</tenantsTitle_s>
+	<tenantsTitle_s>Shopping</tenantsTitle_s>
 	<maxTenants_i>10</maxTenants_i>
 	<categories_o>	<item>	<key>drink</key>
 	<value_smv>Drink</value_smv>
