@@ -236,9 +236,9 @@ class TenantSearchHelper {
         tenant.tagline = doc.tagline_s
         
         def categories = []
-        def categoryItems = doc.categories_o.item.value_smv
+        def categoryItems = doc.categories_o.item
         categoryItems.each { item ->
-            def category = item
+            def category = item.value_smv
                 
             categories << category
         }
