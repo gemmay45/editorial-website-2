@@ -236,7 +236,7 @@ class TenantSearchHelper {
         tenant.tagline = doc.tagline_s
         
         def categories = []
-        if (doc.categories_o.item.value_smv.isArray()) {
+        if (doc.categories_o.item.value_smv.class.isArray()) {
             categories = doc.categories_o.item.value_smv
         } else {
             categories << doc.categories_o.item.value_smv
