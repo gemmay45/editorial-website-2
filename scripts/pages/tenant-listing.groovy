@@ -31,4 +31,4 @@ def tenants = searchHelper.searchTenants(false, categories, segment, 0, maxTenan
 
 templateModel.tenants = tenants
 
-templateModel.category = categories
+templateModel.categories = categories
