@@ -237,7 +237,7 @@ class TenantSearchHelper {
         
         
         def categories = []
-        if (doc.categories_o.item.value_smv.isArray()) {
+        if (doc.categories_o.item.value_smv.values.class.isArray()) {
             categories = ['XXXX'] /*doc.categories_o.item.value_smv*/
         } else {
             categories << doc.categories_o.item.value_smv
