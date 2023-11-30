@@ -240,7 +240,7 @@ class TenantSearchHelper {
         categoryItems.each { item ->
             def category = ''
             
-            if (item.contains('value_smv=') {
+            if (item.contains('value_smv') {
                 category = item
                 categories << category
             }
