@@ -39,8 +39,8 @@
                 </a>
                                 
                 <h4>
-                    <@crafter.a $model=tenant $field="category_s" href="${tenant.url}">
-                        ${tenant.category}
+                    <@crafter.a $model=tenant $field="categories_o" href="${tenant.url}">
+                        ${tenant.categories}
                     </@crafter.a>
                 </h3>
                 <h3>
