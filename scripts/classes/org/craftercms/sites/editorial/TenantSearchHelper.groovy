@@ -243,7 +243,7 @@ class TenantSearchHelper {
             categories << categories
         }*/
         tenant.categories = categories
-        tenant.catCount = doc.categories_o.item.value_smv.size()
+        tenant.catCount = doc.categories_o.item.size()
         
         tenants << tenant
       }
