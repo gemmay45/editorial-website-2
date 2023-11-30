@@ -238,7 +238,7 @@ class TenantSearchHelper {
         def categories = []
         def categoryItems = doc.categories_o.item
         categoryItems.each { item ->
-            def category = ''
+            def category = []
             
             if (item.contains('value_smv') {
                 category = item
