@@ -39,7 +39,7 @@
                 </a>
                          
                 <#if tenant.categories?? && tenant.categories.item??>
-                ${tenant.categories.item}
+                ${tenant.categories}
                     <#--                    
                     <#list tenant.categories as category>
                     xxx
