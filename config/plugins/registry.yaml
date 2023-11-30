@@ -1,2 +1,15 @@
 version: "1.0"
-plugins: []
+plugins:
+- id: "org.craftercms.plugin.bulkedit"
+  version:
+    major: 1
+    minor: 0
+    patch: 11
+  type: "site"
+  pluginUrl: "https://github.com/craftercms/bulkedit-plugin"
+  installationDate: "2023-11-30T07:38:29.158757Z"
+  files:
+  - path: "config/studio/static-assets/plugins/org/craftercms/plugin/bulkedit/sidebar/bulkedit/index.js"
+  config:
+  - type: "preview-app"
+    elementXpath: "//widget[@id='org.craftercms.plugin.bulkedit.components.reactComponent']"
