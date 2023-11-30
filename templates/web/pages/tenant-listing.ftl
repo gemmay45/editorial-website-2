@@ -39,12 +39,15 @@
                 </a>
                          
                 <#if tenant.categories?? && tenant.categories.item??>
+
+                    <#list tenant.categories.item as category>
+                    xxx
                     <#--
-                    <#list tenant.categories as category>
                     ${category}xxx
                     ${category.value_smv}xxx
-                    </#list>
                     -->
+                   </#list>
+
                 </#if>
                 
                 <h3>
