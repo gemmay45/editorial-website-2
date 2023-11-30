@@ -18,13 +18,14 @@ import org.craftercms.sites.editorial.TenantSearchHelper
 import org.craftercms.sites.editorial.ProfileUtils
 
 def categoriesKey = []
+def categoriesLabel= []
 def categoryItems = contentModel.categories_o.item
 categoryItems.each { item ->
     def categoryKey = item.key.text
-    def categoryLabel = []
+    def categoryLabel = item.value_smv
         
     categoriesKey << categoryKey
-    
+    categoriesLabel << categoryLabel
 }
 
 def segment = ProfileUtils.getSegment(profile, siteItemService)
@@ -34,4 +35,5 @@ def tenants = searchHelper.searchTenants(false, categoriesKey, segment, 0, maxTe
 
 templateModel.tenants = tenants
 
-templateModel.categories = categories
+templateModel.categoriesKey = categoriesKey
+templateModel.categoriesLabel = categoriesLabel
