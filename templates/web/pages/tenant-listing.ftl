@@ -38,6 +38,11 @@
                 />
                 </a>
                     
+                        <#list tenant.categories as category>
+                            <span>${category}</span>
+                        </#list>
+                
+                    <#--
                     <#if tenant.catCount = 1>
                         ${tenant.categories}
                     <#else>
@@ -45,6 +50,7 @@
                             <span>${category}</span>
                         </#list>
                     </#if>
+                    -->
                 
                     <#-- 
                     <#if tenant.categories??>
