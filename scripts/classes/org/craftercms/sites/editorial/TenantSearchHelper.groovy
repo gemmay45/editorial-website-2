@@ -235,12 +235,15 @@ class TenantSearchHelper {
         tenant.image = doc.images_o.item[0].image_s
         tenant.tagline = doc.tagline_s
         
+        /*
         def categories = []
         if (doc.categories_o.item.value_smv.class.isArray()) {
             categories = doc.categories_o.item.value_smv
         } else {
+        */
+        
             categories << doc.categories_o.item.value_smv
-        }
+        /*}*/
         tenant.categories = categories
         
         tenants << tenant
