@@ -13,6 +13,8 @@
 	<paths>
 		<includes>
 			<pattern>^/site/website/eat-and-drink/.*</pattern>
+		</includes>
+		<includes>
 			<pattern>^/site/website/shopping/.*</pattern>
 		</includes>
 	</paths>
