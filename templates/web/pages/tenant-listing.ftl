@@ -27,7 +27,6 @@
         </header>
         
         <div class="posts">
-        ${category}
           <#list tenants as tenant>
             <@crafter.article $model=tenant>
                 <a href="${tenant.url}" class="image">
