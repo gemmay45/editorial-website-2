@@ -21,13 +21,10 @@ def categories = []
 def categoryItems = contentModel.categories_o.item
 categoryItems.each { item ->
     def category = item.key.text
-
     categories << category
 }
 
-
 def segment = ProfileUtils.getSegment(profile, siteItemService)
-/*def category = ['eat','drink'] contentModel.categories_o.item.key*/
 def maxTenants = contentModel.maxTenants_i
 def searchHelper = new TenantSearchHelper(searchClient, urlTransformationService)
 def tenants = searchHelper.searchTenants(false, categories, segment, 0, maxTenants)
