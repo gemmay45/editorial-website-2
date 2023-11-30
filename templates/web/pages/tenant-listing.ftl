@@ -38,7 +38,7 @@
                 />
                 </a>
                          
-              <#list tenant.categories_o.item as category>
+              <#list tenant.categories.item as category>
                 <span class="category mb-5">${category.value_smv}</span>
               </#list>
                 
