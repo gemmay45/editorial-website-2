@@ -235,14 +235,16 @@ class TenantSearchHelper {
         tenant.image = doc.images_o.item[0].image_s
         tenant.tagline = doc.tagline_s
         
+        /*
         def categories = []
         def categoryItems = doc.categories_o.item
         categoryItems.each { item ->
             def category = item
             categories << category
         }
+        */
         
-        tenant.categories = categories
+        tenant.categories = doc.categories_o
 
         tenants << tenant
       }
