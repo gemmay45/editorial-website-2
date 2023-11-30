@@ -238,10 +238,8 @@ class TenantSearchHelper {
         def categories = []
         def categoryItems = doc.categories_o.item
         categoryItems.each { item ->
-            def category = [:]
-
-                category = item
-                categories << category
+            def category = item.value_smv.text
+            categories << category
         }
         
         tenant.categories = categories
