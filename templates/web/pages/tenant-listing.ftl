@@ -39,7 +39,7 @@
                 </a>
 
                 <#if tenant.categories?hasContent>
-                    ${tenant.categories}
+                    ${tenant.categories}xxx
                 <#else>
                     <#list tenant.categories as category>
                         <span>${category}</span>
