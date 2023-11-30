@@ -12,10 +12,7 @@
 	<image-thumbnail></image-thumbnail>
 	<paths>
 		<includes>
-			<pattern>^/site/website/eat-and-drink/.*</pattern>
-		</includes>
-		<includes>
-			<pattern>^/site/website/shopping/.*</pattern>
+			<pattern>undefined</pattern>
 		</includes>
 	</paths>
 </content-type>
