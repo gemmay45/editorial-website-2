@@ -40,6 +40,7 @@
                          
                 <#if tenant.categoriesLabel??>
                     <#list tenant.categoriesLabel as catlabel>
+                    XXXX
                     ${catlabel}
                         <#--<@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>-->
                     </#list>
