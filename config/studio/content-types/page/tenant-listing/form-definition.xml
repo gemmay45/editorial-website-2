@@ -299,10 +299,10 @@
 					</constraints>
 				</field>
 				<field>
-					<type>dropdown</type>
-					<id>category_s</id>
+					<type>checkbox-group</type>
+					<id>categories_o</id>
 					<iceId></iceId>
-					<title>Category</title>
+					<title>Categories</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
@@ -310,12 +310,17 @@
 						<property>
 							<name>datasource</name>
 							<value>categories</value>
-							<type>datasource:item</type>
+							<type>datasource:item:singleSelection</type>
 						</property>
 						<property>
-							<name>emptyvalue</name>
+							<name>selectAll</name>
 							<value></value>
 							<type>boolean</type>
+						</property>
+						<property>
+							<name>listDirection</name>
+							<value>[{&quot;value&quot;:&quot;horizontal&quot;,&quot;label&quot;:&quot;Horizonal&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;Vertical&quot;,&quot;selected&quot;:false}]</value>
+							<type>dropdown</type>
 						</property>
 						<property>
 							<name>readonly</name>
@@ -325,9 +330,9 @@
 					</properties>
 					<constraints>
 						<constraint>
-							<name>required</name>
+							<name>minSize</name>
 							<value><![CDATA[]]></value>
-							<type>boolean</type>
+							<type>int</type>
 						</constraint>
 					</constraints>
 				</field>
@@ -376,44 +381,6 @@
 							<name>pattern</name>
 							<value><![CDATA[]]></value>
 							<type>string</type>
-						</constraint>
-					</constraints>
-				</field>
-				<field>
-					<type>checkbox-group</type>
-					<id>categories_o</id>
-					<iceId></iceId>
-					<title>Categories</title>
-					<description></description>
-					<defaultValue></defaultValue>
-					<help></help>
-					<properties>
-						<property>
-							<name>datasource</name>
-							<value>categories</value>
-							<type>datasource:item:singleSelection</type>
-						</property>
-						<property>
-							<name>selectAll</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-						<property>
-							<name>listDirection</name>
-							<value>[{&quot;value&quot;:&quot;horizontal&quot;,&quot;label&quot;:&quot;Horizonal&quot;,&quot;selected&quot;:true},{&quot;value&quot;:&quot;vertical&quot;,&quot;label&quot;:&quot;Vertical&quot;,&quot;selected&quot;:false}]</value>
-							<type>dropdown</type>
-						</property>
-						<property>
-							<name>readonly</name>
-							<value></value>
-							<type>boolean</type>
-						</property>
-					</properties>
-					<constraints>
-						<constraint>
-							<name>minSize</name>
-							<value><![CDATA[]]></value>
-							<type>int</type>
 						</constraint>
 					</constraints>
 				</field>
