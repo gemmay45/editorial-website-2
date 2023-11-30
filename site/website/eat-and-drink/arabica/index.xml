@@ -39,8 +39,8 @@
 	<description_html>&lt;p&gt;Tucked away in the basement of Quarry Bay&amp;rsquo;s most Instagrammable spot lies a truly transformational coffee experience. Perched between the barbershops and Thai eateries is this tiny futuristic coffee shop. Its interior is modelled after the Monster Building with stacks of coffee bags resembling the iconic architecture of the local landmark.&lt;/p&gt;</description_html>
 	<createdDate>2023-11-22T06:05:41.320Z</createdDate>
 	<createdDate_dt>2023-11-22T06:05:41.320Z</createdDate_dt>
-	<lastModifiedDate>2023-11-29T23:57:27.963Z</lastModifiedDate>
-	<lastModifiedDate_dt>2023-11-29T23:57:27.963Z</lastModifiedDate_dt>
+	<lastModifiedDate>2023-11-30T01:22:00.030Z</lastModifiedDate>
+	<lastModifiedDate_dt>2023-11-30T01:22:00.030Z</lastModifiedDate_dt>
 	<openingHours_html>&lt;p&gt;Mon-Fri 8:30am-7pm&lt;br /&gt;Sat-Sun 9am-7pm&lt;/p&gt;</openingHours_html>
 	<header_o item-list="true"/>
 	<leftRail_o item-list="true">	<item>	<key>/site/components/left-rails/left-rail-with-no-articles.xml</key>
@@ -50,6 +50,8 @@
 	</item></leftRail_o>
 	<categories_o>	<item>	<key>drink</key>
 	<value_smv>Drink</value_smv>
+	</item>	<item>	<key>eat</key>
+	<value_smv>Eat</value_smv>
 	</item></categories_o>
 	<images_o item-list="true">	<item>	<image_s>/static-assets/images/tenants/arabica/fea4fb82d20dbb0083bd2d5525954aab5abd466e-1280x1280.webp</image_s>
 	</item>	<item>	<image_s>/static-assets/images/tenants/arabica/8f7bb38eee79b68910d9f2d0a48782249418ae6b-2000x618.webp</image_s>
