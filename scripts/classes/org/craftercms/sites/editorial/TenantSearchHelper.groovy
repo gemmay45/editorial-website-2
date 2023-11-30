@@ -238,12 +238,12 @@ class TenantSearchHelper {
         def categories = []
         def categoryItems = doc.categories_o.item
         categoryItems.each { item ->
-            def category = .field(item.value_smv)
+            def category = "xxx"
                 
             categories << category
         }
         
-        tenant.categories = categories
+        tenant.categories = getFieldQueryWithMultipleValues("doc.categories_o.item.value_smv", categories) /*categories*/
 
         tenants << tenant
       }
