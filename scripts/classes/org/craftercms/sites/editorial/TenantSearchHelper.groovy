@@ -241,7 +241,7 @@ class TenantSearchHelper {
             def category = ""
             
             if (item.value_smv) {
-                category = item.value_smv
+                category = "xx"
                 categories << category
             }
         }
