@@ -39,7 +39,7 @@
                 </a>
                          
                 <#if tenant.categories??>
-                    <#list tenant.categories as category>
+                    <#list tenant.categories.item as category>
                     ${category}xxx
                     ${category['value_smv']}xxx
                     </#list>
