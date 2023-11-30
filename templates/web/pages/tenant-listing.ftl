@@ -38,7 +38,12 @@
                 />
                 </a>
                          
-
+                <#if tenant.categoriesLabel??>
+                    <#list tenant.categoriesLabel as catlabel>
+                    ${catlabel}
+                        <#--<@crafter.span $field="categories_o">${category.value_smv}</@crafter.span>-->
+                    </#list>
+                </#if>
                 
                 <h3>
                     <@crafter.a $model=tenant $field="name_s" href="${tenant.url}">
