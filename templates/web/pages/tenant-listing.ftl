@@ -40,7 +40,7 @@
                          
                 <#if tenant.categories?? && tenant.categories.item??>
 
-                    <#list tenant.categories.item as category>
+                    <#list tenant.categories as category>
                     xxx
                     <#--
                     ${category}xxx
